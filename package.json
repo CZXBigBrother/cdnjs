@@ -17,7 +17,7 @@
     "clean-css": "~3.1",
     "execSync": "~1.0",
     "fs-extra": "~0.16",
-    "glob": "~4",
+    "glob": "~5",
     "lodash": "~3.5",
     "rss": "~1.1",
     "superagent": "~0.21",
@@ -27,7 +27,7 @@
     "colors": "~1.0"
   },
   "devDependencies": {
-    "jslint": "~0.8",
+    "jslint": "~0.9",
     "JSV": "~4.0.2",
     "vows-si": "~0.7.1"
   },
