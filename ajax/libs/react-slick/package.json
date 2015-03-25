@@ -1,7 +1,7 @@
 {
   "name": "react-slick",
   "filename": "react-slick.min.js",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": " React port of slick carousel",
   "main": "index.jsx",
   "scripts": {
