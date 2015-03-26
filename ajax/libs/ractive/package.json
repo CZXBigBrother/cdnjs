@@ -2,7 +2,15 @@
   "name": "ractive",
   "description": "Next-generation DOM manipulation",
   "version": "0.7.1",
-  "keywords": [ "reactive", "templates", "templating", "ui", "mustache", "handlebars", "dom" ],
+  "keywords": [
+    "reactive",
+    "templates",
+    "templating",
+    "ui",
+    "mustache",
+    "handlebars",
+    "dom"
+  ],
   "homepage": "http://ractivejs.org",
   "main": "ractive.js",
   "filename": "ractive.js",
@@ -16,11 +24,13 @@
     "url": "https://github.com/ractivejs/ractive.git"
   },
   "npmName": "ractive",
-  "npmFileMap": [{
-    "basePath": "/",
-    "files": [
-      "*.js",
-      "*.map"
-    ]
-  }]
+  "npmFileMap": [
+    {
+      "basePath": "/",
+      "files": [
+        "ractive*.js",
+        "ractive*.map"
+      ]
+    }
+  ]
 }
