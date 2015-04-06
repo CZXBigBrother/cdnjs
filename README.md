@@ -1,4 +1,4 @@
-﻿[![Circle CI](https://circleci.com/gh/cdnjs/cdnjs.svg?style=svg)](https://circleci.com/gh/cdnjs/cdnjs) [![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies) [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE) [![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs) [![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs)
+﻿[![Circle CI](https://circleci.com/gh/cdnjs/cdnjs.svg?style=svg)](https://circleci.com/gh/cdnjs/cdnjs) [![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies) [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE) [![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs) [![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs) [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
 
 # cdnjs Library Repository
 
@@ -35,6 +35,25 @@ When you have forked the cdnjs repo, add your library to it. Libraries are store
 ```
 /ajax/libs/jquery/2.0.0/
 ```
+
+[**@IonicaBizau**](https://github.com/IonicaBizau) wrote a NodeJS command line tool for automating the
+adding process of a new library. This tool [is named *cdnjs-importer* and it's open source](https://github.com/IonicaBizau/cdnjs-importer).
+
+The basic usage is:
+
+```sh
+$ npm install -g cdnjs-importer
+$ cdnjs-importer <library-git-path>
+```
+
+This supposes that the cdnjs repository is downloaded in the home directory (`~/`). The path to the cdnjs 
+local repository can also be specified using:
+
+```sh
+$ cdnjs-importer <library-git-path> -c path/to/cdnjs
+```
+
+For more information regarding this importer, please check out the [repository documentation](https://github.com/IonicaBizau/cdnjs-importer).
 
 ## Conventions
 
