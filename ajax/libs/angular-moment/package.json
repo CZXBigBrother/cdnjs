@@ -9,7 +9,8 @@
       "basePath": "/",
       "files": [
         "angular-moment.js",
-        "angular-moment.min.js"
+        "angular-moment.min.js",
+        "angular-moment.min.js.map"
       ]
     }
   ],

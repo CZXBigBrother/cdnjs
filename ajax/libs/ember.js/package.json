@@ -27,7 +27,8 @@
     "files": [
       "ember.min.js",
       "ember.prod.js",
-      "ember.js"
+      "ember.js",
+      "ember.debug.js"
     ]
   }
 }
