@@ -1,6 +1,6 @@
 {
   "name": "validate.js",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "author": "Nicklas Ansman <nicklas@ansman.se>",
   "description": "Declarative validations for JavaScript",
   "main": "validate.js",
@@ -27,17 +27,16 @@
       "url": "https://github.com/ansman/validate.js/tree/master/LICENSE.txt"
     }
   ],
-  "npmName": "validate.js",
-  "npmFileMap": [
-    {
-      "basePath": "/",
-      "files": [
-        "validate.js",
-        "validate.min.js",
-        "validate.min.map"
-      ]
-    }
-  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/ansman/validate.js.git",
+    "basePath": "",
+    "files": [
+      "validate.js",
+      "validate.min.js",
+      "validate.min.map"
+    ]
+  },
   "namespace": "validate",
   "filename": "validate.min.js"
 }

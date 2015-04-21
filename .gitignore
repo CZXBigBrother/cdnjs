@@ -52,6 +52,7 @@ ajax/libs/seajs/2.0.0b[1-3]
 ajax/libs/jsSHA/release*
 ajax/libs/postscribe/ersion
 ajax/libs/react-router/latest/
+ajax/libs/angular-gantt/.0.6.1
 ajax/libs/**/*.styl
 ajax/libs/**/*.scss
 ajax/libs/**/*.mustache
@@ -80,3 +81,5 @@ ajax/libs/**/*.yml
 ajax/libs/**/*.jade
 ajax/libs/**/*.nupkg
 ajax/libs/**/*.sublime-*
+ajax/libs/**/*.md
+ajax/libs/**/*.markdown
