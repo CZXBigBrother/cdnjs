@@ -1,6 +1,6 @@
 {
   "name": "savvior",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "A Javascript multicolumn layout tool alternative to Masonry or Salvattore.",
   "homepage": "http://savvior.org/",
   "author": {
@@ -23,7 +23,7 @@
   "licenses": [
     {
       "type": "MIT",
-     "url": "http://www.opensource.org/licenses/mit-license.php"
+      "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
   "autoupdate": {

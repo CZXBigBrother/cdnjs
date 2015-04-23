@@ -1,7 +1,7 @@
 {
   "name": "SlickNav",
   "filename": "slicknav.min.css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Responsive Mobile Menu Plugin for jQuery",
   "homepage": "http://slicknav.com/",
   "keywords": [
@@ -23,11 +23,9 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ComputerWolf/SlickNav.git",
-    "basePath": "",
+    "basePath": "dist",
     "files": [
-      "jquery.slicknav.js",
-      "jquery.slicknav.min.js",
-      "slicknav.css"
+      "*"
     ]
   }
 }
