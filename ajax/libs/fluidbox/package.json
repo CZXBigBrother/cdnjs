@@ -18,10 +18,10 @@
       "homagepage": "http://terrymun.com"
     }
   ],
-  "repositories": {
+  "repositories": [{
     "type": "git",
     "url": "https://github.com/terrymun/Fluidbox/"
-  },
+  }],
   "main": "jquery.fluidbox.js",
   "keywords": [
     "fluidbox",

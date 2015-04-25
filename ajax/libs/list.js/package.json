@@ -22,10 +22,10 @@
     "html",
     "ui"
   ],
-  "repositories": {
+  "repositories": [{
     "type": "git",
     "url": "git://github.com/javve/list.js.git"
-  },
+  }],
   "license": "MIT",
   "maintainers": [
     {
