@@ -1,7 +1,7 @@
 {
   "name": "Han",
   "filename": "han.min.css",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "description": "The CSS typography framework optimised for Hanzi",
   "npmName": "han-css",
   "npmFileMap": [
@@ -13,7 +13,9 @@
         "han.min.js",
         "han.js",
         "font/han.woff",
-        "font/han.otf"
+        "font/han.otf",
+        "font/han-space.woff",
+        "font/han-space.otf"
       ]
     }
   ],

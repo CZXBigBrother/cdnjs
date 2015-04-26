@@ -8,7 +8,7 @@
     "validation",
     "validator"
   ],
-  "version": "2.1.47",
+  "version": "2.2.0",
   "author": {
     "name": "Victor Jonsson",
     "url": "http://victorjonsson.se",
@@ -26,5 +26,13 @@
   ],
   "dependencies": {
     "jquery": ">=1.5"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/victorjonsson/jQuery-Form-Validator.git",
+    "basePath": "form-validator",
+    "files": [
+      "*"    
+    ]
   }
 }
