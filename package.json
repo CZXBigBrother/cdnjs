@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "async": "~0.9",
-    "clean-css": "~3.1",
+    "clean-css": "~3.2",
     "execSync": "~1.0",
     "fs-extra": "~0.18",
     "glob": "~5",
-    "lodash": "~3.6",
+    "lodash": "~3.7",
     "rss": "~1.1",
     "superagent": "~0.21",
     "tarball-extract": "~0.0",
@@ -28,7 +28,7 @@
     "is-there": "1.1.0"
   },
   "devDependencies": {
-    "jslint": "~0.9",
+    "jslint": ">=0.8.1",
     "JSV": "~4.0.2",
     "vows-si": "~0.7.1"
   },

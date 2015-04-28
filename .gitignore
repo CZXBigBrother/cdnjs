@@ -53,6 +53,7 @@ ajax/libs/jsSHA/release*
 ajax/libs/postscribe/ersion
 ajax/libs/react-router/latest/
 ajax/libs/angular-gantt/.0.6.1
+ajax/libs/jquery-form-validator/2.2
 ajax/libs/**/*.styl
 ajax/libs/**/*.scss
 ajax/libs/**/*.mustache

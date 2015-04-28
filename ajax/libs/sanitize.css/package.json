@@ -8,7 +8,7 @@
     "sanitize"
   ],
   "version": "2.0.0",
-  "repository": "ZDroid/sanitize.css",
+  "repository": "https://github.com/ZDroid/sanitize.css",
   "homepage": "http://github.com/ZDroid/sanitize.css",
   "filename": "sanitize.css"
 }
