@@ -6,17 +6,19 @@
 
 * Are you creating a pull request? Please take a look at [pull request](#b-pull-request) chapter.
 
- * [pull request](#b-pull-request)
+ A. [issue](#a-issue)
+ 
+ B. [pull request](#b-pull-request)
 
-  a. [common conventions](#a-common-conventions)
+ * a. [common conventions](#a-common-conventions)
 
-  b. [Updating an existing library](#b-updating-an-existing-library)
+ * b. [Updating an existing library](#b-updating-an-existing-library)
 
-  c. [adding a new library](#c-adding-a-new-library)
+ * c. [adding a new library](#c-adding-a-new-library)
 
-  d. [pre-flight checks](#d-pre-flight-checks)
+ * d. [pre-flight checks](#d-pre-flight-checks)
 
-  e. [P.S.](#e-ps)
+ * e. [P.S.](#e-ps)
 
 ## A. issue
 
@@ -68,6 +70,8 @@
 2. Please don't forget to update the version info to the latest stable version in its `package.json`.
 
 3. Make sure the main file, as known as the `filename` property in `package.json` is correct, different versions may use different filename.
+ 
+4. For those libs can use auto-update, you should add [auto-update config](https://github.com/cdnjs/cdnjs#enabling-gitrecommended-or-npm-auto-update) for it, but as the first pull request to add a lib, you should still add its real files, or you won't pass the test.
 
 ### c. adding a new library
 
@@ -84,6 +88,8 @@
 
 4. You **must** do `npm test` under the root directory of this project to make sure everything is fine.
  * Please refer to [Install npm test dependencies](https://github.com/cdnjs/cdnjs/blob/master/README.md#install-npm-test-dependencies) & [Run npm test to check all is well](https://github.com/cdnjs/cdnjs/blob/master/README.md#run-npm-test-to-check-all-is-well).
+  
+5. For those libs can use auto-update, you should add [auto-update config](https://github.com/cdnjs/cdnjs#enabling-gitrecommended-or-npm-auto-update) for it, but as the first pull request to add a lib, you should still add its real files, or you won't pass the test.
 
 ### d. pre-flight checks
 
@@ -100,7 +106,7 @@
 2. If you think this doc is too simple or casual, please refer to [README](https://github.com/cdnjs/cdnjs/blob/master/README.md) file or another detail version of [CONTRIBUTING-WIP](https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING-WIP.md) doc.
  * If there are some conflicts between these files, the priority should be like this: README > CONTRIBUTING > CONTRIBUTING-WIP, and you can help us to open a issue and discuss, fix it.
 
-3. If the library has **official** npm package, please try to maintain it with [npm auto update](https://github.com/cdnjs/cdnjs#enabling-npm-auto-update).
+3. No matter you are upadting or adding a lib, if the library's **official** repo contains the dist files in each tag, please add [auto-update config](https://github.com/cdnjs/cdnjs#enabling-gitrecommended-or-npm-auto-update) for it, or, if the library has **official** npm package, please try to maintain it with [npm auto update](https://github.com/cdnjs/cdnjs#enabling-npm-auto-update). 
 
 4. It'll always be better to compare the diff before committing and sending pull request.
  * You can use `git diff` before committing, and use `git log -p` or `git show sha1hash` to compare the difference.
