@@ -10,7 +10,7 @@
       ]
     }
   ],
-  "version": "4.0.4",
+  "version": "4.1.0",
   "filename": "ng-file-upload-shim.min.js",
   "devDependencies": {
     "grunt": "~0.4.1",
