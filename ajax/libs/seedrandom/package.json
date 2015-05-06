@@ -6,11 +6,12 @@
       "basePath": "/",
       "files": [
         "seedrandom.js",
-        "seedrandom.min.js"
+        "seedrandom.min.js",
+        "lib/*"
       ]
     }
   ],
-  "version": "2.3.11",
+  "version": "2.4.0",
   "filename": "seedrandom.min.js",
   "keywords": [
     "random number",

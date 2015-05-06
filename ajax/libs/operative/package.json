@@ -2,16 +2,18 @@
   "name": "operative",
   "title": "operative",
   "description": "Operative: Inline Web-Worker Helper",
-  "version": "0.4.1",
+  "version": "0.4.4",
   "author": "James Padolsey (http://git.io/padolsey)",
   "main": "dist/operative.min.js",
   "npmName": "operative",
-  "npmFileMap": [{
-    "basePath": "/dist/",
-    "files": [
-      "*.js"
-    ]
-  }],
+  "npmFileMap": [
+    {
+      "basePath": "/dist",
+      "files": [
+        "*"
+      ]
+    }
+  ],
   "devDependencies": {
     "chai": "^1.9.1",
     "grunt": "^0.4.5",
@@ -31,14 +33,5 @@
     "url": "git://github.com/padolsey/operative.git"
   },
   "license": "MIT",
-  "npmName": "operative",
-  "npmFileMap": [
-    {
-      "basePath": "/dist",
-      "files": [
-        "*"
-      ]
-    }
-  ],
   "filename": "operative.js"
 }

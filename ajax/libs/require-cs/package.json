@@ -1,7 +1,7 @@
 {
-  "filename": "cs.js",
+  "filename": "cs.min.js",
   "name": "require-cs",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "Load files written in CoffeeScript.",
   "homepage": "https://github.com/jrburke/require-cs",
   "keywords": [
@@ -21,5 +21,13 @@
       "type": "git",
       "url": "https://github.com/jrburke/require-cs"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/jrburke/require-cs.git",
+    "basePath": "",
+    "files": [
+      "cs.js"
+    ]
+  }
 }

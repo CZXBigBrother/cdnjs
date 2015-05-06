@@ -11,6 +11,7 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/URI.js/.1*
 ajax/libs/jquery.gridster/.0.4.0/
 ajax/libs/backbone.layoutmanager/0.0.0/
 ajax/libs/waypoints/latest/
@@ -54,6 +55,9 @@ ajax/libs/postscribe/ersion
 ajax/libs/react-router/latest/
 ajax/libs/angular-gantt/.0.6.1
 ajax/libs/jquery-form-validator/2.2
+ajax/libs/require-cs/latest/
+ajax/libs/require-css/dev-test/
+ajax/libs/require-css/release-test/
 ajax/libs/**/*.styl
 ajax/libs/**/*.scss
 ajax/libs/**/*.mustache
@@ -84,3 +88,4 @@ ajax/libs/**/*.nupkg
 ajax/libs/**/*.sublime-*
 ajax/libs/**/*.md
 ajax/libs/**/*.markdown
+ajax/libs/**/*.json

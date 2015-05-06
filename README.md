@@ -1,6 +1,29 @@
-﻿[![Circle CI](https://circleci.com/gh/cdnjs/cdnjs.svg?style=svg)](https://circleci.com/gh/cdnjs/cdnjs) [![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies) [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE) [![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs) [![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs) [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
-
 # cdnjs Library Repository
+
+Master branch build status:
+
+﻿[![Circle CI](https://circleci.com/gh/cdnjs/cdnjs.svg?style=svg)](https://circleci.com/gh/cdnjs/cdnjs)
+
+Dependencies status:
+
+﻿[![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies)
+
+License:
+
+﻿[![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE)
+
+Gitter chat room:
+
+﻿[![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs)
+
+﻿Issue stats:
+
+﻿[![Issue Stats](http://www.issuestats.com/github/cdnjs/cdnjs/badge/pr?style=flat)](http://www.issuestats.com/github/cdnjs/cdnjs) [![Issue Stats](http://www.issuestats.com/github/cdnjs/cdnjs/badge/issue?style=flat)](http://www.issuestats.com/github/cdnjs/cdnjs)
+
+Donation:
+
+﻿[![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs) [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
+
 
 [cdnjs](http://github.com/cdnjs/cdnjs) is the repository mirroring all library assets on [cdnjs.cloudflare.com](http://cdnjs.cloudflare.com).
 

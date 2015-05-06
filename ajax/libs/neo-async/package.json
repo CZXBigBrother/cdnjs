@@ -6,7 +6,7 @@
   "keywords": [
     "async"
   ],
-  "filename": "async.js",
+  "filename": "async.min.js",
   "npmName": "neo-async",
   "npmFileMap": [
     {

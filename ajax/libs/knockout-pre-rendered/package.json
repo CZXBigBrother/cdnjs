@@ -1,6 +1,6 @@
 {
   "name": "knockout-pre-rendered",
-  "version": "0.3.0",
+  "version": "0.4.1",
   "description": "Knockout pre-rendered",
   "main": "index.js",
   "scripts": {
@@ -42,14 +42,14 @@
     "mocha": "^2.2.4"
   },
   "dependencies": {},
-  "npmName": "knockout-pre-rendered",
-  "npmFileMap": [
-    {
-      "basePath": "/dist",
-      "files": [
-        "*"
-      ]
-    }
-  ],
-  "filename": "knockout-pre-rendered.js"
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/ErikSchierboom/knockout-pre-rendered.git",
+    "basePath": "/dist/",
+    "files": [
+      "knockout-pre-rendered.min.js",
+      "knockout-pre-rendered.js"
+    ]
+  },
+  "filename": "knockout-pre-rendered.min.js"
 }
