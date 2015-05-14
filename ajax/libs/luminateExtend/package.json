@@ -1,7 +1,7 @@
 {
   "name": "luminateExtend",
   "filename": "luminateExtend.js",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "A JavaScript library for use with the Luminate Online product suite and API.",
   "homepage": "https://github.com/noahcooper/luminateExtend",
   "keywords": [

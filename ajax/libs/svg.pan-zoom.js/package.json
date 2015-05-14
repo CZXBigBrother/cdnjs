@@ -1,6 +1,6 @@
 {
   "name": "svg.pan-zoom.js",
-  "version": "1.0.1",
+  "version": "2.2.0",
   "description": "A JavaScript library for panning and zooming SVG things.",
   "filename": "svg.pan-zoom.min.js",
   "scripts": {

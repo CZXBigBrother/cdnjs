@@ -18,13 +18,13 @@
     "execSync": "~1.0",
     "fs-extra": "~0.18",
     "glob": "~5",
-    "lodash": "~3.7",
+    "lodash": "~3.8",
     "rss": "~1.1",
     "superagent": "~0.21",
     "tarball-extract": "~0.0",
     "uglify-js": "~2.4",
     "underscore": "~1",
-    "colors": "~1.0",
+    "colors": "~1.1",
     "is-there": "1.1.0"
   },
   "devDependencies": {

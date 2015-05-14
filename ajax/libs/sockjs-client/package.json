@@ -10,7 +10,7 @@
   ],
   "maintainers": [
     {
-      "name": "Marek Majkowski"
+      "name": "Bryce Kahle"
     }
   ],
   "repositories": [
@@ -18,5 +18,14 @@
       "type": "git",
       "url": "https://github.com/sockjs/sockjs-client"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/sockjs/sockjs-client.git",
+    "basePath": "dist/",
+    "files": [
+      "sockjs.min.js",
+      "sockjs.js"
+    ]
+  }
 }

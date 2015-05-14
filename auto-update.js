@@ -277,7 +277,7 @@ exports.invalidNpmName = invalidNpmName;
 
 var args = process.argv.slice(2);
 if(args.length > 0 && args[0] == 'run'){
-    maxWorker = (args[1] == 'serial') ? 1 : 8;
+    maxWorker = (args[1] == 'serial') ? 1 : 16;
     exports.run()
 } else {
     console.log('to start, pass the "run" arg'.prompt)
