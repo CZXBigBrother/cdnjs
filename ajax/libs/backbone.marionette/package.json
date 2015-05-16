@@ -29,8 +29,7 @@
     "target": "git://github.com/marionettejs/backbone.marionette.git",
     "basePath": "/lib/",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

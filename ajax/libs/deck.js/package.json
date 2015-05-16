@@ -32,9 +32,9 @@
     "files": [
       "core/*.css",
       "core/*.js",
-      "themes/*/*.css",
-      "extensions/*/*.css",
-      "extensions/*/*.js"
+      "themes/**/*.css",
+      "extensions/**/*.css",
+      "extensions/**/*.js"
     ]
   }
 }

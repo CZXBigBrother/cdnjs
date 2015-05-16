@@ -40,8 +40,7 @@
     "target": "git://github.com/greensock/GreenSock-JS.git",
     "basePath": "src/minified/",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

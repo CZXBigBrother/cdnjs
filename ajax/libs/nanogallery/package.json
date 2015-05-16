@@ -37,11 +37,7 @@
     "target": "git://github.com/Kris-B/nanoGALLERY.git",
     "basePath": "dist/",
     "files": [
-      "*/*/*/*/*",
-      "*/*/*/*",
-      "*/*/*",
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

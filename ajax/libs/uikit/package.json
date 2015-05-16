@@ -32,10 +32,8 @@
     "target": "git://github.com/uikit/bower-uikit.git",
     "basePath": "",
     "files": [
-      "css/*/*",
-      "css/*",
-      "js/*/*",
-      "js/*",
+      "css/**/*",
+      "js/**/*",
       "fonts/*"
     ]
   }

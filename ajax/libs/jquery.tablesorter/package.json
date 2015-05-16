@@ -50,12 +50,10 @@
     "target": "git://github.com/Mottie/tablesorter.git",
     "basePath": "",
     "files": [
-      "js/*/*",
-      "js/*",
+      "js/**/*",
       "css/images/*",
       "css/*.css",
-      "addons/pager/*/*",
-      "addons/pager/*"
+      "addons/pager/**/*"
     ]
   }
 }

@@ -16,8 +16,7 @@
     "target": "git://github.com/blivesta/drawer.git",
     "basePath": "dist",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

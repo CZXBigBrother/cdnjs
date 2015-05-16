@@ -27,11 +27,7 @@
     "target": "git://github.com/yamlcss/yaml.git",
     "basePath": "yaml",
     "files": [
-      "*/*/*/*/*",
-      "*/*/*/*",
-      "*/*/*",
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

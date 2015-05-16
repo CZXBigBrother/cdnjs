@@ -21,8 +21,7 @@
     "target": "git://github.com/blivesta/animsition.git",
     "basePath": "dist",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

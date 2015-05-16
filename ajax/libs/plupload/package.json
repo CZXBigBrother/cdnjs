@@ -53,9 +53,7 @@
     "target": "git://github.com/moxiecode/plupload.git",
     "basePath": "js",
     "files": [
-      "*/*/*",
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

@@ -33,8 +33,7 @@
     "target": "git://github.com/Prinzhorn/skrollr.git",
     "basePath": "dist/",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

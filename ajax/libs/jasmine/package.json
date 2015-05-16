@@ -1,7 +1,7 @@
 {
   "name": "jasmine",
   "filename": "jasmine.min.js",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "DOM-less simple JavaScript testing framework",
   "homepage": "http://jasmine.github.io/",
   "keywords": [

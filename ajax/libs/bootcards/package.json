@@ -22,7 +22,7 @@
     "target": "git://github.com/bootcards/bootcards.git",
     "basePath": "/dist/",
     "files": [
-      "*/*"
+      "**/*"
     ]
   }
 }

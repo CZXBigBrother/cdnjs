@@ -26,11 +26,8 @@
     "target": "git://github.com/NUKnightLab/TimelineJS.git",
     "basePath": "build",
     "files": [
-      "css/*/*/*",
-      "css/*/*",
-      "css/*",
-      "js/*/*",
-      "js/*"
+      "css/**/*",
+      "js/**/*"
     ]
   }
 }

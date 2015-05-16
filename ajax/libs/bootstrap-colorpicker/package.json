@@ -26,9 +26,7 @@
     "target": "git://github.com/mjolnic/bootstrap-colorpicker.git",
     "basePath": "dist",
     "files": [
-      "*/*/*",
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

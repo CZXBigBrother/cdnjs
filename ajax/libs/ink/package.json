@@ -25,7 +25,7 @@
       "js/*",
       "css/ink*.css",
       "css/font*.css",
-      "fonts/*/*"
+      "fonts/**/*"
     ]
   }
 }

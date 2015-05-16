@@ -72,8 +72,7 @@
     "target": "git://github.com/silviomoreto/bootstrap-select.git",
     "basePath": "dist/",
     "files": [
-      "*/*/*",
-      "*/*"
+      "**/*"
     ]
   }
 }

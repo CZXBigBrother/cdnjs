@@ -1,6 +1,6 @@
 {
   "name": "shepherd",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "filename": "shepherd.min.js",
   "description": "Guide your users through a tour of your app.",
   "authors": [

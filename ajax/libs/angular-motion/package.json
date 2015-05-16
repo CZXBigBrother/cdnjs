@@ -31,8 +31,7 @@
     "target": "git://github.com/mgcrea/angular-motion.git",
     "basePath": "dist",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

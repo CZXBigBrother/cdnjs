@@ -37,9 +37,7 @@
     "target": "git://github.com/probtn/probtn-web.git",
     "basePath": "/cdn/",
     "files": [
-      "*/*/*",
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

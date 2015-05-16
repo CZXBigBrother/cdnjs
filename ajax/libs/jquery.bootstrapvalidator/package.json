@@ -29,8 +29,7 @@
     "target": "git://github.com/nghuuphuoc/bootstrapvalidator.git",
     "basePath": "dist/",
     "files": [
-      "*/*/*",
-      "*/*"
+      "**/*"
     ]
   }
 }

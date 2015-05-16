@@ -26,8 +26,7 @@
     "target": "git://github.com/globocom/clappr.git",
     "basePath": "dist",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

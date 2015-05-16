@@ -29,8 +29,7 @@
     "target": "git://github.com/ecomfe/echarts.git",
     "basePath": "build/dist",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   },
   "repository": "git://github.com/ecomfe/echarts",

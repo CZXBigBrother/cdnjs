@@ -19,7 +19,7 @@
     "target": "git://github.com/linkedin/hopscotch.git",
     "basePath": "dist",
     "files": [
-      "*/*"
+      "**/*"
     ]
   },
   "author": "Gordon Koo",

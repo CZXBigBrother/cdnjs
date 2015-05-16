@@ -31,8 +31,7 @@
     "target": "git://github.com/epeli/underscore.string.git",
     "basePath": "dist",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

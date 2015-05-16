@@ -46,8 +46,7 @@
     "target": "git://github.com/ducksboard/gridster.js.git",
     "basePath": "dist/",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

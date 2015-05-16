@@ -29,10 +29,8 @@
     "target": "git://github.com/ivaynberg/select2.git",
     "basePath": "dist",
     "files": [
-      "css/*/*",
-      "css/*",
-      "js/*/*",
-      "js/*"
+      "css/**/*",
+      "js/**/*"
     ]
   },
   "namespace": "$.fn.select2"

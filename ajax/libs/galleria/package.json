@@ -28,11 +28,10 @@
     "target": "git://github.com/aino/galleria.git",
     "basePath": "src/",
     "files": [
-      "*/*/*.js",
-      "*/*/*.gif",
-      "*/*/*.css",
-      "*/*/*.png",
-      "*.js"
+      "**/*.gif",
+      "**/*.css",
+      "**/*.png",
+      "**/*.js"
     ]
   }
 }

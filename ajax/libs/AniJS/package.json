@@ -34,9 +34,7 @@
     "target": "git://github.com/anijs/anijs.git",
     "basePath": "dist/",
     "files": [
-      "*/*/*",
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }

@@ -33,8 +33,7 @@
     "target": "git://github.com/quilljs/quill.git",
     "basePath": "dist",
     "files": [
-      "*/*",
-      "*"
+      "**/*"
     ]
   }
 }
