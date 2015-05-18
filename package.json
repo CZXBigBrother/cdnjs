@@ -25,7 +25,7 @@
     "uglify-js": "~2.4",
     "underscore": "~1",
     "colors": "~1.1",
-    "is-there": "1.1.0"
+    "is-there": "2.0.0"
   },
   "devDependencies": {
     "jslint": ">=0.8.1",

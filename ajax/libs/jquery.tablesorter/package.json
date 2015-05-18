@@ -48,12 +48,9 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Mottie/tablesorter.git",
-    "basePath": "",
+    "basePath": "dist",
     "files": [
-      "js/**/*",
-      "css/images/*",
-      "css/*.css",
-      "addons/pager/**/*"
+      "**/*"
     ]
   }
 }

@@ -52,7 +52,7 @@ packages.map(function (pkg) {
         pname = pkg_name(pkg),
         context = {};
     package_vows[pname + " has package.json"] = function (pkg) {
-        assert.ok(isThere.sync(pkg), pkg_name(pkg) + " missing!");
+        assert.ok(isThere(pkg), pkg_name(pkg) + " missing!");
     };
     package_vows[pname + " package.json is well-formed"] = function (pkg) {
         assert.ok(parse(pkg, true),
@@ -98,7 +98,7 @@ packages.map(function (pkg) {
         var json = parse(pkg, true, true);
         var filePath = "./ajax/libs/" + json.name + "/"+ json.version
             + "/" + json.filename;
-        assert.ok(isThere.sync(filePath),
+        assert.ok(isThere(filePath),
                   filePath +" does not exist but is referenced in package.json!");
     };
     package_vows[pname + ": name in package.json should be parent folder name"] = function (pkg) {
