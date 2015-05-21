@@ -1,7 +1,7 @@
 {
   "name": "elasticsearch",
   "filename": "elasticsearch.js",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "description": "The official low-level Elasticsearch client, for use in the browser.",
   "homepage": "https://github.com/elasticsearch/elasticsearch-js",
   "keywords": [
