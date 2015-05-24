@@ -4,6 +4,7 @@
   "version": "0.2.1",
   "description": "MVC JavaScript MicroFramework",
   "homepage": "http://pablovallejo.github.io/gillie",
+  "repository": "https://github.com/PabloVallejo/gillie/",
   "keywords": [
     "mvc",
     "framework",

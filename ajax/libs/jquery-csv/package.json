@@ -4,6 +4,7 @@
   "version": "0.71",
   "description": "CSV handling with js.",
   "homepage": "http://code.google.com/p/jquery-csv/",
+  "repository": "https://github.com/evanplaice/jquery-csv",
   "keywords": [
     "jquery",
     "csv"
