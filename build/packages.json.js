@@ -131,7 +131,7 @@ fs.readFile('../new-website/public/packages.min.json', 'utf8', function(err, dat
       console.log(err);
     });
     // Initialize the feed object
-    //fs.writeFileSync('../new-website/public/packages.json', JSON.stringify({"packages":packages}, null, 2), 'utf8');
+    fs.writeFileSync('../cdnjs.debug.packages.json', JSON.stringify({"packages":packages}, null, 2), 'utf8');
     fs.writeFileSync('../new-website/public/packages.min.json', JSON.stringify({"packages":packages}), 'utf8');
   });
 });
