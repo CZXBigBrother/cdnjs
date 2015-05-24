@@ -3,7 +3,7 @@
   "filename": "jquery.mousewheel.min.js",
   "version": "3.1.12",
   "description": "A jQuery plugin that adds cross-browser mouse wheel support.",
-  "homepage": "https://github.com/brandonaaron/jquery-mousewheel",
+  "homepage": "https://github.com/jquery/jquery-mousewheel",
   "keywords": [
     "browser",
     "event",
@@ -21,18 +21,18 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.github.com/brandonaaron/jquery-mousewheel/master/LICENSE.txt"
+      "url": "https://raw.github.com/jquery/jquery-mousewheel/master/LICENSE.txt"
     }
   ],
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/brandonaaron/jquery-mousewheel"
+      "url": "https://github.com/jquery/jquery-mousewheel"
     }
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/brandonaaron/jquery-mousewheel.git",
+    "target": "git://github.com/jquery/jquery-mousewheel.git",
     "basePath": "",
     "files": [
       "jquery.mousewheel.js",

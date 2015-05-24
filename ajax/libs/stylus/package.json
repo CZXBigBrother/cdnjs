@@ -20,7 +20,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "git://github.com/learnboost/stylus"
+      "url": "https://github.com/stylus/stylus.git"
     }
   ]
 }

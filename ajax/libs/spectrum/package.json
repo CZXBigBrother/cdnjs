@@ -26,10 +26,11 @@
   "dependencies": {
     "jquery": ">=1.7.2"
   },
+  "repository": "",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/bgrins/spectrum.git",
-    "basePath": "",
+    "basePath": "https://github.com/bgrins/spectrum",
     "files": [
       "spectrum.css",
       "spectrum.js",

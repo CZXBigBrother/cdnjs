@@ -5,6 +5,7 @@
   "author": "Alvin Wang, Alan Chang",
   "url": "http://materializecss.com/",
   "version": "0.96.1",
+  "repository": "https://github.com/Dogfalo/materialize",
   "dependencies": {
     "grunt": "0.x.x",
     "grunt-contrib-clean": "0.5.x",

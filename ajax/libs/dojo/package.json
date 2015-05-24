@@ -27,8 +27,8 @@
   ],
   "repositories": [
     {
-      "type": "svn",
-      "url": "http://svn.dojotoolkit.org/src/view/anon/all/trunk"
+      "type": "git",
+      "url": "https://github.com/dojo/dojo.git"
     }
   ]
 }

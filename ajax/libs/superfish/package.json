@@ -20,7 +20,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/joeldbirch/superfish"
+      "url": "https://github.com/joeldbirch/superfish.git"
     }
   ]
 }

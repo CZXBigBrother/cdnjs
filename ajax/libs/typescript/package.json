@@ -12,7 +12,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "http://typescript.codeplex.com"
+      "url": "https://github.com/Microsoft/TypeScript.git"
     }
   ]
 }

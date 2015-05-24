@@ -11,6 +11,7 @@
     "bootstrap",
     "twitter-bootstrap"
   ],
+  "repository":"https://github.com/terebentina/sco.js",
   "maintainers": [
     {
       "name": "Craig McKie",
