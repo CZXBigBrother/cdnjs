@@ -15,6 +15,7 @@
     "web font",
     "icon font"
   ],
+  "repository":"https://github.com/github/octicons",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/github/octicons.git",
