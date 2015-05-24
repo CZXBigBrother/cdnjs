@@ -4,6 +4,7 @@
   "version": "1.3.0",
   "description": "TextExt plugin for jquery",
   "homepage": "http://textextjs.com/",
+  "repository": "https://github.com/alexgorbatchev/jquery-textext/",
   "keywords": [
     "jquery",
     "textext"

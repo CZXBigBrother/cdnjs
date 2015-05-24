@@ -5,6 +5,7 @@
   "description": "Alertify is an unobtrusive customizable JavaScript notification system.",
   "homepage": "http://fabien-d.github.io/alertify.js/",
   "npmName": "alertify",
+  "repository": "https://github.com/fabien-d/alertify.js",
   "npmFileMap": [
     {
       "basePath": "/lib/",

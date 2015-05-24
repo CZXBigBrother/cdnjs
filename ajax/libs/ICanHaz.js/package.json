@@ -20,7 +20,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/andyet/ICanHaz.js"
+      "url": "https://github.com/HenrikJoreteg/ICanHaz.js"
     }
   ],
   "npmName": "icanhaz",

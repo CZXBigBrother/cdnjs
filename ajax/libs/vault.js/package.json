@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmybyrum/vault.git"
+    "url": "https://github.com/jimmybyrum/vault.js.git"
   },
   "npmName": "vault.js",
   "npmFileMap": [
