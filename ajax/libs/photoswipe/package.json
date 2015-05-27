@@ -1,9 +1,10 @@
 {
   "name": "photoswipe",
   "filename": "code.photoswipe.js",
-  "version": "3.0.5",
+  "version": "4.0.8",
   "description": "Image Gallery for mobile and touch devices.",
   "homepage": "http://www.photoswipe.com/",
+  "repository": "https://github.com/dimsemenov/PhotoSwipe",
   "keywords": [
     "image",
     "gallery"
