@@ -1,0 +1,49 @@
+{
+  "name": "gh.js",
+  "version": "1.1.0",
+  "description": "Tiny GitHub API wrapper for server and client.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/",
+    "gen-min": "uglifyjs lib/index.js > dist/gh.min.js",
+    "update-min": "cp dist/gh.min.js example/gh.min.js && git add example && git commit -m 'Updated gh.min.js in the example dir' .",
+    "deploy": "cp -r example ../_tmp && git checkout gh-pages && cp -r ../_tmp/* . && git add . -A && git commit -m 'Rebuild.' && rm -rf ../_tmp ../_tmp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/gh.js.git"
+  },
+  "keywords": [
+    "github",
+    "api",
+    "wrapper"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/gh.js/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/gh.js",
+  "dependencies": {
+    "jsonrequest": "^2.0.0",
+    "ul": "^2.1.0",
+    "lien": "^0.0.11"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "npmName": "gh.js",
+  "npmFileMap": [
+    {
+      "basePath": "/dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "filename": "gh.min.js"
+}

@@ -1,7 +1,7 @@
 {
   "name": "anchor-js",
-  "filename": "anchor.min.css",
-  "version": "1.0.1",
+  "filename": "anchor.min.js",
+  "version": "1.1.1",
   "author": "bryanbraun (https://github.com/bryanbraun)",
   "description": "A tiny javscript utility for adding anchor links to existing page content.",
   "homepage": "https://github.com/bryanbraun/anchorjs",

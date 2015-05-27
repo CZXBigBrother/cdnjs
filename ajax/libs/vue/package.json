@@ -29,7 +29,7 @@
     "target": "git://github.com/yyx990803/vue.git",
     "basePath": "dist",
     "files": [
-      "*"
+      "*.js"
     ]
   },
   "gratipay": "yyx990803"

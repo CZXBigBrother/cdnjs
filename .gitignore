@@ -11,6 +11,7 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/raphael/semver/
 ajax/libs/clappr/media_control_youtube/
 ajax/libs/URI.js/.1*
 ajax/libs/jquery.gridster/.0.4.0/
