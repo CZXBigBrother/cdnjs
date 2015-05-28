@@ -84,6 +84,7 @@ ajax/libs/**/*.gs
 ajax/libs/**/*.php
 ajax/libs/**/*.txt
 ajax/libs/**/*.ls
+ajax/libs/**/*.less
 ajax/libs/**/*LICENSE
 ajax/libs/**/*.LICENSE
 ajax/libs/**/*.ai
