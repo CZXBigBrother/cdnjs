@@ -109,7 +109,7 @@ fs.readFile('../new-website/public/packages.min.json', 'utf8', function(err, dat
             }
           }
         } else {
-          temp.files = glob.sync(version + "/**/*");
+          temp.files = glob.sync(version + "/**/*", {nodir:true});
           for (var i = 0; i < temp.files.length; i++){
             var filespec = temp.files[i];
             temp.files[i] = {
