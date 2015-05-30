@@ -1,19 +1,15 @@
 {
   "name": "p5.js",
   "filename": "p5.min.js",
-  "npmName": "p5",
-  "npmFileMap": [
-    {
-      "basePath": "/lib/",
-      "files": [
-        "p5.min.js",
-        "p5.js",
-        "addons/p5.dom.js",
-        "addons/p5.sound.js"
-      ]
-    }
-  ],
-  "version": "0.4.4",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/processing/p5.js.git",
+    "basePath": "lib",
+    "files": [
+      "**/*"
+    ]
+  },
+  "version": "0.4.5",
   "description": "p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.",
   "homepage": "http://p5js.org",
   "keywords": [
