@@ -14,13 +14,13 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/bradvin/FooTable.git"
+      "url": "https://github.com/fooplugins/FooTable.git"
     }
   ],
   "licenses": [
     {
       "name": "MIT License",
-      "url": "https://github.com/bradvin/FooTable/blob/master/LICENSE"
+      "url": "https://github.com/fooplugins/FooTable/blob/master/LICENSE"
     }
   ],
   "homepage": "http://themergency.com/footable/"

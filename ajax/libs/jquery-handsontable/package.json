@@ -18,7 +18,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/warpech/jquery-handsontable"
+      "url": "https://github.com/handsontable/handsontable"
     }
   ],
   "licenses": [

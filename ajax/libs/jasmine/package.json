@@ -22,7 +22,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/pivotal/jasmine.git"
+      "url": "https://github.com/jasmine/jasmine.git"
     }
   ],
   "autoupdate": {

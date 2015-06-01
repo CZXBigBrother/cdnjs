@@ -1,6 +1,6 @@
 {
   "name": "medium-editor",
-  "version": "4.10.2",
+  "version": "4.11.1",
   "author": "Davi Ferreira <hi@daviferreira.com>",
   "contributors": [
     {
@@ -16,13 +16,13 @@
   "main": "dist/js/medium-editor.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/daviferreira/medium-editor"
+    "url": "https://github.com/yabwe/medium-editor"
   },
   "bugs": {
-    "url": "https://github.com/daviferreira/medium-editor/issues",
+    "url": "https://github.com/yabwe/medium-editor/issues",
     "email": "hi@daviferreira.com"
   },
-  "homepage": "http://daviferreira.github.io/medium-editor/",
+  "homepage": "http://yabwe.github.io/medium-editor/",
   "keywords": [
     "contenteditable",
     "editor",
@@ -63,14 +63,13 @@
     "test:ci": "grunt travis --verbose",
     "start": "open ./demo/index.html"
   },
-  "npmName": "medium-editor",
-  "npmFileMap": [
-    {
-      "basePath": "/dist",
-      "files": [
-        "**/*"
-      ]
-    }
-  ],
-  "filename": "/js/medium-editor.min.js"
+  "filename": "/js/medium-editor.min.js",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/yabwe/medium-editor.git",
+    "basePath": "dist",
+    "files": [
+      "**/*"
+    ]
+  }
 }

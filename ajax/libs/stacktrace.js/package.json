@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/eriwen/javascript-stacktrace.git"
+    "url": "git://github.com/stacktracejs/stacktrace.js.git"
   },
   "npmName": "stacktrace-js",
   "npmFileMap": [

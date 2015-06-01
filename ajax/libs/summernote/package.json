@@ -19,12 +19,12 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/HackerWins/summernote.git"
+      "url": "https://github.com/summernote/summernote.git"
     }
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/HackerWins/summernote.git",
+    "target": "git://github.com/summernote/summernote.git",
     "basePath": "dist",
     "files": [
       "*"

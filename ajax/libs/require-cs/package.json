@@ -3,7 +3,7 @@
   "name": "require-cs",
   "version": "0.5.0",
   "description": "Load files written in CoffeeScript.",
-  "homepage": "https://github.com/jrburke/require-cs",
+  "homepage": "https://github.com/requirejs/require-cs",
   "keywords": [
     "requirejs",
     "coffeescript",
@@ -19,12 +19,12 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/jrburke/require-cs"
+      "url": "https://github.com/requirejs/require-cs"
     }
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/jrburke/require-cs.git",
+    "target": "git://github.com/requirejs/require-cs.git",
     "basePath": "",
     "files": [
       "cs.js"

@@ -12,7 +12,7 @@
   "author": "Johan Gorter <johan@johangorter.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johan-gorter/maquette"
+    "url": "https://github.com/AFASSoftware/maquette"
   },
   "main": "dist/maquette-min.js",
   "licenses": [

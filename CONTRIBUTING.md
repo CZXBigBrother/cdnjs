@@ -10,15 +10,17 @@
  
  B. [pull request](#b-pull-request)
 
- * a. [common conventions](#a-common-conventions)
+ * a. [sparse checkout and shallow clone](#a-sparse-checkout-and-shallow-clone)
 
- * b. [Updating an existing library](#b-updating-an-existing-library)
+ * b. [common conventions](#b-common-conventions)
 
- * c. [adding a new library](#c-adding-a-new-library)
+ * c. [Updating an existing library](#c-updating-an-existing-library)
 
- * d. [pre-flight checks](#d-pre-flight-checks)
+ * d. [adding a new library](#d-adding-a-new-library)
 
- * e. [P.S.](#e-ps)
+ * e. [pre-flight checks](#e-pre-flight-checks)
+
+ * f. [P.S.](#f-ps)
 
 ## A. issue
 
@@ -31,7 +33,17 @@
 
 ## B. pull request
 
-### a. common conventions
+### a. Sparse checkout and shallow clone
+* [The short document of how to use sparse checkout and shallow clone is here](https://github.com/cdnjs/cdnjs/blob/master/sparseCheckout.md)
+* Sparse checkout and shallow clone can totally raise efficient of working with cdnjs repo and avoid the problem of case-insensitive filesystem, for detail reason, see it below.
+* The minor reason that you should use sparse checkout and shallow clone:
+  * There is no need to clone the whole history of cdnjs repo if you are not tracing issues or maintaining this project, and there is no need to checkout all the libs on cdnjs for the same reason(unless you want to access the libs without the Internet).
+* And the major reason:
+  * The size of the git repo behind cdnjs is about 700MB, but the extracted files will use about 12GB space on your machine. If you are using case-insensitive filesystem(usually on Windows and Mac OS), you may have problem with [**S**ortable](https://github.com/cdnjs/cdnjs/tree/master/ajax/libs/Sortable) and [**s**ortable](https://github.com/cdnjs/cdnjs/tree/master/ajax/libs/sortable), we have an issue disscussion here: [#3650](https://github.com/cdnjs/cdnjs/issues/3650)
+
+
+
+### b. common conventions
 
 1. Before sending a pull request, please sync/update your own repository with our master HEAD.
 
@@ -62,7 +74,7 @@
 11. You **should** go back to the PR page after you sent the PR for 15~25 mins, and check if you passed the CI build, if not, please take a look at the error message and try to fix, we **won't** merge a PR with a failed build.
  * Feel free to ask for help if you have no idea.
 
-### b. Updating an existing library
+### c. Updating an existing library
 
 1. Please try to maintain consistency with the existing file and directory structure.
  * If you think the old structure is **wrong**, or the structure obviously changed in the new version, please add notes in the commit log or pull request comment.
@@ -73,7 +85,7 @@
  
 4. For those libs can use auto-update, you should add [auto-update config](https://github.com/cdnjs/cdnjs#enabling-gitrecommended-or-npm-auto-update) for it, but as the first pull request to add a lib, you should still add its real files, or you won't pass the test.
 
-### c. adding a new library
+### d. adding a new library
 
 1. Libraries are stored in the ajax/libs directory. Each library has its own subdirectory of ajax/libs and each version of the library has its own subdirectory of the library directory name, for example:
  > /ajax/libs/jquery/2.0.0/
@@ -91,7 +103,7 @@
   
 5. For those libs can use auto-update, you should add [auto-update config](https://github.com/cdnjs/cdnjs#enabling-gitrecommended-or-npm-auto-update) for it, but as the first pull request to add a lib, you should still add its real files, or you won't pass the test.
 
-### d. pre-flight checks
+### e. pre-flight checks
 
 * Have you comply with our conventions?
 * Have you followed the library directory structure?
@@ -99,7 +111,7 @@
 * Have you minified JavaScript and CSS?
 * Did `npm test` check out OK?
 
-### e. P.S.
+### f. P.S.
 
 1. Because of the characteristic of git, it'll be better to do the work on Unix-like environment, like Linux or BSD distributions (not including Mac).
 

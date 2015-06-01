@@ -23,7 +23,7 @@
   "main": "dist/node_main.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rxaviers/cldr.git"
+    "url": "git://github.com/rxaviers/cldrjs.git"
   },
   "readmeFilename": "README.md",
   "author": {

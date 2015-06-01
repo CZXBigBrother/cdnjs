@@ -13,7 +13,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/evancz/Elm.git"
+      "url": "https://github.com/elm-lang/elm-compiler.git"
     }
   ]
 }

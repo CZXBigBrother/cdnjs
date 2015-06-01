@@ -10,7 +10,7 @@
   "homepage": "https://6to5.org/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/6to5/6to5"
+    "url": "https://github.com/babel/babel"
   },
   "keywords": [
     "harmony",
@@ -25,7 +25,7 @@
     "6to5"
   ],
   "bugs": {
-    "url": "https://github.com/6to5/6to5/issues"
+    "url": "https://github.com/babel/babel/issues"
   },
   "npmName": "6to5",
   "npmFileMap": [

@@ -3,7 +3,7 @@
   "filename": "use.js",
   "version": "0.4.0",
   "description": "RequireJS plugin for loading incompatible code.",
-  "homepage": "https://github.com/tbranyen/use.js",
+  "homepage": "https://github.com/tbranyen/use-amd",
   "keywords": [
     "requirejs",
     "amd"
@@ -12,7 +12,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/tbranyen/use.js.git"
+      "url": "https://github.com/tbranyen/use-amd.git"
     }
   ]
 }

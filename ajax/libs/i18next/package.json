@@ -12,7 +12,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/jamuhl/i18next.git"
+      "url": "https://github.com/i18next/i18next.git"
     }
   ]
 }

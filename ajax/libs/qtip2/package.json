@@ -28,7 +28,7 @@
   },
   "repositories": [{
     "type": "git",
-    "url": "https://github.com/Craga89/qTip2.git"
+    "url": "https://github.com/qTip2/qTip2.git"
   }],
-  "bugs": "https://github.com/Craga89/qTip2/issues"
+  "bugs": "https://github.com/qTip2/qTip2/issues"
 }

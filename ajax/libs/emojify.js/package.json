@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://hassankhan@github.com/hassankhan/emojify.js.git"
+    "url": "https://hassankhan@github.com/Ranks/emojify.js.git"
   },
   "keywords": [
     "emoji",
@@ -19,7 +19,7 @@
   "author": "Hassan Khan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hassankhan/emojify.js/issues"
+    "url": "https://github.com/Ranks/emojify.js/issues"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

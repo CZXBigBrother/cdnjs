@@ -3,7 +3,7 @@
   "filename": "mock-ajax.min.js",
   "version": "3.1.1",
   "description": "A library for faking Ajax responses in your Jasmine suite.",
-  "homepage": "https://github.com/pivotal/jasmine-ajax/",
+  "homepage": "https://github.com/jasmine/jasmine-ajax/",
   "keywords": [
     "bdd",
     "testing",
@@ -12,7 +12,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/pivotal/jasmine-ajax.git"
+      "url": "https://github.com/jasmine/jasmine-ajax.git"
     }
   ],
   "autoupdate": {

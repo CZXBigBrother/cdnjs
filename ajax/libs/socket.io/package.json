@@ -17,7 +17,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "git://github.com/LearnBoost/Socket.IO.git"
+      "url": "git://github.com/Automattic/socket.io.git"
     }
   ],
   "npmName": "socket.io-client",

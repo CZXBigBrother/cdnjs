@@ -3,7 +3,7 @@
   "filename": "ssm.min.js",
   "version": "2.2.5",
   "description": "A responsive state manager which allows you to run different javascript at different browser widths",
-  "homepage": "https://github.com/jonathan-fielding/SimpleStateManager",
+  "homepage": "https://github.com/SimpleStateManager/SimpleStateManager",
   "keywords": [
     "responsive",
     "states",
@@ -19,7 +19,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/jonathan-fielding/SimpleStateManager"
+      "url": "https://github.com/SimpleStateManager/SimpleStateManager"
     }
   ]
 }

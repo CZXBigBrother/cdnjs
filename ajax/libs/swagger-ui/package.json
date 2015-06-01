@@ -20,12 +20,12 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/wordnik/swagger-ui.git"
+      "url": "https://github.com/swagger-api/swagger-ui.git"
     }
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/wordnik/swagger-ui.git",
+    "target": "git://github.com/swagger-api/swagger-ui.git",
     "basePath": "dist/",
     "files": [
       "swagger-ui.*",

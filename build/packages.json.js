@@ -67,7 +67,7 @@ exec('git ls-tree -r --name-only HEAD | grep **/package.json | while read filena
       if(lib.change === 'A') {
         title = package.name + '('+package.version+') was added'
       }
-      var fileurl = '//cdnjs.cloudflare.com/ajax/libs/'+ package.name + '/' + package.version + '/' + package.filename;
+      var fileurl = 'https://cdnjs.cloudflare.com/ajax/libs/'+ package.name + '/' + package.version + '/' + package.filename;
       feed.item({
           title:          title,
           url:            package.homepage,

@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/apiCheck.js"
+    "url": "https://github.com/kentcdodds/api-check"
   },
   "keywords": [
     "javascript",
@@ -54,9 +54,9 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kent.doddsfamily.us)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/apiCheck.js/issues"
+    "url": "https://github.com/kentcdodds/api-check/issues"
   },
-  "homepage": "https://github.com/kentcdodds/apiCheck.js",
+  "homepage": "https://github.com/kentcdodds/api-check",
   "config": {
     "ghooks": {
       "pre-commit": "npm run ci"

@@ -16,12 +16,12 @@
   "repositories": [
     {
       "type": "git",
-      "url": "git://github.com/Polymer/webcomponentsjs"
+      "url": "git://github.com/webcomponents/webcomponentsjs"
     }
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/Polymer/webcomponentsjs.git",
+    "target": "git://github.com/webcomponents/webcomponentsjs.git",
     "basePath": "",
     "files": [
       "*.js",

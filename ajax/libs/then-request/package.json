@@ -3,7 +3,7 @@
   "version": "2.1.1",
   "filename": "request.min.js",
   "description": "A request library that returns promises, inspired by request",
-  "homepage": "https://github.com/then/request",
+  "homepage": "https://github.com/then/then-request",
   "license": "MIT",
   "main": "request",
   "keywords": [
@@ -12,7 +12,7 @@
   "author": "ForbesLindesay",
   "repository": {
     "type": "git",
-    "url": "https://github.com/then/request.git"
+    "url": "https://github.com/then/then-request.git"
   },
   "npmName": "then-request",
   "npmFileMap": [

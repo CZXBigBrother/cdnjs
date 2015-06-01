@@ -18,12 +18,12 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/appendto/amplify"
+      "url": "https://github.com/mikehostetler/amplify"
     }
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/appendto/amplify.git",
+    "target": "git://github.com/mikehostetler/amplify.git",
     "basePath": "lib",
     "files": [
       "*"

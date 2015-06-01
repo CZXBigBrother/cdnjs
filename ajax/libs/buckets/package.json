@@ -5,12 +5,12 @@
   "license": "APL-2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mauriciosantos/buckets.git"
+    "url": "git://github.com/mauriciosantos/Buckets-JS.git"
   },
   "filename": "buckets.min.js",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/mauriciosantos/buckets.git",
+    "target": "git://github.com/mauriciosantos/Buckets-JS.git",
     "basePath": "",
     "files": [
       "buckets*.js"

@@ -7,7 +7,7 @@
   "main": "dist/jquery.allowed-chars.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fosco-maestro/jquery-allowed-chars-simple-plugin.git"
+    "url": "https://github.com/pvoznenko/jquery-allowed-chars-simple-plugin.git"
   },
   "keywords": [
     "jquery",
@@ -21,8 +21,8 @@
   ],
   "author": "Pavlo Voznenko",
   "license": "MIT",
-  "bugs": "https://github.com/fosco-maestro/jquery-allowed-chars-simple-plugin/issues",
-  "homepage": "https://github.com/fosco-maestro/jquery-allowed-chars-simple-plugin",
+  "bugs": "https://github.com/pvoznenko/jquery-allowed-chars-simple-plugin/issues",
+  "homepage": "https://github.com/pvoznenko/jquery-allowed-chars-simple-plugin",
   "devDependencies": {
     "grunt": "~0.4.4",
     "grunt-contrib-jshint": "~0.10.0",

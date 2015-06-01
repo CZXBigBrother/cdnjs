@@ -12,7 +12,7 @@
   "author": "Johan Gorter <johan@johangorter.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johan-gorter/domplotter"
+    "url": "https://github.com/AFASSoftware/maquette"
   },
   "main": "dist/domplotter-min.js",
   "licenses": [

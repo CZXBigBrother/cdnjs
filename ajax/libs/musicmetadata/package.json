@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/leetreveil/node-musicmetadata.git"
+    "url": "git://github.com/leetreveil/musicmetadata.git"
   },
   "author": "Lee Treveil",
   "license": "MIT"
