@@ -15,7 +15,7 @@
   "description": "Copy to clipboard using AngularJS",
   "repository": {
     "type": "git",
-    "url": "git@github.com:asafdav/ng-clip.git"
+    "url": "https://github.com/asafdav/ng-clip.git"
   },
   "keywords": [
     "angular",

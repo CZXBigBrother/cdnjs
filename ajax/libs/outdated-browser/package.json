@@ -5,7 +5,7 @@
   "description": "It detects outdated browsers and advises users to upgrade to a new version.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:burocratik/outdated-browser.git"
+    "url": "https://github.com/burocratik/outdated-browser.git"
   },
   "author": "Bürocratik",
   "licenses": [

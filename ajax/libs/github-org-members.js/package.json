@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:IonicaBizau/github-org-members.js"
+    "url": "https://github.com/IonicaBizau/github-org-members.js"
   },
   "keywords": [
     "github",

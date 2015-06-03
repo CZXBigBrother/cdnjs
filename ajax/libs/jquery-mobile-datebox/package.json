@@ -7,7 +7,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "git@github.com:jtsage/jquery-mobile-datebox.git"
+      "url": "https://github.com/jtsage/jquery-mobile-datebox.git"
     }
   ]
 }

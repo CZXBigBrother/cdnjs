@@ -2,7 +2,7 @@
   "name": "bower-angular-translate-loader-partial",
   "filename": "angular-translate-loader-partial.min.js",
   "description": "i18n for your Angular apps, made easy",
-  "version": "2.7.0",
+  "version": "2.7.2",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
     "framework",
