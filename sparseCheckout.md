@@ -1,8 +1,8 @@
-Currently, cdnjs's repo is too huge, so that some people can not work hapily with it, here is a simple workwround for you to work with cdnjs hapily, that's sparse-checkout, it can let you checl out only the files your want, so that the whole direcotry in your computer won't need to be 11GB, but only about 1GB, very thiner, with shallow pull, it can be even thiner!
+Currently, cdnjs's repo is too huge, so that some people can not work happily with it, here is a simple workaround for you to work with cdnjs happily, that's sparse-checkout, it can let you check out only the files you want, so that the whole directory in your computer won't need to be 11GB, but only about 1GB, very thinner, with shallow pull, it can be even thinner!
 
 Here are the steps:
 
-1. Create/initial a empty repo and enter it:
+1. Create/Initial a empty repo and enter it:
 
 `$ git init cdnjs && cd cdnjs`
 
@@ -12,11 +12,11 @@ Here are the steps:
 
 `$ git config core.sparseCheckout true`
 
-3. Set what you want to checkout only, for examply, the jquery lib:
+3. Set what you want to checkout only, for example, the jquery lib:
 
 `$ echo 'ajax/libs/jquery/*' >> .git/info/sparse-checkout`
 
-4. Set your remote, for examply:
+4. Set your remote, for example:
 
 `$ git remote add origin git://github.com/cdnjs/cdnjs.git`
 
@@ -28,7 +28,7 @@ If you already cloned a cdnjs repo, this time, you can set a local path to speed
 
 `$ git pull origin master --depth 10`
 
-It's all done, you will only have jquery lib now, other files won't be checkedout, let's take a look at the space it used:
+It's all done, you will only have jquery lib now, other files won't be checkeout, let's take a look at the space it used:
 
 `$ du -d 1 -h`
 > 18M     ./ajax
@@ -38,7 +38,7 @@ It's all done, you will only have jquery lib now, other files won't be checkedou
 > 605M    .
 
 
-The database behind git is only 587MB, and the whole repo is only 605MB, awsome!
+The database behind git is only 587MB, and the whole repo is only 605MB, awesome!
 
 What's the origin one?
 

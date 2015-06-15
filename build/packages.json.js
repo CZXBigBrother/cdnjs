@@ -120,8 +120,7 @@ fs.readFile('../new-website/public/packages.min.json', 'utf8', function(err, dat
           for (var i = 0; i < temp.files.length; i++){
             var filespec = temp.files[i];
             temp.files[i] = {
-              name: filespec.replace(version + "/", ""),
-              size: Math.round(fs.statSync(filespec).size / 1024)
+              name: filespec.replace(version + "/", "")
             };
           }
         }
