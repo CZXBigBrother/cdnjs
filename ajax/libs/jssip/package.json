@@ -4,13 +4,14 @@
   "npmName": "jssip",
   "npmFileMap": [
     {
-      "basePath": "/builds/",
+      "basePath": "/dist/",
       "files": [
-        "*.min.js"
+        "jssip.min.js",
+        "jssip.js"
       ]
     }
   ],
-  "version": "0.5.0",
+  "version": "0.6.30",
   "filename": "jssip.min.js",
   "homepage": "http://jssip.net",
   "keywords": [
