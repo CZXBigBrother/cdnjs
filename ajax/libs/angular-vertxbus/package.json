@@ -10,7 +10,7 @@
     }
   ],
   "description": "AngularJS facade and service acting as a Vert.x SockJS client",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "filename": "angular-vertxbus.min.js",
   "keywords": [
     "angular",

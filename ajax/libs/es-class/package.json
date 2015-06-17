@@ -1,6 +1,6 @@
 {
   "name": "es-class",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "license": "MIT",
   "description": "A future proof, backward compatible, JavaScript class utility.",
   "homepage": "https://github.com/WebReflection/es-class",
