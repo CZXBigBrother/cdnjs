@@ -1,22 +1,22 @@
-Currently, cdnjs's repo is too huge, so that some people can not work happily with it, here is a simple workaround for you to work with cdnjs happily, that's sparse-checkout, it can let you check out only the files you want, so that the whole directory in your computer won't need to be 11GB, but only about 1GB, very thinner, with shallow pull, it can be even thinner!
+Currently, cdnjs's repo is too huge and some people have issues with using it when it is this big. To get around the issue or repo size you can use `sparse-checkout`. It lets you check out only the files you want, so that the whole directory in your computer won't need to be 11GB, but only about 1GB (you can make this even smaller with shallow pull too!)
 
 Here are the steps:
 
-1. Create/Initial a empty repo and enter it:
+1.Create/Initial a empty repo and enter it:
 
 `$ git init cdnjs && cd cdnjs`
 
 > Initialized empty Git repository in /home/peter/.git/
 
-2. Enable sparseCheckout:
+2.Enable sparseCheckout:
 
 `$ git config core.sparseCheckout true`
 
-3. Set what you want to checkout only, for example, the jquery lib:
+3.Set what you want to checkout only, for example, the jquery lib:
 
 `$ echo 'ajax/libs/jquery/*' >> .git/info/sparse-checkout`
 
-4. Set your remote, for example:
+4.Set your remote, for example:
 
 `$ git remote add origin git://github.com/cdnjs/cdnjs.git`
 
@@ -24,11 +24,11 @@ If you already cloned a cdnjs repo, this time, you can set a local path to speed
 
 `$ git remote add origin ///home/peter/cdnjs.old`
 
-5. Pull things into your new repo with shallow pull, for example, set depth to 10:
+5.Pull things into your new repo with shallow pull, for example, set depth to 10:
 
 `$ git pull origin master --depth 10`
 
-It's all done, you will only have jquery lib now, other files won't be checkeout, let's take a look at the space it used:
+It's all done, you will only have jquery lib now and other files won't be checked out. Let's take a look at the space it used:
 
 `$ du -d 1 -h`
 > 18M     ./ajax
