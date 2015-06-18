@@ -1,7 +1,7 @@
 {
   "name": "ember-simple-auth",
-  "filename": "ember-simple-auth.min.js",
-  "version": "0.7.3",
+  "filename": "simple-auth.min.js",
+  "version": "0.8.0",
   "description": "A lightweight library for implementing authentication/authorization in Ember.js applications.",
   "homepage": "http://ember-simple-auth.simplabs.com/",
   "keywords": [
