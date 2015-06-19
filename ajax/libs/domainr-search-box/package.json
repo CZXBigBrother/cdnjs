@@ -34,10 +34,12 @@
   ],
   "filename": "domainr-search-box.min.js",
   "npmName": "domainr-search-box",
-  "npmFileMap": [{
-    "basePath": "/dist/",
-    "files": [
-      "**/*"
-    ]
-  }]
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }
