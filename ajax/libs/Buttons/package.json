@@ -1,0 +1,29 @@
+{
+  "name": "Buttons",
+  "filename": "js/buttons.min.js",
+  "version": "2.0.0",
+  "description": "A CSS button library built with Sass",
+  "homepage": "http://unicorn-ui.com/",
+  "keywords": [
+    "Buttons",
+    "CSS Buttons",
+    "Sass Buttons"
+  ],
+  "maintainers": [
+    {
+      "name": "Unicorn-UI"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/alexwolfe/Buttons.git"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "https://github.com/alexwolfe/Buttons/blob/master/LICENSE"
+    }
+  ]
+}
