@@ -26,7 +26,7 @@
   "npmName": "jquery-data-remote",
   "npmFileMap": [
     {
-      "basePath": "/src",
+      "basePath": "/dist",
       "files": [
         "**/*"
       ]
