@@ -12,9 +12,24 @@ Here are the steps:
 
 `$ git config core.sparseCheckout true`
 
-3.Set what you want to checkout only, for example, the jquery lib:
+3.Set what you want to checkout only, write to `.git/info/sparse-checkout`, one line for one rule, for example, the jquery lib:
 
-`$ echo 'ajax/libs/jquery/*' >> .git/info/sparse-checkout`
+`$ echo '/ajax/libs/jquery/*' >> .git/info/sparse-checkout`
+
+Here is an example of `.git/info/sparse-checkout`:
+```
+/ajax/libs/jquery/*
+/build
+/MIT-LICENSE
+/*.yml
+/*.md
+/*.json
+/*.sh
+/*.js
+.gitkeep
+```
+
+You can update your `.git/info/sparse-checkout` and then do `git reset --hard` to update the working directory to be the same as you configured.
 
 4.Set your remote, for example:
 
