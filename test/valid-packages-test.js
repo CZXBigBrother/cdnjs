@@ -109,9 +109,20 @@ packages.map(function (pkg) {
             pkg_name(pkg) + ": Name property should be '" + trueName + "', not '" + json.name +"'");
     };
 
+    var targetPrefixes = new RegExp("^git://");
+    package_vows[pname + ": autoupdate block is valid (if present)"] = function (pkg) {
+        var json = parse(pkg, true, true);
+        if (json.autoupdate) {
+            assert.ok(json.autoupdate.source == "git",
+                pkg_name(pkg) + ": Autoupdate source should be 'git', not " + json.autoupdate.source);
+            assert.ok(targetPrefixes.test(json.autoupdate.target),
+                pkg_name(pkg) + ": Autoupdate target should match '" + targetPrefixes +
+                "', but is " + json.autoupdate.target);
+        }
+    }
+
     context[pname] = package_vows;
     suite.addBatch(context);
 });
 
 suite.export(module);
-

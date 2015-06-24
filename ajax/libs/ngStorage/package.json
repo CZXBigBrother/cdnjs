@@ -33,7 +33,7 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/gsklee/ngStorage.git",
+    "target": "git://github.com/gsklee/ngStorage.git",
     "basePath": "",
     "files": [
       "ngStorage.js",

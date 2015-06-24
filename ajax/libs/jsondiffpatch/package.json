@@ -1,6 +1,6 @@
 {
   "name": "jsondiffpatch",
-  "version": "0.1.31",
+  "version": "0.1.33",
   "author": "Benjamin Eidelman <beneidel@gmail.com>",
   "filename": "jsondiffpatch.min.js",
   "description": "Diff & Patch for Javascript objects",

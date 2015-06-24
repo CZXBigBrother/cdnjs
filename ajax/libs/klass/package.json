@@ -1,6 +1,6 @@
 {
   "name": "klass",
-  "filename": "klass.js",
+  "filename": "klass.min.js",
   "version": "1.4.0",
   "description": "An expressive, cross platform JavaScript Class provider with a classical interface to prototypal inheritance.",
   "homepage": "http://dustindiaz.com/klass",

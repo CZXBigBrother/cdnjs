@@ -37,7 +37,7 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git@github.com:medialize/URI.js.git",
+    "target": "git://github.com/medialize/URI.js.git",
     "basePath": "src",
     "files": [
       "IPv6.js",

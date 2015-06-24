@@ -46,7 +46,7 @@
   "filename": "featherlight.min.js",
   "autoupdate": {
     "source": "git",
-    "target": "///home/s991533/cdnjs/git-auto-update-test/featherlight.git",
+    "target": "git://github.com/noelboss/featherlight.git",
     "basePath": "release",
     "files": [
       "*"
