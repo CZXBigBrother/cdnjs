@@ -64,6 +64,8 @@ ajax/libs/require-css/release-test/
 ajax/libs/ionic/testing
 ajax/libs/yamlcss/rm
 ajax/libs/winjs/release
+ajax/libs/plottable.js/.0.18.0
+jax/libs/plottable.js/*-hover-tooltip*
 
 #ignore files that we don't support
 ajax/libs/*/*/**/*.styl

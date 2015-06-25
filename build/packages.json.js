@@ -105,7 +105,7 @@ fs.readFile('../new-website/public/packages.min.json', 'utf8', function(err, dat
           pkgSave = pkg;
         }
       });
-      var versions = glob.sync("ajax/libs/"+package.name+"/!(package.json)");
+      var versions = glob.sync("ajax/libs/"+package.name+"/!(package.json)/").map(function(ver){return ver.slice(0, -1);});
       async.each(versions, function(version, callback) {
         var temp = Object();
         temp.version = version.replace(/^.+\//, "");
