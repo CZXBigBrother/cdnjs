@@ -7,16 +7,9 @@
   "bin": {
     "space": "cli.js"
   },
-  "scripts": {
-    "test": "node tests/node-test.js"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/breck7/space"
-  },
-  "devDependencies": {
-    "qunit": "~0.5.1",
-    "mime": ">=0.0.1"
   },
   "author": "Breck Yunits",
   "contributors": "Ben Zulauf",

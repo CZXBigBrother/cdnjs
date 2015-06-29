@@ -10,9 +10,6 @@
     "templates",
     "views"
   ],
-  "devDependencies": {
-    "backbone.js": "0.9.10"
-  },
   "maintainers": [
     {
       "name": "Tim Branyen (@tbranyen)"

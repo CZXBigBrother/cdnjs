@@ -39,9 +39,6 @@
       "type": "MIT"
     }
   ],
-  "devDependencies": {
-    "mocha": "*"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/usablica/persian.js.git",

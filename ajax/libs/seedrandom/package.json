@@ -19,9 +19,6 @@
   ],
   "description": "Seeded random number generator for Javascript.",
   "main": "seedrandom.js",
-  "scripts": {
-    "test": "grunt"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/davidbau/seedrandom.git"

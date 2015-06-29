@@ -1,6 +1,6 @@
 {
   "name": "meyer-reset",
-  "filename": "reset.css",
+  "filename": "reset.min.css",
   "version": "2.0",
   "description": "Eric Meyer CSS reset",
   "homepage": "http://meyerweb.com/eric/tools/css/reset/",

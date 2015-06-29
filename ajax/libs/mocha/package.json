@@ -32,9 +32,6 @@
   "engines": {
     "node": ">= 0.4.x"
   },
-  "scripts": {
-    "test": "make test-all"
-  },
   "dependencies": {
     "commander": "0.6.1",
     "growl": "1.7.x",
@@ -43,10 +40,6 @@
     "debug": "*",
     "mkdirp": "0.3.5",
     "glob": "3.2.3"
-  },
-  "devDependencies": {
-    "should": "*",
-    "coffee-script": "1.2"
   },
   "files": [
     "bin",

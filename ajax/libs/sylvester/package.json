@@ -1,6 +1,6 @@
 {
   "name": "sylvester",
-  "filename": "sylvester.js",
+  "filename": "sylvester.min.js",
   "description": "Vector and Matrix math for JavaScript",
   "homepage": "http://sylvester.jcoglan.com/",
   "author": "James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)",
@@ -15,12 +15,6 @@
     "node": ">=0.4.0"
   },
   "main": "./lib/sylvester",
-  "devDependencies": {
-    "jsclass": ""
-  },
-  "scripts": {
-    "test": "node test/console.js"
-  },
   "bugs": "http://github.com/jcoglan/sylvester/issues",
   "licenses": [
     {

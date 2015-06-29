@@ -30,9 +30,6 @@
     "Utilities",
     "Parsers & Compilers"
   ],
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
-  },
   "author": {
     "name": "Sascha Droste",
     "email": "pid@posteo.net",
@@ -41,18 +38,6 @@
   "main": "index",
   "filename": "speakingurl.min.js",
   "dependencies": {},
-  "devDependencies": {
-    "grunt": "~0.4.2",
-    "mocha": "^1.18.2",
-    "should": "^3.3.1",
-    "grunt-contrib-uglify": "^0.4.0",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-release": "^0.7.0",
-    "grunt-bumpup": "~0.5.0",
-    "grunt-text-replace": "~0.3.10",
-    "grunt-jsbeautifier": "~0.2.6"
-  },
   "testling": {
     "harness": "mocha",
     "files": "test/*.js",

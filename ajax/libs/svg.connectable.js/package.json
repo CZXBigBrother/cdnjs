@@ -4,9 +4,6 @@
   "description": "A JavaScript library for connecting SVG things.",
   "filename": "svg.connectable.min.js",
   "main": "src/svg.connectable.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "npmName": "svg.connectable.js",
   "npmFileMap": [
     {

@@ -1,7 +1,7 @@
 {
   "name": "curl",
   "version": "0.7.3",
-  "filename": "curl-for-jQuery/curl.js",
+  "filename": "curl-for-jQuery/curl.min.js",
   "description": "A small, fast module and resource loader with dependency management. (AMD, CommonJS Modules/1.1, CSS, HTML, etc.)",
   "keywords": [
     "curl",

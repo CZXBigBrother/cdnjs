@@ -8,11 +8,5 @@
   "repository": "madebymany/eventable",
   "dependencies": {
     "underscore": "~1.4.4"
-  },
-  "devDependencies": {
-    "phantomjs": "1.9.0-1"
-  },
-  "scripts": {
-    "test": "phantomjs test/vendor/runner.js test/index.html?noglobals=true"
   }
 }

@@ -9,10 +9,12 @@
     "name": "asatour",
     "url": "https://github.com/asatour/"
   },
-  "repositories": [{
-    "type": "git",
-    "url": "git://github.com/asatour/jquery-domPath"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/asatour/jquery-domPath"
+    }
+  ],
   "keywords": [
     "DOM",
     "path",

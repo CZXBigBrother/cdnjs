@@ -1,5 +1,5 @@
 {
-  "filename": "domReady.js",
+  "filename": "domReady.min.js",
   "name": "require-domReady",
   "version": "2.0.1",
   "description": "Wait for the DOM is ready.",

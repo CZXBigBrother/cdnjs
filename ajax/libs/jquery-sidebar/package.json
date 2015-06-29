@@ -3,9 +3,6 @@
   "version": "3.2.0",
   "description": "A stupid simple sidebar jQuery plugin.",
   "main": "src/jquery.sidebar.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jillix/jQuery-sidebar.git"
@@ -30,5 +27,5 @@
       ]
     }
   ],
-  "filename": "jquery.sidebar.js"
+  "filename": "jquery.sidebar.min.js"
 }

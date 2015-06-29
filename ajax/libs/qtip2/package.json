@@ -26,9 +26,11 @@
     "email": "craig@craigsworks.com",
     "web": "http://craigsworks.com"
   },
-  "repositories": [{
-    "type": "git",
-    "url": "https://github.com/qTip2/qTip2.git"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/qTip2/qTip2.git"
+    }
+  ],
   "bugs": "https://github.com/qTip2/qTip2/issues"
 }

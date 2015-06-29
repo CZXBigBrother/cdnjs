@@ -3,9 +3,6 @@
   "version": "0.6.1",
   "description": "jQuery Data Remote is a plugin that simplifies the common task of making api/remote requests and injecting the response to the page. Optionally leverages Handlebars.js for templating.",
   "main": "src/jquery.data-remote.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:codonnell822/jquery-data-remote.git"
@@ -32,5 +29,5 @@
       ]
     }
   ],
-  "filename": "jquery.data-remote.js"
+  "filename": "jquery.data-remote.min.js"
 }

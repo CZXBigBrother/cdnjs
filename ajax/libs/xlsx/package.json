@@ -10,7 +10,7 @@
       ]
     }
   ],
-  "filename": "xlsx.js",
+  "filename": "xlsx.min.js",
   "version": "0.8.0",
   "description": "Javascript XLSX / XLSM / XLSB (Excel 2007+) parser",
   "homepage": "https://github.com/SheetJS/js-xlsx",

@@ -26,14 +26,6 @@
     "url": "git://github.com/gka/chroma.js.git"
   },
   "main": "chroma.js",
-  "scripts": {
-    "compile": "./build.sh"
-  },
-  "devDependencies": {
-    "uglify-js": "2.x",
-    "coffee-script": "1.2",
-    "vows": "0.7.x"
-  },
   "npmName": "chroma-js",
   "npmFileMap": [
     {

@@ -19,13 +19,6 @@
     "type": "git",
     "url": "https://github.com/ericelliott/h5Validate.git"
   },
-  "devDependencies": {
-    "grunt": "*",
-    "grunt-saucelabs": "*"
-  },
-  "scripts": {
-    "test": "./scripts/test.sh"
-  },
   "engines": {
     "node": "~0.x.x"
   }

@@ -13,9 +13,9 @@
   ],
   "license": "MIT",
   "repositories": [
-  	{
-  	  "type": "git",
-  	  "url": "https://github.com/tj/co"
-  	}
+    {
+      "type": "git",
+      "url": "https://github.com/tj/co"
+    }
   ]
 }

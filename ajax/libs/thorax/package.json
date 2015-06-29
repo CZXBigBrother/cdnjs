@@ -1,7 +1,7 @@
 {
   "name": "thorax",
   "version": "2.2.1",
-  "filename": "thorax.js",
+  "filename": "thorax.min.js",
   "description": "Handlebars + Backbone",
   "homepage": "http://thoraxjs.org/",
   "keywords": [
@@ -21,14 +21,6 @@
   },
   "dependencies": {
     "fs-watch-tree": "0.2.0"
-  },
-  "devDependencies": {
-    "uglify-js": "1.3.4",
-    "jake": "~0.5",
-    "phoenix-build": "~1"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/jake test"
   },
   "bin": {
     "thorax": "bin/thorax"

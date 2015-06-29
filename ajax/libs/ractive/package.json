@@ -13,7 +13,7 @@
   ],
   "homepage": "http://ractivejs.org",
   "main": "ractive.js",
-  "filename": "ractive.js",
+  "filename": "ractive.min.js",
   "licenses": [
     {
       "type": "MIT"

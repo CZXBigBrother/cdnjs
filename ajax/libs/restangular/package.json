@@ -36,17 +36,5 @@
       "website": "http://gon.to/"
     }
   ],
-  "dependencies": {},
-  "devDependencies": {
-    "grunt-cli": ">= 0.1.7",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-bower": "*",
-    "grunt-bower-task": "*",
-    "grunt-karma": "*"
-  },
-  "scripts": {
-    "test": "grunt test --verbose"
-  }
+  "dependencies": {}
 }

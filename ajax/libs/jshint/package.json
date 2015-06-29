@@ -19,7 +19,7 @@
     }
   ],
   "main": "jshint.js",
-  "filename": "jshint.js",
+  "filename": "jshint.min.js",
   "npmName": "jshint",
   "npmFileMap": [
     {

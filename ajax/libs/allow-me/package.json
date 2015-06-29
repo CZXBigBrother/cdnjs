@@ -10,11 +10,6 @@
   },
   "author": "Steve Ng",
   "license": "MIT",
-  "devDependencies": {
-    "grunt-contrib-uglify": "~0.6.0",
-    "grunt-contrib-cssmin": "~0.10.0",
-    "load-grunt-tasks": "~1.0.0"
-  },
   "npmName": "allow-me",
   "npmFileMap": [
     {

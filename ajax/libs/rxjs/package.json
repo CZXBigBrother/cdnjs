@@ -33,18 +33,6 @@
     "main": "dist/rx.all.js"
   },
   "dependencies": {},
-  "devDependencies": {
-    "grunt-cli": "*",
-    "grunt": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-connect": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-qunit": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-saucelabs": "*",
-    "load-grunt-tasks": "*"
-  },
   "keywords": [
     "LINQ",
     "FRP",
@@ -53,8 +41,5 @@
     "Rx",
     "RxJS"
   ],
-  "main": "rx.node.js",
-  "scripts": {
-    "test": "grunt"
-  }
+  "main": "rx.node.js"
 }

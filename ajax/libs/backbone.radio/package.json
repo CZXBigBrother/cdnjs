@@ -21,10 +21,6 @@
       "url": "https://github.com/marionettejs/backbone.radio/blob/master/LICENSE"
     }
   ],
-  "scripts": {
-    "test": "grunt",
-    "coverage": "grunt coverage"
-  },
   "author": {
     "name": "Jmeas",
     "email": "jellyes2@gmail.com",

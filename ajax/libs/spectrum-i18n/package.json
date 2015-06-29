@@ -1,6 +1,6 @@
 {
   "name": "spectrum-i18n",
-  "filename": "jquery.spectrum-es.js",
+  "filename": "jquery.spectrum-es.min.js",
   "description": "Locales for Spectrum",
   "version": "1.3.0",
   "homepage": "http://bgrins.github.io/spectrum/",

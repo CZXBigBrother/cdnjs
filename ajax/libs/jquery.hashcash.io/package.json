@@ -4,9 +4,6 @@
   "description": "jQuery Hashcash.io plugin",
   "main": "jquery.hashcash.io.js",
   "filename": "jquery.hashcash.io.min.js",
-  "scripts": {
-    "build": "./build.sh"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hashcash/jquery.hashcash.io.git"

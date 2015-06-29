@@ -15,10 +15,6 @@
     "injection"
   ],
   "author": "Xavier Boubert <xavier@boubert.fr>",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/XavierBoubert/mvw-injection.git"

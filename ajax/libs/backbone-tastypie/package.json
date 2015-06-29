@@ -8,9 +8,6 @@
     "tastypie",
     "backbone"
   ],
-  "devDependencies": {
-    "backbone.js": "1.0"
-  },
   "repositories": [
     {
       "type": "git",

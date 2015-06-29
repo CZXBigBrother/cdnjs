@@ -120,6 +120,30 @@ packages.map(function (pkg) {
                 "', but is " + json.autoupdate.target);
         }
     }
+    package_vows[pname + ": should point filename field to minified file"] = function (pkg) {
+        var json = parse(pkg, true, true);
+        if (json.filename) {
+            var path = "./ajax/libs/" + json.name + "/"+ json.version + "/",
+                orig = json.filename.split("."),
+                min = '';
+            if (orig[orig.length - 2] !== 'min') {
+                var temp = orig,
+                    ext = temp.pop();
+                temp.push("min");
+                temp.push(ext);
+                min = temp.join(".");
+            }
+            assert.ok(min === '' || !isThere(path + min),
+                pkg_name(pkg) + ": filename field in package.json should point filename field to minified file.");
+        }
+    }
+
+    package_vows[pname + ": format check"] = function (pkg) {
+        var orig = fs.readFileSync(pkg, 'utf8'),
+            correct = JSON.stringify(JSON.parse(orig), null, 2) + '\n';
+        assert.ok(orig === correct,
+            pkg_name(pkg) + ": package.json wrong format, correct one should be like this.\n" + correct);
+    }
 
     context[pname] = package_vows;
     suite.addBatch(context);

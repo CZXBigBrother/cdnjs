@@ -9,7 +9,7 @@
     "jquery-plugin",
     "ecosystem:jquery"
   ],
-  "filename": "jquery-visibility.js",
+  "filename": "jquery-visibility.min.js",
   "homepage": "http://mths.be/visibility",
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@
   "name": "lz-string",
   "version": "1.4.4",
   "license": "WTFPL",
-  "filename": "lz-string.js",
+  "filename": "lz-string.min.js",
   "description": "LZ-based compression algorithm",
   "homepage": "http://pieroxy.net/blog/pages/lz-string/index.html",
   "keywords": [
@@ -14,9 +14,7 @@
   "bin": {
     "lz-string": "bin/bin.js"
   },
-  "scripts": {},
   "dependencies": {},
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/pieroxy/lz-string.git"

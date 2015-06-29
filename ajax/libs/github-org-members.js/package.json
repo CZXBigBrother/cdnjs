@@ -6,9 +6,6 @@
   "directories": {
     "example": "example"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/IonicaBizau/github-org-members.js"
@@ -33,5 +30,5 @@
       ]
     }
   ],
-  "filename": "github-org-members.js"
+  "filename": "github-org-members.min.js"
 }

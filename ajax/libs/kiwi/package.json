@@ -15,12 +15,6 @@
     "underscore": "*",
     "moment": "*"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "uglify-js": "*",
-    "jshint": "*"
-  },
   "keywords": [
     "kiwi",
     "asynchronous",
@@ -32,9 +26,6 @@
   ],
   "repository": "git://github.com/coolony/kiwi",
   "main": "index",
-  "scripts": {
-    "test": "make test"
-  },
   "engines": {
     "node": ">= 0.6.0"
   }

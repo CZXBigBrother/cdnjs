@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch",
-  "filename": "elasticsearch.js",
+  "filename": "elasticsearch.min.js",
   "version": "5.0.0",
   "description": "The official low-level Elasticsearch client, for use in the browser.",
   "homepage": "https://github.com/elastic/elasticsearch-js",

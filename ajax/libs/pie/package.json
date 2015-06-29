@@ -1,6 +1,6 @@
 {
   "name": "pie",
-  "filename": "PIE.js",
+  "filename": "PIE.min.js",
   "version": "1.0beta5",
   "description": "A behavior for Internet Explorer allowing it to recognize and render various CSS3 box decoration properties.",
   "homepage": "http://css3pie.com/",

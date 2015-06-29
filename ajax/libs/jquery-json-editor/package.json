@@ -6,9 +6,6 @@
   "directories": {
     "example": "example"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jillix/jQuery-json-editor.git"
@@ -33,5 +30,5 @@
       ]
     }
   ],
-  "filename": "jquery-json-editor.js"
+  "filename": "jquery-json-editor.min.js"
 }

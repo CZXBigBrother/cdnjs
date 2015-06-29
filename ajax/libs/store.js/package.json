@@ -39,9 +39,6 @@
   "directories": {
     "lib": "."
   },
-  "devDependencies": {
-    "uglify-js": "v1.3.4"
-  },
   "files": [
     ""
   ]

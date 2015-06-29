@@ -1,6 +1,6 @@
 {
   "name": "blueimp-gallery",
-  "filename": "js/blueimp-gallery.js",
+  "filename": "js/blueimp-gallery.min.js",
   "version": "2.15.2",
   "title": "blueimp Gallery",
   "description": "blueimp Gallery is a touch-enabled, responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers. It features swipe, mouse and keyboard navigation, transition effects, slideshow functionality, fullscreen support and on-demand content loading and can be extended to display additional content types.",
@@ -45,10 +45,6 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "devDependencies": {
-    "uglify-js": "2.4.0",
-    "less": "1.5.0-b3"
-  },
   "npmName": "blueimp-gallery",
   "npmFileMap": [
     {

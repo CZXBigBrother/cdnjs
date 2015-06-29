@@ -25,16 +25,9 @@
     }
   ],
   "main": "kartograph.js",
-  "scripts": {
-    "compile": "./build.sh"
-  },
   "dependencies": {
     "jquery": "1.x",
     "raphael": "2.x"
-  },
-  "devDependencies": {
-    "uglify-js": "2.x",
-    "coffee-script": "1.2"
   },
   "npmName": "kartograph-js",
   "npmFileMap": [

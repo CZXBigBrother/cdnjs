@@ -12,10 +12,12 @@
     "html",
     "ui"
   ],
-  "repositories": [{
-    "type": "git",
-    "url": "git://github.com/javve/list.pagination.js.git"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/javve/list.pagination.js.git"
+    }
+  ],
   "license": "MIT",
   "maintainers": [
     {

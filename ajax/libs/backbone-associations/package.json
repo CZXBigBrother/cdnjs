@@ -23,9 +23,6 @@
     "backbone": ">=1.0.0",
     "underscore": ">=1.4.4"
   },
-  "devDependencies": {
-    "phantomjs": "0.2.2"
-  },
   "jam": {
     "dependencies": {
       "backbone": ">=1.0.0",
@@ -38,9 +35,6 @@
       "README.md",
       "CHANGELOG.md"
     ]
-  },
-  "scripts": {
-    "test": "phantomjs test/lib/runner.js test/test-suite.html?noglobals=true"
   },
   "main": "backbone-associations.js",
   "version": "0.6.2",

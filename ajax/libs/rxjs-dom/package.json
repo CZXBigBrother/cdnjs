@@ -1,6 +1,6 @@
 {
   "name": "rxjs-dom",
-  "filename": "rx.dom.js",
+  "filename": "rx.dom.min.js",
   "title": "Reactive Extensions for JavaScript bindings for the HTML DOM",
   "description": "HTML DOM Bindings for the Reactive Extensions for JavaScript",
   "version": "2.0.7",

@@ -11,9 +11,6 @@
   },
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {
-    "uglify-js": "2.4.14"
-  },
   "keywords": [
     "javascript",
     "browser",
@@ -22,8 +19,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/krasimir/deb.js"
-  },
-  "scripts": {
-    "build": "node ./build.js"
   }
 }

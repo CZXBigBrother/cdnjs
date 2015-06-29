@@ -10,13 +10,6 @@
   "bin": {
     "jsondiffpatch": "./bin/jsondiffpatch"
   },
-  "scripts": {
-    "test": "gulp test && gulp test-browser",
-    "bump": "gulp bump",
-    "cover": "istanbul cover --root src gulp test",
-    "cover-report": "open coverage/lcov-report/index.html",
-    "cover-publish": "istanbul cover _mocha --report lcovonly && codeclimate < coverage/lcov.info"
-  },
   "main": "./src/main",
   "repository": {
     "type": "git",
@@ -29,15 +22,6 @@
   ],
   "dependencies": {
     "chalk": "^0.5.1"
-  },
-  "devDependencies": {
-    "bulk-require": "^0.2.1",
-    "codeclimate-test-reporter": "0.0.3",
-    "expect.js": "~0.3.1",
-    "fiberglass": "~0.0.11",
-    "gulp": "^3.8.8",
-    "istanbul": "^0.3.2",
-    "mocha": "^1.21.4"
   },
   "bundleDependencies": [],
   "license": "MIT",

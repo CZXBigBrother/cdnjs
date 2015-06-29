@@ -48,31 +48,12 @@
     "url": "https://github.com/krux/postscribe.git"
   },
   "dependencies": {},
-  "devDependencies": {
-    "grunt": "0.4",
-    "grunt-cli": "0.1.13",
-    "grunt-contrib-concat": "0.5.0",
-    "grunt-contrib-jshint": "0.10.0",
-    "grunt-contrib-qunit": "0.5.2",
-    "grunt-contrib-uglify": "0.2.7",
-    "grunt-contrib-watch": "0.5.3",
-    "jquery": "^1.11.1",
-    "lodash": "2.4.1",
-    "phantomjs": "1.9.11",
-    "qunit": "^0.7.5",
-    "testem": "0.6.22"
-  },
   "homepage": "https://krux.github.io/postscribe",
   "engines": {
     "node": ">=0.10"
   },
   "main": "postscribe.js",
   "filename": "postscribe.min.js",
-  "scripts": {
-    "lint": "grunt jshint",
-    "tdd": "grunt watch",
-    "test": "grunt"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/krux/postscribe.git",

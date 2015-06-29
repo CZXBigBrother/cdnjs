@@ -19,16 +19,6 @@
     "type": "git",
     "url": "http://github.com/voidberg/html5sortable"
   },
-  "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-copy": "~0.4.1",
-    "jshint-stylish": "~0.1.4",
-    "grunt-jsvalidate": "~0.2.2",
-    "grunt-contrib-clean": "~0.5.0"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/voidberg/html5sortable.git",

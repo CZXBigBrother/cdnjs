@@ -4,9 +4,6 @@
   "description": "A web request service for Vue.js",
   "main": "src/index.js",
   "filename": "vue-resource.min.js",
-  "scripts": {
-    "build": "webpack --config build/webpack.build.config.js && webpack --config build/webpack.build.config.js --output-file vue-resource.min.js -p"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vuejs/vue-resource.git"
@@ -22,15 +19,12 @@
     "url": "https://github.com/vuejs/vue-resource/issues"
   },
   "homepage": "https://github.com/vuejs/vue-resource#readme",
-  "devDependencies": {
-    "webpack": "^1.8.11"
-  },
   "autoupdate": {
-  "source": "git",
-  "target": "git://github.com/vuejs/vue-resource.git",
-  "basePath": "dist",
-  "files": [
-  "*"
-  ]
+    "source": "git",
+    "target": "git://github.com/vuejs/vue-resource.git",
+    "basePath": "dist",
+    "files": [
+      "*"
+    ]
   }
 }

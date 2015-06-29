@@ -16,9 +16,6 @@
     "iframe",
     "responsive"
   ],
-  "scripts": {
-    "test": "echo \"No Tests\""
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/FaiblUG/setIframeHeight.git"

@@ -16,14 +16,6 @@
     "timepicker",
     "moment"
   ],
-  "devDependencies": {
-    "uglify-js": "*",
-    "less": "*",
-    "mocha-phantomjs": "*",
-    "mocha": "*",
-    "chai": "*",
-    "coffee-script": "*"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Eonasdan/bootstrap-datetimepicker.git",

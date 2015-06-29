@@ -33,12 +33,6 @@
   "dependencies": {
     "jquery-untouched": ">=1.7"
   },
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-qunit": "~0.2.2",
-    "grunt-closurecompiler": "~0.9.5",
-    "grunt-contrib-clean": "~0.5.0"
-  },
   "npmName": "jinplace",
   "npmFileMap": [
     {

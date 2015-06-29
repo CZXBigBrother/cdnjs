@@ -6,9 +6,6 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {
-    "test": "nodeunit tests"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/fastest963/ChainLoading.git"

@@ -1,6 +1,6 @@
 {
   "name": "ui-selectableScroll",
-  "filename": "selectableScroll.js",
+  "filename": "selectableScroll.min.js",
   "version": "0.1.4",
   "title": "An extended jQuery-ui selectable with scroll capabilities",
   "licenses": [

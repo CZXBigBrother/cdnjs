@@ -9,12 +9,6 @@
     "type": "git",
     "url": "https://github.com/ansman/validate.js.git"
   },
-  "scripts": {
-    "test": "grunt test",
-    "build": "grunt build",
-    "watch": "grunt watch",
-    "docs": "grunt docco"
-  },
   "keywords": [
     "validation",
     "validate",

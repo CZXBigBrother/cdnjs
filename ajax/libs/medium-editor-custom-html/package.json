@@ -6,9 +6,6 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "cd test && (xdg-open || open) index.html"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jillix/medium-editor-custom-html.git"
@@ -34,5 +31,5 @@
       ]
     }
   ],
-  "filename": "custom-html.js"
+  "filename": "custom-html.min.js"
 }

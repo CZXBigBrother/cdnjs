@@ -1,6 +1,6 @@
 {
   "name": "requirejs-tpl",
-  "filename": "tpl.js",
+  "filename": "tpl.min.js",
   "version": "0.0.2",
   "description": "A RequireJS/AMD loader plugin for Underscore.js micro-templates",
   "homepage": "http://github.com/jfparadis/requirejs-tpl",

@@ -9,10 +9,12 @@
       "web": "http://github.com/remy"
     }
   ],
-  "repositories": [{
-    "type": "git",
-    "url": "git://github.com/remy/min.js.git"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/remy/min.js.git"
+    }
+  ],
   "license": "MIT",
   "keywords": [
     "min",

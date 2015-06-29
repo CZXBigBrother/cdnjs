@@ -6,9 +6,6 @@
   "directories": {
     "example": "example"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jillix/jQuery-form-serializer.git"
@@ -33,5 +30,5 @@
       ]
     }
   ],
-  "filename": "jQuery-form-serializer.js"
+  "filename": "jQuery-form-serializer.min.js"
 }

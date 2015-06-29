@@ -1,6 +1,6 @@
 {
   "name": "oauth-io",
-  "filename": "oauth.js",
+  "filename": "oauth.min.js",
   "version": "0.9.0",
   "description": "OAuth.io SDK - Authorize your user on 90+ providers using OAuth",
   "main": "oauth.js",

@@ -1,6 +1,6 @@
 {
   "name": "angular-css",
-  "filename": "angular-css.js",
+  "filename": "angular-css.min.js",
   "description": "CSS on-demand for AngularJS",
   "version": "1.0.7",
   "homepage": "http://door3.github.io/angular-css",
@@ -38,15 +38,5 @@
     "url": "https://github.com/door3/angular-css/issues"
   },
   "main": "angular-css.js",
-  "license": "MIT",
-  "scripts": {
-    "test": "grunt test"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-karma": "~0.7.1",
-    "karma-mocha": "~0.1.0",
-    "grunt-cli": "~0.1.11"
-  }
+  "license": "MIT"
 }

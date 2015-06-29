@@ -66,26 +66,11 @@
       "flocks.min.js"
     ]
   },
-  "devDependencies": {
-    "gulp": "*",
-    "gulp-clean": "*",
-    "gulp-shell": "*",
-    "gulp-sloc": "*",
-    "gulp-strip-react-dom-comment": "*",
-    "gulp-yuidoc": "*",
-    "jshint": "*",
-    "sc-eslint": "*",
-    "vows": "*",
-    "jsverify": "*"
-  },
   "dependencies": {
     "react": "*"
   },
   "main": "lib/flocks.js",
   "engines": {
     "node": "*"
-  },
-  "scripts": {
-    "test": "vows test/* --spec"
   }
 }
