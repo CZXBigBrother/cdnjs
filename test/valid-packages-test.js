@@ -145,6 +145,11 @@ packages.map(function (pkg) {
             pkg_name(pkg) + ": package.json wrong format, correct one should be like this.\n" + correct);
     }
 
+    package_vows[pname + ": useless fields check"] = function (pkg) {
+        var json = parse(pkg, true, true);
+        assert.ok(json.scripts === undefined && json.devDependencies === undefined,
+            pkg_name(pkg) + ": we don't need scripts and devDependencies fields in package.json");
+    }
     context[pname] = package_vows;
     suite.addBatch(context);
 });
