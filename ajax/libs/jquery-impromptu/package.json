@@ -3,8 +3,8 @@
   "name": "jquery-impromptu",
   "title": "jQuery-Impromptu",
   "description": "An extension to help provide a more pleasant way to spontaneously prompt a user for input.",
-  "version": "5.2.3",
-  "modified": "2014-03-09",
+  "version": "6.2.1",
+  "modified": "2015-05-10",
   "homepage": "http://trentrichardson.com/Impromptu",
   "author": {
     "name": "Trent Richardson",
@@ -19,11 +19,23 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://trentrichardson.com/examples/jQuery-Impromptu/blob/master/MIT-LICENSE.txt"
+      "url": "https://github.com/trentrichardson/jQuery-Impromptu/blob/master/MIT-LICENSE.txt"
     }
   ],
   "dependencies": {
     "jquery": "*"
   },
-  "keywords": []
+  "keywords": [],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/trentrichardson/jQuery-Impromptu.git",
+    "basePath": "/dist/",
+    "files": [
+      "**/*.js",
+      "**/*.css"
+    ]
+  }
 }

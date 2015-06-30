@@ -1,0 +1,10 @@
+/build
+/test
+/tools
+/scratch
+/MIT-LICENSE
+/*.yml
+/*.md
+/*.json
+/*.sh
+/*.js
