@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap-submenu",
+  "version": "1.2.13",
+  "description": "Bootstrap Sub-Menus",
+  "keywords": [
+    "bootstrap",
+    "dropdown",
+    "jquery-plugin",
+    "submenu"
+  ],
+  "homepage": "http://vsn4ik.github.io/bootstrap-submenu",
+  "author": {
+    "name": "Vasily A.",
+    "url": "https://github.com/vsn4ik"
+  },
+  "repository": "https://github.com/vsn4ik/bootstrap-submenu",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "js",
+    "less",
+    "LICENSE"
+  ],
+  "main": "dist/js/bootstrap-submenu.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "npmName": "bootstrap-submenu",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*"
+      ]
+    }
+  ]
+}
