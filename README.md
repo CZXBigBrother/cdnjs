@@ -83,7 +83,7 @@ For more information regarding this importer, please check out the [repository d
 
 You should consider the following when adding to or updating the library, so that we can keep our project neat, clean and clear:
 
-* Filenames should _not_ include a version number and be _lowercase_.
+* Filenames should _not_ include a version number.
   * This is OK: `useful.min.js`, but this is not: `useful-2.0.1.min.js`.
 
 * JavaScript & CSS files should be minified to reduce network traffic and browser overhead.
