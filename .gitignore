@@ -11,6 +11,7 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/flocks.js/0.15.7/
 ajax/libs/qoopido.js/support
 ajax/libs/qoopido.js/widget-adapt
 ajax/libs/strophe.js/release-1.2.0
@@ -66,6 +67,7 @@ ajax/libs/require-css/dev-test/
 ajax/libs/require-css/release-test/
 ajax/libs/ionic/testing
 ajax/libs/yamlcss/rm
+ajax/libs/aws-sdk/*/appinfo.sample.js
 ajax/libs/winjs/release
 ajax/libs/plottable.js/.0.18.0
 ajax/libs/plottable.js/*-hover-tooltip*
