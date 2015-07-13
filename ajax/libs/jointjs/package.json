@@ -9,7 +9,7 @@
     "graph",
     "visualization"
   ],
-  "version": "0.9.0",
+  "version": "0.9.3",
   "homepage": "http://jointjs.com",
   "author": {
     "name": "client IO",
@@ -27,12 +27,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DavidDurman/joint.git"
+    "url": "https://github.com/clientIO/joint.git"
   },
-  "bugs": "https://github.com/DavidDurman/joint/issues",
+  "bugs": "https://github.com/clientIO/joint/issues",
   "license": "MPL 2.0",
   "dependencies": {
     "backbone": "~1.1.0",
     "lodash": "~2.2.1"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/clientIO/joint.git",
+    "basePath": "dist",
+    "files": [
+      "**/*"
+    ]
   }
 }

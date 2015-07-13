@@ -25,5 +25,13 @@
       "jquery": ">=1.2.6 <1.9",
       "jquery-migrate": ""
     }
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/cowboy/jquery-bbq.git",
+    "basePath": "",
+    "files": [
+      "jquery.ba-bbq*.js"
+    ]
   }
 }

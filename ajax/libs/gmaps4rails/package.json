@@ -23,5 +23,13 @@
       "type": "MIT",
       "url": "https://github.com/apneadiving/Google-Maps-for-Rails/blob/master/MIT-LICENSE"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/apneadiving/Google-Maps-for-Rails.git",
+    "basePath": "js_compilation",
+    "files": [
+      "**/*"
+    ]
+  }
 }

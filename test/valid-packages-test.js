@@ -101,6 +101,15 @@ packages.map(function (pkg) {
         assert.ok(isThere(filePath),
                   filePath +" does not exist but is referenced in package.json!");
     };
+    package_vows[pname + ": required file exist"] = function (pkg) {
+      var json = parse(pkg, true, true);
+      if (json.requiredFiles !== undefined) {
+        for (var i in json.requiredFiles) {
+          var filePath = "./ajax/libs/" + json.name + "/"+ json.version + "/" + json.requiredFiles[i];
+          assert.ok(isThere(filePath), filePath +" does not exist but is required!");
+        }
+      }
+    };
     package_vows[pname + ": name in package.json should be parent folder name"] = function (pkg) {
         var json = parse(pkg, true, true);
         var dirs = pkg.split("/");
@@ -119,6 +128,11 @@ packages.map(function (pkg) {
                 pkg_name(pkg) + ": Autoupdate target should match '" + targetPrefixes +
                 "', but is " + json.autoupdate.target);
         }
+    }
+    package_vows[pname + ": should not have both multiple auto-update configs"] = function(pkg) {
+        var json = parse(pkg, true, true);
+        assert.ok(json.autoupdate === undefined || json.npmFileMap === undefined,
+            pkg_name(pkg) + ": has both git and npm auto-update config, should remove one of it");
     }
     package_vows[pname + ": should point filename field to minified file"] = function (pkg) {
         var json = parse(pkg, true, true);
@@ -142,7 +156,7 @@ packages.map(function (pkg) {
         var orig = fs.readFileSync(pkg, 'utf8'),
             correct = JSON.stringify(JSON.parse(orig), null, 2) + '\n';
         assert.ok(orig === correct,
-            pkg_name(pkg) + ": package.json wrong format, correct one should be like this.\n" + correct);
+            pkg_name(pkg) + ": package.json wrong format, correct one should be like this.\n(Remove the first 2 spaces of each line and include blank line at end if you copy and paste this example)\n" + correct +"\n");
     }
 
     package_vows[pname + ": useless fields check"] = function (pkg) {
