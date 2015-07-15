@@ -1,7 +1,7 @@
 {
   "name": "jquery.colorbox",
   "filename": "jquery.colorbox-min.js",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "A lightweight customizable lightbox plugin for jQuery",
   "author": "Jack Moore",
   "homepage": "http://www.jacklmoore.com/colorbox",
@@ -14,6 +14,7 @@
     "target": "git://github.com/jackmoore/colorbox.git",
     "basePath": "",
     "files": [
+      "i18n/*",
       "jquery.colorbox-min.js",
       "jquery.colorbox.js"
     ]

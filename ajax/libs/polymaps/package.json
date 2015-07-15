@@ -20,5 +20,13 @@
       "type": "git",
       "url": "https://github.com/simplegeo/polymaps"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/simplegeo/polymaps.git",
+    "basePath": "",
+    "files": [
+      "polymaps*.js"
+    ]
+  }
 }

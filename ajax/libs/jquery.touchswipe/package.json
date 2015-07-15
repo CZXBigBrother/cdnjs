@@ -1,7 +1,7 @@
 {
   "name": "jquery.touchswipe",
   "filename": "jquery.touchSwipe.min.js",
-  "version": "1.6.4",
+  "version": "1.6.9",
   "description": "A jQuery plugin that supports touch events on mobile devices.",
   "homepage": "http://labs.skinkers.com/touchSwipe",
   "keywords": [
@@ -21,5 +21,13 @@
       "type": "git",
       "url": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git",
+    "basePath": "",
+    "files": [
+      "jquery.touchSwipe*.js"
+    ]
+  }
 }

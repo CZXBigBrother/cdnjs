@@ -1,7 +1,7 @@
 {
   "name": "signet",
   "filename": "signet.min.js",
-  "version": "0.4.4",
+  "version": "0.4.7",
   "description": "Display a unique seal in the developer console of your page.",
   "homepage": "http://github.hubspot.com/signet",
   "keywords": [
@@ -25,5 +25,14 @@
       "type": "git",
       "url": "https://github.com/HubSpot/signet.git"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/HubSpot/signet.git",
+    "basePath": "",
+    "files": [
+      "signet.js",
+      "signet.min.js"
+    ]
+  }
 }

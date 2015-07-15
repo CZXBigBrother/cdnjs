@@ -20,5 +20,15 @@
       "type": "git",
       "url": "https://github.com/jasny/jquery.smartbanner"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/jasny/jquery.smartbanner.git",
+    "basePath": "",
+    "files": [
+      "jquery.smartbanner*.js",
+      "jquery.smartbanner*.css",
+      "dark_background_stripes.gif"
+    ]
+  }
 }

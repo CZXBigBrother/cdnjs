@@ -14,5 +14,14 @@
       "type": "git",
       "url": "git://github.com/Imaginea/uvCharts.git"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/Imaginea/uvCharts.git",
+    "basePath": "dist",
+    "files": [
+      "uvcharts.js",
+      "uvcharts.min.js"
+    ]
+  }
 }

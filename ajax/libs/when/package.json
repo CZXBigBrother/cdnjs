@@ -50,5 +50,13 @@
     {
       "name": "Scott Andrews"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/cujojs/when.git",
+    "basePath": "",
+    "files": [
+      "when.js"
+    ]
+  }
 }

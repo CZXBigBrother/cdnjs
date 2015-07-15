@@ -1,7 +1,7 @@
 {
   "name": "tooltipster",
   "filename": "js/jquery.tooltipster.min.js",
-  "version": "3.0.5",
+  "version": "3.3.0",
   "description": "Tooltipster is a jQuery tooltip plugin.",
   "homepage": "http://iamceege.github.io/tooltipster/",
   "keywords": [
@@ -23,5 +23,14 @@
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/iamceege/tooltipster.git",
+    "basePath": "",
+    "files": [
+      "js/*.js",
+      "css/**/*.css"
+    ]
+  }
 }

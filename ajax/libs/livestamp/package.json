@@ -21,5 +21,14 @@
       "type": "git",
       "url": "https://github.com/mattbradley/livestampjs.git"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/mattbradley/livestampjs.git",
+    "basePath": "",
+    "files": [
+      "livestamp.js",
+      "livestamp.min.js"
+    ]
+  }
 }

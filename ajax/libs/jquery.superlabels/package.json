@@ -21,5 +21,13 @@
       "type": "git",
       "url": "https://github.com/remybach/jQuery.superLabels.git"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/remybach/jQuery.superLabels.git",
+    "basePath": "",
+    "files": [
+      "jquery.superLabels*.js"
+    ]
+  }
 }

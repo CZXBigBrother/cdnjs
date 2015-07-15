@@ -30,5 +30,14 @@
     "scroll",
     "effect",
     "animation"
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/markdalgleish/stellar.js.git",
+    "basePath": "",
+    "files": [
+      "jquery.stellar.js",
+      "jquery.stellar.min.js"
+    ]
+  }
 }
