@@ -133,7 +133,7 @@ npm ERR! not ok code 0
 
 ## Pull request pre-flight checks
 
-* Have you comply with our conventions?
+* Have you complied with our conventions?
 * Have you followed the library directory structure?
 * Does a valid and accurate `package.json` exist for the library?
 * Have you minified JavaScript and CSS?

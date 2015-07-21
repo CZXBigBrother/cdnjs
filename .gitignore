@@ -11,6 +11,7 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/angular-smart-table/help/
 ajax/libs/atmosphere/javascript-project-*
 ajax/libs/waypoints/latest/
 ajax/libs/bPopup/er*

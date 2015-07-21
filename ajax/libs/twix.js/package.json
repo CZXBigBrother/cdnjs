@@ -1,7 +1,7 @@
 {
   "name": "twix.js",
   "filename": "twix.min.js",
-  "version": "0.3.0",
+  "version": "0.6.4",
   "description": "Twix.js allows you to work with date ranges",
   "homepage": "http://icambron.github.io/twix.js/",
   "author": "Isaac Cambron",
@@ -19,5 +19,16 @@
     {
       "type": "MIT"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/icambron/twix.js.git",
+    "basePath": "bin",
+    "files": [
+      "twix.js",
+      "locale.js",
+      "locale.min.js",
+      "twix.min.js"
+    ]
+  }
 }
