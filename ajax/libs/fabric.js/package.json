@@ -41,5 +41,8 @@
     "files": [
       "*.js"
     ]
-  }
+  },
+  "requiredFiles": [
+    "fabric.require.min.js"
+  ]
 }

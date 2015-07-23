@@ -1,6 +1,6 @@
 {
   "name": "clappr",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "An extensible media player for the web",
   "filename": "clappr.min.js",
   "repository": {

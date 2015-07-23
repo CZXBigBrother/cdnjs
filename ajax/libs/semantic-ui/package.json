@@ -1,7 +1,7 @@
 {
   "name": "semantic-ui",
   "filename": "semantic.min.js",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Semantic empowers designers and developers by creating a language for sharing UI",
   "homepage": "http://semantic-ui.com/",
   "keywords": [
@@ -19,7 +19,7 @@
     {
       "basePath": "/dist/",
       "files": [
-        "**"
+        "**/*"
       ]
     }
   ]

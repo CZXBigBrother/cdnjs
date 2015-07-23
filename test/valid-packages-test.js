@@ -80,7 +80,7 @@ packages.map(function (pkg) {
         });
         if (!valid) {
             assert.ok(valid,
-                [pkg_name(pkg) + " didn't parse as any known format:"].concat(
+                [pkg_name(pkg) + " is not a valid cdnjs package.json format:"].concat(
                     errors
                         .filter(function (schema) {
                             return schema !== null;
@@ -120,13 +120,26 @@ packages.map(function (pkg) {
 
     var targetPrefixes = new RegExp("^git://.+\.git$");
     package_vows[pname + ": autoupdate block is valid (if present)"] = function (pkg) {
-        var json = parse(pkg, true, true);
+        var json = parse(pkg, true, true),
+            fileMapPostfixes = new RegExp("\\*\\*$");
         if (json.autoupdate) {
             assert.ok(json.autoupdate.source == "git",
                 pkg_name(pkg) + ": Autoupdate source should be 'git', not " + json.autoupdate.source);
             assert.ok(targetPrefixes.test(json.autoupdate.target),
                 pkg_name(pkg) + ": Autoupdate target should match '" + targetPrefixes +
                 "', but is " + json.autoupdate.target);
+            for (var i in json.autoupdate.files) {
+                assert.ok(!fileMapPostfixes.test(json.autoupdate.files[i]),
+                    pkg_name(pkg) + ": fileMap should not end with ***");
+            }
+
+        } else if (json.npmFileMap) {
+            for (var i in json.npmFileMap) {
+                for (var j in json.npmFileMap[i].files) {
+                    assert.ok(!fileMapPostfixes.test(json.npmFileMap[i].files[j]),
+                        pkg_name(pkg) + ": fileMap should not end with ***");
+                }
+            }
         }
     }
     package_vows[pname + ": should not have both multiple auto-update configs"] = function(pkg) {

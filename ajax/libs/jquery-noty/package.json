@@ -27,7 +27,7 @@
     {
       "basePath": "/js/noty/",
       "files": [
-        "**"
+        "**/*"
       ]
     }
   ]
