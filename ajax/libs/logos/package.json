@@ -1,0 +1,13 @@
+{
+  "name": "logos",
+  "filename": "svg.svg",
+  "version": "0.2.0",
+  "description": "A collection of web development logos in SVG",
+  "author": "Gil Barbara <gilbarbara@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilbarbara/logos"
+  },
+  "license": "CC0-1.0",
+  "homepage": "http://gilbarbara.github.io/logos/"
+}
