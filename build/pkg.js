@@ -5,9 +5,11 @@ var mkdirp = require('mkdirp');
 var async = require('async');
 
 var packages = [];
-
-glob("ajax/libs/**/package.json", function (error, matches) {
+console.log('start');
+glob("ajax/libs/*/package.json", function (error, matches) {
+  console.log('glob pakcage.json');
   async.each(matches, function(item, callback){
+    console.log(item);
     var package = JSON.parse(fs.readFileSync(item, 'utf8'));
     delete package.main;
     delete package.scripts;
