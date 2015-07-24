@@ -25,5 +25,13 @@
       "type": "git",
       "url": "https://github.com/nemtsov/json-mask"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/nemtsov/json-mask.git",
+    "basePath": "build",
+    "files": [
+      "jsonMask*.js"
+    ]
+  }
 }
