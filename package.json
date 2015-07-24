@@ -1,41 +1,25 @@
 {
-  "author": "Ryan Kirkman (http://ryankirkman.com)",
-  "name": "cdnjs",
-  "description": "Our goal is to operate this CDN in a peer reviewed fashion.",
-  "version": "1.0.0",
-  "homepage": "http://www.cdnjs.com/",
+  "author": "WangSai",
+  "name": "BootCDN",
+  "description": "Chinese mirror of cdnjs.com",
+  "version": "0.0.1",
+  "homepage": "http://www.bootcdn.cn/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cdnjs/cdnjs.git"
+    "url": "git://github.com/bootcdn/cdnjs.git"
   },
   "scripts": {
-    "build": "./build/build.js",
-    "test": "vows"
+    "test": "No scripts!"
   },
   "license": "MIT",
-  "dependencies": {
-    "async": "~1.3",
-    "clean-css": "~3.3",
-    "colors": "~1.1",
-    "execSync": "~1.0",
-    "fs-extra": "~0.22.1",
-    "glob": "~5",
-    "is-there": "4.0.0",
-    "lodash": "^3.9",
-    "rss": "~1.1",
-    "superagent": "^1.2.0",
-    "tarball-extract": "~0.0",
-    "uglify-js": "~2.4",
-    "underscore": "~1"
+  "engines": {
+    "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "JSV": "~4.0.2",
-    "jslint": ">=0.8.1",
-    "mkdirp": "^0.5.1",
-    "vows-si": "~0.7.1"
-  },
-  "optionalDependencies": {},
-  "engines": {
-    "node": "^0.10"
+    "async": "^1.4.0",
+    "globby": "^2.1.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "semver": "^5.0.1"
   }
 }
