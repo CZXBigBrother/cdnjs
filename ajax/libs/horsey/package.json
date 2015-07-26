@@ -6,6 +6,11 @@
   "authors": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
   "description": "Progressive and customizable autocomplete component",
   "license": "MIT",
+  "keywords": [
+    "horsey",
+    "autocomplete",
+    "fuzzy-search"
+  ],
   "repositories": [
     {
       "type": "git",
