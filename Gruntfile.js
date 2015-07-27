@@ -4,6 +4,14 @@ var glob = require('globby');
 var async = require('async');
 var semver = require('semver');
 var natcompare = require('./build/natcompare.js');
+var exec = require('child_process').exec;
+var execSync = require('child_process').execSync;
+var spawn = require('child_process').spawn;
+var fs = require('fs');
+var streamBuffers = require('stream-buffers');
+var UPYUN = require('upyun');
+var async = require('async');
+var mime = require('mime');
 
 /*global module:false*/
 module.exports = function(grunt) {
@@ -11,34 +19,9 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     // Task configuration.
-    jshint: {
-      options: {
-        curly: true,
-        eqeqeq: true,
-        immed: true,
-        latedef: true,
-        newcap: true,
-        noarg: true,
-        sub: true,
-        undef: true,
-        unused: true,
-        boss: true,
-        eqnull: true,
-        globals: {
-          jQuery: true
-        }
-      },
-      gruntfile: {
-        src: 'Gruntfile.js'
-      },
-      lib_test: {
-        src: ['lib/**/*.js', 'test/**/*.js']
-      }
-    }
   });
 
   // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-contrib-jshint');
 
   // Default task.
   grunt.registerTask('default', ['packages']);
@@ -112,6 +95,76 @@ module.exports = function(grunt) {
 
       done();
     });
+  });
+
+
+  grunt.registerTask('upload-diff', 'diff of 2 commits and upload files', function(){
+    var done = this.async();
+    var commit1 = grunt.file.exists('hash.json') ? grunt.file.readJSON('hash.json') : '';
+    var commit2 = execSync('git rev-parse HEAD').toString().replace(/[\r\n\s]/g, '');
+
+    var cmd = [
+    'diff',
+    '--name-only',
+    '--diff-filter=ACMR',
+    commit1,
+    commit2
+    ];
+
+    var diff = spawn('git', cmd, {
+      env: process.env, 
+      cwd: process.cwd
+    });
+    var dataStream = new streamBuffers.WritableStreamBuffer();
+
+    diff.stdout.on('data', function(data){
+      dataStream.write(data);
+    });
+
+
+    diff.on('exit', function(code){
+      if(code === null) done(new Error(code));
+
+      var str = dataStream.getContentsAsString();
+      var files = str.split('\n');
+
+      upload(files, function(err){
+        if(err) return done(err);
+
+        grunt.file.write('hash.json', JSON.stringify(commit2)); //保存已经上传到的 commit 
+      });
+    });
+
+    function upload(files, done){
+      if(!grunt.file.exists('upyun.json')) return done(new Error('No upyun account!'));
+
+      var upyunAccount = grunt.file.readJSON('upyun.json');
+      var upyun = new UPYUN(upyunAccount.bucket, upyunAccount.operator, upyunAccount.password);
+
+      grunt.log.ok('Mybe upload ', files.length, ' files');
+      async.filterSeries(files, /*10,*/ function(item, callback){
+        if(!/^ajax\/libs\//.test(item)) {
+          grunt.log.error('File: ', item, ' no need upload');
+          return callback(false);
+        }
+
+        var remote = item.replace(/^ajax\/libs/i, '');
+        upyun.uploadFile(remote, item, mime.lookup(item), true, {mkdir: true}, function(error, result){
+          if(error || (result && result.error)) {
+            grunt.log.error('When upload file: ' + remote + ' faild!');
+            grunt.log.error(error || JSON.stringify(result));
+            return done(error || (result && result.error));
+          }
+
+          grunt.log.ok('Upload file: ' + remote, ' OK'.green);
+
+          callback(true);
+        });
+      }, function(results){
+        grunt.log.ok('Uploaded ', results.length, ' files');
+        done();
+      });
+    }
   });
 
 };
