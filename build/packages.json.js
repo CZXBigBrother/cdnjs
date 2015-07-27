@@ -119,9 +119,7 @@ fs.readFile('../new-website/public/packages.min.json', 'utf8', function(err, dat
           temp.files = glob.sync(version + "/**/*", {nodir:true});
           for (var i = 0; i < temp.files.length; i++){
             var filespec = temp.files[i];
-            temp.files[i] = {
-              name: filespec.replace(version + "/", "")
-            };
+            temp.files[i] = filespec.replace(version + "/", "");
           }
         }
         package.assets.push(temp);
