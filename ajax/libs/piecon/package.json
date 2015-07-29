@@ -21,5 +21,13 @@
       "type": "github",
       "url": "https://github.com/lipka/piecon"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/lipka/piecon.git",
+    "basePath": "",
+    "files": [
+      "piecon*.js"
+    ]
+  }
 }

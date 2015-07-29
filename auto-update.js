@@ -8,7 +8,9 @@ var path = require("path"),
     request = require("superagent"),
     async = require("async"),
     tarball = require('tarball-extract'),
-    colors = require('colors')
+    colors = require('colors'),
+    isThere = require("is-there"),
+    libMatch = '*';
 
 colors.setTheme({
   prompt: 'cyan',
@@ -252,7 +254,11 @@ exports.run = function(){
     console.log('Looking for npm enabled libraries...');
 
     // load up those files
-    var packages = glob.sync("./ajax/libs/*/package.json");
+    if (isThere('./ajax/libs/' + args[1] + '/package.json')) {
+        var packages = glob.sync("./ajax/libs/" + args[1]+ "/package.json");
+    } else {
+        var packages = glob.sync("./ajax/libs/*/package.json");
+    }
     packages = _(packages).map(function (pkg) {
         var parsedPkg = parse(pkg);
         return (parsedPkg.npmName && parsedPkg.npmFileMap) ? parsedPkg : null;
@@ -277,7 +283,8 @@ exports.invalidNpmName = invalidNpmName;
 
 var args = process.argv.slice(2);
 if(args.length > 0 && args[0] == 'run'){
-    exports.run()
+    exports.run();
+
 } else {
     console.log('to start, pass the "run" arg'.prompt)
 }
