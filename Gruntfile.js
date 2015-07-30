@@ -167,4 +167,35 @@ module.exports = function(grunt) {
     }
   });
 
+
+  grunt.registerTask('check-google-font', 'Check google font in css files', function(){
+    var done = this.async();
+
+    glob("ajax/libs/semantic-ui/**/*.css", function(error, matches){
+      grunt.log.ok('Total ', matches.length, ' css files');
+
+      matches.forEach(function(item){
+        var content = grunt.file.read(item);
+
+        var regex = /@import\s[^;]+fonts\.googleapis\.com[^;]+;/gi;
+
+        if(regex.test(content)) {
+          content = content.replace(regex, '');
+
+          grunt.log.ok('File: ', item.green, ' processed');
+          grunt.file.write(item, content);
+        }
+
+        // var fonts = content.match(regex);
+
+        // if(fonts) {
+        //   // grunt.log.ok(item);
+        //   console.log(fonts);
+        // }
+      });
+
+      done();
+    });
+  });
+
 };
