@@ -1,0 +1,33 @@
+{
+  "name": "reactable",
+  "version": "0.10.2",
+  "description": "Fast, flexible, simple data tables in React",
+  "filename": "reactable.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glittershark/reactable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glittershark/reactable/issues"
+  },
+  "author": "Griffin Smith",
+  "license": "MIT",
+  "homepage": "https://github.com/glittershark/reactable",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "table",
+    "data-tables"
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/glittershark/reactable.git",
+    "basePath": "build",
+    "files": [
+      "reactable*.js"
+    ]
+  }
+}

@@ -12,6 +12,14 @@ var path = require("path"),
     isThere = require("is-there"),
     libMatch = '*';
 
+
+if(!fs.existsSync('/run/shm')) {
+  tempDirPath = path.join(__dirname, 'temp');
+} else {
+  fs.mkdirsSync('/run/shm/cdnjs_NPM_temp');
+  tempDirPath = '/run/shm/cdnjs_NPM_temp';
+}
+
 colors.setTheme({
   prompt: 'cyan',
   info: 'grey',
@@ -148,6 +156,7 @@ var processNewVersion = function(pkg, version){
             if(files.length == 0){
               //usually old versions have this problem
               var msg = (pkg.npmName + "@" + version + " - couldnt find file in npmFileMap.") + (" Doesnt exist: " + path.join(libContentsPath, file)).info;
+              mkdirp(libPath);
               console.log(msg);
             }
 
@@ -159,7 +168,7 @@ var processNewVersion = function(pkg, version){
                 var copyPart = path.relative(libContentsPath, extractFilePath);
                 var copyPath = path.join(libPath, copyPart)
                 fs.mkdirsSync(path.dirname(copyPath))
-                fs.renameSync(extractFilePath, copyPath);
+                fs.copySync(extractFilePath, copyPath);
                 updated = true;
             });
         });
@@ -177,7 +186,7 @@ var processNewVersion = function(pkg, version){
 
 
 var getPackageTempPath = function(pkg, version){
-    return path.normalize(path.join(__dirname, 'temp', pkg.name, version))
+    return path.normalize(path.join(tempDirPath, pkg.name, version))
 }
 var getPackagePath = function(pkg, version){
     return path.normalize(path.join(__dirname, 'ajax', 'libs', pkg.name, version));
@@ -246,10 +255,10 @@ var updateLibrary = function (pkg, cb) {
 }
 
 exports.run = function(){
-    fs.removeSync(path.join(__dirname, 'temp'))
+    fs.removeSync(path.join(tempDirPath, '/*'))
 
     process.on('uncaughtException', function(){
-      fs.removeSync(path.join(__dirname, 'temp'))
+      fs.removeSync(path.join(tempDirPath, '/*'))
     })
     console.log('Looking for npm enabled libraries...');
 
@@ -269,7 +278,7 @@ exports.run = function(){
     async.each(packages, updateLibrary, function(err) {
         var msg = 'Auto Update Completed - ' + newVersionCount + ' versions were updated';
         console.log(msg.prompt);
-        fs.removeSync(path.join(__dirname, 'temp'))
+        fs.removeSync(path.join(tempDirPath, '/*'))
     });
 }
 exports.updateLibrary = updateLibrary;
