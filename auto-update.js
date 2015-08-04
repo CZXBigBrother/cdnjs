@@ -263,7 +263,7 @@ exports.run = function(){
     console.log('Looking for npm enabled libraries...');
 
     // load up those files
-    if (isThere('./ajax/libs/' + args[1] + '/package.json')) {
+    if (args.length === 2 && isThere('./ajax/libs/' + args[1] + '/package.json')) {
         var packages = glob.sync("./ajax/libs/" + args[1]+ "/package.json");
     } else {
         var packages = glob.sync("./ajax/libs/*/package.json");
