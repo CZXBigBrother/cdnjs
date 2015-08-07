@@ -123,7 +123,7 @@ module.exports = function(grunt) {
 
 
     diff.on('exit', function(code){
-      if(code === null) done(new Error(code));
+      if(code === null) return done(new Error(code));
 
       var str = dataStream.getContentsAsString();
       var files = str.split('\n');
