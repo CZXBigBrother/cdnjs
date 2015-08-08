@@ -10,7 +10,9 @@ var path = require("path"),
     tarball = require('tarball-extract'),
     colors = require('colors'),
     isThere = require("is-there"),
-    libMatch = '*';
+    libMatch = '*',
+    stable = require('semver-stable'),
+    semver = require('semver');
 
 
 if(!fs.existsSync('/run/shm')) {
@@ -177,9 +179,11 @@ var processNewVersion = function(pkg, version){
       newVersionCount++;
         var libPatha =path.normalize(path.join(__dirname, 'ajax', 'libs', pkg.name, 'package.json'));
         console.log('------------'.red, libPatha.green);    
-        pkg.version = version;
+        if (stable.is(version) && semver.gt(version, pkg.version)) {
+          pkg.version = version;
 
-        fs.writeFileSync(libPatha, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
+          fs.writeFileSync(libPatha, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
+        }
     }
     return errors;
 }
