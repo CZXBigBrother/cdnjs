@@ -11,6 +11,8 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/angular-leaflet-directive/delete/
+ajax/libs/angular-leaflet-directive/remove/
 ajax/libs/angular-smart-table/help/
 ajax/libs/atmosphere/javascript-project-*
 ajax/libs/waypoints/latest/
@@ -94,6 +96,7 @@ ajax/libs/*/*/**/*.html
 ajax/libs/*/*/**/*.nupkg
 ajax/libs/*/*/**/*.amd
 ajax/libs/*/*/**/*.zip
+ajax/libs/*/*/**/*.gz
 ajax/libs/*/*/**/*.rb
 ajax/libs/*/*/**/*.xap
 ajax/libs/*/*/**/*.tmSnippet
@@ -101,7 +104,6 @@ ajax/libs/*/*/**/*.plist
 ajax/libs/*/*/**/*.handlebars
 ajax/libs/*/*/**/*.gs
 ajax/libs/*/*/**/*.php
-ajax/libs/*/*/**/*.txt
 ajax/libs/*/*/**/*.ls
 ajax/libs/*/*/**/*.less
 ajax/libs/*/*/**/*LICENSE

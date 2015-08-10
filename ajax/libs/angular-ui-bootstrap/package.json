@@ -12,7 +12,7 @@
     "AngularUI"
   ],
   "filename": "ui-bootstrap-tpls.min.js",
-  "version": "0.13.2",
+  "version": "0.13.3",
   "repositories": [
     {
       "type": "git",

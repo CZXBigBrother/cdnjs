@@ -158,7 +158,7 @@ var processNewVersion = function(pkg, version){
             if(files.length == 0){
               //usually old versions have this problem
               var msg = (pkg.npmName + "@" + version + " - couldnt find file in npmFileMap.") + (" Doesnt exist: " + path.join(libContentsPath, file)).info;
-              mkdirp(libPath);
+              fs.mkdirsSync(libPath);
               console.log(msg);
             }
 
@@ -261,9 +261,6 @@ var updateLibrary = function (pkg, cb) {
 exports.run = function(){
     fs.removeSync(path.join(tempDirPath, '/*'))
 
-    process.on('uncaughtException', function(){
-      fs.removeSync(path.join(tempDirPath, '/*'))
-    })
     console.log('Looking for npm enabled libraries...');
 
     // load up those files

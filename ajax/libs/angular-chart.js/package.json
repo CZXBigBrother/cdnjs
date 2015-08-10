@@ -1,6 +1,6 @@
 {
   "name": "angular-chart.js",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "filename": "angular-chart.min.js",
   "description": "An angular.js wrapper for Chart.js",
   "main": "dist/angular-chart.js",
@@ -18,7 +18,7 @@
     "target": "git://github.com/jtblin/angular-chart.js.git",
     "basePath": "dist",
     "files": [
-      "**/*"
+      "**/*.+(css|js|map)"
     ]
   }
 }
