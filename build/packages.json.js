@@ -92,10 +92,16 @@ fs.readFile('../new-website/public/packages.min.json', 'utf8', function(err, dat
       delete package.main;
       delete package.scripts;
       delete package.bugs;
-      delete package.autoupdate;
       delete package.npmFileMap;
       delete package.dependencies;
       delete package.devDependencies;
+      if (package.npmName) {
+        package.autoupdate = 'npm';
+      } else if (package.autoupdate) {
+        package.autoupdate = package.autoupdate.source;
+      } else {
+        delete package.autoupdate;
+      }
       package.assets = Array();
       var oldVersions = Array();
       var pkgSave;
