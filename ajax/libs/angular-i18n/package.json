@@ -2,7 +2,7 @@
   "name": "angular-i18n",
   "filename": "angular-locale_en-us.min.js",
   "description": "Locales for AngularJS",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "homepage": "http://angularjs.org",
   "keywords": [
     "framework",
@@ -24,8 +24,5 @@
     "files": [
       "angular-locale_*.js"
     ]
-  },
-  "requiredFile": [
-    "angular-locale_*.min.js"
-  ]
+  }
 }
