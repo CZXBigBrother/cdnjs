@@ -3,6 +3,10 @@
   "filename": "react.min.js",
   "version": "0.13.3",
   "description": "React is a JavaScript library for building user interfaces.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/react"
+  },
   "keywords": [
     "react",
     "jsx",

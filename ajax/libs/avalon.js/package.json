@@ -3,7 +3,7 @@
   "filename": "avalon.min.js",
   "title": "avalon",
   "description": "A lightweight,high-performance and easy-to-learn javascript MVVM framework",
-  "version": "1.4.6",
+  "version": "1.4.6.1",
   "main": "avalon.js",
   "homepage": "http://avalonjs.github.io/",
   "author": {
