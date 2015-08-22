@@ -31,5 +31,9 @@
   "issues": "https://github.com/morr/jquery.appear/issues",
   "dependencies": {
     "jquery": ">=1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morr/jquery.appear"
   }
 }

@@ -17,5 +17,9 @@
       "tooltip.js",
       "tooltip.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HubSpot/tooltip.git"
   }
 }

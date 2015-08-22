@@ -15,12 +15,18 @@
   "author": "Caolan McMahon",
   "repository": {
     "type": "git",
-    "url": "http://github.com/caolan/async.git"
+    "url": "https://github.com/caolan/async.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/caolan/async/raw/master/LICENSE"
+      "url": "https://github.com/caolan/async/raw/master/LICENSE"
     }
+  ],
+  "keywords": [
+    "async",
+    "callback",
+    "utility",
+    "module"
   ]
 }

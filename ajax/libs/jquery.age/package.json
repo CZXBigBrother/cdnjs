@@ -33,5 +33,9 @@
       "jquery.age.js"
     ]
   },
-  "filename": "jquery.age.min.js"
+  "filename": "jquery.age.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ksylvest/jquery-age.git"
+  }
 }

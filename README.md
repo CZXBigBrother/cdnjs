@@ -123,7 +123,7 @@ If you're updating the library outside of `npm` or the GitHub browser, you shoul
 
 If you run `npm test` and see no errors, all is well; resolve any errors before you raise your pull request and re-run `npm test` to ensure everything works.
 
-If you see an error then run `npm install` before running `npm test:
+If you see an error then run `npm install` before running `npm test`:
 
 ```
 vows: command not found

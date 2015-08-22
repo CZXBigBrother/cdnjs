@@ -32,5 +32,9 @@
     "files": [
       "jquery.bpopup*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dinbror/bpopup.git"
   }
 }

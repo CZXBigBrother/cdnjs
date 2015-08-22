@@ -43,5 +43,9 @@
     "files": [
       "papaparse.*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mholt/PapaParse.git"
   }
 }

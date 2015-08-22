@@ -11,6 +11,8 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/rangy/1.3.0-alpha.*
+ajax/libs/rangy/1.3.0-beta.*
 ajax/libs/angular-leaflet-directive/delete/
 ajax/libs/angular-leaflet-directive/remove/
 ajax/libs/angular-smart-table/help/

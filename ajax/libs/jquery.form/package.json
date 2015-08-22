@@ -43,5 +43,9 @@
     "files": [
       "jquery.form.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/malsup/form.git"
   }
 }

@@ -17,5 +17,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adobe-webplatform/Snap.svg.git"
   }
 }

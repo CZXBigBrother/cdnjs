@@ -18,13 +18,13 @@
     "url": "git://github.com/playlyfe/aegis.git"
   },
   "bugs": {
-    "url": "http://github.com/playlyfe/aegis/issues"
+    "url": "https://github.com/playlyfe/aegis/issues"
   },
   "contributors": [
     {
       "name": "Kumar Harsh",
       "email": "khs@playlyfe.com",
-      "url": "http://github.com/kumarharsh"
+      "url": "https://github.com/kumarharsh"
     }
   ],
   "licenses": [

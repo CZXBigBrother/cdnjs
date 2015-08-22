@@ -17,5 +17,9 @@
       "tether.min.js",
       "/css/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HubSpot/tether.git"
   }
 }

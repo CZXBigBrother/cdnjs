@@ -56,7 +56,7 @@
     "url": "git://github.com/jquery/globalize.git"
   },
   "bugs": {
-    "url": "http://github.com/jquery/globalize/issues"
+    "url": "https://github.com/jquery/globalize/issues"
   },
   "dependencies": {
     "cldrjs": "0.3.4"

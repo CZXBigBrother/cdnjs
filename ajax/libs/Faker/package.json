@@ -6,7 +6,7 @@
   "author": "Marak Squires <marak.squires@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/Marak/Faker.js.git"
+    "url": "https://github.com/Marak/Faker.js.git"
   },
   "engine": [
     "node >=0.1.90"

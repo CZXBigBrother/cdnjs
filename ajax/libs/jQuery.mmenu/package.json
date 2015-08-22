@@ -26,5 +26,9 @@
       "css/**/*",
       "js/**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BeSite/jQuery.mmenu.git"
   }
 }

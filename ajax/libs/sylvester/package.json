@@ -15,7 +15,7 @@
     "node": ">=0.4.0"
   },
   "main": "./lib/sylvester",
-  "bugs": "http://github.com/jcoglan/sylvester/issues",
+  "bugs": "https://github.com/jcoglan/sylvester/issues",
   "licenses": [
     {
       "type": "MIT",

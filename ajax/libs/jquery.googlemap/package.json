@@ -39,5 +39,9 @@
     "files": [
       "jquery.googlemap.*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tilotiti/jQuery-Google-Map.git"
   }
 }

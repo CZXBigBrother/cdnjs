@@ -27,5 +27,9 @@
       "*.woff",
       "*.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/github/octicons.git"
   }
 }

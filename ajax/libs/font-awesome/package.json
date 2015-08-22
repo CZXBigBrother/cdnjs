@@ -17,5 +17,9 @@
       "css/*",
       "fonts/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FortAwesome/Font-Awesome.git"
   }
 }

@@ -12,7 +12,7 @@
   "author": "Jonathan Sharp (http://jdsharp.com/)",
   "homepage": "http://code.appendto.com/plugins/jquery-mockjax/",
   "bugs": {
-    "web": "http://github.com/jakerella/jquery-mockjax/issues"
+    "web": "https://github.com/jakerella/jquery-mockjax/issues"
   },
   "licenses": [
     {
@@ -27,7 +27,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "http://github.com/jakerella/jquery-mockjax.git"
+      "url": "https://github.com/jakerella/jquery-mockjax.git"
     }
   ],
   "autoupdate": {

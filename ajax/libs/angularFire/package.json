@@ -3,7 +3,7 @@
   "filename": "angularfire.min.js",
   "description": "AngularFire is a set of Firebase bindings for AngularJS. It allows you to easily plug in a backend powered by Firebase to your Angular based webapp.",
   "version": "0.5.0",
-  "homepage": "http://github.com/firebase/angularFire",
+  "homepage": "https://github.com/firebase/angularFire",
   "keywords": [
     "realtime",
     "websockets",

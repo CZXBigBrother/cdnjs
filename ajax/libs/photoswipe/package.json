@@ -30,5 +30,9 @@
   "requiredFiles": [
     "photoswipe.min.css",
     "default-skin/default-skin.min.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dimsemenov/PhotoSwipe.git"
+  }
 }

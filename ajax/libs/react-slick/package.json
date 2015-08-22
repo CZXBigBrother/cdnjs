@@ -1,7 +1,7 @@
 {
   "name": "react-slick",
   "filename": "react-slick.min.js",
-  "version": "0.6.6",
+  "version": "0.6.9",
   "description": " React port of slick carousel",
   "main": "index.jsx",
   "author": "Kiran Abburi",

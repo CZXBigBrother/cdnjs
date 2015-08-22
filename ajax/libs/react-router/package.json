@@ -19,5 +19,9 @@
     "files": [
       "*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rackt/react-router.git"
   }
 }

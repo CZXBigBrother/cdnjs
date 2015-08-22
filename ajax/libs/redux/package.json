@@ -20,7 +20,7 @@
     "edit",
     "webpack"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Dan Abramov <dan.abramov@me.com> (https://github.com/gaearon)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rackt/redux/issues"

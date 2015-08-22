@@ -17,5 +17,9 @@
   "author": {
     "name": "Cameron Spear",
     "web": "http://cameronspear.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CWSpear/twitter-bootstrap-hover-dropdown"
   }
 }

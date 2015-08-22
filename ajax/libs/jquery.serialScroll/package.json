@@ -48,5 +48,9 @@
     "files": [
       "*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flesler/jquery.serialScroll.git"
   }
 }

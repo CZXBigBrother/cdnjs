@@ -37,5 +37,9 @@
     "files": [
       "jquery.matchHeight*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liabru/jquery-match-height.git"
   }
 }

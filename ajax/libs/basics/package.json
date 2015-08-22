@@ -15,5 +15,9 @@
     "files": [
       "basics.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/haydenbleasel/basics.git"
   }
 }

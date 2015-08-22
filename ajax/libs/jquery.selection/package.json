@@ -22,5 +22,9 @@
       "type": "MIT",
       "url": "https://raw.github.com/madapaja/jquery.selection/master/src/jquery.selection.js"
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madapaja/jquery.selection"
+  }
 }

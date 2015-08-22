@@ -40,5 +40,9 @@
       "jquery.scrollify.js",
       "jquery.scrollify.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukehaas/Scrollify.git"
   }
 }

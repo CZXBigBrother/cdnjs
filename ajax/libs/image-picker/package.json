@@ -33,5 +33,9 @@
   },
   "requiredFiles": [
     "image-picker.min.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rvera/image-picker.git"
+  }
 }

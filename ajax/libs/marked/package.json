@@ -10,7 +10,7 @@
   "preferGlobal": true,
   "repository": "git://github.com/chjj/marked.git",
   "homepage": "https://github.com/chjj/marked",
-  "bugs": "http://github.com/chjj/marked/issues",
+  "bugs": "https://github.com/chjj/marked/issues",
   "keywords": [
     "markdown",
     "markup",

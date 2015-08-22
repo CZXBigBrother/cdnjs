@@ -35,5 +35,9 @@
     "files": [
       "sevenSeg.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BrandonLWhite/sevenSeg.js.git"
   }
 }

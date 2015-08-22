@@ -9,7 +9,7 @@
     "README.md",
     "dist"
   ],
-  "bugs": "http://github.com/box/t3js/issues",
+  "bugs": "https://github.com/box/t3js/issues",
   "homepage": "http://t3js.org",
   "license": "Apache-2.0",
   "repository": {

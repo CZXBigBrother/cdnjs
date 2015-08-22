@@ -26,5 +26,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lvoogdt/Leaflet.awesome-markers.git"
   }
 }

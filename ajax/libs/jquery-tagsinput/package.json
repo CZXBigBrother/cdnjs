@@ -9,6 +9,10 @@
     "jquery",
     "tags"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xoxco/jQuery-Tags-Input"
+  },
   "maintainers": [
     {
       "name": "XOXCO",

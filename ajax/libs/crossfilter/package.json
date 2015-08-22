@@ -21,14 +21,14 @@
   "maintainers": [
     {
       "name": "Tom Carden",
-      "url": "http://github.com/RandomEtc"
+      "url": "https://github.com/RandomEtc"
     }
   ],
   "homepage": "http://square.github.com/crossfilter/",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/square/crossfilter.git"
+    "url": "https://github.com/square/crossfilter.git"
   },
   "npmName": "crossfilter",
   "npmFileMap": [
