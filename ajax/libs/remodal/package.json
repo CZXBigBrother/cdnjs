@@ -24,9 +24,6 @@
     "type": "git",
     "url": "https://github.com/VodkaBears/Remodal.git"
   },
-  "bugs": {
-    "url": "https://github.com/VodkaBears/Remodal/issues"
-  },
   "author": {
     "name": "Ilya Makarov",
     "email": "dfrost.00@gmail.com",

@@ -8,7 +8,6 @@
     "aws"
   ],
   "homepage": "https://github.com/aws/aws-sdk-js",
-  "bugs": "https://github.com/aws/aws-sdk-js/issues",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/aws/aws-sdk-js.git",

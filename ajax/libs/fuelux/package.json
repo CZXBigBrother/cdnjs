@@ -24,9 +24,6 @@
     "name": "ExactTarget",
     "url": "http://code.exacttarget.com"
   },
-  "bugs": {
-    "url": "https://github.com/ExactTarget/fuelux/issues"
-  },
   "license": {
     "type": "BSD-3-Clause"
   },

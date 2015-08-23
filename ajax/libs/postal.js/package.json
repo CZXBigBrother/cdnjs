@@ -10,38 +10,6 @@
     "url": "git://github.com/postaljs/postal.js.git"
   },
   "author": "Jim Cowart (http://freshbrewedcode.com/jimcowart)",
-  "contributors": [
-    {
-      "name": "Jim Cowart",
-      "email": "WhyNotJustComment@OnMyBlog.com",
-      "url": "http://freshbrewedcode.com/jimcowart"
-    },
-    {
-      "name": "Alex Robson",
-      "email": "WhyNotJustComment@OnMyBlog.com",
-      "url": "http://freshbrewedcode.com/alexrobson"
-    },
-    {
-      "name": "Nicholas Cloud",
-      "email": "WhyNotJustComment@OnMyBlog.com",
-      "url": "http://nicholascloud.com"
-    },
-    {
-      "name": "Doug Neiner",
-      "email": "WhyNotJustComment@OnMyBlog.com",
-      "url": "http://dougneiner.com"
-    },
-    {
-      "name": "Jonathan Creamer",
-      "email": "WhyNotJustComment@OnMyBlog.com",
-      "url": "http://freshbrewedcode.com/jonathancreamer"
-    },
-    {
-      "name": "Elijah Manor",
-      "email": "WhyNotJustComment@OnMyBlog.com",
-      "url": "http://www.elijahmanor.com"
-    }
-  ],
   "keywords": [
     "pub/sub",
     "pub",
@@ -54,9 +22,6 @@
     "broker",
     "envelope"
   ],
-  "engines": {
-    "node": ">=0.4.0"
-  },
   "dependencies": {
     "underscore": ">=1.1.7"
   },

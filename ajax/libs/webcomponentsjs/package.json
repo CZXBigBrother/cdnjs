@@ -1,7 +1,6 @@
 {
   "name": "webcomponentsjs",
   "title": "webcomponentsjs",
-  "main": "webcomponents.js",
   "filename": "webcomponents.min.js",
   "version": "0.7.12",
   "homepage": "http://webcomponents.org",
@@ -12,7 +11,6 @@
     "webcomponents"
   ],
   "license": "BSD",
-  "ignore": [],
   "repositories": [
     {
       "type": "git",

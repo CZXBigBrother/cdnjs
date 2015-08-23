@@ -21,7 +21,6 @@
     "type": "git",
     "url": "git://github.com/es-shims/es6-shim.git"
   },
-  "main": "es6-shim",
   "npmName": "es6-shim",
   "npmFileMap": [
     {

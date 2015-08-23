@@ -20,9 +20,6 @@
     "mota",
     "js"
   ],
-  "bugs": {
-    "url": "https://github.com/motapc97/MotaJS/issues"
-  },
   "license": "MIT",
   "npmName": "motajs",
   "npmFileMap": [

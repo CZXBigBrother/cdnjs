@@ -2,7 +2,6 @@
   "name": "codemirror",
   "filename": "codemirror.min.js",
   "version": "5.6.0",
-  "main": "codemirror.js",
   "description": "In-browser code editing made bearable",
   "licenses": [
     {
@@ -13,7 +12,6 @@
   "directories": {
     "lib": "./lib"
   },
-  "bugs": "https://github.com/codemirror/CodeMirror/issues",
   "keywords": [
     "JavaScript",
     "CodeMirror",

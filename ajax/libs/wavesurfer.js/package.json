@@ -9,7 +9,6 @@
   },
   "author": "",
   "license": "CC-BY 3.0",
-  "bugs": "https://github.com/katspaugh/wavesurfer.js/issues",
   "homepage": "https://github.com/katspaugh/wavesurfer.js",
   "autoupdate": {
     "source": "git",

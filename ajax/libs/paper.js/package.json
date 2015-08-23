@@ -20,10 +20,6 @@
     "paper",
     "paper.js"
   ],
-  "contributors": [
-    "J�rg Lehni <juerg@scratchdisk.com> (http://scratchdisk.com)",
-    "Jonathan Puckey <jonathan@studiomoniker.com> (http://studiomoniker.com)"
-  ],
   "repositories": [
     {
       "type": "git",

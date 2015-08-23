@@ -6,7 +6,6 @@
   "authors": [
     "David Mauro <email@dmauro.com>"
   ],
-  "main": "keypress.js",
   "keywords": [
     "keypress"
   ],

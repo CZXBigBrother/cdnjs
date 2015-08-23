@@ -35,7 +35,6 @@
     }
   ],
   "homepage": "http://mottie.github.com/tablesorter/",
-  "bugs": "https://github.com/Mottie/tablesorter/issues",
   "docs": "http://mottie.github.com/tablesorter/docs/index.html",
   "demo": "https://github.com/Mottie/tablesorter/wiki",
   "dependencies": {

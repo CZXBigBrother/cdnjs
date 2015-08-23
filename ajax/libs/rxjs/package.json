@@ -28,7 +28,6 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   ],
-  "bugs": "https://github.com/Reactive-Extensions/RxJS/issues",
   "jam": {
     "main": "dist/rx.all.js"
   },
@@ -40,6 +39,5 @@
     "Events",
     "Rx",
     "RxJS"
-  ],
-  "main": "rx.node.js"
+  ]
 }

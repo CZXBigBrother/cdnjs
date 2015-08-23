@@ -3,7 +3,6 @@
   "filename": "kwargs.js",
   "version": "1.0.1",
   "description": "Smart argument management for javascript",
-  "main": "kwargs.js",
   "keywords": [
     "kwargs",
     "arguments",

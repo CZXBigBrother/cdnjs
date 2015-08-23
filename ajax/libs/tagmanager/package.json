@@ -34,12 +34,6 @@
       "url": "https://github.com/johnnyshields"
     }
   ],
-  "files": [
-    "README.md",
-    "tagmanager.css",
-    "tagmanager.js",
-    "license.txt"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/max-favilli/tagmanager"

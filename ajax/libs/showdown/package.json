@@ -8,22 +8,6 @@
     "markdown",
     "converter"
   ],
-  "contributors": [
-    "John Gruber",
-    "John Fraser",
-    "Corey Innis",
-    "Remy Sharp",
-    "Konstantin Käfer",
-    "Roger Braun",
-    "Dominic Tarr",
-    "Cat Chen",
-    "Titus Stone",
-    "Rob Sutherland",
-    "Pavel Lang",
-    "Ben Combee",
-    "Adam Backstrom",
-    "Pascal Deschênes"
-  ],
   "repositories": [
     {
       "type": "git",

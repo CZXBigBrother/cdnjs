@@ -10,9 +10,6 @@
   },
   "author": "Federico Zivolo",
   "license": "https://github.com/FezVrasta/bootstrap-material-design/blob/master/LICENSE.md",
-  "bugs": {
-    "url": "https://github.com/FezVrasta/bootstrap-material-design/issues"
-  },
   "homepage": "https://github.com/FezVrasta/bootstrap-material-design",
   "autoupdate": {
     "source": "git",

@@ -15,9 +15,6 @@
     "url": "https://github.com/jgm/commonmark.js.git"
   },
   "author": "John MacFarlane",
-  "bugs": {
-    "url": "https://github.com/jgm/commonmark.js/issues"
-  },
   "license": "BSD-2-Clause",
   "autoupdate": {
     "source": "git",
