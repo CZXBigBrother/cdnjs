@@ -1,6 +1,6 @@
 {
   "name": "clappr",
-  "version": "0.2.6",
+  "version": "0.2.8",
   "description": "An extensible media player for the web",
   "filename": "clappr.min.js",
   "repository": {
@@ -23,7 +23,7 @@
     "target": "git://github.com/globocom/clappr.git",
     "basePath": "dist",
     "files": [
-      "**/*"
+      "**/clappr*"
     ]
   }
 }

@@ -14,5 +14,9 @@
       "name": "Torstein Hønsi (Highslide Software)",
       "web": "http://highsoft.com/"
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highslide-software/highcharts.com"
+  }
 }

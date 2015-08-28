@@ -1,7 +1,7 @@
 {
   "name": "showdown",
   "filename": "showdown.min.js",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A JavaScript port of Markdown",
   "homepage": "https://github.com/showdownjs/showdown",
   "keywords": [
