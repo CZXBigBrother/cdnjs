@@ -28,12 +28,6 @@
   "homepage": "https://github.com/mar10/jquery-ui-contextmenu",
   "demo": "http://wwwendt.de/tech/demo/jquery-contextmenu/demo/",
   "docs": "https://github.com/mar10/jquery-ui-contextmenu/blob/master/README.md",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/mar10/jquery-ui-contextmenu/blob/master/MIT-LICENSE.txt"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1.7"
   },
@@ -46,5 +40,6 @@
         "jquery.ui-contextmenu.min.js.map"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

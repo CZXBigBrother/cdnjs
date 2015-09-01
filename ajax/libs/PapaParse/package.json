@@ -29,12 +29,6 @@
     "name": "Matthew Holt",
     "url": "https://twitter.com/mholt6"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
   "filename": "papaparse.min.js",
   "autoupdate": {
     "source": "git",
@@ -47,5 +41,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/mholt/PapaParse.git"
-  }
+  },
+  "license": "MIT"
 }

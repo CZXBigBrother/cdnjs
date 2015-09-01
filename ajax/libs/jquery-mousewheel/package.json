@@ -18,12 +18,6 @@
     "email": "hello.brandon@aaron.sh",
     "url": "http://brandon.aaron.sh/"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/jquery/jquery-mousewheel/master/LICENSE.txt"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
@@ -38,5 +32,6 @@
       "jquery.mousewheel.js",
       "jquery.mousewheel.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

@@ -5,11 +5,6 @@
   "description": "scaleApp is a JavaScript framework for scalable and maintainable One-Page-Applications",
   "author": "Markus Kohlhase <mail@markus-kohlhase.de>",
   "homepage": "http://www.scaleapp.org",
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/flosse/scaleApp.git"
@@ -20,5 +15,6 @@
       "email": "mail@markus-kohlhase.de",
       "web": "https://github.com/flosse/"
     }
-  ]
+  ],
+  "license": "MIT"
 }

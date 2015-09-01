@@ -13,12 +13,6 @@
     "metrics"
   ],
   "author": "GoDaddy <devs@locu.com>",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/Locu/chronology/master/LICENSE"
-    }
-  ],
   "homepage": "https://chronology.github.io",
   "filename": "kronos.min.js",
   "autoupdate": {
@@ -29,5 +23,6 @@
       "kronos.js",
       "kronos.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

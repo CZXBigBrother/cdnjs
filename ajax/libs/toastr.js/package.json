@@ -20,12 +20,6 @@
     "type": "git",
     "url": "git://github.com/CodeSeven/toastr.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/CodeSeven/toastr.git",
@@ -33,5 +27,6 @@
     "files": [
       "*"
     ]
-  }
+  },
+  "license": "MIT"
 }

@@ -16,12 +16,6 @@
     "charts",
     "charting"
   ],
-  "licenses": [
-    {
-      "type": "WTFPL",
-      "url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/gionkunz/chartist-js.git",
@@ -32,5 +26,6 @@
       "chartist.min.js.map",
       "chartist.min.css"
     ]
-  }
+  },
+  "license": "WTFPL"
 }

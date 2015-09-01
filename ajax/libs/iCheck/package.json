@@ -9,12 +9,6 @@
     "email": "info@fronteed.com",
     "homepage": "http://fronteed.com/"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://en.wikipedia.org/wiki/MIT_License"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1.7"
   },
@@ -48,5 +42,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/fronteed/iCheck"
-  }
+  },
+  "license": "MIT"
 }

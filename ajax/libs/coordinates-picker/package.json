@@ -15,12 +15,6 @@
     }
   ],
   "homepage": "https://github.com/barinbritva/coordinates-picker",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/barinbritva/coordinates-picker/blob/master/LICENSE"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/barinbritva/coordinates-picker.git",
@@ -29,5 +23,6 @@
       "coordinates-picker.js",
       "coordinates-picker.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

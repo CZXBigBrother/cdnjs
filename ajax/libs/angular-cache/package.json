@@ -13,12 +13,6 @@
     "url": "http://www.pseudobry.com",
     "email": "jason.dobry@gmail.com"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jmdobry/angular-cache/blob/master/LICENSE"
-    }
-  ],
   "npmName": "angular-cache",
   "npmFileMap": [
     {
@@ -29,5 +23,6 @@
       ]
     }
   ],
-  "postinstall": "node node_modules/grunt-cli/bin/grunt build"
+  "postinstall": "node node_modules/grunt-cli/bin/grunt build",
+  "license": "MIT"
 }

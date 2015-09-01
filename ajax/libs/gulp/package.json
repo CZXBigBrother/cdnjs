@@ -18,10 +18,5 @@
     "asset",
     "pipeline"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/gulpjs/gulp/master/LICENSE"
-    }
-  ]
+  "license": "MIT"
 }

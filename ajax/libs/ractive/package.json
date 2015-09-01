@@ -13,11 +13,6 @@
   ],
   "homepage": "http://ractivejs.org",
   "filename": "ractive.min.js",
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ractivejs/ractive.git"
@@ -31,5 +26,6 @@
         "ractive*.map"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

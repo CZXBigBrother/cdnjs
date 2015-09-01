@@ -31,10 +31,5 @@
     "type": "git",
     "url": "https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest/blob/master/LICENSE.txt"
-    }
-  ]
+  "license": "MIT"
 }

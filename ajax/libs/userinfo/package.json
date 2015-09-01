@@ -20,12 +20,6 @@
       "url": "git://github.com/vdurmont/userinfo-js.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/vdurmont/userinfo-js/blob/master/LICENSE.md"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/vdurmont/userinfo-js.git",
@@ -33,5 +27,6 @@
     "files": [
       "userinfo.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

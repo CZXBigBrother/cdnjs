@@ -14,11 +14,6 @@
     "type": "git",
     "url": "https://github.com/icambron/twix.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/icambron/twix.js.git",
@@ -29,5 +24,6 @@
       "locale.min.js",
       "twix.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

@@ -26,18 +26,9 @@
     "url": "https://github.com/iskitz/ajile.git"
   },
   "licenses": [
-    {
-      "type": "MPL-1.1",
-      "url": "http://ajile.net/learn/Ajile-License.htm"
-    },
-    {
-      "type": "LGPL-2.1",
-      "url": "http://ajile.net/learn/Ajile-License.htm"
-    },
-    {
-      "type": "GPL-2.0",
-      "url": "http://ajile.net/learn/Ajile-License.htm"
-    }
+    "MPL-1.1",
+    "LGPL-2.1",
+    "GPL-2.0"
   ],
   "autoupdate": {
     "source": "git",

@@ -30,12 +30,6 @@
     "email": "rxaviers@gmail.com",
     "url": "http://rafael.xavier.blog.br"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jzaefferer/grunt-css/blob/master/LICENSE-MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/rxaviers/cldrjs.git",
@@ -45,5 +39,6 @@
       "cldr.min.js",
       "/cldr/*"
     ]
-  }
+  },
+  "license": "MIT"
 }

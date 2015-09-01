@@ -12,12 +12,6 @@
     "type": "git",
     "url": "git://github.com/jakiestfu/Snap.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
   "keywords": [
     "mobile",
     "menu",
@@ -32,5 +26,6 @@
       "snap.js",
       "snap.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

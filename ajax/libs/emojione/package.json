@@ -27,12 +27,6 @@
       "url": "https://github.com/Ranks/emojione.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "(CC-BY-SA-4.0 and MIT)",
-      "url": "https://github.com/Ranks/emojione/blob/master/LICENSE.md"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Ranks/emojione.git",
@@ -44,5 +38,9 @@
       "assets/css/emojione.min.css",
       "lib/js/emojione.min.js"
     ]
+  },
+  "license": {
+    "type": "(CC-BY-SA-4.0 and MIT)",
+    "url": "https://github.com/Ranks/emojione/blob/master/LICENSE.md"
   }
 }

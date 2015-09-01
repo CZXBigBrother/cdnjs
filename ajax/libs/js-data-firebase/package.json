@@ -12,12 +12,6 @@
     "url": "http://www.pseudobry.com",
     "email": "jason.dobry@gmail.com"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/js-data/js-data-firebase/blob/master/LICENSE"
-    }
-  ],
   "keywords": [
     "data",
     "datastore",
@@ -38,5 +32,6 @@
       ]
     }
   ],
-  "filename": "js-data-firebase.min.js"
+  "filename": "js-data-firebase.min.js",
+  "license": "MIT"
 }

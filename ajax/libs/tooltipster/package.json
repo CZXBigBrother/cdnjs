@@ -18,12 +18,6 @@
     "type": "git",
     "url": "git://github.com/iamceege/tooltipster.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/iamceege/tooltipster.git",
@@ -32,5 +26,6 @@
       "js/*.js",
       "css/**/*.css"
     ]
-  }
+  },
+  "license": "MIT"
 }

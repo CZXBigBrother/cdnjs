@@ -13,9 +13,5 @@
     "type": "git",
     "url": "https://github.com/jacomyal/sigma.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ]
+  "license": "MIT"
 }

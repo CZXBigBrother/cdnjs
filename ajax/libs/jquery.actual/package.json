@@ -15,12 +15,6 @@
   "dependencies": {
     "jquery": ">=1.2.3"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "LICENSE.txt"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dreamerslab/jquery.actual.git"
@@ -35,5 +29,6 @@
       "jquery.actual.min.js",
       "package.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

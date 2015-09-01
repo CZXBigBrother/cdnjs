@@ -23,9 +23,5 @@
     "type": "git",
     "url": "https://github.com/szimek/signature_pad.git"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ]
+  "license": "MIT"
 }

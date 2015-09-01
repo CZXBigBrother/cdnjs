@@ -22,12 +22,6 @@
       "url": "http://azproduction.ru/"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
   "homepage": "https://github.com/azproduction/jquery.notification",
   "demo": "http://azproduction.ru/jquery.notification/",
   "dependencies": {
@@ -36,5 +30,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/azproduction/jquery.notification"
-  }
+  },
+  "license": "MIT"
 }

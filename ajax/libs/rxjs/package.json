@@ -22,12 +22,6 @@
     "type": "git",
     "url": "https://github.com/Reactive-Extensions/RxJS.git"
   },
-  "licenses": [
-    {
-      "type": "Apache License, Version 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-    }
-  ],
   "jam": {
     "main": "dist/rx.all.js"
   },
@@ -39,5 +33,9 @@
     "Events",
     "Rx",
     "RxJS"
-  ]
+  ],
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+  }
 }

@@ -15,10 +15,8 @@
       "url": "https://github.com/bgrins/spectrum.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "Brian Grinstead",
-      "url": "https://github.com/bgrins/spectrum/blob/master/LICENSE"
-    }
-  ]
+  "license": {
+    "type": "Brian Grinstead",
+    "url": "https://github.com/bgrins/spectrum/blob/master/LICENSE"
+  }
 }

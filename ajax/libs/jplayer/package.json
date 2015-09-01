@@ -25,12 +25,6 @@
   "dependencies": {
     "jquery": ">1.7.0"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
   "npmName": "jplayer",
   "npmFileMap": [
     {
@@ -44,5 +38,6 @@
         "**/*.swf"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

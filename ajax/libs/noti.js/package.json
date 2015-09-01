@@ -5,12 +5,6 @@
   "version": "1.0.2",
   "author": "j-l-n (https://github.com/j-l-n)",
   "homepage": "https://github.com/j-l-n/noti.js",
-  "licenses": [
-    {
-      "type": "GNU GPL v2",
-      "url": "http://www.gnu.org/licenses/gpl-2.0.txt"
-    }
-  ],
   "keywords": [
     "noti.js",
     "notification",
@@ -25,5 +19,9 @@
       "type": "git",
       "url": "https://github.com/j-l-n/noti.js.git"
     }
-  ]
+  ],
+  "license": {
+    "type": "GNU GPL v2",
+    "url": "http://www.gnu.org/licenses/gpl-2.0.txt"
+  }
 }

@@ -12,11 +12,6 @@
     "type": "git",
     "url": "git://github.com/cgross/angular-busy.git"
   },
-  "licenses": [
-    {
-      "url": "https://github.com/cgross/angular-busy/blob/master/LICENSE"
-    }
-  ],
   "dependencies": {},
   "keywords": [
     "angularjs",
@@ -33,5 +28,8 @@
       "angular-busy.css",
       "angular-busy.min.css"
     ]
+  },
+  "license": {
+    "url": "https://github.com/cgross/angular-busy/blob/master/LICENSE"
   }
 }

@@ -20,12 +20,6 @@
     "json-schema",
     "schema"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/Textalk/angular-schema-form/master/LICENSE"
-    }
-  ],
   "npmName": "angular-schema-form",
   "npmFileMap": [
     {

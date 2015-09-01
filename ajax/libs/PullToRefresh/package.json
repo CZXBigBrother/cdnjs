@@ -14,12 +14,6 @@
     "type": "git",
     "url": "https://github.com/SimonWaldherr/PullToRefresh.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://simon.waldherr.eu/license/mit/"
-    }
-  ],
   "dependencies": {},
   "keywords": [
     "webkit",
@@ -28,5 +22,6 @@
     "webapp",
     "css3",
     "html5"
-  ]
+  ],
+  "license": "MIT"
 }

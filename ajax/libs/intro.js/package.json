@@ -25,12 +25,6 @@
       "url": "https://github.com/usablica/intro.js.git"
     }
   ],
-  "licenses": [
-    {
-      "name": "MIT",
-      "url": "https://github.com/usablica/intro.js#license"
-    }
-  ],
   "npmName": "intro.js",
   "npmFileMap": [
     {
@@ -48,5 +42,9 @@
       ]
     }
   ],
-  "homepage": "http://usablica.github.com/intro.js/"
+  "homepage": "http://usablica.github.com/intro.js/",
+  "license": {
+    "name": "MIT",
+    "url": "https://github.com/usablica/intro.js#license"
+  }
 }

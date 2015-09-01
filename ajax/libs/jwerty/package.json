@@ -22,12 +22,6 @@
       "web": "http://keithcirkel.co.uk"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/keithamus/jwerty"
@@ -43,5 +37,6 @@
   "requiredFiles": [
     "jwerty.canBridge.min.js",
     "jwerty.enderBridge.min.js"
-  ]
+  ],
+  "license": "MIT"
 }

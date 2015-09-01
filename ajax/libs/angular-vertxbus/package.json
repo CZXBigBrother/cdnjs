@@ -10,7 +10,7 @@
     }
   ],
   "description": "AngularJS facade and service acting as a Vert.x SockJS client",
-  "version": "2.0.4",
+  "version": "3.0.0",
   "filename": "angular-vertxbus.min.js",
   "keywords": [
     "angular",
@@ -28,10 +28,5 @@
       "url": "https://github.com/knalli/angular-vertxbus"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/knalli/angular-vertxbus/blob/master/LICENSE"
-    }
-  ]
+  "license": "MIT"
 }

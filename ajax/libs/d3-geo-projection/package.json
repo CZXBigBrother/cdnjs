@@ -27,10 +27,8 @@
       ]
     }
   ],
-  "licenses": [
-    {
-      "type": "BSD",
-      "url": "https://github.com/d3/d3-geo-projection/blob/master/LICENSE"
-    }
-  ]
+  "license": {
+    "type": "BSD",
+    "url": "https://github.com/d3/d3-geo-projection/blob/master/LICENSE"
+  }
 }

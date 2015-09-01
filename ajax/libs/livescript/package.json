@@ -12,12 +12,6 @@
   ],
   "author": "George Zahariev <z@georgezahariev.com>",
   "homepage": "http://livescript.net",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/gkz/LiveScript/master/LICENSE"
-    }
-  ],
   "directories": {
     "lib": "./lib",
     "bin": "./bin"
@@ -42,5 +36,6 @@
     "files": [
       "*.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

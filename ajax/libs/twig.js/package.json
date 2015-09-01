@@ -5,16 +5,15 @@
   "version": "0.8.4",
   "homepage": "https://github.com/justjohn/twig.js",
   "filename": "twig.min.js",
-  "licenses": [
-    {
-      "type": "BSD-2-Clause",
-      "url": "https://raw.github.com/justjohn/twig.js/master/LICENSE"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/justjohn/twig.js.git"
   },
+  "keywords": [
+    "template",
+    "engine",
+    "twig"
+  ],
   "bin": {
     "twigjs": "./bin/twigjs"
   },
@@ -31,5 +30,6 @@
       "twig.min.js",
       "twig.min.js.map"
     ]
-  }
+  },
+  "license": "BSD-2-Clause"
 }

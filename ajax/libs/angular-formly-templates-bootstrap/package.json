@@ -7,12 +7,6 @@
     "type": "git",
     "url": "git://github.com/formly-js/angular-formly-templates-bootstrap.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/formly-js/angular-formly-templates-bootstrap/master/LICENSE"
-    }
-  ],
   "description": "Angular-Formly plugin which outputs bootstrap compatible form fields.",
   "npmName": "angular-formly-templates-bootstrap",
   "npmFileMap": [
@@ -23,5 +17,6 @@
       ]
     }
   ],
-  "filename": "angular-formly-templates-bootstrap.min.js"
+  "filename": "angular-formly-templates-bootstrap.min.js",
+  "license": "MIT"
 }

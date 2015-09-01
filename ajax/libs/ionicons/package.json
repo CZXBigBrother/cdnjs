@@ -13,11 +13,6 @@
       "url": "https://github.com/driftyco/ionicons.git"
     }
   ],
-  "licenses": [
-    {
-      "name": "MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/driftyco/ionicons.git",
@@ -28,5 +23,8 @@
       "png/*/*",
       "src/*"
     ]
+  },
+  "license": {
+    "name": "MIT"
   }
 }

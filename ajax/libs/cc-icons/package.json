@@ -13,14 +13,8 @@
     "icons"
   ],
   "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    },
-    {
-      "type": "CC-BY-3.0",
-      "url": "http://creativecommons.org/licenses/by/3.0/"
-    }
+    "MIT",
+    "CC-BY-3.0"
   ],
   "author": {
     "name": "richardba",

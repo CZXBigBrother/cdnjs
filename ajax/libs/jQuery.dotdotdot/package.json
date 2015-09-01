@@ -20,10 +20,7 @@
     "jquery": ">= 1.4.3"
   },
   "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://en.wikipedia.org/wiki/MIT_License"
-    },
+    "MIT",
     {
       "type": "GPL",
       "url": "http://en.wikipedia.org/wiki/GNU_General_Public_License"

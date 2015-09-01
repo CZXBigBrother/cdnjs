@@ -11,12 +11,6 @@
     "name": "Jason Dobry",
     "email": "jason.dobry@gmail.com"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/js-data/js-data-localstorage/blob/master/LICENSE"
-    }
-  ],
   "keywords": [
     "data",
     "datastore",
@@ -37,5 +31,6 @@
       ]
     }
   ],
-  "filename": "js-data-localstorage.min.js"
+  "filename": "js-data-localstorage.min.js",
+  "license": "MIT"
 }

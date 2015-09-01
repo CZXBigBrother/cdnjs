@@ -8,12 +8,6 @@
     "type": "git",
     "url": "git://github.com:pid/speakingurl.git"
   },
-  "licenses": [
-    {
-      "type": "BSD",
-      "url": "https://raw.github.com/pid/speakingurl/master/LICENSE"
-    }
-  ],
   "keywords": [
     "slug",
     "permalink",
@@ -89,5 +83,9 @@
         "speakingurl.min.js"
       ]
     }
-  ]
+  ],
+  "license": {
+    "type": "BSD",
+    "url": "https://raw.github.com/pid/speakingurl/master/LICENSE"
+  }
 }

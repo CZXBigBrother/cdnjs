@@ -16,12 +16,6 @@
       "url": "git://github.com/daneden/Toast"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/daneden/Toast/blob/master/LICENSE.txt"
-    }
-  ],
   "keywords": [
     "toast",
     "css"

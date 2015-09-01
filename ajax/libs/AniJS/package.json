@@ -23,12 +23,6 @@
       "url": "https://github.com/anijs/anijs.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/anijs/anijs/blob/master/LICENSE"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/anijs/anijs.git",
@@ -36,5 +30,6 @@
     "files": [
       "**/*"
     ]
-  }
+  },
+  "license": "MIT"
 }

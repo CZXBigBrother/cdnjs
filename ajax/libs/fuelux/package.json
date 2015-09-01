@@ -24,9 +24,7 @@
     "name": "ExactTarget",
     "url": "http://code.exacttarget.com"
   },
-  "license": {
-    "type": "BSD-3-Clause"
-  },
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "git://github.com/ExactTarget/fuelux.git"

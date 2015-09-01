@@ -10,12 +10,6 @@
       "url": "http://sprymedia.co.uk"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://datatables.net/license/mit"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1.7"
   },
@@ -44,5 +38,6 @@
       "js/*",
       "images/*.png"
     ]
-  }
+  },
+  "license": "MIT"
 }

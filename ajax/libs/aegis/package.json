@@ -17,12 +17,6 @@
     "type": "git",
     "url": "git://github.com/playlyfe/aegis.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/playlyfe/aegis.git",
@@ -35,5 +29,6 @@
       "fonts/Lyfeicons.svg",
       "fonts/Lyfeicons.eot"
     ]
-  }
+  },
+  "license": "MIT"
 }

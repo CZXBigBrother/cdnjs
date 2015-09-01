@@ -27,10 +27,7 @@
     }
   ],
   "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://malsup.github.com/mit-license.txt"
-    },
+    "MIT",
     {
       "type": "GPL",
       "url": "http://malsup.github.com/gpl-license-v2.txt"

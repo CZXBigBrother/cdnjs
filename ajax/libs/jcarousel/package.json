@@ -21,12 +21,6 @@
       "url": "https://github.com/jsor/jcarousel.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/jsor/jcarousel/master/LICENSE"
-    }
-  ],
   "namespace": [
     "$.jcarousel",
     "$.fn.jcarousel"
@@ -38,5 +32,6 @@
     "files": [
       "*.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

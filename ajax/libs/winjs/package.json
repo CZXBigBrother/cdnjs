@@ -15,12 +15,6 @@
       "url": "https://github.com/winjs/winjs"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/winjs/winjs/blob/master/License.txt"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/winjs/winjs-bower.git",
@@ -31,5 +25,6 @@
       "js/*.js",
       "js/en-US/*.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

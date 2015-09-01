@@ -13,12 +13,6 @@
   "filename": "es5-shim.min.js",
   "description": "ECMAScript 5 compatibility shims for legacy JavaScript engines",
   "homepage": "https://github.com/es-shims/es5-shim/",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/es-shims/es5-shim/raw/master/LICENSE"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/es-shims/es5-shim.git"
@@ -39,5 +33,6 @@
       "iphone/6.0..latest",
       "android-browser/4.2"
     ]
-  }
+  },
+  "license": "MIT"
 }

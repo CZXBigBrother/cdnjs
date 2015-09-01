@@ -17,12 +17,6 @@
   "homepage": "http://brandonlwhite.github.io/sevenSeg.js",
   "demo": "http://brandonlwhite.github.io/sevenSeg.js",
   "docs": "http://brandonlwhite.github.io/sevenSeg.js",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://brandonlwhite.github.io/sevenSeg.js/MIT-LICENSE.txt"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1.6",
     "ui.core": ">=1.10.3"
@@ -38,5 +32,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/BrandonLWhite/sevenSeg.js.git"
-  }
+  },
+  "license": "MIT"
 }

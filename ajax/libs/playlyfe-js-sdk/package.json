@@ -22,12 +22,6 @@
     "type": "git",
     "url": "git://github.com/playlyfe/playlyfe-js-sdk.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/playlyfe/playlyfe-js-sdk.git",
@@ -36,5 +30,6 @@
       "playlyfe-js-sdk.js",
       "playlyfe-js-sdk.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

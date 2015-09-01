@@ -48,5 +48,6 @@
     "files": [
       "hprose-html5.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

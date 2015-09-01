@@ -9,12 +9,6 @@
     "html",
     "editor"
   ],
-  "licenses": [
-    {
-      "type": "Apache License 2.0",
-      "url": "http://www.apache.org/licenses/"
-    }
-  ],
   "author": {
     "name": "Jos de Jong",
     "web": "https://github.com/wjosdejong"
@@ -42,5 +36,9 @@
         "jsoneditor.map"
       ]
     }
-  ]
+  ],
+  "license": {
+    "type": "Apache License 2.0",
+    "url": "http://www.apache.org/licenses/"
+  }
 }

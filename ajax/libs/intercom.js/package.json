@@ -16,15 +16,13 @@
       "url": "https://github.com/diy/intercom.js.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "Apache",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ],
   "keywords": [
     "intercom.js",
     "intercom",
     "js"
-  ]
+  ],
+  "license": {
+    "type": "Apache",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  }
 }

@@ -38,12 +38,6 @@
   },
   "version": "0.6.2",
   "repository": "git://github.com/dhruvaray/backbone-associations.git",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/dhruvaray/backbone-associations/blob/master/LICENSE.txt"
-    }
-  ],
   "github": "https://github.com/dhruvaray/backbone-associations/",
   "npmName": "backbone-associations",
   "npmFileMap": [
@@ -54,5 +48,6 @@
         "backbone-associations.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

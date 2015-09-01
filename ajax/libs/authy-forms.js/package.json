@@ -21,10 +21,5 @@
       "url": "https://github.com/authy/authy-form-helpers"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/authy/authy-form-helpers/blob/master/LICENSE/license.txt"
-    }
-  ]
+  "license": "MIT"
 }

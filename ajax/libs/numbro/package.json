@@ -21,11 +21,6 @@
     "type": "git",
     "url": "https://github.com/foretagsplatsen/numbro"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/foretagsplatsen/numbro.git",
@@ -34,5 +29,6 @@
       "**/*"
     ]
   },
-  "filename": "numbro.min.js"
+  "filename": "numbro.min.js",
+  "license": "MIT"
 }

@@ -5,11 +5,6 @@
   "description": "Social Business Toolkit minified&aggregated files",
   "author": "IBM",
   "homepage": "http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&name=Social%20Business%20Toolkit%20SDK",
-  "licenses": [
-    {
-      "type": "Apache 2.0"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/OpenNTF/SocialSDK.git"
@@ -31,5 +26,8 @@
       "email": "lorenzob@ie.ibm.com",
       "web": "https://github.com/LorenzoBoccaccia"
     }
-  ]
+  ],
+  "license": {
+    "type": "Apache 2.0"
+  }
 }

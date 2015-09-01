@@ -19,12 +19,6 @@
     "type": "git",
     "url": "https://github.com/millermedeiros/crossroads.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "dependencies": {
     "signals": "<2.0"
   },
@@ -40,5 +34,6 @@
         "crossroads.min.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

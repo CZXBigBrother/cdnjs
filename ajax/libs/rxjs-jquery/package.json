@@ -13,12 +13,6 @@
     "type": "git",
     "url": "https://github.com/Reactive-Extensions/rxjs-jquery.git"
   },
-  "licenses": [
-    {
-      "type": "Apache License, Version 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-    }
-  ],
   "keywords": [
     "Reactive",
     "LINQ",
@@ -26,5 +20,9 @@
     "jQuery",
     "RxJS",
     "Rx"
-  ]
+  ],
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+  }
 }

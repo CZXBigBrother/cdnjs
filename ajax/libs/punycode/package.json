@@ -19,12 +19,6 @@
     "url",
     "domain"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://mths.be/mit"
-    }
-  ],
   "author": {
     "name": "Mathias Bynens",
     "email": "mathias@qiwi.be",
@@ -49,5 +43,6 @@
   "directories": {
     "doc": "docs",
     "test": "tests"
-  }
+  },
+  "license": "MIT"
 }

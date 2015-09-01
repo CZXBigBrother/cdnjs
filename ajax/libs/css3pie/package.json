@@ -17,14 +17,8 @@
     }
   ],
   "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "https://github.com/lojjic/PIE/blob/master/LICENSE-APACHE2.txt"
-    },
-    {
-      "type": "GPL-2.0",
-      "url": "https://github.com/lojjic/PIE/blob/master/LICENSE-GPL2.txt"
-    }
+    "Apache-2.0",
+    "GPL-2.0"
   ],
   "repositories": [
     {

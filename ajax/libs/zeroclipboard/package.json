@@ -14,12 +14,6 @@
     "clippy"
   ],
   "homepage": "http://zeroclipboard.org/",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/zeroclipboard/zeroclipboard/blob/master/LICENSE"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zeroclipboard/zeroclipboard.git"
@@ -33,5 +27,6 @@
         "ZeroClipboard.*"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

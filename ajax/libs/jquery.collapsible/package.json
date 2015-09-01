@@ -13,16 +13,14 @@
     "div"
   ],
   "version": "1.2",
-  "licenses": [
-    {
-      "type": "BSD",
-      "url": "http://www.snyderplace.com/collapsible/license.txt"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
       "url": "git://github.juven14/Collapsible.git"
     }
-  ]
+  ],
+  "license": {
+    "type": "BSD",
+    "url": "http://www.snyderplace.com/collapsible/license.txt"
+  }
 }

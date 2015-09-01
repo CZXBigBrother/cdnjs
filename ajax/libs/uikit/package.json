@@ -16,12 +16,6 @@
       "url": "git://github.com/uikit/uikit"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/uikit/uikit/blob/master/LICENSE.md"
-    }
-  ],
   "keywords": [
     "uikit",
     "css",
@@ -36,5 +30,6 @@
       "js/**/*",
       "fonts/*"
     ]
-  }
+  },
+  "license": "MIT"
 }

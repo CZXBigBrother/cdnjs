@@ -10,12 +10,6 @@
     "ua",
     "useragent"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://mths.be/mit"
-    }
-  ],
   "author": {
     "name": "John-David Dalton",
     "email": "john@fusejs.com",
@@ -49,5 +43,6 @@
         "platform.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

@@ -18,12 +18,6 @@
     "type": "git",
     "url": "https://github.com/angular-ui/ui-router.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/angular-ui/ui-router/blob/master/LICENSE"
-    }
-  ],
   "dependencies": {},
   "npmName": "angular-ui-router",
   "npmFileMap": [
@@ -40,5 +34,6 @@
     "ui",
     "angular-ui",
     "ui-router"
-  ]
+  ],
+  "license": "MIT"
 }

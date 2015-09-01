@@ -3,12 +3,6 @@
   "filename": "minified/polyfiller.js",
   "version": "1.15.8",
   "title": "Webshims - polyfills jQuery with many HTML5 features",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/aFarkas/webshim/master/MIT-LICENSE.txt"
-    }
-  ],
   "author": {
     "name": "Alexander Farkas",
     "url": "https://github.com/aFarkas/"
@@ -45,5 +39,6 @@
     "files": [
       "**/*"
     ]
-  }
+  },
+  "license": "MIT"
 }

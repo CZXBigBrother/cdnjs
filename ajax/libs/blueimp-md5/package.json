@@ -23,12 +23,6 @@
     "type": "git",
     "url": "git://github.com/blueimp/JavaScript-MD5.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
   "npmName": "blueimp-md5",
   "npmFileMap": [
     {
@@ -38,5 +32,6 @@
         "js/md5.min.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

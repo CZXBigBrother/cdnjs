@@ -17,12 +17,6 @@
       "url": "https://github.com/subkit/angularsubkit.js"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/subkit/angularsubkit.js/master/LICENSE"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/SubKit/angularsubkit.js.git",
@@ -31,5 +25,6 @@
       "angularsubkit.min.js",
       "angularsubkit.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

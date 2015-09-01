@@ -11,12 +11,6 @@
       "url": "git://github.com/yamlcss/yaml"
     }
   ],
-  "licenses": [
-    {
-      "type": "CC",
-      "url": "https://github.com/yamlcss/yaml/blob/master/License.txt"
-    }
-  ],
   "keywords": [
     "yaml",
     "css",
@@ -29,5 +23,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "license": {
+    "type": "CC",
+    "url": "https://github.com/yamlcss/yaml/blob/master/License.txt"
   }
 }

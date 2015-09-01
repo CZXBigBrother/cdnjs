@@ -9,10 +9,7 @@
     "gzip"
   ],
   "homepage": "https://github.com/nodeca/pako",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/nodeca/pako/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/nodeca/pako.git"

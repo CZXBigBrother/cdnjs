@@ -20,12 +20,6 @@
     "Steps",
     "Plugin"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/rstaib/jquery-steps.git",
@@ -33,5 +27,6 @@
     "files": [
       "jquery.steps*.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

@@ -24,12 +24,6 @@
       "email": "M8ch88l@gmail.com"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/MikeMcl/bignumber.js/master/LICENCE"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
@@ -46,5 +40,6 @@
         "bignumber.js.map"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

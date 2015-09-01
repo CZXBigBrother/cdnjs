@@ -9,11 +9,6 @@
     "move"
   ],
   "homepage": "http://visionmedia.github.io/move.js/",
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
@@ -28,5 +23,6 @@
       "move.min.js",
       "move.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

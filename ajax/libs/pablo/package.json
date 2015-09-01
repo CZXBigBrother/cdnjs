@@ -13,17 +13,12 @@
     "type": "git",
     "url": "git://github.com/premasagar/pablo.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "keywords": [
     "SVG",
     "AMD",
     "graphics",
     "vectors",
     "games"
-  ]
+  ],
+  "license": "MIT"
 }

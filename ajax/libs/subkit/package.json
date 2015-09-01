@@ -17,12 +17,6 @@
       "url": "https://github.com/subkit/subkit.js"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/subkit/subkit.js/master/LICENSE"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/SubKit/subkit.js.git",
@@ -31,5 +25,6 @@
       "subkit.min.js",
       "subkit.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

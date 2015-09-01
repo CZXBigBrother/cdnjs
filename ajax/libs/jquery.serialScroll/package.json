@@ -26,12 +26,6 @@
       "url": "http://flesler.blogspot.com"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/flesler/jquery.serialScroll/blob/master/LICENSE"
-    }
-  ],
   "homepage": "https://github.com/flesler/jquery.serialScroll",
   "docs": "http://flesler.blogspot.com/2008/02/jqueryserialscroll.html",
   "download": "https://github.com/flesler/jquery.serialScroll/releases",
@@ -51,5 +45,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/flesler/jquery.serialScroll.git"
-  }
+  },
+  "license": "MIT"
 }

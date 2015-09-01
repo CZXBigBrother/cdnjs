@@ -30,5 +30,6 @@
         "backbone.localStorage.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

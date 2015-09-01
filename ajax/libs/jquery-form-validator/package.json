@@ -17,12 +17,6 @@
   "homepage": "http://formvalidator.net",
   "demo": "http://formvalidator.net",
   "download": "http://formvalidator.net",
-  "licenses": [
-    {
-      "type": "Dual licensed under the MIT or GPL Version 2 licenses",
-      "url": "http://www.gnu.org/licenses/gpl-2.0.html"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1.5"
   },
@@ -38,5 +32,9 @@
       "*.js",
       "*.css"
     ]
+  },
+  "license": {
+    "type": "Dual licensed under the MIT or GPL Version 2 licenses",
+    "url": "http://www.gnu.org/licenses/gpl-2.0.html"
   }
 }

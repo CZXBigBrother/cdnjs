@@ -13,13 +13,11 @@
     "type": "git",
     "url": "git://github.com/eligrey/classList.js.git"
   },
-  "licenses": [
-    {
-      "type": "Public Domain"
-    }
-  ],
   "keywords": [
     "classlist",
     "polyfill"
-  ]
+  ],
+  "license": {
+    "type": "Public Domain"
+  }
 }

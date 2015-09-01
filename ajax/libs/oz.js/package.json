@@ -13,12 +13,6 @@
     "type": "git",
     "url": "git://github.com/dexteryy/OzJS.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "keywords": [
     "AMD",
     "oz",
@@ -31,5 +25,6 @@
     "files": [
       "oz.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

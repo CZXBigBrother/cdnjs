@@ -16,10 +16,8 @@
       "web": "http://highsoft.com/"
     }
   ],
-  "licenses": [
-    {
-      "type": "Creative Commons Attribution-NonCommercial 3.0 License.",
-      "url": "http://creativecommons.org/licenses/by-nc/3.0/"
-    }
-  ]
+  "license": {
+    "type": "Creative Commons Attribution-NonCommercial 3.0 License.",
+    "url": "http://creativecommons.org/licenses/by-nc/3.0/"
+  }
 }

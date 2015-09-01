@@ -19,10 +19,5 @@
       "url": "https://github.com/angular-ui/angular-ui-OLDREPO"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/angular-ui/angular-ui-OLDREPO/blob/master/LICENSE"
-    }
-  ]
+  "license": "MIT"
 }

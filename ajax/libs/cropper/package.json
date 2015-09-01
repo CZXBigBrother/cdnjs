@@ -24,10 +24,7 @@
     "type": "git",
     "url": "https://github.com/fengyuanchen/cropper.git"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/fengyuanchen/cropper/blob/master/LICENSE.md"
-  },
+  "license": "MIT",
   "dependencies": {
     "jquery": ">= 1.9.0"
   },

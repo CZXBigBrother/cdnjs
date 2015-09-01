@@ -19,12 +19,6 @@
       "url": "http://lukehaas.me"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/lukehaas/Scrollify/blob/master/LICENSE"
-    }
-  ],
   "homepage": "http://projects.lukehaas.me/scrollify",
   "docs": "https://github.com/lukehaas/Scrollify",
   "download": "https://github.com/lukehaas/Scrollify",
@@ -43,5 +37,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/lukehaas/Scrollify.git"
-  }
+  },
+  "license": "MIT"
 }

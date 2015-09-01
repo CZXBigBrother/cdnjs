@@ -12,12 +12,6 @@
   "repository": {
     "url": "https://github.com/StoneCypher/flocks.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://choosealicense.com/licenses/mit/"
-    }
-  ],
   "keywords": [
     "state",
     "react",
@@ -58,5 +52,6 @@
   },
   "dependencies": {
     "react": "*"
-  }
+  },
+  "license": "MIT"
 }

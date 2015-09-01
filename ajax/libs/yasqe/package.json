@@ -2,12 +2,6 @@
   "name": "yasqe",
   "description": "Yet Another SPARQL Query Editor",
   "version": "2.6.1",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://yasqe.yasgui.org/license.txt"
-    }
-  ],
   "author": "Laurens Rietveld",
   "homepage": "http://yasqe.yasgui.org",
   "keywords": [
@@ -40,5 +34,6 @@
         "*.min.css.map"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

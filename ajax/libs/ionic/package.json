@@ -13,11 +13,6 @@
       "url": "https://github.com/driftyco/ionic.git"
     }
   ],
-  "licenses": [
-    {
-      "name": "MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/driftyco/ionic.git",
@@ -27,5 +22,8 @@
       "js/**/*",
       "fonts/*"
     ]
+  },
+  "license": {
+    "name": "MIT"
   }
 }

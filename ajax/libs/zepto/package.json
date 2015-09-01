@@ -17,10 +17,5 @@
     "type": "git",
     "url": "https://github.com/madrobby/zepto.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/madrobby/zepto/master/MIT-LICENSE"
-    }
-  ]
+  "license": "MIT"
 }

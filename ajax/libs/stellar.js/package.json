@@ -18,12 +18,6 @@
     "type": "git",
     "url": "git://github.com/markdalgleish/stellar.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://markdalgleish.mit-license.org"
-    }
-  ],
   "keywords": [
     "parallax",
     "scroll",
@@ -38,5 +32,6 @@
       "jquery.stellar.js",
       "jquery.stellar.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

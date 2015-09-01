@@ -20,12 +20,6 @@
       "email": "joshua.newman@krux.com"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/krux/postscribe/blob/master/LICENSE"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/krux/postscribe.git"
@@ -40,5 +34,6 @@
     "files": [
       "*"
     ]
-  }
+  },
+  "license": "MIT"
 }

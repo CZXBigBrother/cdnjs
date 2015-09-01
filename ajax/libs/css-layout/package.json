@@ -1,0 +1,23 @@
+{
+  "name": "css-layout",
+  "version": "0.0.6",
+  "filename": "css-layout.min.js",
+  "description": "Reimplementation of CSS layout using pure JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/css-layout.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "npmName": "css-layout",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "css-layout.js",
+        "css-layout.min.js",
+        "css-layout.min.js.map"
+      ]
+    }
+  ]
+}

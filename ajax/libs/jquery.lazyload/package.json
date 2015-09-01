@@ -9,12 +9,6 @@
     "email": "tuupola@appelsiini.net",
     "url": "http://www.appelsiini.net/"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1.5"
   },
@@ -29,5 +23,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/tuupola/jquery_lazyload"
-  }
+  },
+  "license": "MIT"
 }

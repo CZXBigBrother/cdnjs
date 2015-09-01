@@ -27,10 +27,8 @@
       "url": "http://crypto-js.googlecode.com/svn"
     }
   ],
-  "licenses": [
-    {
-      "type": "New BSD License",
-      "url": "http://opensource.org/licenses/BSD-3-Clause"
-    }
-  ]
+  "license": {
+    "type": "New BSD License",
+    "url": "http://opensource.org/licenses/BSD-3-Clause"
+  }
 }

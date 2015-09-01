@@ -28,10 +28,8 @@
       "url": "http://geoext.org"
     }
   ],
-  "licenses": [
-    {
-      "type": "BSD",
-      "url": "http://trac.geoext.org/wiki/license"
-    }
-  ]
+  "license": {
+    "type": "BSD",
+    "url": "http://trac.geoext.org/wiki/license"
+  }
 }

@@ -17,16 +17,14 @@
       "name": "Lea Verou"
     }
   ],
-  "licenses": [
-    {
-      "type": "none",
-      "url": "NA"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
       "url": "https://github.com/LeaVerou/chainvas"
     }
-  ]
+  ],
+  "license": {
+    "type": "none",
+    "url": "NA"
+  }
 }

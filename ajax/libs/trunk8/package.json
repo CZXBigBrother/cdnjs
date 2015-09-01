@@ -8,12 +8,6 @@
     "email": "rviscomi@gmail.com",
     "url": "http://jrvis.com/"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/rviscomi/trunk8/master/LICENSE"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1"
   },
@@ -36,5 +30,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/rviscomi/trunk8.git"
-  }
+  },
+  "license": "MIT"
 }

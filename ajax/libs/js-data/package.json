@@ -12,12 +12,6 @@
     "url": "http://www.pseudobry.com",
     "email": "jason.dobry@gmail.com"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/js-data/js-data/blob/master/LICENSE"
-    }
-  ],
   "keywords": [
     "orm",
     "odm",
@@ -54,5 +48,6 @@
   "filename": "js-data.min.js",
   "requiredFiles": [
     "js-data-debug.min.js"
-  ]
+  ],
+  "license": "MIT"
 }

@@ -27,14 +27,9 @@
   ],
   "author": "ethantw <ethantw@me.com>",
   "homepage": "http://css.hanzi.co/",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://css.hanzi.co/LICENSE.md"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/ethantw/Han.git"
-  }
+  },
+  "license": "MIT"
 }

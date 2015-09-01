@@ -24,8 +24,5 @@
     "css"
   ],
   "author": "Tom Terrace",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/t0m/select2-bootstrap-css/blob/master/LICENSE"
-  }
+  "license": "MIT"
 }

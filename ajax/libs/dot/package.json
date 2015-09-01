@@ -17,12 +17,6 @@
       "url": "https://github.com/olado/doT.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/olado/doT/blob/master/LICENSE-DOT.txt"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/olado/doT.git",
@@ -31,5 +25,6 @@
       "doT.min.js",
       "doT.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

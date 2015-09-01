@@ -15,10 +15,7 @@
     "sns",
     "sharing"
   ],
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/sofish/wechat.js/blob/master/license.txt"
-  },
+  "license": "MIT",
   "readmeFilename": "readme.md",
   "autoupdate": {
     "source": "git",

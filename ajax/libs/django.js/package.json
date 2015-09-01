@@ -11,14 +11,12 @@
     "type": "git",
     "url": "https://github.com/noirbizarre/django.js.git"
   },
-  "licenses": [
-    {
-      "type": "LGPL 3",
-      "url": "http://www.gnu.org/licenses/lgpl-3.0.txt"
-    }
-  ],
   "version": "0.8.1",
   "dependencies": {
     "jquery": ">=1.8"
+  },
+  "license": {
+    "type": "LGPL 3",
+    "url": "http://www.gnu.org/licenses/lgpl-3.0.txt"
   }
 }

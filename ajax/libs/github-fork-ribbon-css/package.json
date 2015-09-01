@@ -15,12 +15,6 @@
       "url": "git://github.com/simonwhitaker/github-fork-ribbon-css/"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/simonwhitaker/github-fork-ribbon-css/blob/gh-pages/LICENSE"
-    }
-  ],
   "keywords": [
     "css",
     "fork",
@@ -35,5 +29,6 @@
       "gh-fork-ribbon.css",
       "gh-fork-ribbon.ie.css"
     ]
-  }
+  },
+  "license": "MIT"
 }

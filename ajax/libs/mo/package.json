@@ -13,12 +13,6 @@
     "type": "git",
     "url": "git://github.com/dexteryy/mo.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "keywords": [
     "AMD",
     "oz",
@@ -45,5 +39,6 @@
         "template/*.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

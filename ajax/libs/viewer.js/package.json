@@ -17,12 +17,6 @@
     "viewerjs"
   ],
   "homepage": "https://github.com/box/viewer.js",
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "https://github.com/box/viewer.js/blob/master/LICENSE"
-    }
-  ],
   "dependencies": {},
   "autoupdate": {
     "source": "git",
@@ -31,5 +25,6 @@
     "files": [
       "*"
     ]
-  }
+  },
+  "license": "Apache-2.0"
 }

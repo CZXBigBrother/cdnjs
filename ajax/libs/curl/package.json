@@ -10,12 +10,6 @@
     "loader",
     "module"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
@@ -27,5 +21,6 @@
       "name": "John Hann",
       "web": "http://unscriptable.com"
     }
-  ]
+  ],
+  "license": "MIT"
 }

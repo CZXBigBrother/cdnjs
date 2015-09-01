@@ -21,12 +21,6 @@
       "url": "http://www.ainetworks.de"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/stephan-fischer/jQuery-LiveUrl"
-    }
-  ],
   "homepage": "https://github.com/stephan-fischer/jQuery-LiveUrl",
   "docs": "https://github.com/jquery/jquery-color",
   "download": "https://github.com/stephan-fischer/jQuery-LiveUrl/archive/master.zip",
@@ -45,5 +39,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/stephan-fischer/jQuery-LiveUrl.git"
-  }
+  },
+  "license": "MIT"
 }

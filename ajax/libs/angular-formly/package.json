@@ -1,7 +1,7 @@
 {
   "name": "angular-formly",
   "filename": "formly.min.js",
-  "version": "6.23.7",
+  "version": "6.24.23",
   "description": "AngularJS directive which takes JSON representing a form and renders to HTML",
   "repository": {
     "type": "git",
@@ -19,12 +19,6 @@
       "web": "http://formly-js.github.io/angular-formly/"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/formly-js/angular-formly/master/LICENSE"
-    }
-  ],
   "npmName": "angular-formly",
   "npmFileMap": [
     {
@@ -34,5 +28,6 @@
         "*.map"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

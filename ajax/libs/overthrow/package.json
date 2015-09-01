@@ -8,14 +8,9 @@
   "keywords": [
     "overthrow"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/filamentgroup/Overthrow/master/LICENSE"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/filamentgroup/Overthrow.git"
-  }
+  },
+  "license": "MIT"
 }

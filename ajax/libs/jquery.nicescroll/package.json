@@ -28,10 +28,5 @@
     "type": "git",
     "url": "https://github.com/inuyaksa/jquery.nicescroll.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/inuyaksa/jquery.nicescroll/master/MIT.LICENSE"
-    }
-  ]
+  "license": "MIT"
 }

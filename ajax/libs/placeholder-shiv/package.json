@@ -17,10 +17,8 @@
     "type": "git",
     "url": "https://github.com/walterdavis/placeholder-shiv.git"
   },
-  "licenses": [
-    {
-      "type": "BSD",
-      "url": "https://github.com/walterdavis/placeholder-shiv/blob/master/LICENSE.txt"
-    }
-  ]
+  "license": {
+    "type": "BSD",
+    "url": "https://github.com/walterdavis/placeholder-shiv/blob/master/LICENSE.txt"
+  }
 }

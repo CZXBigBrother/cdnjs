@@ -17,11 +17,6 @@
     "type": "git",
     "url": "https://github.com/mgcrea/angular-motion.git"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mgcrea/angular-motion.git",
@@ -29,5 +24,6 @@
     "files": [
       "**/*"
     ]
-  }
+  },
+  "license": "MIT"
 }

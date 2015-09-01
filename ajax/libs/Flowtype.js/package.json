@@ -13,12 +13,6 @@
       "url": "git://github.com/simplefocus/FlowType.JS"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://choosealicense.com/licenses/mit/"
-    }
-  ],
   "keywords": [
     "flowtype"
   ],
@@ -29,5 +23,6 @@
     "files": [
       "flowtype.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

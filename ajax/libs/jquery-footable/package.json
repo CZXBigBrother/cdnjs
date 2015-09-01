@@ -17,11 +17,9 @@
       "url": "https://github.com/fooplugins/FooTable.git"
     }
   ],
-  "licenses": [
-    {
-      "name": "MIT License",
-      "url": "https://github.com/fooplugins/FooTable/blob/master/LICENSE"
-    }
-  ],
-  "homepage": "http://themergency.com/footable/"
+  "homepage": "http://themergency.com/footable/",
+  "license": {
+    "name": "MIT License",
+    "url": "https://github.com/fooplugins/FooTable/blob/master/LICENSE"
+  }
 }

@@ -19,12 +19,6 @@
     "type": "git",
     "url": "git://github.com/WickyNilliams/enquire.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/WickyNilliams/enquire.js.git",
@@ -32,5 +26,6 @@
     "files": [
       "*"
     ]
-  }
+  },
+  "license": "MIT"
 }

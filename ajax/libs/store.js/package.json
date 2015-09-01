@@ -12,12 +12,6 @@
     "type": "git",
     "url": "git://github.com/marcuswestin/store.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/marcuswestin/store.js/master/store.js"
-    }
-  ],
   "directories": {
     "lib": "."
   },
@@ -30,5 +24,6 @@
       "store.min.js",
       "store+json2.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

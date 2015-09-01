@@ -19,12 +19,6 @@
     "type": "git",
     "url": "https://github.com/mathjax/MathJax"
   },
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mathjax/MathJax.git",
@@ -38,5 +32,6 @@
       "jax/**/*",
       "MathJax.js"
     ]
-  }
+  },
+  "license": "Apache-2.0"
 }

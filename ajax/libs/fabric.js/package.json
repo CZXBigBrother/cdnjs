@@ -21,12 +21,6 @@
       "web": "https://github.com/Kienz"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/kangax/fabric.js/blob/master/LICENSE"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
@@ -43,5 +37,6 @@
   },
   "requiredFiles": [
     "fabric.require.min.js"
-  ]
+  ],
+  "license": "MIT"
 }

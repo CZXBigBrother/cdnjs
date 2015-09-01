@@ -9,12 +9,6 @@
   ],
   "homepage": "http://l20n.org",
   "author": "Mozilla <l10n-drivers@mozilla.org>",
-  "licenses": [
-    {
-      "type": "Apache 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/l20n/builds"
@@ -27,5 +21,9 @@
       "l20n.js",
       "l20n.min.js"
     ]
+  },
+  "license": {
+    "type": "Apache 2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
   }
 }

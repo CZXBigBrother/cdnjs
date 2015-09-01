@@ -2,12 +2,6 @@
   "name": "yasr",
   "description": "Yet Another SPARQL Resultset Visualizer",
   "version": "2.6.1",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://yasr.yasgui.org/license.txt"
-    }
-  ],
   "author": "Laurens Rietveld",
   "homepage": "http://yasr.yasgui.org",
   "keywords": [
@@ -40,5 +34,6 @@
         "*.min.css.map"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

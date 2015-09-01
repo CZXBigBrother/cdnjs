@@ -18,10 +18,5 @@
       "url": "git://github.com/firebase/angularFire.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://firebase.mit-license.org"
-    }
-  ]
+  "license": "MIT"
 }

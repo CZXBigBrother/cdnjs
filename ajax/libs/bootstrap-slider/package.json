@@ -11,6 +11,12 @@
   },
   "author": "Kyle J. Kemp",
   "license": "BSD",
+  "keywords": [
+    "slider",
+    "bootstrap",
+    "twitter",
+    "slide"
+  ],
   "readmeFilename": "README.md",
   "npmFileMap": [
     {

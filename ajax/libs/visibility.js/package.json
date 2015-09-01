@@ -16,16 +16,11 @@
       "web": "http://sitnik.ru/"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/ai/visibilityjs/blob/master/LICENSE"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
       "url": "https://github.com/ai/visibilityjs"
     }
-  ]
+  ],
+  "license": "MIT"
 }

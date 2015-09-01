@@ -29,10 +29,5 @@
       "url": "https://github.com/fabiomcosta/jquery-meiomask.git"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/fabiomcosta/jquery-meiomask/blob/master/LICENSE-MIT.md"
-    }
-  ]
+  "license": "MIT"
 }

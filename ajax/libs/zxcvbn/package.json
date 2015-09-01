@@ -16,12 +16,6 @@
       "web": "https://github.com/lowe"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/dropbox/zxcvbn/blob/master/LICENSE.txt"
-    }
-  ],
   "repositories": [
     {
       "type": "git",
@@ -37,5 +31,6 @@
       "zxcvbn-async.js",
       "zxcvbn-async-bower.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

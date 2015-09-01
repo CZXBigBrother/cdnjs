@@ -17,12 +17,6 @@
     "plugin"
   ],
   "author": "Cina Saffary",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/1000hz/bootstrap-validator.git",
@@ -30,5 +24,6 @@
     "files": [
       "**/*"
     ]
-  }
+  },
+  "license": "MIT"
 }
