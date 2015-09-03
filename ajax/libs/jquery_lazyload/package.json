@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/tuupola/jquery_lazyload.git"
   },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
   "author": "Mika Tuupola <tuupola@appelsiini.net>",
   "autoupdate": {
     "source": "git",

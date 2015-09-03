@@ -10,7 +10,7 @@
       ]
     }
   ],
-  "version": "7.0.15",
+  "version": "7.0.17",
   "filename": "ng-file-upload-shim.min.js",
   "description": "An AngularJS directive for file upload using HTML5 with FileAPI polyfill for unsupported browsers",
   "repository": {

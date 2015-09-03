@@ -7,6 +7,11 @@
     "type": "git",
     "url": "git://github.com/leaflet-extras/leaflet-providers.git"
   },
+  "keywords": [
+    "leaflet",
+    "stamen",
+    "osm"
+  ],
   "license": "BSD-2-Clause",
   "autoupdate": {
     "source": "git",

@@ -9,6 +9,14 @@
     "type": "git",
     "url": "git://github.com/jackmoore/colorbox.git"
   },
+  "keywords": [
+    "modal",
+    "lightbox",
+    "gallery",
+    "popup",
+    "ui",
+    "jquery-plugin"
+  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jackmoore/colorbox.git",

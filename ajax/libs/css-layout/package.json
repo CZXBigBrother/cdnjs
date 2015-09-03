@@ -8,6 +8,11 @@
     "url": "https://github.com/facebook/css-layout.git"
   },
   "author": "",
+  "keywords": [
+    "css",
+    "flexbox",
+    "layout"
+  ],
   "license": "BSD",
   "npmName": "css-layout",
   "npmFileMap": [

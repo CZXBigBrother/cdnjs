@@ -11,6 +11,13 @@
     "request": "~2.36.0",
     "sitemap": "~0.7.3"
   },
+  "keywords": [
+    "authentication",
+    "oauth2",
+    "angular",
+    "token",
+    "secure"
+  ],
   "license": "WTFPL",
   "autoupdate": {
     "source": "git",

@@ -9,6 +9,11 @@
     "type": "git",
     "url": "https://github.com/mbenford/ngTagsInput.git"
   },
+  "keywords": [
+    "angular",
+    "tags",
+    "tags-input"
+  ],
   "author": {
     "name": "Michael Benford",
     "email": "michael@michaelbenford.net"
