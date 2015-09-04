@@ -23,5 +23,6 @@
         "backbone"
       ]
     }
-  }
+  },
+  "license": "MIT"
 }
