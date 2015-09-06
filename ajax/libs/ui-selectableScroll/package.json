@@ -29,8 +29,5 @@
     "type": "git",
     "url": "http://karolyi.github.com/ui-selectableScroll/"
   },
-  "license": {
-    "type": "GPLv3",
-    "url": "http://opensource.org/licenses/GPL-3.0"
-  }
+  "license": "GPL-3.0"
 }

@@ -37,8 +37,5 @@
       ]
     }
   ],
-  "license": {
-    "type": "Apache License 2.0",
-    "url": "http://www.apache.org/licenses/"
-  }
+  "license": "Apache-2.0"
 }

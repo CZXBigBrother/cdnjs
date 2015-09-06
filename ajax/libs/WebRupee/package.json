@@ -19,8 +19,5 @@
     "rupee",
     "WebRupee"
   ],
-  "license": {
-    "type": "Apache License, Version 2.0",
-    "url": "http://webrupee.com/license.html"
-  }
+  "license": "Apache-2.0"
 }

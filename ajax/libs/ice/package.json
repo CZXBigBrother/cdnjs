@@ -32,8 +32,5 @@
     }
   ],
   "namespace": "ice",
-  "license": {
-    "type": "GPLv2",
-    "url": "https://github.com/zeroc-ice/ice/blob/master/LICENSE"
-  }
+  "license": "GPL-2.0"
 }

@@ -20,8 +20,5 @@
       "url": "https://github.com/j-l-n/noti.js.git"
     }
   ],
-  "license": {
-    "type": "GNU GPL v2",
-    "url": "http://www.gnu.org/licenses/gpl-2.0.txt"
-  }
+  "license": "GPL-2.0"
 }

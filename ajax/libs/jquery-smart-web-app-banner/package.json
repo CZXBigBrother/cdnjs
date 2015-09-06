@@ -24,8 +24,5 @@
       "url": "https://github.com/kzeni/smart-web-app-banner.git"
     }
   ],
-  "license": {
-    "type": "Apache License, 2.0",
-    "url": "https://github.com/kzeni/smart-web-app-banner#license"
-  }
+  "license": "Apache-2.0"
 }

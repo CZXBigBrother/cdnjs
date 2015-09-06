@@ -27,6 +27,26 @@ function unRecognizedLicense(lib, license)
   console.log(('Library ' + lib + ' has un-recognized license - ' + license).yellow);
 }
 
+function adapt(licenseName)
+{
+  switch(licenseName) {
+    case 'GPLv2':
+    case 'GNU GPL v2':
+      return 'GPL-2.0';
+      break;
+    case 'GPLv3':
+    case 'GNU General Public License Version 3':
+      return 'GPL-3.0';
+      break;
+    case 'Apache License, Version 2.0':
+    case 'Apache 2.0':
+    case 'Apache License, 2.0':
+    case 'Apache License 2.0':
+      return 'Apache-2.0';
+      break;
+  }
+}
+
 async.each(packages, function(item, callback) {
   var content = JSON.parse(fs.readFileSync(item, 'utf8'));
   if (content.licenses !== undefined && content.licenses.length == 1) {
@@ -38,6 +58,9 @@ async.each(packages, function(item, callback) {
     if (content.license.type !== undefined) {
       if (licenses.indexOf(content.license.type) !== -1) {
         content.license = content.license.type;
+        updateJSON(item, content);
+      } else if (adapt(content.license.type)) {
+        content.license = adapt(content.license.type);
         updateJSON(item, content);
       } else {
         unRecognizedLicense(content.name, content.license.type);

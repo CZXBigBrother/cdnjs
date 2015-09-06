@@ -24,9 +24,6 @@
     "Tomi Laine <tomi.laine@leonidasoy.fi>",
     "Mikko Ohtamaa <mikko@opensourcehacker.com>"
   ],
-  "licenses": [
-    "MIT"
-  ],
   "dependencies": {
     "jsdom": "^1.0.0"
   },
@@ -37,5 +34,6 @@
     "files": [
       "**/*"
     ]
-  }
+  },
+  "license": "MIT"
 }
