@@ -21,10 +21,8 @@
       "web": "http://robert-hoffmann.name"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/headjs/headjs"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/headjs/headjs"
+  }
 }

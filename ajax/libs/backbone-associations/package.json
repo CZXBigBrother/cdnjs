@@ -37,7 +37,10 @@
     ]
   },
   "version": "0.6.2",
-  "repository": "git://github.com/dhruvaray/backbone-associations.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dhruvaray/backbone-associations.git"
+  },
   "github": "https://github.com/dhruvaray/backbone-associations/",
   "npmName": "backbone-associations",
   "npmFileMap": [

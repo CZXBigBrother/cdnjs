@@ -14,12 +14,6 @@
     "email": "niklasvh@gmail.com",
     "url": "http://hertzen.com"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/niklasvh/html2canvas.git"
-    }
-  ],
   "license": "MIT",
   "autoupdate": {
     "source": "git",
@@ -31,5 +25,9 @@
       "html2canvas.svg.js",
       "html2canvas.svg.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niklasvh/html2canvas.git"
   }
 }

@@ -24,11 +24,9 @@
       "web": "http://www.zurb.com/about/profile/mark-hayes"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/zurb/foundation.git"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zurb/foundation.git"
+  }
 }

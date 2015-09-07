@@ -13,12 +13,6 @@
     "keyboard"
   ],
   "license": "Attribution-ShareAlike 4.0 International",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/peachananr/onepage-scroll"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/peachananr/onepage-scroll.git",
@@ -30,5 +24,9 @@
   },
   "requiredFiles": [
     "onepage-scroll.min.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peachananr/onepage-scroll"
+  }
 }

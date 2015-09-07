@@ -13,12 +13,6 @@
       "name": "Chris O'Hara <cohara87@gmail.com>"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/chriso/validator.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/chriso/validator.js.git",
@@ -26,5 +20,9 @@
     "files": [
       "validator*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chriso/validator.js.git"
   }
 }

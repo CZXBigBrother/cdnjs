@@ -12,10 +12,8 @@
     "coroutine"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tj/co"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tj/co"
+  }
 }

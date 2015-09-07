@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:stampit-org/stampit-bower.git"
+    "url": "git://github.com/stampit-org/stampit-bower.git"
   },
   "dependencies": {
     "lodash": "^3.9.1",

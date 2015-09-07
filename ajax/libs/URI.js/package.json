@@ -29,12 +29,6 @@
       "web": "http://rodneyrehm.de/en/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/medialize/URI.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/medialize/URI.js.git",
@@ -51,5 +45,9 @@
       "URI.js",
       "URI.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medialize/URI.js"
   }
 }

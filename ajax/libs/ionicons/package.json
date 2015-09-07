@@ -7,12 +7,6 @@
     "font",
     "icon"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/driftyco/ionicons.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/driftyco/ionicons.git",
@@ -26,5 +20,9 @@
   },
   "license": {
     "name": "MIT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/driftyco/ionicons.git"
   }
 }

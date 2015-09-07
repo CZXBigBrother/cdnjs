@@ -15,11 +15,9 @@
     "name": "Lea Verou",
     "web": "http://lea.verou.me"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/PrismJS/prism.git"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrismJS/prism.git"
+  }
 }

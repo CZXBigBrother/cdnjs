@@ -16,12 +16,6 @@
       "web": "<admin@jamesallardice.com>"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jamesallardice/Placeholders.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jamesallardice/Placeholders.js.git",
@@ -29,5 +23,9 @@
     "files": [
       "placeholders*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesallardice/Placeholders.js"
   }
 }

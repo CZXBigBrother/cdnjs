@@ -25,14 +25,12 @@
       "web": "http://elia.schito.me"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/opal/opal-jquery"
-    }
-  ],
   "dependencies": {
     "opal": "0.3.43"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opal/opal-jquery"
+  }
 }

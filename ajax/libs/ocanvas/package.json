@@ -15,12 +15,6 @@
       "web": "http://koggdal.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/koggdal/ocanvas"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/koggdal/ocanvas.git",
@@ -29,5 +23,9 @@
       "ocanvas.min.js",
       "ocanvas.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koggdal/ocanvas"
   }
 }

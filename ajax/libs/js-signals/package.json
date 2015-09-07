@@ -15,10 +15,8 @@
       "web": "http://www.millermedeiros.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/millermedeiros/js-signals"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/millermedeiros/js-signals"
+  }
 }

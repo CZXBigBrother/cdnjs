@@ -18,10 +18,8 @@
       "name": "flatiron"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/flatiron/director.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flatiron/director.git"
+  }
 }

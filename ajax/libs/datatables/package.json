@@ -13,12 +13,6 @@
   "dependencies": {
     "jquery": ">=1.7"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/DataTables/DataTables.git"
-    }
-  ],
   "keywords": [
     "DataTables",
     "DataTable",
@@ -39,5 +33,9 @@
       "images/*.png"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DataTables/DataTables.git"
+  }
 }

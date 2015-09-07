@@ -18,10 +18,8 @@
       "name": "Richard Herrera"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/doctyper/flexie"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doctyper/flexie"
+  }
 }

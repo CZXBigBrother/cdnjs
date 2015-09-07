@@ -18,10 +18,8 @@
       "web": "http://simontabor.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/simontabor/jquery-toggles"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simontabor/jquery-toggles"
+  }
 }

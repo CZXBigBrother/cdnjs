@@ -14,12 +14,6 @@
       "email": "josh@leapmotion.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/leapmotion/leapjs.git"
-    }
-  ],
   "npmName": "leapjs",
   "npmFileMap": [
     {
@@ -28,5 +22,9 @@
         "leap.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leapmotion/leapjs.git"
+  }
 }

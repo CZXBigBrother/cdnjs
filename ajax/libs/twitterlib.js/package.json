@@ -12,10 +12,8 @@
       "name": "Remy Sharp"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/remy/twitterlib/"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remy/twitterlib/"
+  }
 }

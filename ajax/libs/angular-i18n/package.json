@@ -11,12 +11,6 @@
     "angular",
     "angular.js"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/angular/angular.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/angular/angular.js.git",
@@ -25,5 +19,9 @@
       "angular-locale_*.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angular/angular.js.git"
+  }
 }

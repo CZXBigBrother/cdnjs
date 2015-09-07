@@ -21,10 +21,8 @@
       "web": "http://developer.zendesk.com/zengineering/open_source.html"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/zendesk/ember-resource"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zendesk/ember-resource"
+  }
 }

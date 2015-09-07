@@ -18,12 +18,6 @@
       "web": "http://progressivecompany.nl/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/PaulUithol/Backbone-relational"
-    }
-  ],
   "npmName": "backbone-relational",
   "npmFileMap": [
     {
@@ -33,5 +27,9 @@
       ]
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulUithol/Backbone-relational"
+  }
 }

@@ -14,12 +14,6 @@
     "object-fit"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/anselmh/object-fit"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/anselmh/object-fit.git",
@@ -31,5 +25,9 @@
   },
   "requiredFiles": [
     "polyfill.object-fit.min.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anselmh/object-fit"
+  }
 }

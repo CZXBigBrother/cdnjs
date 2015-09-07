@@ -10,12 +10,6 @@
     "theme"
   ],
   "license": "Apache",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/IronSummitMedia/startbootstrap-landing-page"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/IronSummitMedia/startbootstrap-landing-page.git",
@@ -23,5 +17,9 @@
     "files": [
       "css/landing-page.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IronSummitMedia/startbootstrap-landing-page"
   }
 }

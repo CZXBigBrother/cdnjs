@@ -16,12 +16,6 @@
     "email": "tim@timdown.co.uk",
     "url": "http://timdown.co.uk/"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/timdown/rangy"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/timdown/rangy.git",
@@ -30,5 +24,9 @@
       "rangy*.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timdown/rangy"
+  }
 }

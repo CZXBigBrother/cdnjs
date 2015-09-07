@@ -16,10 +16,8 @@
       "web": "http://www.bagonca.com/blog/"
     }
   ],
-  "repositories": [
-    {
-      "type": "hg",
-      "url": "https://bitbucket.org/pellepim/jstimezonedetect"
-    }
-  ]
+  "repository": {
+    "type": "hg",
+    "url": "https://bitbucket.org/pellepim/jstimezonedetect"
+  }
 }

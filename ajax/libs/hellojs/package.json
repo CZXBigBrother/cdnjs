@@ -4,7 +4,7 @@
   "description": "A clientside Javascript library for standardizing requests to OAuth2 web services (and OAuth1 - with a shim)",
   "repository": {
     "type": "git",
-    "url": "git@github.com/MrSwitch/hello.js"
+    "url": "git://github.com/MrSwitch/hello.js"
   },
   "keywords": [
     "oauth",

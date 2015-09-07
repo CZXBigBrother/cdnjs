@@ -16,10 +16,8 @@
       "web": "https://twitter.com/sorccu"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/sorccu/cufon/"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorccu/cufon/"
+  }
 }

@@ -9,12 +9,6 @@
     "name": "Microsoft Corporation and other contributors",
     "url": "https://github.com/winjs/winjs/graphs/contributors"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/winjs/winjs"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/winjs/winjs-bower.git",
@@ -26,5 +20,9 @@
       "js/en-US/*.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winjs/winjs"
+  }
 }

@@ -14,12 +14,6 @@
       "web": "http://tommoor.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "github",
-      "url": "https://github.com/tommoor/tinycon"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/tommoor/tinycon.git",
@@ -28,5 +22,9 @@
       "tinycon.js",
       "tinycon.min.js"
     ]
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/tommoor/tinycon"
   }
 }

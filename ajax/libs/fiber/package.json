@@ -13,10 +13,8 @@
       "name": "LinkedIn"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/linkedin/Fiber.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkedin/Fiber.git"
+  }
 }

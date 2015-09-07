@@ -19,12 +19,6 @@
       "name": "Christian Williams"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jasmine/jasmine.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jasmine/jasmine.git",
@@ -35,5 +29,9 @@
       "boot.js",
       "jasmine.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasmine/jasmine.git"
   }
 }

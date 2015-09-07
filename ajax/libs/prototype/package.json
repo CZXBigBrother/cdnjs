@@ -14,10 +14,8 @@
       "name": "Prototype Core Team"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/sstephenson/prototype.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sstephenson/prototype.git"
+  }
 }

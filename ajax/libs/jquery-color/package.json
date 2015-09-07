@@ -15,10 +15,8 @@
       "url": "http://gnarf.net"
     }
   ],
-  "repository": [
-    {
-      "type": "git",
-      "url": "git://github.com/jquery/jquery-color.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jquery/jquery-color.git"
+  }
 }

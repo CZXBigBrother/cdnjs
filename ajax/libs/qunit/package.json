@@ -16,10 +16,8 @@
       "web": "http://jquery.org/team/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jquery/qunit.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquery/qunit.git"
+  }
 }

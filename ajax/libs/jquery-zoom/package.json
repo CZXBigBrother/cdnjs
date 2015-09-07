@@ -17,12 +17,6 @@
     "jquery-plugin"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "http://github.com/jackmoore/zoom.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jackmoore/zoom.git",
@@ -30,5 +24,9 @@
     "files": [
       "jquery.zoom*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jackmoore/zoom.git"
   }
 }

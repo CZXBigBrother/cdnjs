@@ -16,10 +16,8 @@
       "url": "http://echo-flow.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jbeard4/SCION.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbeard4/SCION.git"
+  }
 }

@@ -14,12 +14,6 @@
       "name": "Dan Vanderkam"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/danvk/dygraphs.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/danvk/dygraphs.git",
@@ -29,5 +23,9 @@
       "dygraph-combined.js.map",
       "dygraph-combined-dev.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danvk/dygraphs.git"
   }
 }

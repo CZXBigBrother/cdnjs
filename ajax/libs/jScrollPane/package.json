@@ -4,12 +4,6 @@
   "filename": "script/jquery.jscrollpane.min.js",
   "description": "jScrollPane - cross browser styleable scrollbars with jQuery and CSS",
   "homepage": "http://jscrollpane.kelvinluck.com",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/vitch/jScrollPane.git"
-    }
-  ],
   "maintainers": [
     {
       "name": "Kelvin Luck",
@@ -33,5 +27,9 @@
       "script/jquery.jscrollpane.js",
       "style/jquery.jscrollpane.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitch/jScrollPane.git"
   }
 }

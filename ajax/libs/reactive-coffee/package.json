@@ -21,14 +21,12 @@
       "web": "http://yz.mit.edu"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/yang/reactive-coffee"
-    }
-  ],
   "dependencies": {
     "underscore": ">=1.4.4",
     "jquery": ">=1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yang/reactive-coffee"
   }
 }

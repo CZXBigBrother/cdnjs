@@ -9,12 +9,6 @@
     "amd"
   ],
   "author": "Tim Branyen",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tbranyen/use-amd.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/tbranyen/use-amd.git",
@@ -22,5 +16,9 @@
     "files": [
       "use.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbranyen/use-amd.git"
   }
 }

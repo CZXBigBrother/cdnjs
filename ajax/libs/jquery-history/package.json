@@ -14,10 +14,8 @@
       "web": "https://github.com/tkyk/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tkyk/jquery-history-plugin.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkyk/jquery-history-plugin.git"
+  }
 }

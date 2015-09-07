@@ -15,12 +15,6 @@
       "name": "The Bucky team"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/HubSpot/BuckyClient.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/HubSpot/BuckyClient.git",
@@ -29,5 +23,9 @@
       "bucky.min.js",
       "bucky.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HubSpot/BuckyClient.git"
   }
 }

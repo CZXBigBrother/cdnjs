@@ -11,12 +11,6 @@
     "autocomplete",
     "fuzzy-search"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/bevacqua/horsey"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/bevacqua/horsey.git",
@@ -24,5 +18,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/horsey"
   }
 }

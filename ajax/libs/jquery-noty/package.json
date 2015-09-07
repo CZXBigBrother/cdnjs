@@ -16,12 +16,6 @@
       "web": "http://ned.im"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/needim/noty"
-    }
-  ],
   "npmName": "noty",
   "npmFileMap": [
     {
@@ -30,5 +24,9 @@
         "**/*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/needim/noty"
+  }
 }

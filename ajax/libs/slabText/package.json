@@ -18,10 +18,8 @@
       "web": "http://www.frequency-decoder.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/freqdec/slabText"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freqdec/slabText"
+  }
 }

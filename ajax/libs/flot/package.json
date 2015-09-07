@@ -19,12 +19,6 @@
       "name": "David Schnur"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/flot/flot"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/flot/flot.git",
@@ -35,5 +29,9 @@
       "excanvas.js",
       "excanvas.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flot/flot"
   }
 }

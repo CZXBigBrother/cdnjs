@@ -16,12 +16,6 @@
       "web": "http://labs.skinkers.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git",
@@ -29,5 +23,9 @@
     "files": [
       "jquery.touchSwipe*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git"
   }
 }

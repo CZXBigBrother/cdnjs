@@ -14,12 +14,6 @@
     "sass buttons"
   ],
   "license": "Apache License v2.0",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/alexwolfe/Buttons"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/alexwolfe/Buttons.git",
@@ -31,5 +25,9 @@
   },
   "requiredFiles": [
     "js/buttons.min.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexwolfe/Buttons"
+  }
 }

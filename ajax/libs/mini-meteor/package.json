@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chicagogrooves/mini-meteor.git"
+    "url": "https://github.com/deanius/mini-meteor.git"
   },
   "keywords": [
     "reactive",
@@ -28,5 +28,5 @@
   ],
   "author": "Dean Radcliffe <deanmisc@yahoo.com>",
   "license": "MIT",
-  "homepage": "https://github.com/chicagogrooves/mini-meteor"
+  "homepage": "https://github.com/deanius/mini-meteor"
 }

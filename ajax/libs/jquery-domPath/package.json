@@ -9,12 +9,6 @@
     "name": "asatour",
     "url": "https://github.com/asatour/"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/asatour/jquery-domPath"
-    }
-  ],
   "keywords": [
     "DOM",
     "path",
@@ -30,5 +24,9 @@
       "jquery.domPath.min.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asatour/jquery-domPath"
+  }
 }

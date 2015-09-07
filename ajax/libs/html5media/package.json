@@ -16,12 +16,6 @@
     "webm"
   ],
   "author": "Dave Hall",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/etianen/html5media.git"
-    }
-  ],
   "npmName": "html5media",
   "npmFileMap": [
     {
@@ -31,5 +25,9 @@
         "*.swf"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etianen/html5media.git"
+  }
 }

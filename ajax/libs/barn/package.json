@@ -10,12 +10,6 @@
     "localstorage"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/arokor/barn"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/arokor/barn.git",
@@ -23,5 +17,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arokor/barn"
   }
 }

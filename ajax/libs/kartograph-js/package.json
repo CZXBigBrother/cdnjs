@@ -17,12 +17,6 @@
       "web": "http://driven-by-data.net"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/kartograph/kartograph.js.git"
-    }
-  ],
   "dependencies": {
     "jquery": "1.x",
     "raphael": "2.x"
@@ -36,5 +30,9 @@
         "kartograph.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kartograph/kartograph.js.git"
+  }
 }

@@ -20,12 +20,6 @@
       "web": "http://www.wtmworldwide.com.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/McPants/jquery.shapeshift.git"
-    }
-  ],
   "dependencies": {
     "jquery": "~1.9.1",
     "jqueryui": "~1.9.2"
@@ -37,5 +31,9 @@
     "files": [
       "jquery.shapeshift*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/McPants/jquery.shapeshift.git"
   }
 }

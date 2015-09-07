@@ -15,12 +15,6 @@
       "web": "http://sorgalla.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jsor/jcarousel.git"
-    }
-  ],
   "namespace": [
     "$.jcarousel",
     "$.fn.jcarousel"
@@ -33,5 +27,9 @@
       "*.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsor/jcarousel.git"
+  }
 }

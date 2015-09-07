@@ -16,10 +16,8 @@
       "name": "The Replit Project"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/replit/jq-console.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/replit/jq-console.git"
+  }
 }

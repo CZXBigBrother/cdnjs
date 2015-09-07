@@ -15,10 +15,8 @@
       "web": "http://majda.cz"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/pegjs/pegjs"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pegjs/pegjs"
+  }
 }

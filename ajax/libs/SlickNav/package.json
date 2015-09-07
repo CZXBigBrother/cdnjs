@@ -14,12 +14,6 @@
       "name": "Josh Cope (Author)"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ComputerWolf/SlickNav"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ComputerWolf/SlickNav.git",
@@ -27,5 +21,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ComputerWolf/SlickNav"
   }
 }

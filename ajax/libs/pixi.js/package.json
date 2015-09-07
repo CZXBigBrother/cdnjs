@@ -18,12 +18,6 @@
       "web": "http://www.goodboydigital.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/GoodBoyDigital/pixi.js.git"
-    }
-  ],
   "npmName": "pixi.js",
   "npmFileMap": [
     {
@@ -33,5 +27,9 @@
         "pixi.dev.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixijs/pixi.js.git"
+  }
 }

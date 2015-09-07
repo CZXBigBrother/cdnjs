@@ -12,12 +12,6 @@
     "jsonlint"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/zaach/jsonlint"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/zaach/jsonlint.git",
@@ -25,5 +19,9 @@
     "files": [
       "jsonlint.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaach/jsonlint"
   }
 }

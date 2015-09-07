@@ -17,10 +17,8 @@
       "web": "http://jeanfrancoisparadis.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jfparadis/requirejs-tpl"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfparadis/requirejs-tpl"
+  }
 }

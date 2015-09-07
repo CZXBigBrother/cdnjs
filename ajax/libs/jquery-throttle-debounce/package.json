@@ -16,10 +16,8 @@
       "web": "http://benalman.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/cowboy/jquery-throttle-debounce.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cowboy/jquery-throttle-debounce.git"
+  }
 }

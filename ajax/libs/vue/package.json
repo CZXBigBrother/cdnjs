@@ -17,12 +17,6 @@
       "url": "http://evanyou.me"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/yyx990803/vue.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/yyx990803/vue.git",
@@ -31,5 +25,9 @@
       "*.js"
     ]
   },
-  "gratipay": "yyx990803"
+  "gratipay": "yyx990803",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yyx990803/vue.git"
+  }
 }

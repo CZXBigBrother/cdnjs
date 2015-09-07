@@ -8,12 +8,6 @@
     "forms",
     "backbone"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/powmedia/backbone-forms"
-    }
-  ],
   "npmName": "backbone-forms",
   "npmFileMap": [
     {
@@ -22,5 +16,9 @@
         "**/*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/powmedia/backbone-forms"
+  }
 }

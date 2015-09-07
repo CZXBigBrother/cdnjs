@@ -18,10 +18,8 @@
       "email": "heartsentwined.me@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/heartsentwined/ember-auth"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heartsentwined/ember-auth"
+  }
 }

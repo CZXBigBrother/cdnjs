@@ -13,10 +13,8 @@
       "web": "https://github.com/melonjs"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/melonjs/melonJS.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melonjs/melonJS.git"
+  }
 }

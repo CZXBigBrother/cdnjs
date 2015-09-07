@@ -15,12 +15,6 @@
       "web": "https://github.com/tavicu"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tavicu/bs-confirmation.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/tavicu/bs-confirmation.git",
@@ -28,5 +22,9 @@
     "files": [
       "bootstrap-confirmation.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tavicu/bs-confirmation.git"
   }
 }

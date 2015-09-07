@@ -22,14 +22,8 @@
       "web": "http://www.johnslegers.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/CascadeFramework/cascadeframework"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/jslegers/cascadeframework"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CascadeFramework/cascadeframework"
+  }
 }

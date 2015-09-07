@@ -5,12 +5,6 @@
   "dependencies": {
     "knockout": ">= 2.0"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/rniemeyer/knockout-postbox.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/rniemeyer/knockout-postbox.git",
@@ -18,5 +12,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rniemeyer/knockout-postbox.git"
   }
 }

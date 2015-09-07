@@ -8,12 +8,6 @@
   ],
   "homepage": "http://www.chartjs.org",
   "author": "nnnick",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/nnnick/Chart.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/nnnick/Chart.js.git",
@@ -22,5 +16,9 @@
       "Chart.min.js",
       "Chart.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nnnick/Chart.js.git"
   }
 }

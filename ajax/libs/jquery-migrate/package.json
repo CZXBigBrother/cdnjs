@@ -14,13 +14,11 @@
       "name": "The jQuery Project"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jquery/jquery-migrate.git"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquery/jquery-migrate.git"
   }
 }

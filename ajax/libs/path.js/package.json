@@ -16,10 +16,8 @@
       "name": "mtrpcic"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/mtrpcic/pathjs"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtrpcic/pathjs"
+  }
 }

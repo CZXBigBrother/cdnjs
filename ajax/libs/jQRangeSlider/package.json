@@ -22,12 +22,6 @@
     "scroll"
   ],
   "license": "GPL",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ghusse/jQRangeSlider"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ghusse/jQRangeSlider.git",
@@ -36,5 +30,9 @@
       "jQ*.js",
       "css/**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghusse/jQRangeSlider"
   }
 }

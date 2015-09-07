@@ -14,12 +14,6 @@
       "web": "http://rodneyrehm.de/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/medialize/sass.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/medialize/sass.js.git",
@@ -27,5 +21,9 @@
     "files": [
       "*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medialize/sass.js"
   }
 }

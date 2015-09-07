@@ -15,12 +15,6 @@
       "web": "http://woutfierens.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/wout/svg.js/"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/wout/svg.js.git",
@@ -28,5 +22,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wout/svg.js/"
   }
 }

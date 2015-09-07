@@ -16,12 +16,6 @@
       "web": "http://guillaumepotier.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/guillaumepotier/Garlic.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/guillaumepotier/Garlic.js.git",
@@ -29,5 +23,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillaumepotier/Garlic.js"
   }
 }

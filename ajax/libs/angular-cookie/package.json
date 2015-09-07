@@ -10,12 +10,6 @@
     "angular"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ivpusic/angular-cookie"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ivpusic/angular-cookie.git",
@@ -23,5 +17,9 @@
     "files": [
       "angular-cookie*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivpusic/angular-cookie"
   }
 }

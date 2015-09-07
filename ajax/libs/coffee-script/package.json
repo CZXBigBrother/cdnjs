@@ -19,12 +19,6 @@
       "web": "http://ashkenas.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jashkenas/coffeescript.git"
-    }
-  ],
   "npmName": "coffee-script",
   "npmFileMap": [
     {
@@ -33,5 +27,9 @@
         "coffee-script.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jashkenas/coffeescript.git"
+  }
 }

@@ -7,10 +7,8 @@
   "keywords": [
     "geolocation"
   ],
-  "repositories": [
-    {
-      "type": "svn",
-      "url": "http://geo-location-javascript.googlecode.com/svn/trunk/"
-    }
-  ]
+  "repository": {
+    "type": "svn",
+    "url": "http://geo-location-javascript.googlecode.com/svn/trunk/"
+  }
 }

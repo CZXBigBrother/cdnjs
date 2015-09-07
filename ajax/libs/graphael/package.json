@@ -16,10 +16,8 @@
       "web": "http://dmitry.baranovskiy.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/DmitryBaranovskiy/g.raphael/"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitryBaranovskiy/g.raphael/"
+  }
 }

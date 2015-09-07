@@ -34,10 +34,8 @@
     "unescape"
   ],
   "author": "JP Richardson <jprichardson@gmail.com>",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jprichardson/string.js"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/string.js"
+  }
 }

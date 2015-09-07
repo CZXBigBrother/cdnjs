@@ -18,11 +18,9 @@
       "web": "http://fancyapps.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/fancyapps/fancyBox"
-    }
-  ],
-  "namespace": "$.fancybox"
+  "namespace": "$.fancybox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fancyapps/fancyBox"
+  }
 }

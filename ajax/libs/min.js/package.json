@@ -9,12 +9,6 @@
       "web": "https://github.com/remy"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/remy/min.js.git"
-    }
-  ],
   "license": "MIT",
   "keywords": [
     "min",
@@ -23,5 +17,9 @@
     "micro",
     "dom",
     "events"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/remy/min.js.git"
+  }
 }

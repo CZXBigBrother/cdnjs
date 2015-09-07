@@ -15,12 +15,6 @@
       "url": "https://github.com/Mottie"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/CSS-Tricks/AnythingSlider"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/CSS-Tricks/AnythingSlider.git",
@@ -31,5 +25,9 @@
       "css/theme-*.css",
       "images/default.png"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSS-Tricks/AnythingSlider"
   }
 }

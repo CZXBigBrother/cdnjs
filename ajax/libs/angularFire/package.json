@@ -12,11 +12,9 @@
     "angular",
     "angular.js"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/firebase/angularFire.git"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/firebase/angularFire.git"
+  }
 }

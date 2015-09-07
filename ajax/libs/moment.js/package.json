@@ -30,11 +30,9 @@
       "name": "Tim Wood"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/moment/moment"
-    }
-  ],
-  "namespace": "moment"
+  "namespace": "moment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moment/moment"
+  }
 }

@@ -20,12 +20,6 @@
       "web": "http://www.georgemichaelbrower.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/dataarts/dat.gui"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/dataarts/dat.gui.git",
@@ -33,5 +27,9 @@
     "files": [
       "dat.gui*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dataarts/dat.gui"
   }
 }

@@ -29,11 +29,9 @@
       "name": "Mark Otto"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/twbs/bootstrap"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twbs/bootstrap"
+  }
 }

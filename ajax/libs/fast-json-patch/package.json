@@ -15,12 +15,6 @@
       "email": "joachimwester@me.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Starcounter-Jack/JSON-Patch"
-    }
-  ],
   "npmName": "fast-json-patch",
   "npmFileMap": [
     {
@@ -29,5 +23,9 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Starcounter-Jack/JSON-Patch"
+  }
 }

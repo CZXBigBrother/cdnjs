@@ -12,12 +12,6 @@
     "engine",
     "ui"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/mikeric/rivets"
-    }
-  ],
   "author": {
     "name": "Michael Richards",
     "email": "mike22e@gmail.com"
@@ -29,5 +23,9 @@
     "files": [
       "*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikeric/rivets"
   }
 }

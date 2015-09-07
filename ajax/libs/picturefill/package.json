@@ -25,12 +25,6 @@
       "web": "https://twitter.com/shawnjan8"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/scottjehl/picturefill.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/scottjehl/picturefill.git",
@@ -38,5 +32,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottjehl/picturefill.git"
   }
 }

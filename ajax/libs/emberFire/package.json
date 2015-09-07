@@ -14,12 +14,6 @@
       "web": "https://github.com/firebase/emberfire"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/firebase/emberfire"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/firebase/emberfire.git",
@@ -27,5 +21,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firebase/emberfire"
   }
 }

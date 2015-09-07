@@ -14,12 +14,6 @@
       "web": "http://sindresorhus.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "github",
-      "url": "https://github.com/sindresorhus/screenfull.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/sindresorhus/screenfull.js.git",
@@ -27,5 +21,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/sindresorhus/screenfull.js"
   }
 }

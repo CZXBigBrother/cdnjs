@@ -29,10 +29,8 @@
       "web": "http://dev.sipdoc.net"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/versatica/JsSIP.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/versatica/JsSIP.git"
+  }
 }

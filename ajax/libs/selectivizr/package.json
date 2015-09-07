@@ -15,10 +15,8 @@
       "web": "http://www.keithclark.co.uk/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/keithclark/selectivizr.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithclark/selectivizr.git"
+  }
 }

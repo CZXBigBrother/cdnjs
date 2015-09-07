@@ -17,10 +17,8 @@
       "web": "http://srobbin.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/srobbin/jquery-backstretch"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srobbin/jquery-backstretch"
+  }
 }

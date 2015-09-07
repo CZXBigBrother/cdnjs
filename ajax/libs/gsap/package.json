@@ -29,12 +29,6 @@
       "web": "http://www.greensock.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/greensock/GreenSock-JS"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/greensock/GreenSock-JS.git",
@@ -42,5 +36,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greensock/GreenSock-JS"
   }
 }

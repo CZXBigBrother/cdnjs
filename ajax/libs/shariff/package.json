@@ -17,12 +17,6 @@
     "shariff"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/heiseonline/shariff"
-    }
-  ],
   "npmName": "shariff",
   "npmFileMap": [
     {
@@ -31,5 +25,9 @@
         "shariff*.+(js|css)"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heiseonline/shariff"
+  }
 }

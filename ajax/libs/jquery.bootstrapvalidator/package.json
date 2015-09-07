@@ -18,12 +18,6 @@
       "web": "https://twitter.com/nghuuphuoc"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/nghuuphuoc/bootstrapvalidator.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/nghuuphuoc/bootstrapvalidator.git",
@@ -31,5 +25,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nghuuphuoc/bootstrapvalidator.git"
   }
 }

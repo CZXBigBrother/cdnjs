@@ -15,12 +15,6 @@
     "utility"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/JedWatson/classnames"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/JedWatson/classnames.git",
@@ -33,5 +27,9 @@
   "requiredFiles": [
     "index.min.js",
     "dedupe.min.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JedWatson/classnames"
+  }
 }

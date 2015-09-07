@@ -7,12 +7,6 @@
     "html5",
     "mobile"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/driftyco/ionic.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/driftyco/ionic.git",
@@ -25,5 +19,9 @@
   },
   "license": {
     "name": "MIT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/driftyco/ionic.git"
   }
 }

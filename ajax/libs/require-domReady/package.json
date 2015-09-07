@@ -15,10 +15,8 @@
       "web": "http://tagneto.blogspot.ru/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/requirejs/domReady"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/requirejs/domReady"
+  }
 }

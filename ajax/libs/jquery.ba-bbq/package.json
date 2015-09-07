@@ -14,12 +14,6 @@
       "web": "http://benalman.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/cowboy/jquery-bbq"
-    }
-  ],
   "dependencies": {
     "jquery": {
       "jquery": ">=1.2.6 <1.9",
@@ -33,5 +27,9 @@
     "files": [
       "jquery.ba-bbq*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cowboy/jquery-bbq"
   }
 }

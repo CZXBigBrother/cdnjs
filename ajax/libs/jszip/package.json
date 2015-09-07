@@ -15,12 +15,6 @@
       "web": "https://github.com/Stuk"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Stuk/jszip"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Stuk/jszip.git",
@@ -29,5 +23,9 @@
       "jszip.js",
       "jszip.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stuk/jszip"
   }
 }

@@ -32,12 +32,6 @@
   "demos": [
     "http://philogb.github.io/jit/demos.html"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/philogb/jit.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/philogb/jit.git",
@@ -49,5 +43,9 @@
   },
   "license": {
     "name": "BSD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philogb/jit.git"
   }
 }

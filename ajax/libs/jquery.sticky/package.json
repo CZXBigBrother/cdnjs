@@ -12,12 +12,6 @@
     "jquery-plugin"
   ],
   "license": "MIT, GPL",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/garand/sticky"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/garand/sticky.git",
@@ -25,5 +19,9 @@
     "files": [
       "jquery.sticky*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garand/sticky"
   }
 }

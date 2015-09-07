@@ -19,12 +19,6 @@
       "website": "https://github.com/orgs/less/members"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/less/less.js"
-    }
-  ],
   "npmName": "less",
   "npmFileMap": [
     {
@@ -33,5 +27,9 @@
         "less.*js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/less/less.js"
+  }
 }

@@ -13,10 +13,8 @@
       "name": "The Ruby on Rails Project"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/rails/turbolinks.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rails/turbolinks.git"
+  }
 }

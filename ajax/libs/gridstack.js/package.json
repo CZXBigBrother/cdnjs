@@ -16,12 +16,6 @@
       "web": "http://troolee.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/troolee/gridstack.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/troolee/gridstack.js.git",
@@ -29,5 +23,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/troolee/gridstack.js.git"
   }
 }

@@ -10,10 +10,8 @@
     "toast",
     "ajax"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/HubSpot/messenger"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HubSpot/messenger"
+  }
 }

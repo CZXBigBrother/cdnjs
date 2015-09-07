@@ -20,10 +20,8 @@
     "Apache-2.0",
     "GPL-2.0"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/lojjic/PIE.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lojjic/PIE.git"
+  }
 }

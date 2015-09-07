@@ -14,12 +14,6 @@
       "web": "https://github.com/videojs"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/videojs/video.js"
-    }
-  ],
   "npmName": "video.js",
   "npmFileMap": [
     {
@@ -34,5 +28,9 @@
         "font/*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/videojs/video.js"
+  }
 }

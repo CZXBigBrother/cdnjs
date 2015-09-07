@@ -15,10 +15,8 @@
       "web": "http://www.liferay.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/liferay/alloy-ui"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liferay/alloy-ui"
+  }
 }

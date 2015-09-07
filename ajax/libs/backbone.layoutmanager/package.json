@@ -15,12 +15,6 @@
       "name": "Tim Branyen (@tbranyen)"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tbranyen/backbone.layoutmanager"
-    }
-  ],
   "npmName": "backbone.layoutmanager",
   "npmFileMap": [
     {
@@ -29,5 +23,9 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbranyen/backbone.layoutmanager"
+  }
 }

@@ -14,12 +14,6 @@
       "name": "Lipis"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/lipis/bootstrap-social"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/lipis/bootstrap-social.git",
@@ -27,5 +21,9 @@
     "files": [
       "bootstrap-social.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipis/bootstrap-social"
   }
 }

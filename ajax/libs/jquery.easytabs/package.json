@@ -9,10 +9,8 @@
     "jquery",
     "easy"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/JangoSteve/jQuery-EasyTabs"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JangoSteve/jQuery-EasyTabs"
+  }
 }

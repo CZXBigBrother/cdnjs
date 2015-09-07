@@ -15,12 +15,6 @@
       "web": "http://processingjs.org"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/processing-js/processing-js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/processing-js/processing-js.git",
@@ -28,5 +22,9 @@
       "processing.min.js",
       "processing.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/processing-js/processing-js"
   }
 }

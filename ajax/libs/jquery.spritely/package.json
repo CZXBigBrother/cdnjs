@@ -16,10 +16,8 @@
       "web": "http://www.artlogic.net"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/artlogicmedia/spritely.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artlogicmedia/spritely.git"
+  }
 }

@@ -12,10 +12,8 @@
       "name": "Steven Benner"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/stevenbenner/jquery-powertip"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenbenner/jquery-powertip"
+  }
 }

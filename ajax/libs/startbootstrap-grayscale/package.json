@@ -10,12 +10,6 @@
     "theme"
   ],
   "license": "Apache",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/IronSummitMedia/startbootstrap-grayscale"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/IronSummitMedia/startbootstrap-grayscale.git",
@@ -24,5 +18,9 @@
       "js/grayscale.js",
       "css/grayscale.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IronSummitMedia/startbootstrap-grayscale"
   }
 }

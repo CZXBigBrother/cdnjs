@@ -16,10 +16,8 @@
       "web": "http://www.rich-harris.co.uk/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ractivejs/ractive.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ractivejs/ractive.git"
+  }
 }

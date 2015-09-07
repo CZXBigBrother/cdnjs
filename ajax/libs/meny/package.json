@@ -9,12 +9,6 @@
     "email": "hakim.elhattab@gmail.com",
     "url": "http://hakim.se"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/hakimel/Meny"
-    }
-  ],
   "keywords": [
     "menu",
     "meny",
@@ -28,5 +22,9 @@
       "meny.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hakimel/Meny"
+  }
 }

@@ -16,10 +16,8 @@
       "web": "http://wojodesign.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/wojodesign/simplecart-js"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wojodesign/simplecart-js"
+  }
 }

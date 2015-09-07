@@ -18,12 +18,6 @@
       "homagepage": "http://terrymun.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/terrymun/Fluidbox/"
-    }
-  ],
   "keywords": [
     "fluidbox",
     "lightbox"
@@ -40,5 +34,9 @@
       "*.js",
       "css/fluidbox.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrymun/Fluidbox/"
   }
 }

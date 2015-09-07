@@ -16,12 +16,6 @@
     "email": "alexander@prinzhorn.it",
     "web": "http://www.prinzhorn.it/"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Prinzhorn/skrollr.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Prinzhorn/skrollr.git",
@@ -30,5 +24,9 @@
       "**/*"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prinzhorn/skrollr.git"
+  }
 }

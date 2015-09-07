@@ -16,10 +16,8 @@
       "web": "http://jquery.malsup.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/malsup/cycle"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malsup/cycle"
+  }
 }

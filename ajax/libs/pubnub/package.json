@@ -25,10 +25,8 @@
       "name": "PubNub + TopMambo INC"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/pubnub/pubnub-api.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pubnub/pubnub-api.git"
+  }
 }

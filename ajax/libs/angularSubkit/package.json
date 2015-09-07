@@ -11,12 +11,6 @@
     "angular",
     "angularjs"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/subkit/angularsubkit.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/SubKit/angularsubkit.js.git",
@@ -26,5 +20,9 @@
       "angularsubkit.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subkit/angularsubkit.js"
+  }
 }

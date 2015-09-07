@@ -14,10 +14,8 @@
       "name": "Craig Campbell"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ccampbell/mousetrap.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccampbell/mousetrap.git"
+  }
 }

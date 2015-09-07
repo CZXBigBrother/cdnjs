@@ -14,12 +14,6 @@
       "web": "http://mrdoob.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/mrdoob/three.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mrdoob/three.js.git",
@@ -28,5 +22,9 @@
       "*"
     ]
   },
-  "namespace": "THREE"
+  "namespace": "THREE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrdoob/three.js.git"
+  }
 }

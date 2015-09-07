@@ -15,12 +15,6 @@
       "url": "http://remy.bach.me.uk/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/remybach/jQuery.superLabels.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/remybach/jQuery.superLabels.git",
@@ -28,5 +22,9 @@
     "files": [
       "jquery.superLabels*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remybach/jQuery.superLabels.git"
   }
 }

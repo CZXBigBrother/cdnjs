@@ -15,12 +15,6 @@
       "web": "https://github.com/davist11"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/davist11/jQuery-One-Page-Nav"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/davist11/jQuery-One-Page-Nav.git",
@@ -28,5 +22,9 @@
     "files": [
       "jquery.nav*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davist11/jQuery-One-Page-Nav"
   }
 }

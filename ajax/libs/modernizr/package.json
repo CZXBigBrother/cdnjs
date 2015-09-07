@@ -31,12 +31,6 @@
       "name": "Alexander Farkas"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Modernizr/Modernizr"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Modernizr/Modernizr.git",
@@ -45,5 +39,9 @@
       "modernizr.js"
     ]
   },
-  "namespace": "Modernizr"
+  "namespace": "Modernizr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Modernizr/Modernizr"
+  }
 }

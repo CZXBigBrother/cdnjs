@@ -22,12 +22,6 @@
       "url": " http://onokumus.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/onokumus/metisMenu.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/onokumus/metisMenu.git",
@@ -35,5 +29,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onokumus/metisMenu.git"
   }
 }

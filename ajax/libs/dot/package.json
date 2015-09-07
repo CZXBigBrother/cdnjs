@@ -11,12 +11,6 @@
     "name": "Laura Doktorova",
     "url": "http://milq.com/p/olado"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/olado/doT.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/olado/doT.git",
@@ -26,5 +20,9 @@
       "doT.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olado/doT.git"
+  }
 }

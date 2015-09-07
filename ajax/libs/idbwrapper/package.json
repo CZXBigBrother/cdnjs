@@ -16,12 +16,6 @@
       "web": "http://jensarps.de/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jensarps/IDBWrapper"
-    }
-  ],
   "npmName": "idb-wrapper",
   "npmFileMap": [
     {
@@ -30,5 +24,9 @@
         "idbstore.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jensarps/IDBWrapper"
+  }
 }

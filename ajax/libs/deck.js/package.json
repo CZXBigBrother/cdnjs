@@ -9,12 +9,6 @@
     "email": "caleb@imakewebthings.com",
     "url": "http://imakewebthings.com"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/imakewebthings/deck.js.git"
-    }
-  ],
   "keywords": [
     "deck",
     "Presentation"
@@ -31,5 +25,9 @@
       "extensions/**/*.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imakewebthings/deck.js.git"
+  }
 }

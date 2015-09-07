@@ -16,12 +16,6 @@
       "web": "http://www.happyworm.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/happyworm/jPlayer.git"
-    }
-  ],
   "dependencies": {
     "jquery": ">1.7.0"
   },
@@ -39,5 +33,9 @@
       ]
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happyworm/jPlayer.git"
+  }
 }

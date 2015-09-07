@@ -12,12 +12,6 @@
     "D3.js"
   ],
   "license": "Mozilla public license",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/openbrainsrc/Radian"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/openbrainsrc/Radian.git",
@@ -28,5 +22,9 @@
   },
   "requiredFiles": [
     "radian.min.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openbrainsrc/Radian"
+  }
 }

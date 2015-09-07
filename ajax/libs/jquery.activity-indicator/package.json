@@ -16,10 +16,8 @@
       "web": "http://fgnass.github.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/neteye/jquery-plugins"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neteye/jquery-plugins"
+  }
 }

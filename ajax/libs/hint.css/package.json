@@ -18,12 +18,6 @@
     "hint"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/chinchang/hint.css"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/chinchang/hint.css.git",
@@ -31,5 +25,9 @@
     "files": [
       "hint*.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinchang/hint.css"
   }
 }

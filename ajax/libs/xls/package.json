@@ -22,10 +22,8 @@
     "parser"
   ],
   "author": "SheetJS",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/SheetJS/js-xls.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SheetJS/js-xls.git"
+  }
 }

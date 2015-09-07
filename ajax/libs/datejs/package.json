@@ -17,14 +17,8 @@
       "twitter": "datejs"
     }
   ],
-  "repositories": [
-    {
-      "type": "Google SVN",
-      "url": "http://code.google.com/p/datejs/source"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/datejs/Datejs"
-    }
-  ]
+  "repository": {
+    "type": "Google SVN",
+    "url": "http://code.google.com/p/datejs/source"
+  }
 }

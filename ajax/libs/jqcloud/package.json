@@ -14,10 +14,8 @@
       "web": "http://www.lucaongaro.eu/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/lucaong/jQCloud"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucaong/jQCloud"
+  }
 }

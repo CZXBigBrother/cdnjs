@@ -21,12 +21,6 @@
     }
   ],
   "license": "Apache-2.0",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/typekit/webfontloader.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/typekit/webfontloader.git",
@@ -34,5 +28,9 @@
     "files": [
       "webfontloader.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typekit/webfontloader.git"
   }
 }

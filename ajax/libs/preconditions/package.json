@@ -16,12 +16,6 @@
       "web": "http://anshulverma.net/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/anshulverma/conditional/"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/anshulverma/conditional.git",
@@ -29,5 +23,9 @@
     "files": [
       "preconditions.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anshulverma/conditional/"
   }
 }

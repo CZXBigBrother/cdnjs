@@ -15,10 +15,8 @@
       "web": "https://dragonbones.github.io/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/DragonBones/DragonBonesJS.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DragonBones/DragonBonesJS.git"
+  }
 }

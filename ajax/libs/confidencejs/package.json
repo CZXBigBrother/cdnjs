@@ -9,6 +9,9 @@
     "interval"
   ],
   "author": "Jessica Thomas <jessica@sendwithus.com>",
-  "repository": "https://github.com/sendwithus/confidence",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sendwithus/confidence"
+  },
   "license": "Apache"
 }

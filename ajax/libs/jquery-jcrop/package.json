@@ -14,11 +14,9 @@
       "web": "http://deepliquid.com/blog/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tapmodo/Jcrop"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tapmodo/Jcrop"
+  }
 }

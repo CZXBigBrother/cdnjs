@@ -18,11 +18,9 @@
       "web": "http://www.focustheweb.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/potomak/jquery-instagram"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/potomak/jquery-instagram"
+  }
 }

@@ -5,14 +5,14 @@
   "filename": "clappr.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/globocom/clappr.git"
+    "url": "https://github.com/clappr/clappr.git"
   },
   "author": "Globo.com",
   "license": "BSD",
   "browser": {
     "zepto": "clappr-zepto"
   },
-  "homepage": "https://github.com/globocom/clappr",
+  "homepage": "https://github.com/clappr/clappr",
   "dependencies": {
     "underscore": "1.7.0",
     "mousetrap": "^1.4.6",
@@ -20,7 +20,7 @@
   },
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/globocom/clappr.git",
+    "target": "git://github.com/clappr/clappr.git",
     "basePath": "dist",
     "files": [
       "**/clappr*"

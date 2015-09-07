@@ -20,10 +20,8 @@
       "web": "https://github.com/Juvenal1228"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/toranb/ember-data-django-rest-adapter"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toranb/ember-data-django-rest-adapter"
+  }
 }

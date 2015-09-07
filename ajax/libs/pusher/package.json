@@ -16,12 +16,6 @@
       "web": "http://pusher.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/pusher/pusher-js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/pusher/pusher-js.git",
@@ -30,5 +24,9 @@
       "*.js",
       "*.swf"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pusher/pusher-js"
   }
 }

@@ -15,12 +15,6 @@
       "web": "https://github.com/enyo"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/enyo/dropzone.git"
-    }
-  ],
   "npmName": "dropzone",
   "npmFileMap": [
     {
@@ -32,5 +26,9 @@
         "*/*.css"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/enyo/dropzone.git"
+  }
 }

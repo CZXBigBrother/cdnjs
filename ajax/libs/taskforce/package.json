@@ -11,10 +11,8 @@
       "web": "http://thomasdav.is"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tfrce/project-megaphone.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tfrce/project-megaphone.git"
+  }
 }

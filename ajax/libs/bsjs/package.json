@@ -15,10 +15,8 @@
     }
   ],
   "license": "MIT or GPL Version 2",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/projectBS/bsJS.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectBS/bsJS.git"
+  }
 }

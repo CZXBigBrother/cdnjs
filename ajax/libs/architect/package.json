@@ -16,12 +16,6 @@
       "web": "http://heliom.ca"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/EtienneLem/architect"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/EtienneLem/architect.git",
@@ -32,5 +26,9 @@
       "workers/jsonp_worker.min.js",
       "workers/proxy_worker.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EtienneLem/architect"
   }
 }

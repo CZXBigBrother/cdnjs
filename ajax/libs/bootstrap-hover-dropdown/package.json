@@ -9,7 +9,7 @@
     "hover",
     "dropdowns"
   ],
-  "homepage": "https://github.com/CWSpear/twitter-bootstrap-hover-dropdown",
+  "homepage": "https://github.com/CWSpear/bootstrap-hover-dropdown",
   "dependencies": {
     "bootstrap": "~3.0.0"
   },
@@ -19,6 +19,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CWSpear/twitter-bootstrap-hover-dropdown"
+    "url": "https://github.com/CWSpear/bootstrap-hover-dropdown"
   }
 }

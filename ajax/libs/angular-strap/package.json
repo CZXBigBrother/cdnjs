@@ -17,12 +17,6 @@
       "web": "http://olouv.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/mgcrea/angular-strap.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mgcrea/angular-strap.git",
@@ -30,5 +24,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mgcrea/angular-strap.git"
   }
 }

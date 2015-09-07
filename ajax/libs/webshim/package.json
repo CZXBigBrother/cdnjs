@@ -26,12 +26,6 @@
   "docs": "http://afarkas.github.com/webshim/demos/index.html",
   "demo": "http://afarkas.github.com/webshim/demos/index.html",
   "download": "http://corrupt-system.de/webshims-stable.zip",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/aFarkas/webshim.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/aFarkas/webshim.git",
@@ -40,5 +34,9 @@
       "**/*"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aFarkas/webshim.git"
+  }
 }

@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "filename": "uvcharts.min.js",
   "description": "Simple yet powerful JavaScript Charting library built using d3.js",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/Imaginea/uvCharts.git"
-    }
-  ],
   "keywords": [
     "Charts",
     "d3"
@@ -22,5 +16,9 @@
       "uvcharts.min.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Imaginea/uvCharts.git"
+  }
 }

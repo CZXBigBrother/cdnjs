@@ -13,10 +13,8 @@
       "web": "http://blog.stanisla.us/"
     }
   ],
-  "repositories": [
-    {
-      "type": "svn",
-      "url": "http://django-dynamic-formset.googlecode.com/svn/trunk/django-dynamic-formset"
-    }
-  ]
+  "repository": {
+    "type": "svn",
+    "url": "http://django-dynamic-formset.googlecode.com/svn/trunk/django-dynamic-formset"
+  }
 }

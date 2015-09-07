@@ -10,12 +10,6 @@
     "email": "brian@thirdroute.com",
     "url": "http://thirdroute.com"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/diy/intercom.js.git"
-    }
-  ],
   "keywords": [
     "intercom.js",
     "intercom",
@@ -24,5 +18,9 @@
   "license": {
     "type": "Apache",
     "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diy/intercom.js.git"
   }
 }

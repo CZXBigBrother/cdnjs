@@ -14,10 +14,8 @@
       "web": "http://eligrey.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/eligrey/FileSaver.js"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eligrey/FileSaver.js"
+  }
 }

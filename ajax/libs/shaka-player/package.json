@@ -3,7 +3,10 @@
   "description": "DASH/EME video player library",
   "version": "1.4.2",
   "homepage": "https://github.com/google/shaka-player",
-  "repository": "google/shaka-player",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/shaka-player"
+  },
   "author": "Google",
   "license": "Apache License 2.0",
   "filename": "shaka-player.compiled.js",

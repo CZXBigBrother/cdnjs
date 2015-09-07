@@ -20,12 +20,6 @@
       "web": "https://plus.google.com/109828394194059139561/posts"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/nemtsov/json-mask"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/nemtsov/json-mask.git",
@@ -33,5 +27,9 @@
     "files": [
       "jsonMask*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nemtsov/json-mask"
   }
 }

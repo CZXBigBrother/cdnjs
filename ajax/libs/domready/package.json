@@ -11,12 +11,6 @@
     "dom"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ded/domready"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ded/domready.git",
@@ -24,5 +18,9 @@
     "files": [
       "ready*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ded/domready"
   }
 }

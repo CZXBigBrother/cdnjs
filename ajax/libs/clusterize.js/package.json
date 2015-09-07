@@ -5,7 +5,7 @@
   "filename": "clusterize.min.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:NeXTs/Clusterize.js.git"
+    "url": "git://github.com/NeXTs/Clusterize.js.git"
   },
   "keywords": [
     "large",

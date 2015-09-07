@@ -15,10 +15,8 @@
       "web": "https://twitter.com/rmanalan"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://bitbucket.org/atlassian/aui"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/atlassian/aui"
+  }
 }

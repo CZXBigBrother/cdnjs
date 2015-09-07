@@ -18,11 +18,9 @@
       "web": "http://kzeni.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/kzeni/smart-web-app-banner.git"
-    }
-  ],
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kzeni/smart-web-app-banner.git"
+  }
 }

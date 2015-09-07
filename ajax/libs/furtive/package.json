@@ -14,12 +14,6 @@
     "stylus"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/johnotander/furtive"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/johnotander/furtive.git",
@@ -27,5 +21,9 @@
     "files": [
       "furtive*.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/furtive"
   }
 }

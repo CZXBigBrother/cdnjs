@@ -18,10 +18,8 @@
       "2betop": "http://www.github.com/2betop"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/fex-team/webuploader.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fex-team/webuploader.git"
+  }
 }

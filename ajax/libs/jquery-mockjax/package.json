@@ -18,12 +18,6 @@
       "url": "http://appendto.com/open-source-licenses"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jakerella/jquery-mockjax.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jakerella/jquery-mockjax.git",
@@ -31,5 +25,9 @@
     "files": [
       "jquery.mockjax*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakerella/jquery-mockjax.git"
   }
 }

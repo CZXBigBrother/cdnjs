@@ -13,12 +13,6 @@
       "web": "http://daverupert.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/davatron5000/FitText.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/davatron5000/FitText.js.git",
@@ -26,5 +20,9 @@
     "files": [
       "jquery.fittext*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davatron5000/FitText.js"
   }
 }

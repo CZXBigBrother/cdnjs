@@ -15,17 +15,15 @@
       "name": "Chris Leonello <chris@jqplot.com>"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://bitbucket.org/cleonello/jqplot/downloads/"
-    }
-  ],
   "licenses": [
     "MIT",
     {
       "type": "GPL",
       "url": "http://www.opensource.org/licenses/gpl-license.php"
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/cleonello/jqplot/downloads/"
+  }
 }

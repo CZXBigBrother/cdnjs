@@ -9,12 +9,6 @@
     "email": "info@iliasiovis.com",
     "url": "http://www.iliasiovis.com/"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/iliasiovis/Hoverizr"
-    }
-  ],
   "keywords": [
     "hoverizr",
     "hover"
@@ -27,5 +21,9 @@
       "jquery.hoverizr.min.js",
       "jquery.hoverizr.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iliasiovis/Hoverizr"
   }
 }

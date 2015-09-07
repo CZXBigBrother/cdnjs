@@ -16,12 +16,6 @@
       "name": "Viljami Salminen"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/viljamis/responsive-nav.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/viljamis/responsive-nav.js.git",
@@ -32,5 +26,9 @@
       "responsive-nav.js",
       "responsive-nav.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viljamis/responsive-nav.js"
   }
 }

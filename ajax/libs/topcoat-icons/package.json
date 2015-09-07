@@ -11,10 +11,8 @@
     "svg",
     "font"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/topcoat/icons.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/topcoat/icons.git"
+  }
 }

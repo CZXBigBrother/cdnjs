@@ -7,12 +7,6 @@
     "url": "https://github.com/agrublev/angularLocalStorage.git"
   },
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/agrublev/angularLocalStorage.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/agrublev/angularLocalStorage.git",

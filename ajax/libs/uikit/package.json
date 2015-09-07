@@ -10,12 +10,6 @@
     "email": "info@getuikit.com",
     "url": "http://www.getuikit.com"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/uikit/uikit"
-    }
-  ],
   "keywords": [
     "uikit",
     "css",
@@ -31,5 +25,9 @@
       "fonts/*"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uikit/uikit"
+  }
 }

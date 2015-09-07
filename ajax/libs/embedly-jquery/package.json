@@ -26,12 +26,6 @@
       "url": "https://github.com/screeley"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/embedly/embedly-jquery"
-    }
-  ],
   "dependencies": {
     "jquery": "1.3.1 or greater"
   },
@@ -43,5 +37,9 @@
   "license": {
     "type": "BSD",
     "url": "https://github.com/embedly/embedly-jquery/tree/master/LICENSE/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/embedly/embedly-jquery"
   }
 }

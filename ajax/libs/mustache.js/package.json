@@ -19,12 +19,6 @@
       "web": "http://jan.prima.de/plok/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/janl/mustache.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/janl/mustache.js.git",
@@ -33,5 +27,9 @@
       "mustache.js",
       "mustache.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janl/mustache.js"
   }
 }

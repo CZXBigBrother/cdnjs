@@ -15,12 +15,6 @@
       "web": "http://j.hn/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/johndyer/mediaelement"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/johndyer/mediaelement.git",
@@ -33,5 +27,9 @@
       "*.swf",
       "*.svg"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johndyer/mediaelement"
   }
 }

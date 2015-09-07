@@ -17,10 +17,8 @@
       "web": "http://tagneto.blogspot.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jrburke/require-jquery"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrburke/require-jquery"
+  }
 }

@@ -10,10 +10,8 @@
     "fetch",
     "cache"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/madglory/backbone-fetch-cache.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madglory/backbone-fetch-cache.git"
+  }
 }

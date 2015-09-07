@@ -17,12 +17,6 @@
       "web": "http://desandro.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/metafizzy/packery"
-    }
-  ],
   "npmName": "packery",
   "npmFileMap": [
     {
@@ -31,5 +25,9 @@
         "*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metafizzy/packery"
+  }
 }

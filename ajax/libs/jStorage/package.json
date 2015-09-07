@@ -17,12 +17,6 @@
       "web": "http://andrisreinman.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/andris9/jStorage"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/andris9/jStorage.git",
@@ -31,5 +25,9 @@
       "jstorage.js",
       "jstorage.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andris9/jStorage"
   }
 }

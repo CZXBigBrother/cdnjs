@@ -17,10 +17,8 @@
       "name": "Kyle Conroy"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/kevinburke/doony"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinburke/doony"
+  }
 }

@@ -30,10 +30,8 @@
       "name": "Gianni Chiappetta"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/gf3/moment-range.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gf3/moment-range.git"
+  }
 }

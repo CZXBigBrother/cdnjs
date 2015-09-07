@@ -17,12 +17,6 @@
       "name": "Wordnik"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/swagger-api/swagger-ui.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/swagger-api/swagger-ui.git",
@@ -34,5 +28,9 @@
       "images/explorer_icons.png",
       "images/logo_small.png"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swagger-api/swagger-ui.git"
   }
 }

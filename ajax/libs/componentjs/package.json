@@ -38,14 +38,8 @@
       "name": "Ralf S. Engelschall"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/rse/componentjs-build.git"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rse/componentjs.git"
+    "url": "git://github.com/rse/componentjs-build.git"
   }
 }

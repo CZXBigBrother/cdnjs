@@ -21,10 +21,8 @@
       "name": "Hakim El Hattab"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/hakimel/Ladda.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hakimel/Ladda.git"
+  }
 }

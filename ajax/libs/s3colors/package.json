@@ -13,12 +13,6 @@
       "name": "Shaz3e"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/shaz3e/S3-Colors.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Shaz3e/S3-Colors.git",
@@ -27,5 +21,9 @@
       "s3-colors.css",
       "s3-colors.min.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shaz3e/S3-Colors.git"
   }
 }

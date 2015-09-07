@@ -12,10 +12,8 @@
       "name": "Doug Martin"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/dougmartin/Stop-Censorship"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougmartin/Stop-Censorship"
+  }
 }

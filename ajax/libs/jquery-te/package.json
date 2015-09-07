@@ -14,10 +14,8 @@
       "name": "fattihkoca"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/fattihkoca/jQuery-TE"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fattihkoca/jQuery-TE"
+  }
 }

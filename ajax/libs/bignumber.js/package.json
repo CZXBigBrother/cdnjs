@@ -24,12 +24,6 @@
       "email": "M8ch88l@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/MikeMcl/bignumber.js.git"
-    }
-  ],
   "npmName": "bignumber.js",
   "npmFileMap": [
     {
@@ -41,5 +35,9 @@
       ]
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikeMcl/bignumber.js.git"
+  }
 }

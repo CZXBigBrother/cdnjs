@@ -9,15 +9,13 @@
     "name": "Colourity",
     "url": "http://www.colourity.com"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/idriskhenchil/Fort.js"
-    }
-  ],
   "keywords": [
     "fort",
     "fort.js"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/idriskhenchil/Fort.js"
+  }
 }

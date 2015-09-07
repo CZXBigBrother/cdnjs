@@ -17,12 +17,6 @@
       "url": "http://mathiasbynens.be"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/mathiasbynens/jquery-placeholder"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mathiasbynens/jquery-placeholder.git",
@@ -32,5 +26,9 @@
       "jquery.placeholder.min.js",
       "jquery.placeholder.min.js.map"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathiasbynens/jquery-placeholder"
   }
 }

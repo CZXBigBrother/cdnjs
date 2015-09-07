@@ -13,12 +13,6 @@
       "name": "Henri Bergius"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/bergie/hallo"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/bergie/hallo.git",
@@ -26,5 +20,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bergie/hallo"
   }
 }

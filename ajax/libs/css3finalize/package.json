@@ -14,12 +14,6 @@
       "web": "http://yap.nu/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/codler/jQuery-Css3-Finalize"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/codler/jQuery-Css3-Finalize.git",
@@ -27,5 +21,9 @@
     "files": [
       "jquery.css3finalize.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codler/jQuery-Css3-Finalize"
   }
 }

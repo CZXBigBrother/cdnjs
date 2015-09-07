@@ -8,12 +8,6 @@
     "markdown",
     "converter"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/showdownjs/showdown"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/showdownjs/showdown.git",
@@ -25,5 +19,9 @@
   "license": {
     "type": "BSD",
     "url": "https://github.com/coreyti/showdown/raw/master/license.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/showdownjs/showdown"
   }
 }

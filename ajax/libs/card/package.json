@@ -7,12 +7,6 @@
     "card"
   ],
   "homepage": "http://jessepollak.github.io/card",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jessepollak/card"
-    }
-  ],
   "npmName": "card",
   "npmFileMap": [
     {
@@ -22,5 +16,9 @@
         "css/*.css"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jessepollak/card"
+  }
 }

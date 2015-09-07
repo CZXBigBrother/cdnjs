@@ -8,12 +8,6 @@
     "semantic",
     "ui"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Semantic-Org/Semantic-UI"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Semantic-Org/Semantic-UI.git",
@@ -21,5 +15,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Semantic-Org/Semantic-UI"
   }
 }

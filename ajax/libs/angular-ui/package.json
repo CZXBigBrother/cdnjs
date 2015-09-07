@@ -13,11 +13,9 @@
     "angular-ui",
     "AngularUI"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/angular-ui/angular-ui-OLDREPO"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-ui/angular-ui-OLDREPO"
+  }
 }

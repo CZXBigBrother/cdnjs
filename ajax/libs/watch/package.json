@@ -18,15 +18,15 @@
     "name": "Darcy Clarke",
     "url": "http://darcyclarke.me"
   },
-  "homepage": "https://github.com/darcyclarke/jQuery-Watch-Plugin",
-  "docs": "https://github.com/darcyclarke/jQuery-Watch-Plugin",
+  "homepage": "https://github.com/darcyclarke/Watch.js",
+  "docs": "https://github.com/darcyclarke/Watch.js",
   "download": "http://code.jquery.com/#watch",
   "dependencies": {
     "jquery": ">=1.6"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/darcyclarke/jQuery-Watch-Plugin"
+    "url": "https://github.com/darcyclarke/Watch.js"
   },
   "license": "MIT"
 }

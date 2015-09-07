@@ -15,10 +15,8 @@
       "url": "http://lorenzoraffio.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "svn",
-      "url": "http://code.google.com/p/galleriffic/source/browse/#svn/trunk/example"
-    }
-  ]
+  "repository": {
+    "type": "svn",
+    "url": "http://code.google.com/p/galleriffic/source/browse/#svn/trunk/example"
+  }
 }

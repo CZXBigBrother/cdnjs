@@ -13,12 +13,6 @@
       "name": "Andrey Gubanov"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/finom/matreshka.git"
-    }
-  ],
   "npmName": "matreshka",
   "npmFileMap": [
     {
@@ -29,5 +23,9 @@
         "matreshka.min.map"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finom/matreshka.git"
+  }
 }

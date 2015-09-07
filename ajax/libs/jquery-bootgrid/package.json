@@ -38,16 +38,14 @@
       "url": "http://www.rafaelstaib.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/rstaib/jquery-bootgrid.git"
-    }
-  ],
   "dependencies": {
     "jquery": ">=1.9.0",
     "bootstrap": ">=3.1.1"
   },
   "gratipay": "RafaelStaib",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rstaib/jquery-bootgrid.git"
+  }
 }

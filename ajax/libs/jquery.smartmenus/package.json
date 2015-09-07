@@ -14,12 +14,6 @@
     "ui"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/vadikom/smartmenus"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/vadikom/smartmenus.git",
@@ -35,5 +29,9 @@
     "css/sm-clean/sm-clean.min.css",
     "css/sm-mint/sm-mint.min.css",
     "css/sm-simple/sm-simple.min.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vadikom/smartmenus"
+  }
 }

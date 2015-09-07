@@ -4,10 +4,8 @@
   "version": "1.0.4",
   "description": "BootPag - boostrap dynamic pagination jQuery plugin",
   "homepage": "http://botmonster.com/jquery-bootpag/",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/botmonster/jquery-bootpag"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/botmonster/jquery-bootpag"
+  }
 }

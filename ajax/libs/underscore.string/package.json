@@ -20,12 +20,6 @@
       "email": "edtsech@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/epeli/underscore.string"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/epeli/underscore.string.git",
@@ -33,5 +27,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epeli/underscore.string"
   }
 }

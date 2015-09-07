@@ -13,12 +13,6 @@
   ],
   "filename": "ui-bootstrap-tpls.min.js",
   "version": "0.13.4",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/angular-ui/bootstrap"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/angular-ui/bootstrap-bower.git",
@@ -27,5 +21,9 @@
       "ui-bootstrap*.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-ui/bootstrap"
+  }
 }

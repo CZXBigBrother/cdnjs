@@ -12,12 +12,6 @@
     "bootstrap"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/react-bootstrap/react-bootstrap"
-    }
-  ],
   "npmName": "react-bootstrap",
   "npmFileMap": [
     {
@@ -26,5 +20,9 @@
         "**/*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-bootstrap/react-bootstrap"
+  }
 }

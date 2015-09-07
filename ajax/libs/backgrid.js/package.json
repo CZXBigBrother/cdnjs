@@ -15,12 +15,6 @@
       "web": "https://github.com/wyuenho"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/wyuenho/backgrid"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/wyuenho/backgrid.git",
@@ -29,5 +23,9 @@
       "backgrid*.js",
       "backgrid*.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyuenho/backgrid"
   }
 }

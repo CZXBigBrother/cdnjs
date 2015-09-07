@@ -19,12 +19,6 @@
       "url": "http://cubiq.org"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/cubiq/iscroll"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/cubiq/iscroll.git",
@@ -32,5 +26,9 @@
     "files": [
       "*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cubiq/iscroll"
   }
 }

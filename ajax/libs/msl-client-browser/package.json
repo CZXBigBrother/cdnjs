@@ -5,12 +5,6 @@
   "version": "1.0.6",
   "homepage": "http://finraos.github.io/MSL",
   "keywords": [],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/FINRAOS/MSL.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/FINRAOS/MSL.git",
@@ -22,5 +16,9 @@
       "mockapi-browser.min.js"
     ]
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FINRAOS/MSL.git"
+  }
 }

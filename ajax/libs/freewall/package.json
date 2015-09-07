@@ -9,12 +9,6 @@
     "name": "kombai",
     "url": "http://vnjs.net/www/project/freewall/"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/kombai/freewall.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/kombai/freewall.git",
@@ -26,5 +20,9 @@
   "keywords": [
     "freewall",
     "freewall.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kombai/freewall.git"
+  }
 }

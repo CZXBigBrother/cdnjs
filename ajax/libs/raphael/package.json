@@ -15,12 +15,6 @@
       "web": "http://dmitry.baranovskiy.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/DmitryBaranovskiy/raphael/"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/DmitryBaranovskiy/raphael.git",
@@ -29,5 +23,9 @@
       "raphael-min.js",
       "raphael.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitryBaranovskiy/raphael/"
   }
 }

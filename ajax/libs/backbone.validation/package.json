@@ -28,10 +28,8 @@
       "web": "http://thedersen.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/thedersen/backbone.validation.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thedersen/backbone.validation.git"
+  }
 }

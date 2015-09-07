@@ -18,10 +18,8 @@
       "web": "http://boazsender.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/boazsender/backbone.routefilter.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boazsender/backbone.routefilter.git"
+  }
 }

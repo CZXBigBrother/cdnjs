@@ -15,10 +15,8 @@
       "web": "http://ninjaui.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "plain file",
-      "url": "https://github.com/ninja/ui/"
-    }
-  ]
+  "repository": {
+    "type": "plain file",
+    "url": "https://github.com/ninja/ui/"
+  }
 }

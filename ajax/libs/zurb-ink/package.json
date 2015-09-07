@@ -17,12 +17,6 @@
       "url": "https://github.com/elm232"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/zurb/ink.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/zurb/ink.git",
@@ -30,5 +24,9 @@
     "files": [
       "ink.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zurb/ink.git"
   }
 }

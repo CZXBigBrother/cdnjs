@@ -8,12 +8,6 @@
     "javascript",
     "cookies"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ScottHamper/Cookies.git"
-    }
-  ],
   "npmName": "cookies-js",
   "npmFileMap": [
     {
@@ -23,5 +17,9 @@
         "cookies.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScottHamper/Cookies.git"
+  }
 }

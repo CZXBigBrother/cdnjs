@@ -21,12 +21,6 @@
       "web": "http://refreshless.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/leongersen/noUiSlider"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/leongersen/noUiSlider.git",
@@ -34,5 +28,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leongersen/noUiSlider"
   }
 }

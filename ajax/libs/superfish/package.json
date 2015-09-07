@@ -17,12 +17,6 @@
       "web": "http://users.tpg.com.au/j_birch/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/joeldbirch/superfish.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/joeldbirch/superfish.git",
@@ -35,5 +29,9 @@
   "requiredFiles": [
     "css/megafish.min.css",
     "css/superfish.min.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeldbirch/superfish.git"
+  }
 }

@@ -14,10 +14,8 @@
       "web": "https://github.com/andreacampi"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Treesaver/treesaver"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Treesaver/treesaver"
+  }
 }

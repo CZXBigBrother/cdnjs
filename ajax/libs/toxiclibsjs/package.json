@@ -8,10 +8,8 @@
     "toxiclibsjs",
     "processing"
   ],
-  "repositories": [
-    {
-      "type": "plain file",
-      "url": "https://raw.github.com/hapticdata/toxiclibsjs/master/build/toxiclibs.min.js"
-    }
-  ]
+  "repository": {
+    "type": "plain file",
+    "url": "https://raw.github.com/hapticdata/toxiclibsjs/master/build/toxiclibs.min.js"
+  }
 }

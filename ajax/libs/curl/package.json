@@ -10,17 +10,15 @@
     "loader",
     "module"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/cujojs/curl"
-    }
-  ],
   "maintainers": [
     {
       "name": "John Hann",
       "web": "http://unscriptable.com"
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cujojs/curl"
+  }
 }

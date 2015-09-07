@@ -10,12 +10,6 @@
     "theme"
   ],
   "license": "Apache",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/IronSummitMedia/startbootstrap-stylish-portfolio.git",
@@ -23,5 +17,9 @@
     "files": [
       "css/stylish-portfolio.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio"
   }
 }

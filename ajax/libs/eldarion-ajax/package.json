@@ -13,10 +13,8 @@
       "web": "http://eldarion.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/eldarion/eldarion-ajax.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eldarion/eldarion-ajax.git"
+  }
 }

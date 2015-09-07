@@ -15,10 +15,8 @@
       "url": "http://piwik.org/the-piwik-team/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/piwik/piwik.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piwik/piwik.git"
+  }
 }

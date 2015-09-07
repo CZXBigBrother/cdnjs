@@ -14,12 +14,6 @@
       "website": "http://getify.me/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/getify/LABjs"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/getify/LABjs.git",
@@ -27,5 +21,9 @@
     "files": [
       "LAB*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getify/LABjs"
   }
 }

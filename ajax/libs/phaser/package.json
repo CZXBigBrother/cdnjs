@@ -16,12 +16,6 @@
     "javascript",
     "typescript"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/photonstorm/phaser.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/photonstorm/phaser.git",
@@ -30,5 +24,9 @@
       "**/*.js",
       "*.map"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/photonstorm/phaser.git"
   }
 }

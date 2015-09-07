@@ -25,12 +25,10 @@
       "name": "Zeroc, Inc."
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/zeroc-ice/ice.git"
-    }
-  ],
   "namespace": "ice",
-  "license": "GPL-2.0"
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroc-ice/ice.git"
+  }
 }

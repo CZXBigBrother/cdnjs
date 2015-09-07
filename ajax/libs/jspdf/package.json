@@ -8,12 +8,6 @@
     "pdf",
     "jspdf"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/MrRio/jsPDF.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/MrRio/jsPDF.git",
@@ -22,5 +16,9 @@
       "*"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrRio/jsPDF.git"
+  }
 }

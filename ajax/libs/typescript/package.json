@@ -9,10 +9,8 @@
     "compiler",
     "language"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Microsoft/TypeScript.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/TypeScript.git"
+  }
 }

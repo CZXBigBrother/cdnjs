@@ -15,12 +15,6 @@
       "web": "http://blog.ejci.net/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ejci/favico.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ejci/favico.js.git",
@@ -28,5 +22,9 @@
     "files": [
       "favico.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ejci/favico.js"
   }
 }

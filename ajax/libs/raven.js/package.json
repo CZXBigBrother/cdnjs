@@ -13,12 +13,6 @@
       "name": "Matt Robenolt"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/getsentry/raven-js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/getsentry/raven-js.git",
@@ -26,5 +20,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/getsentry/raven-js.git"
   }
 }

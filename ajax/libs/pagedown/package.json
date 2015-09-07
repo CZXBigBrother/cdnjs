@@ -13,10 +13,8 @@
       "name": "StackOverflow"
     }
   ],
-  "repositories": [
-    {
-      "type": "hg",
-      "url": "https://code.google.com/p/pagedown/"
-    }
-  ]
+  "repository": {
+    "type": "hg",
+    "url": "https://code.google.com/p/pagedown/"
+  }
 }

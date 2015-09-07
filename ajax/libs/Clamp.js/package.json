@@ -15,12 +15,6 @@
       "name": "Joseph J. Schmitt"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/josephschmitt/Clamp.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/josephschmitt/Clamp.js.git",
@@ -29,5 +23,9 @@
       "clamp.min.js",
       "clamp.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josephschmitt/Clamp.js.git"
   }
 }

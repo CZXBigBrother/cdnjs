@@ -21,11 +21,9 @@
     "name": "Baris Aydinoglu",
     "url": "http://baris.aydinoglu.info/"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/barisaydinoglu/Detectizr"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barisaydinoglu/Detectizr"
+  }
 }

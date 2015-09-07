@@ -10,12 +10,6 @@
     "scroll",
     "jquery"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/luanlmd/jquery.scroll4ever.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/luanlmd/jquery.scroll4ever.git",
@@ -25,5 +19,9 @@
       "jquery.scroll4ever.min.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luanlmd/jquery.scroll4ever.git"
+  }
 }

@@ -16,12 +16,6 @@
       "web": "http://about.me/igorescobar"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/igorescobar/jQuery-Mask-Plugin"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/igorescobar/jQuery-Mask-Plugin.git",
@@ -29,5 +23,9 @@
     "files": [
       "*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igorescobar/jQuery-Mask-Plugin"
   }
 }

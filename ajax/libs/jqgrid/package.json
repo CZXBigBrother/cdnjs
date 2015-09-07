@@ -13,10 +13,8 @@
       "name": "Trirand"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tonytomov/jqGrid/tree/master"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonytomov/jqGrid/tree/master"
+  }
 }

@@ -18,12 +18,6 @@
       "web": "http://ashkenas.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jashkenas/backbone.git"
-    }
-  ],
   "npmName": "backbone",
   "npmFileMap": [
     {
@@ -35,5 +29,9 @@
       ]
     }
   ],
-  "namespace": "Backbone"
+  "namespace": "Backbone",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jashkenas/backbone.git"
+  }
 }

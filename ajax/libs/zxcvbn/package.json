@@ -16,12 +16,6 @@
       "web": "https://github.com/lowe"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/dropbox/zxcvbn.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/dropbox/zxcvbn.git",
@@ -32,5 +26,9 @@
       "zxcvbn-async-bower.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dropbox/zxcvbn.git"
+  }
 }

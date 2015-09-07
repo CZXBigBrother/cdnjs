@@ -17,12 +17,6 @@
       "web": "http://metafizzy.co/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/metafizzy/isotope"
-    }
-  ],
   "npmName": "isotope-layout",
   "npmFileMap": [
     {
@@ -31,5 +25,9 @@
         "*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metafizzy/isotope"
+  }
 }

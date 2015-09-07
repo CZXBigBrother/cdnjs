@@ -14,16 +14,6 @@
       "name": "JSXGraph group at University of Bayreuth, Germany"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jsxgraph/jsxgraph.git"
-    },
-    {
-      "type": "git",
-      "url": "http://git.code.sf.net/p/jsxgraph/code"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jsxgraph/jsxgraph.git",
@@ -31,5 +21,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsxgraph/jsxgraph.git"
   }
 }

@@ -15,11 +15,9 @@
       "email": "info@corrupt-system.de"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/aFarkas/html5shiv.git"
-    }
-  ],
-  "namespace": "html5"
+  "namespace": "html5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aFarkas/html5shiv.git"
+  }
 }

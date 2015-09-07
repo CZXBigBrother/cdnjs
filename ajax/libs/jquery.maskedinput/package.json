@@ -15,12 +15,6 @@
       "web": "http://digitalbush.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/digitalBush/jquery.maskedinput.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/digitalBush/jquery.maskedinput.git",
@@ -29,5 +23,9 @@
       "jquery.maskedinput.js",
       "jquery.maskedinput.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalBush/jquery.maskedinput.git"
   }
 }

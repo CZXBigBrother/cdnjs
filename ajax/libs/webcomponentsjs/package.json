@@ -11,12 +11,6 @@
     "webcomponents"
   ],
   "license": "BSD",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/webcomponents/webcomponentsjs"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/webcomponents/webcomponentsjs.git",
@@ -25,5 +19,9 @@
       "*.js",
       "*.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webcomponents/webcomponentsjs"
   }
 }

@@ -3,7 +3,10 @@
   "version": "0.0.6",
   "description": "Domainr instant search box for your site",
   "homepage": "https://github.com/domainr/domainr-search-box",
-  "repository": "https://github.com/domainr/domainr-search-box.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domainr/domainr-search-box.git"
+  },
   "keywords": [
     "jquery-plugin",
     "ecosystem:jquery",

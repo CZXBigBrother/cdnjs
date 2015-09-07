@@ -4,12 +4,6 @@
   "filename": "jquery.jsPlumb-1.4.1-all-min.js",
   "description": "jsPlumb provides a means for a developer to visually connect elements on their web pages.",
   "homepage": "http://jsplumbtoolkit.com",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/sporritt/jsPlumb.git"
-    }
-  ],
   "maintainers": [
     {
       "name": "Simon Porritt",
@@ -24,5 +18,9 @@
     "mootools",
     "yui",
     "flowchart"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sporritt/jsPlumb.git"
+  }
 }

@@ -8,12 +8,6 @@
     "pick",
     "coordinates"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/barinbritva/coordinates-picker.git"
-    }
-  ],
   "homepage": "https://github.com/barinbritva/coordinates-picker",
   "autoupdate": {
     "source": "git",
@@ -24,5 +18,9 @@
       "coordinates-picker.min.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/barinbritva/coordinates-picker.git"
+  }
 }

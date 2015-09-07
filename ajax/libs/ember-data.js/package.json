@@ -16,12 +16,6 @@
       "web": "http://emberjs.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/emberjs/data"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/components/ember-data.git",
@@ -32,5 +26,9 @@
       "ember-data.js",
       "ember-data.js.map"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emberjs/data"
   }
 }

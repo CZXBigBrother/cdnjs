@@ -17,10 +17,8 @@
       "web": "http://vertx.io/community.html"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/vert-x/vert.x"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vert-x/vert.x"
+  }
 }

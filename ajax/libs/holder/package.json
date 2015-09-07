@@ -17,12 +17,6 @@
       "name": "Ivan Malopinsky"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/imsky/holder.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/imsky/holder.git",
@@ -31,5 +25,9 @@
       "holder.js",
       "holder.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imsky/holder.git"
   }
 }

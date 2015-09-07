@@ -13,10 +13,8 @@
       "name": "CKSource"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ckeditor/ckeditor-dev.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckeditor/ckeditor-dev.git"
+  }
 }

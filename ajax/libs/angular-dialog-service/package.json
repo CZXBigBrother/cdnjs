@@ -16,12 +16,6 @@
     "service"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/m-e-conroy/angular-dialog-service"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/m-e-conroy/angular-dialog-service.git",
@@ -29,5 +23,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-e-conroy/angular-dialog-service"
   }
 }

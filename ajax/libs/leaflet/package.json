@@ -13,12 +13,6 @@
       "name": "CloudMade"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Leaflet/Leaflet.git"
-    }
-  ],
   "npmName": "leaflet",
   "npmFileMap": [
     {
@@ -27,5 +21,9 @@
         "*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leaflet/Leaflet.git"
+  }
 }

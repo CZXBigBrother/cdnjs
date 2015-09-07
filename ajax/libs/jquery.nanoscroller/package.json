@@ -20,12 +20,6 @@
       "web": "http://krister.fi/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jamesflorentino/nanoScrollerJS"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jamesflorentino/nanoScrollerJS.git",
@@ -34,5 +28,9 @@
       "javascripts/jquery.nanoscroller.*",
       "css/nanoscroller.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesflorentino/nanoScrollerJS"
   }
 }

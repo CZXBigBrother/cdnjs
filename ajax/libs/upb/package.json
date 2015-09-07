@@ -21,12 +21,6 @@
       "web": "https://daawesomep.guthub.io/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/DaAwesomeP/node-upb.git"
-    }
-  ],
   "version": "1.2.3",
   "npmName": "upb",
   "npmFileMap": [
@@ -45,5 +39,9 @@
     }
   ],
   "filename": "upb.min.js",
-  "namespace": "upb"
+  "namespace": "upb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaAwesomeP/node-upb.git"
+  }
 }

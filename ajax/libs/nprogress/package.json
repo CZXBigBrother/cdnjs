@@ -15,12 +15,6 @@
       "web": "http://ricostacruz.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/rstacruz/nprogress.git"
-    }
-  ],
   "npmName": "nprogress",
   "npmFileMap": [
     {
@@ -30,5 +24,9 @@
         "nprogress.css"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rstacruz/nprogress.git"
+  }
 }

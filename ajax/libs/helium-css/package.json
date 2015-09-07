@@ -9,15 +9,13 @@
     "email": "geuis.teses@gmail.com",
     "url": "http://geuis.com"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/geuis/helium-css.git"
-    }
-  ],
   "keywords": [
     "helium",
     "css",
     "scan"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/geuis/helium-css.git"
+  }
 }

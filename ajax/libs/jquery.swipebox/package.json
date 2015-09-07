@@ -13,12 +13,6 @@
     "popular"
   ],
   "author": "brutaldesign",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/brutaldesign/swipebox.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/brutaldesign/swipebox.git",
@@ -28,5 +22,9 @@
       "js/*",
       "img/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brutaldesign/swipebox.git"
   }
 }

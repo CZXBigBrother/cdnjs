@@ -17,10 +17,8 @@
       "web": "http://analog.coop/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/dotjay/hashgrid"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotjay/hashgrid"
+  }
 }

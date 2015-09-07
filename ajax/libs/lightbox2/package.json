@@ -16,12 +16,6 @@
       "web": "http://lokeshdhakar.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/lokesh/lightbox2.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/lokesh/lightbox2.git",
@@ -32,5 +26,9 @@
   },
   "requiredFiles": [
     "css/lightbox.min.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokesh/lightbox2.git"
+  }
 }

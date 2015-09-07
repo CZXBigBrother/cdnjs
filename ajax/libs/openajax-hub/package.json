@@ -19,11 +19,9 @@
       "web": "http://www.openajax.org/"
     }
   ],
-  "repositories": [
-    {
-      "type": "svn",
-      "url": "https://openajaxallianc.svn.sourceforge.net/svnroot/openajaxallianc",
-      "path": "hub20/trunk/src/OpenAjax.js"
-    }
-  ]
+  "repository": {
+    "type": "svn",
+    "url": "https://openajaxallianc.svn.sourceforge.net/svnroot/openajaxallianc",
+    "path": "hub20/trunk/src/OpenAjax.js"
+  }
 }

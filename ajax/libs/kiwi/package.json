@@ -18,5 +18,8 @@
     "engine",
     "html"
   ],
-  "repository": "git://github.com/coolony/kiwi"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coolony/kiwi"
+  }
 }

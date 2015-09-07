@@ -14,12 +14,6 @@
       "web": "http://labratrevenge.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Caged/d3-tip"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Caged/d3-tip.git",
@@ -27,5 +21,9 @@
     "files": [
       "index.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Caged/d3-tip"
   }
 }

@@ -21,12 +21,6 @@
       "web": "https://github.com/Kienz"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/kangax/fabric.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/kangax/fabric.js.git",
@@ -38,5 +32,9 @@
   "requiredFiles": [
     "fabric.require.min.js"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kangax/fabric.js"
+  }
 }

@@ -9,10 +9,8 @@
     "template"
   ],
   "author": "Twitter Inc.",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/twitter/hogan.js.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twitter/hogan.js.git"
+  }
 }

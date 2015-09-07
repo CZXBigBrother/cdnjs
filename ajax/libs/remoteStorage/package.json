@@ -4,12 +4,6 @@
   "filename": "remotestorage.min.js",
   "description": "Client-side Javascript library to make apps remoteStorage-compatible.",
   "homepage": "http://remotestorage.io/",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/remotestorage/remotestorage.js"
-    }
-  ],
   "maintainers": [
     {
       "name": "Niklas Cathor",
@@ -32,5 +26,9 @@
     "webfinger",
     "oauth",
     "CORS"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remotestorage/remotestorage.js"
+  }
 }

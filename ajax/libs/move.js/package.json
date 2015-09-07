@@ -9,12 +9,6 @@
     "move"
   ],
   "homepage": "http://visionmedia.github.io/move.js/",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/visionmedia/move.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/visionmedia/move.js.git",
@@ -24,5 +18,9 @@
       "move.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/visionmedia/move.js"
+  }
 }

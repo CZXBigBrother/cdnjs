@@ -17,12 +17,6 @@
       "web": "http://emblemjs.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/machty/emblem.js"
-    }
-  ],
   "npmName": "emblem",
   "npmFileMap": [
     {
@@ -32,5 +26,9 @@
         "emblem.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/machty/emblem.js"
+  }
 }

@@ -14,12 +14,6 @@
       "name": "jirikavi"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jirikavi/AngularJS-Toaster"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jirikavi/AngularJS-Toaster.git",
@@ -28,5 +22,9 @@
       "toaster*.js",
       "toaster*.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirikavi/AngularJS-Toaster"
   }
 }

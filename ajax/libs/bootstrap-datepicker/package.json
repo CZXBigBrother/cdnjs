@@ -15,12 +15,6 @@
       "web": "https://github.com/eternicode"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/eternicode/bootstrap-datepicker.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/eternicode/bootstrap-datepicker.git",
@@ -28,5 +22,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eternicode/bootstrap-datepicker.git"
   }
 }

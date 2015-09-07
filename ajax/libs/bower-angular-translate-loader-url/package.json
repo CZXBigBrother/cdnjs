@@ -12,12 +12,6 @@
     "angular.js",
     "angular-translate"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/angular-translate/bower-angular-translate-loader-url"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/angular-translate/bower-angular-translate-loader-url.git",
@@ -26,5 +20,9 @@
       "*.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-translate/bower-angular-translate-loader-url"
+  }
 }

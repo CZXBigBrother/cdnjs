@@ -14,12 +14,6 @@
       "name": "LearnBoost"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/Automattic/socket.io.git"
-    }
-  ],
   "npmName": "socket.io-client",
   "npmFileMap": [
     {
@@ -29,5 +23,9 @@
         "socket.io.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/socketio/socket.io.git"
+  }
 }

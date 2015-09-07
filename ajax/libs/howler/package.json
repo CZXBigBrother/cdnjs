@@ -13,12 +13,6 @@
       "web": "http://goldfirestudios.com/about"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/goldfire/howler.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/goldfire/howler.js.git",
@@ -27,5 +21,9 @@
       "howler.js",
       "howler.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goldfire/howler.js.git"
   }
 }

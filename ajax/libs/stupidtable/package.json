@@ -14,10 +14,8 @@
       "web": "http://joequery.me/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/joequery/Stupid-Table-Plugin"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joequery/Stupid-Table-Plugin"
+  }
 }

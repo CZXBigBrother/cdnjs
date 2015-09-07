@@ -13,12 +13,6 @@
       "name": "Jordan Schroter"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jschr/bootstrap-modal"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jschr/bootstrap-modal.git",
@@ -28,5 +22,9 @@
       "img/ajax-loader.gif",
       "js/*bootstrap-modal*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jschr/bootstrap-modal"
   }
 }

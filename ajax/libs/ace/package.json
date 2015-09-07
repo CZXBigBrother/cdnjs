@@ -13,12 +13,6 @@
       "name": "The Ace Project"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ajaxorg/ace-builds/"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ajaxorg/ace-builds.git",
@@ -26,5 +20,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajaxorg/ace-builds/"
   }
 }

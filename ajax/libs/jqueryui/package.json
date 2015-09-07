@@ -17,11 +17,9 @@
       "name": "JQuery UI Team"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jquery/jquery-ui"
-    }
-  ],
-  "namespace": "$.ui"
+  "namespace": "$.ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquery/jquery-ui"
+  }
 }

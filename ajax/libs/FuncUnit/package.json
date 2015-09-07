@@ -14,10 +14,8 @@
       "web": "https://github.com/bitovi"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/bitovi/funcunit.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitovi/funcunit.git"
+  }
 }

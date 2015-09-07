@@ -17,12 +17,6 @@
       "web": "http://hakim.se/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/hakimel/reveal.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/hakimel/reveal.js.git",
@@ -38,5 +32,9 @@
       "plugin/**/*.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hakimel/reveal.js.git"
+  }
 }

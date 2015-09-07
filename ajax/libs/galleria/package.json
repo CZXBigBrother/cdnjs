@@ -17,12 +17,6 @@
       "website": "http://aino.se"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/aino/galleria"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/aino/galleria.git",
@@ -33,5 +27,9 @@
       "**/*.png",
       "**/*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aino/galleria"
   }
 }

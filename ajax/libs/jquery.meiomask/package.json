@@ -23,11 +23,9 @@
       "url": "https://github.com/johnvoloski"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/fabiomcosta/jquery-meiomask.git"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiomcosta/jquery-meiomask.git"
+  }
 }

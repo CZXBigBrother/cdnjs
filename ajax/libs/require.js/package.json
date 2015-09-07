@@ -16,12 +16,6 @@
       "web": "http://tagneto.blogspot.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jrburke/requirejs"
-    }
-  ],
   "namespace": "require",
   "autoupdate": {
     "source": "git",
@@ -33,5 +27,9 @@
   },
   "requiredFiles": [
     "require.min.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrburke/requirejs"
+  }
 }

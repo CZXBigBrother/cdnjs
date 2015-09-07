@@ -24,10 +24,8 @@
       "url": "https://github.com/jquery/sizzle/blob/master/AUTHORS.txt"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jquery/sizzle.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquery/sizzle.git"
+  }
 }

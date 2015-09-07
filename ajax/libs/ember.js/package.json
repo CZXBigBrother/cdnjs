@@ -1,7 +1,7 @@
 {
   "name": "ember.js",
   "filename": "ember.min.js",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.",
   "homepage": "http://emberjs.com/",
   "keywords": [
@@ -14,12 +14,6 @@
       "web": "http://emberjs.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/emberjs/ember.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/components/ember.git",
@@ -27,5 +21,9 @@
     "files": [
       "ember*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emberjs/ember.js"
   }
 }

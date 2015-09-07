@@ -14,10 +14,8 @@
       "name": "Trent Richardson"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/trentrichardson/jQuery-Timepicker-Addon"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trentrichardson/jQuery-Timepicker-Addon"
+  }
 }

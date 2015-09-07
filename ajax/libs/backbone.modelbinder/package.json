@@ -16,12 +16,6 @@
       "web": "https://github.com/theironcook"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/theironcook/Backbone.ModelBinder"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/theironcook/Backbone.ModelBinder.git",
@@ -29,5 +23,9 @@
     "files": [
       "*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theironcook/Backbone.ModelBinder"
   }
 }

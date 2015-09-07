@@ -22,12 +22,6 @@
       "email": "m@m.cg"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/ftlabs/fastclick.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ftlabs/fastclick.git",
@@ -35,5 +29,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ftlabs/fastclick.git"
   }
 }

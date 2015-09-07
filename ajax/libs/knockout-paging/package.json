@@ -4,7 +4,7 @@
   "description": "Knockout paging",
   "repository": {
     "type": "git",
-    "url": "git@github.com/ErikSchierboom/knockout-paging.git"
+    "url": "git://github.com/ErikSchierboom/knockout-paging.git"
   },
   "keywords": [
     "knockout",

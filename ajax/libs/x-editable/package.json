@@ -16,10 +16,8 @@
       "web": "https://github.com/vitalets"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/vitalets/x-editable"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitalets/x-editable"
+  }
 }

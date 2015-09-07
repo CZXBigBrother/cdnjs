@@ -22,12 +22,6 @@
       "web": "http://flesler.blogspot.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/flesler/jquery.scrollTo"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/flesler/jquery.scrollTo.git",
@@ -36,5 +30,9 @@
       "jquery.scrollTo.js",
       "jquery.scrollTo.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flesler/jquery.scrollTo"
   }
 }

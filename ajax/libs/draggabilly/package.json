@@ -14,12 +14,6 @@
       "web": "http://desandro.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/desandro/draggabilly"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/desandro/draggabilly.git",
@@ -28,5 +22,9 @@
       "draggabilly.pkgd.js",
       "draggabilly.pkgd.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desandro/draggabilly"
   }
 }

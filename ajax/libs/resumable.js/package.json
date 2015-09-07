@@ -4,12 +4,6 @@
   "version": "1.0.2",
   "description": "A JavaScript library for providing multiple simultaneous, stable, fault-tolerant and resumable/restartable uploads via the HTML5 File API.",
   "homepage": "http://www.resumablejs.com/",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/23/resumable.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/23/resumable.js.git",
@@ -17,5 +11,9 @@
     "files": [
       "resumable.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/23/resumable.js"
   }
 }

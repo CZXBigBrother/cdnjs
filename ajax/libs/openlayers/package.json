@@ -10,10 +10,8 @@
     "openlayers",
     "maps"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/openlayers/openlayers"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openlayers/openlayers"
+  }
 }

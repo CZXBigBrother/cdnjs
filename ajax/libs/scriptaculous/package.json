@@ -15,10 +15,8 @@
       "web": "http://mir.aculo.us/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/madrobby/scriptaculous.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madrobby/scriptaculous.git"
+  }
 }

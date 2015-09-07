@@ -10,12 +10,6 @@
     "jquery-plugin"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/emn178/jquery-lazyload-any"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/emn178/jquery-lazyload-any.git",
@@ -23,5 +17,9 @@
     "files": [
       "jquery.lazyload-any.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emn178/jquery-lazyload-any"
   }
 }

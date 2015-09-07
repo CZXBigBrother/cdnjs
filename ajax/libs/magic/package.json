@@ -10,12 +10,6 @@
   ],
   "filename": "magic.min.css",
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/miniMAC/magic.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/miniMAC/magic.git",
@@ -24,5 +18,9 @@
       "magic.css",
       "magic.min.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miniMAC/magic.git"
   }
 }

@@ -11,10 +11,8 @@
     "library"
   ],
   "author": "Stefan Thomas <justmoon@members.fsf.org> (http://www.justmoon.net)",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
+  }
 }

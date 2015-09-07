@@ -13,12 +13,6 @@
       "email": "jsantell@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jsantell/dancer.js"
-    }
-  ],
   "npmName": "dancer",
   "npmFileMap": [
     {
@@ -29,5 +23,9 @@
         "plugins/*.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsantell/dancer.js"
+  }
 }

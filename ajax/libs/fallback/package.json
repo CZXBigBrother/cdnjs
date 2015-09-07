@@ -19,10 +19,8 @@
       "twitter": "sgarbesi"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/dolox/fallback.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dolox/fallback.git"
+  }
 }

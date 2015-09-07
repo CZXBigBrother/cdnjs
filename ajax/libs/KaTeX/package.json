@@ -10,11 +10,9 @@
     "khan"
   ],
   "author": "Khan Academy",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/Khan/KaTeX.git"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Khan/KaTeX.git"
+  }
 }

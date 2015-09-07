@@ -26,12 +26,6 @@
       "email": "igor@probtn.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/probtn/probtn-web"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/probtn/probtn-web.git",
@@ -39,5 +33,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/probtn/probtn-web"
   }
 }

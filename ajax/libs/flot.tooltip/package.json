@@ -10,12 +10,6 @@
     "chart",
     "graph"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/krzysu/flot.tooltip"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/krzysu/flot.tooltip.git",
@@ -24,5 +18,9 @@
       "jquery.flot.tooltip.js",
       "jquery.flot.tooltip.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krzysu/flot.tooltip"
   }
 }

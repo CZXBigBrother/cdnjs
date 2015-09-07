@@ -23,12 +23,6 @@
   "dependencies": {
     "jquery": ">= 1.7"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/rochal/jQuery-slimScroll.git"
-    }
-  ],
   "licenses": [
     "MIT",
     {
@@ -44,5 +38,9 @@
       "jquery.slimscroll.js",
       "jquery.slimscroll.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rochal/jQuery-slimScroll.git"
   }
 }

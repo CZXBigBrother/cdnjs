@@ -22,12 +22,6 @@
       "web": "http://www.jacklmoore.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jackmoore/autosize.git"
-    }
-  ],
   "licenses": "MIT",
   "autoupdate": {
     "source": "git",
@@ -36,5 +30,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackmoore/autosize.git"
   }
 }

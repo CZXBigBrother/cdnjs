@@ -10,10 +10,8 @@
     "ui",
     "toolkit"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/FrediBach/jQuery-jKit"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrediBach/jQuery-jKit"
+  }
 }

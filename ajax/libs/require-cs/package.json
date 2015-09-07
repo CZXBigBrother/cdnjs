@@ -16,12 +16,6 @@
       "web": "http://tagneto.blogspot.ru/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/requirejs/require-cs"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/requirejs/require-cs.git",
@@ -29,5 +23,9 @@
     "files": [
       "cs.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/requirejs/require-cs"
   }
 }

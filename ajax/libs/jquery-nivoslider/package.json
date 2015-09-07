@@ -16,10 +16,8 @@
       "web": "http://dev7studios.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/gilbitron/Nivo-Slider"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilbitron/Nivo-Slider"
+  }
 }

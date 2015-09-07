@@ -23,12 +23,6 @@
       "name": "Usman Akeju"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/briancherne/jquery-hoverIntent"
-    }
-  ],
   "license": "MIT",
   "autoupdate": {
     "source": "git",
@@ -37,5 +31,9 @@
     "files": [
       "jquery.hoverIntent.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briancherne/jquery-hoverIntent"
   }
 }

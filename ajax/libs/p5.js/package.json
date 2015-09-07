@@ -26,10 +26,8 @@
       "web": "http://lauren-mccarthy.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/processing/p5.js"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/processing/p5.js"
+  }
 }

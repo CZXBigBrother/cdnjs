@@ -13,10 +13,8 @@
       "name": "Alex Gorbatchev"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/alexgorbatchev/SyntaxHighlighter.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexgorbatchev/SyntaxHighlighter.git"
+  }
 }

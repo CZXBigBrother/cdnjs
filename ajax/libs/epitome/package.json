@@ -16,10 +16,8 @@
       "email": "christoff@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/epitome-mvc/Epitome"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epitome-mvc/Epitome"
+  }
 }

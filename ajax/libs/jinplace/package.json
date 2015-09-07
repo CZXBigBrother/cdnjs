@@ -3,16 +3,6 @@
   "filename": "jinplace.min.js",
   "version": "1.2.1",
   "description": "A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.",
-  "repositories": [
-    {
-      "type": "hg",
-      "url": "https://bitbucket.org/itinken/jinplace"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/itinken/jinplace"
-    }
-  ],
   "keywords": [
     "jquery-plugin",
     "inline",
@@ -35,5 +25,9 @@
       ]
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "hg",
+    "url": "https://bitbucket.org/itinken/jinplace"
+  }
 }

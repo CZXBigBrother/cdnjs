@@ -4,12 +4,6 @@
   "description": "AngularJS directive for syntax highlighting with highlight.js",
   "homepage": "http://pc035860.github.io/angular-highlightjs/example/",
   "filename": "angular-highlightjs.min.js",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/pc035860/angular-highlightjs.git"
-    }
-  ],
   "keywords": [
     "angularjs",
     "highlight.js",
@@ -28,5 +22,9 @@
     "files": [
       "*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pc035860/angular-highlightjs.git"
   }
 }

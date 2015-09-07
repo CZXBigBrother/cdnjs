@@ -17,10 +17,8 @@
       "web": "https://twitter.com/instantclickjs"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/dieulot/instantclick.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dieulot/instantclick.git"
+  }
 }

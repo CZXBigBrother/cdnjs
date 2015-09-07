@@ -13,10 +13,8 @@
       "name": "Splunk"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/gwatts/jquery.sparkline.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwatts/jquery.sparkline.git"
+  }
 }

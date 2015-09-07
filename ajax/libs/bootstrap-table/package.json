@@ -14,12 +14,6 @@
       "web": "http://wenzhixin.net.cn/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/wenzhixin/bootstrap-table"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/wenzhixin/bootstrap-table.git",
@@ -27,5 +21,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wenzhixin/bootstrap-table"
   }
 }

@@ -19,12 +19,6 @@
     "node"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/angular-ui-tree/angular-ui-tree"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/angular-ui-tree/angular-ui-tree.git",
@@ -32,5 +26,9 @@
     "files": [
       "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-ui-tree/angular-ui-tree"
   }
 }

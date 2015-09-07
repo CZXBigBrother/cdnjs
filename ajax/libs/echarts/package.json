@@ -32,6 +32,9 @@
       "**/*"
     ]
   },
-  "repository": "git://github.com/ecomfe/echarts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ecomfe/echarts"
+  },
   "homepage": "http://echarts.baidu.com"
 }

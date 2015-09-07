@@ -21,12 +21,6 @@
       "web": "http://jonobr1.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jonobr1/two.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jonobr1/two.js.git",
@@ -34,5 +28,9 @@
     "files": [
       "two*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonobr1/two.js.git"
   }
 }

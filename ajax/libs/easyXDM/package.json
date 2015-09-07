@@ -16,10 +16,8 @@
       "web": "http://kinsey.no"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/oyvindkinsey/easyXDM.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oyvindkinsey/easyXDM.git"
+  }
 }

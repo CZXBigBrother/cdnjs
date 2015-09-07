@@ -5,7 +5,7 @@
   "description": "Loading animations in pure css",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ConnorAtherton/loaders.css.git"
+    "url": "git://github.com/ConnorAtherton/loaders.css.git"
   },
   "keywords": [
     "css",

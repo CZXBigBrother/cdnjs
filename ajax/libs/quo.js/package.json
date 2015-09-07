@@ -15,10 +15,8 @@
       "web": "http://www.tapquo.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/soyjavi/QuoJS"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soyjavi/QuoJS"
+  }
 }

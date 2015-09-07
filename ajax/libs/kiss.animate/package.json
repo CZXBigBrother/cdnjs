@@ -19,10 +19,8 @@
       "name": "KISS.Animate"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/daogurtsov/KISS.Animate.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daogurtsov/KISS.Animate.git"
+  }
 }

@@ -14,12 +14,6 @@
       "web": "http://hpneo.github.io/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/hpneo/gmaps"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/hpneo/gmaps.git",
@@ -29,5 +23,9 @@
       "gmaps.min.js.map"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hpneo/gmaps"
+  }
 }

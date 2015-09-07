@@ -14,12 +14,6 @@
       "email": "wavded@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/wavded/humane-js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/wavded/humane-js.git",
@@ -29,5 +23,9 @@
       "humane.js",
       "themes/*.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wavded/humane-js"
   }
 }

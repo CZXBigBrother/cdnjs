@@ -10,10 +10,8 @@
     "intigration"
   ],
   "author": "Salesforce.com, Inc.",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/forcedotcom/SalesforceCanvasFrameworkSDK.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forcedotcom/SalesforceCanvasFrameworkSDK.git"
+  }
 }

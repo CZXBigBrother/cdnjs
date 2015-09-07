@@ -9,10 +9,8 @@
     "i18n",
     "internationalisation"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/i18next/i18next.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i18next/i18next.git"
+  }
 }

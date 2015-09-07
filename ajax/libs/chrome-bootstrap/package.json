@@ -6,7 +6,7 @@
   "author": "Roy Kolak <roy.kolak@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/roykolak/chrome-bootstrap.git"
+    "url": "https://github.com/better-history/chrome-bootstrap.git"
   },
   "keywords": [
     "chrome",
@@ -14,7 +14,7 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/roykolak/chrome-bootstrap.git",
+    "target": "git://github.com/better-history/chrome-bootstrap.git",
     "basePath": "",
     "files": [
       "chrome-bootstrap.css",

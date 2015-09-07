@@ -9,12 +9,6 @@
     "name": "Simon Whitaker",
     "url": "https://github.com/simonwhitaker"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/simonwhitaker/github-fork-ribbon-css/"
-    }
-  ],
   "keywords": [
     "css",
     "fork",
@@ -30,5 +24,9 @@
       "gh-fork-ribbon.ie.css"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simonwhitaker/github-fork-ribbon-css/"
+  }
 }

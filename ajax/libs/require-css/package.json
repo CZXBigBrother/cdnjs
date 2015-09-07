@@ -17,12 +17,6 @@
       "web": "http://twitter.com/guybedford"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/guybedford/require-css"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/guybedford/require-css.git",
@@ -31,5 +25,9 @@
       "css.js",
       "css.min.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guybedford/require-css"
   }
 }

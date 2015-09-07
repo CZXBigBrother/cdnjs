@@ -7,10 +7,8 @@
   "keywords": [
     "code syntax highlighting"
   ],
-  "repositories": [
-    {
-      "type": "svn",
-      "url": "http://google-code-prettify.googlecode.com/svn/trunk/"
-    }
-  ]
+  "repository": {
+    "type": "svn",
+    "url": "http://google-code-prettify.googlecode.com/svn/trunk/"
+  }
 }

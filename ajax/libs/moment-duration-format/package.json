@@ -13,12 +13,6 @@
     "format"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jsmreese/moment-duration-format"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jsmreese/moment-duration-format.git",
@@ -26,5 +20,9 @@
     "files": [
       "moment-duration-format*.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsmreese/moment-duration-format"
   }
 }

@@ -14,10 +14,8 @@
       "web": "https://github.com/harthur"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/harthur/brain.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harthur/brain.git"
+  }
 }
