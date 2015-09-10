@@ -14,12 +14,12 @@
   "filename": "css/zocial.min.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/samcollins/css-social-buttons.git"
+    "url": "https://github.com/smcllns/css-social-buttons.git"
   },
   "license": "MIT",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/samcollins/css-social-buttons.git",
+    "target": "git://github.com/smcllns/css-social-buttons.git",
     "basePath": "",
     "files": [
       "css/zocial*"

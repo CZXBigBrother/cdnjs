@@ -13,7 +13,7 @@
   "description": "A framework designed for mobile clients",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/frozenui/frozenui/frozenui.git",
+    "target": "git://github.com/frozenui/frozenui.git",
     "basePath": "dist",
     "files": [
       "**/*"

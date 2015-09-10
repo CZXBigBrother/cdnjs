@@ -1,7 +1,7 @@
 {
   "name": "jqModal",
   "filename": "jqModal.min.js",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "jqModal is a plugin for jQuery to help you display notices, dialogs, and modal windows in a web browser.",
   "homepage": "http://jquery.iceburg.net/jqModal/",
   "keywords": [

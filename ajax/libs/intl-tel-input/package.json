@@ -1,7 +1,7 @@
 {
   "name": "intl-tel-input",
   "filename": "js/intlTelInput.min.js",
-  "version": "6.0.7",
+  "version": "6.0.8",
   "homepage": "http://jackocnr.com/intl-tel-input.html",
   "authors": "Jack O'Connor (http://jackocnr.com)",
   "description": "A jQuery plugin for entering international telephone numbers",

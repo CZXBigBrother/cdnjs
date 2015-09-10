@@ -246,15 +246,19 @@ var updateLibrary = function (pkg, cb) {
     var msg = 'Checking versions for ' + pkg.npmName;
     console.log(msg.prompt);
     request.get('http://registry.npmjs.org/' + pkg.npmName).end(function(error, result) {
-        async.each(_.pairs(result.body.versions), function(p, cb){
-            var data = p[1];
-            var version = p[0];
-            updateLibraryVersion(pkg, data.dist.tarball, version, cb)
-        }, function(err){
-        var msg = 'Library finished' + (err ? ' ' + err.error : '');
-        console.log(msg);
-            cb(null);
-        });
+        if (result.body != undefined) {
+            async.each(_.pairs(result.body.versions), function(p, cb){
+                var data = p[1];
+                var version = p[0];
+                updateLibraryVersion(pkg, data.dist.tarball, version, cb)
+            }, function(err){
+            var msg = 'Library finished' + (err ? ' ' + err.error : '');
+            console.log(msg);
+                cb(null);
+            });
+        } else {
+            error('Got error!', pkg.name);
+        }
     });
 }
 

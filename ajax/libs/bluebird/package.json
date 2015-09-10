@@ -2,7 +2,7 @@
   "name": "bluebird",
   "description": "Bluebird is a fully featured Promise library with focus on innovative features and performance.",
   "filename": "bluebird.min.js",
-  "version": "2.9.34",
+  "version": "2.10.0",
   "keywords": [
     "promise",
     "performance",
