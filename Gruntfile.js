@@ -148,15 +148,22 @@ module.exports = function(grunt) {
           return callback(false);
         }
 
+        if(!grunt.file.exists(item) || !grunt.file.isFile(item)) {
+          grunt.log.error('File: ', item, ' not exists or not a file');
+          return callback(false);
+        }
+
+        grunt.log.ok(item, ' is ok, now uploading...');
+
         var remote = item.replace(/^ajax\/libs/i, '');
         upyun.uploadFile(remote, item, mime.lookup(item), true, {mkdir: true}, function(error, result){
           if(error || (result && result.error)) {
-            grunt.log.error('When upload file: ' + remote + ' faild!');
+            grunt.log.error('When upload file: ' + item + ' faild!');
             grunt.log.error(error || JSON.stringify(result));
             return done(error || (result && result.error));
           }
 
-          grunt.log.ok('Upload file: ' + remote, ' OK'.green);
+          grunt.log.ok('Upload file: ' + item, ' OK'.green);
 
           callback(true);
         });
