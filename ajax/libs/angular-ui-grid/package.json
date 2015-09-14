@@ -1,7 +1,7 @@
 {
   "name": "angular-ui-grid",
   "filename": "ui-grid.min.js",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "homepage": "http://ui-grid.info",
   "authors": "__Contributors__",
   "description": "A data grid for Angular",

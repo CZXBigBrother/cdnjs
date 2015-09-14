@@ -1,6 +1,6 @@
 {
   "name": "jsonld",
-  "version": "0.3.26",
+  "version": "0.4.1",
   "filename": "jsonld.min.js",
   "description": "A JSON-LD Processor and API implementation in JavaScript.",
   "homepage": "https://github.com/digitalbazaar/jsonld.js",
@@ -30,8 +30,5 @@
       ]
     }
   ],
-  "license": {
-    "type": "BSD",
-    "url": "https://github.com/digitalbazaar/jsonld.js/raw/master/LICENSE"
-  }
+  "license": "BSD-3-Clause"
 }

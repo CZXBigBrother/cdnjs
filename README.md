@@ -160,7 +160,7 @@ __Please include the following in your pull request:__
 
 A URL is ideal. Providing the origin of your files is very helpful as the cdnjs project is peer-reviewed. Practically speaking, it also helps us process your pull request more efficiently, which means your files go live sooner. Help us and we'll help you back.
 
-## Enabling `git`(recommended) or `npm` auto update
+## Enabling `npm`(recommended) or `git` auto update
 
 cdnjs automatically updates libraries that are known to be hosted on `npm` or git repo, e.g., Lodash. npm auto-update relies on each release and git auto-update relies on the [tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) in git repo. This auto-update script runs every hour, but the update result **won't be committed until one of our maintainers audit the updates**, because many libs will change the naming or directory structure during different versions, and we may need to minify the lib without pre-minified dist files, so **it'll be reasonable to delay for at most 30 hours**, if you think there is a lib didn't been updated, please wait at least 30 hours for the process to audit it.
 
