@@ -10,7 +10,7 @@ Dependencies status:
 
 License:
 
-﻿[![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE)
+﻿[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE)
 
 Gitter chat room:
 
@@ -25,7 +25,7 @@ Donation:
 ﻿[![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs) [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
 
 
-[cdnjs](http://github.com/cdnjs/cdnjs) is the repository mirroring all library assets on [cdnjs.cloudflare.com](http://cdnjs.cloudflare.com).
+[cdnjs](https://github.com/cdnjs/cdnjs) is the repository mirroring all library assets on [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com).
 
 [Thomas Davis](https://twitter.com/neutralthoughts) and [Ryan Kirkman](https://twitter.com/ryan_kirkman) created cdnjs, [Drew Freyling](http://decompile.it/blog/) and [Peter Dave Hello](https://github.com/PeterDaveHello) are maintainers. [Juan Gallardo](http://www.jgallardo.me/) is our community moderator.
 
@@ -52,7 +52,7 @@ cdnjs relies on user-submitted pull requests and automatic updating via `npm` to
 
 To add a new library, or update an existing library outside of `npm`, start by [forking the cdnjs repo](https://github.com/cdnjs/cdnjs/fork) to your own GitHub account.
 
-If you're adding/modifying outside of the GitHub browser interface, for example on the command line or with the GitHub desktop application, you will need to additionally install `node` locally. For more information on installing `node`, please refer to [nodejs.org](http://nodejs.org).
+If you're adding/modifying outside of the GitHub browser interface, for example on the command line or with the GitHub desktop application, you will need to additionally install `node` locally. For more information on installing `node`, please refer to [nodejs.org](https://nodejs.org).
 
 When you have forked the cdnjs repo, add your library to it. Libraries are stored in the `ajax/libs` directory. Each library has its own subdirectory of `ajax/libs` and each version of the library has its own subdirectory of the library directory name, for example:
 
@@ -238,25 +238,25 @@ The auto-update process will look for `dist` inside the named tarball and copy a
 You can search cdnjs via our API:
 
 ```
-http://api.cdnjs.com/libraries
+https://api.cdnjs.com/libraries
 ```
 
 Without any query parameters it will return the name and main file URL of every library on cdnjs. To search, use:
 
 ```
-http://api.cdnjs.com/libraries?search=jquery
+https://api.cdnjs.com/libraries?search=jquery
 ```
 
 If you would like more data, use the fields parameter which takes comma-separated values:
 
 ```
-http://api.cdnjs.com/libraries?search=jquery&fields=version,description
+https://api.cdnjs.com/libraries?search=jquery&fields=version,description
 ```
 
 To get a list of all files for that library, use the assets field:
 
 ```
-http://api.cdnjs.com/libraries?search=jquery&fields=assets
+https://api.cdnjs.com/libraries?search=jquery&fields=assets
 ```
 
 Other fields available are:

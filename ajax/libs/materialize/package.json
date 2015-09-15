@@ -4,8 +4,7 @@
   "description": "Builds Materialize distribution packages",
   "author": "Alvin Wang, Alan Chang",
   "url": "http://materializecss.com/",
-  "repository": "https://github.com/Dogfalo/materialize",
-  "version": "0.97.0",
+  "version": "0.97.1",
   "dependencies": {
     "grunt": "0.x.x",
     "grunt-contrib-clean": "0.5.x",
