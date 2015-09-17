@@ -7,6 +7,12 @@
     "type": "git",
     "url": "https://github.com/kswedberg/jquery-smooth-scroll"
   },
+  "keywords": [
+    "jQuery",
+    "jquery-plugin",
+    "scroll",
+    "animation"
+  ],
   "npmName": "jquery-smooth-scroll",
   "npmFileMap": [
     {

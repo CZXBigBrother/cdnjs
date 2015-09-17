@@ -92,6 +92,7 @@ ajax/libs/jQRangeSlider/latest/
 ajax/libs/material-design-icons/2.0
 ajax/libs/randomcolor/0.2
 ajax/libs/core-js/1,0,1/
+ajax/libs/musicmetadata/Browser-0.4.3/
 
 #ignore files that we don't support
 ajax/libs/*/*/**/*.styl

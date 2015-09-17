@@ -4,6 +4,12 @@
   "version": "1.0.4",
   "description": "BootPag - boostrap dynamic pagination jQuery plugin",
   "homepage": "http://botmonster.com/jquery-bootpag/",
+  "keywords": [
+    "pagination",
+    "bootstrap",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/botmonster/jquery-bootpag"

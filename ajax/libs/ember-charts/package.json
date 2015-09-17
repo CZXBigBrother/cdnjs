@@ -6,6 +6,11 @@
     "type": "git",
     "url": "https://github.com/Addepar/ember-charts.git"
   },
+  "keywords": [
+    "ember",
+    "charts",
+    "d3"
+  ],
   "license": "MIT",
   "autoupdate": {
     "source": "git",

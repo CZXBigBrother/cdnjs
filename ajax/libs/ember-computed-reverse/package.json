@@ -12,6 +12,10 @@
       "ember-computed-reverse.js"
     ]
   },
+  "keywords": [
+    "ember",
+    "computed property"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/gdub22/ember-computed-reverse"

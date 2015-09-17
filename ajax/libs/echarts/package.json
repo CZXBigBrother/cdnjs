@@ -24,6 +24,12 @@
   "dependencies": {
     "zrender": "~2.0.6"
   },
+  "keywords": [
+    "baidu",
+    "echarts",
+    "canvas",
+    "data visualization"
+  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ecomfe/echarts.git",

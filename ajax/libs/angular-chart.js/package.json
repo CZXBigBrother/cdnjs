@@ -1,6 +1,6 @@
 {
   "name": "angular-chart.js",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "filename": "angular-chart.min.js",
   "description": "An angular.js wrapper for Chart.js",
   "directories": {

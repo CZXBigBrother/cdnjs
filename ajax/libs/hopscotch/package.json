@@ -18,6 +18,10 @@
       "**/*"
     ]
   },
+  "keywords": [
+    "tour",
+    "linkedin"
+  ],
   "author": "Gordon Koo",
   "license": "Apache 2.0",
   "readmeFilename": "README.md"

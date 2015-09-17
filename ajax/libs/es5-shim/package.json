@@ -17,6 +17,14 @@
     "type": "git",
     "url": "https://github.com/es-shims/es5-shim.git"
   },
+  "keywords": [
+    "shim",
+    "es5",
+    "es5 shim",
+    "javascript",
+    "ecmascript",
+    "polyfill"
+  ],
   "testling": {
     "browsers": [
       "iexplore/6.0..latest",
