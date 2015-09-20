@@ -1,6 +1,6 @@
 {
   "name": "diva.js",
-  "filename": "diva.min.js",
+  "filename": "js/diva.min.js",
   "version": "4.0.0",
   "description": "Diva.js is a JavaScript document image viewer designed to present multi-page documents at high resolutions.",
   "autoupdate": {
@@ -8,8 +8,8 @@
     "target": "git://github.com/DDMAL/diva.js.git",
     "basePath": "/build/",
     "files": [
-      "js/diva.min.js",
-      "css/diva.min.js",
+      "js/**/*diva*",
+      "css/**/*diva*",
       "img/**/*"
     ]
   },

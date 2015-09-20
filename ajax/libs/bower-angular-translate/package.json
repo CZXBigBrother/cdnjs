@@ -10,7 +10,7 @@
     }
   ],
   "description": "i18n for your Angular apps, made easy",
-  "version": "2.7.1",
+  "version": "2.8.0",
   "filename": "angular-translate.min.js",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
