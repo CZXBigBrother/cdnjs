@@ -12,6 +12,7 @@ var streamBuffers = require('stream-buffers');
 var UPYUN = require('upyun');
 var async = require('async');
 var mime = require('mime');
+var _ = require('lodash');
 
 /*global module:false*/
 module.exports = function(grunt) {
@@ -142,34 +143,43 @@ module.exports = function(grunt) {
       var upyun = new UPYUN(upyunAccount.bucket, upyunAccount.operator, upyunAccount.password);
 
       grunt.log.ok('Mybe upload ', files.length, ' files');
-      async.filterSeries(files, /*10,*/ function(item, callback){
+      async.mapLimit(files, 10, function(item, callback){
         if(!/^ajax\/libs\//.test(item)) {
           grunt.log.error('File: ', item, ' no need upload');
-          return callback(false);
+          return callback(null, false);
         }
 
         if(!grunt.file.exists(item) || !grunt.file.isFile(item)) {
           grunt.log.error('File: ', item, ' not exists or not a file');
-          return callback(false);
+          return callback(null, false);
         }
 
         grunt.log.ok(item, ' is ok, now uploading...');
 
         var remote = item.replace(/^ajax\/libs/i, '');
         upyun.uploadFile(remote, item, mime.lookup(item), true, {mkdir: true}, function(error, result){
-          if(error || (result && result.error)) {
+
+          if(error) {
+            return callback(error);
+          }
+
+          if(result && result.error) {
             grunt.log.error('When upload file: ' + item + ' faild!');
-            grunt.log.error(error || JSON.stringify(result));
-            return done(error || (result && result.error));
+            return callback(new Error(JSON.stringify(result)));
           }
 
           grunt.log.ok('Upload file: ' + item, ' OK'.green);
 
-          callback(true);
+          return callback(null, item);
         });
-      }, function(results){
-        grunt.log.ok('Uploaded ', results.length, ' files');
-        done();
+      }, function(err, results){
+        if(err) {
+          return done(err);
+        }
+
+        results = _.compact(results);
+        grunt.log.ok('Uploaded ', results.length, ' files of ', files.length);
+        done(null);
       });
     }
   });
