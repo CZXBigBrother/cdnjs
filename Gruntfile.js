@@ -112,29 +112,42 @@ module.exports = function(grunt) {
     commit2
     ];
 
-    var diff = spawn('git', cmd, {
-      env: process.env, 
-      cwd: process.cwd
-    });
-    var dataStream = new streamBuffers.WritableStreamBuffer();
+    var diff; 
+    var dataStream;
 
-    diff.stdout.on('data', function(data){
-      dataStream.write(data);
-    });
+    if(!grunt.file.exists('./queue.json')) {
+      diff = spawn('git', cmd, {
+        env: process.env, 
+        cwd: process.cwd
+      });
+      dataStream = new streamBuffers.WritableStreamBuffer();
+
+      diff.stdout.on('data', function(data){
+        dataStream.write(data);
+      });
 
 
-    diff.on('exit', function(code){
-      if(code === null) return done(new Error(code));
+      diff.on('exit', function(code){
+        if(code === null) return done(new Error(code));
 
-      var str = dataStream.getContentsAsString();
-      var files = str.split('\n');
+        var str = dataStream.getContentsAsString();
+        var files = str.split('\n');
 
-      upload(files, function(err){
+        upload(files, function(err){
+          if(err) return done(err);
+
+          grunt.file.write('hash.json', JSON.stringify(commit2)); //保存已经上传到的 commit 
+        });
+      });
+    } else {
+      upload([], function(err){
         if(err) return done(err);
 
         grunt.file.write('hash.json', JSON.stringify(commit2)); //保存已经上传到的 commit 
       });
-    });
+    }
+
+      
 
     function upload(files, done){
       if(!grunt.file.exists('upyun.json')) return done(new Error('No upyun account!'));
@@ -143,44 +156,82 @@ module.exports = function(grunt) {
       var upyun = new UPYUN(upyunAccount.bucket, upyunAccount.operator, upyunAccount.password);
 
       grunt.log.ok('Mybe upload ', files.length, ' files');
-      async.mapLimit(files, 10, function(item, callback){
-        if(!/^ajax\/libs\//.test(item)) {
-          grunt.log.error('File: ', item, ' no need upload');
-          return callback(null, false);
+
+      var queuedFiles;
+      var partion; //现在执行下载任务的
+      var remain; //剩下需要下载的
+
+      queuedFiles = grunt.file.exists('./queue.json') ? grunt.file.readJSON('./queue.json') : [];
+      grunt.log.ok('Queued ', queuedFiles.length, ' files');
+
+      queuedFiles = queuedFiles.concat(files);
+      grunt.log.ok('Total ', queuedFiles.length, ' files');
+
+      grunt.file.write('./queue.json', JSON.stringify(queuedFiles)); //保存一下
+
+      async.whilst(
+        function(){
+          partion = _.slice(queuedFiles, 0, 10);
+          remain = _.slice(queuedFiles, 10);
+
+          return partion.length > 0
+        },
+        function(callback) {
+          async.mapLimit(partion, 10, function(item, callback){
+            if(!/^ajax\/libs\//.test(item)) {
+              grunt.log.error('File: ', item, ' no need upload');
+              return callback(null, false);
+            }
+
+            if(!grunt.file.exists(item) || !grunt.file.isFile(item)) {
+              grunt.log.error('File: ', item, ' not exists or not a file');
+              return callback(null, false);
+            }
+
+            grunt.log.ok(item, ' is ok, now uploading...');
+
+            var remote = item.replace(/^ajax\/libs/i, '');
+            upyun.uploadFile(remote, item, mime.lookup(item), true, {mkdir: true}, function(error, result){
+
+              if(error) {
+                return callback(error);
+              }
+
+              if(result && result.error) {
+                grunt.log.error('When upload file: ' + item + ' faild!');
+                return callback(new Error(JSON.stringify(result)));
+              }
+
+              grunt.log.ok('Upload file: ' + item, ' OK'.green);
+
+              return callback(null, item);
+            });
+          }, function(err, results){
+            if(err) {
+              return callback(err);
+            }
+
+            results = _.compact(results);
+            grunt.log.ok();
+            grunt.log.ok('-----------------------------------------------');
+            grunt.log.ok('Uploaded ', results.length, ' files of ', partion.length);
+            grunt.log.ok()
+            grunt.log.ok();
+
+            queuedFiles = remain;
+            grunt.file.write('./queue.json', JSON.stringify(queuedFiles)); //保存一下
+
+            callback(null);
+          });
+
+        },
+        function(err) {
+          if(err) return done(err);
+
+          grunt.log.ok('All uploaded!');
+          return done(null);
         }
-
-        if(!grunt.file.exists(item) || !grunt.file.isFile(item)) {
-          grunt.log.error('File: ', item, ' not exists or not a file');
-          return callback(null, false);
-        }
-
-        grunt.log.ok(item, ' is ok, now uploading...');
-
-        var remote = item.replace(/^ajax\/libs/i, '');
-        upyun.uploadFile(remote, item, mime.lookup(item), true, {mkdir: true}, function(error, result){
-
-          if(error) {
-            return callback(error);
-          }
-
-          if(result && result.error) {
-            grunt.log.error('When upload file: ' + item + ' faild!');
-            return callback(new Error(JSON.stringify(result)));
-          }
-
-          grunt.log.ok('Upload file: ' + item, ' OK'.green);
-
-          return callback(null, item);
-        });
-      }, function(err, results){
-        if(err) {
-          return done(err);
-        }
-
-        results = _.compact(results);
-        grunt.log.ok('Uploaded ', results.length, ' files of ', files.length);
-        done(null);
-      });
+      );
     }
   });
 
