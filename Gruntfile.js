@@ -112,17 +112,19 @@ module.exports = function(grunt) {
     commit2
     ];
 
+    grunt.log.ok(cmd.join(' '));
+
     var diff; 
-    var dataStream;
+    var dataStream = new streamBuffers.WritableStreamBuffer();
 
     if(!grunt.file.exists('./queue.json')) {
       diff = spawn('git', cmd, {
         env: process.env, 
         cwd: process.cwd
       });
-      dataStream = new streamBuffers.WritableStreamBuffer();
 
       diff.stdout.on('data', function(data){
+      	        console.log(data);
         dataStream.write(data);
       });
 
@@ -131,6 +133,11 @@ module.exports = function(grunt) {
         if(code === null) return done(new Error(code));
 
         var str = dataStream.getContentsAsString();
+
+        if(!str) {
+        	grunt.log.ok('No file need to upload.')
+        	return done();
+        }
         var files = str.split('\n');
 
         upload(files, function(err){
