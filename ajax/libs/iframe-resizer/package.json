@@ -1,7 +1,7 @@
 {
   "name": "iframe-resizer",
   "filename": "iframeResizer.min.js",
-  "version": "3.2.0",
+  "version": "3.3.2",
   "homepage": "https://github.com/davidjbradshaw/iframe-resizer",
   "authors": "David J. Bradshaw <dave@bradshaw.net>",
   "description": "Keep same and cross domain iFrames sized to their content with support for window/content resizing, and multiple iFrames.",
@@ -32,7 +32,7 @@
     "target": "git://github.com/davidjbradshaw/iframe-resizer.git",
     "basePath": "js/",
     "files": [
-      "*.+(js|map)"
+      "!(index)*.+(js|map)"
     ]
   },
   "repository": {

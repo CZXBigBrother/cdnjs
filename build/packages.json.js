@@ -76,7 +76,6 @@ exec('git ls-tree -r --name-only HEAD | grep **/package.json | while read filena
           date:           lib.date
       });
     })
-    fs.writeFileSync('../new-website/public/atom.xml', feed.xml(true), 'utf8');
     fs.writeFileSync('../new-website/public/rss.xml', feed.xml(true), 'utf8');
 
 })
