@@ -2,7 +2,7 @@
   "name": "messenger",
   "description": "Client-side growl-like notifications with actions and auto-retry.",
   "filename": "js/messenger.min.js",
-  "version": "1.4.0",
+  "version": "1.4.2",
   "homepage": "http://github.hubspot.com/messenger",
   "keywords": [
     "client-side",
@@ -13,5 +13,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/HubSpot/messenger"
+  },
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/HubSpot/messenger.git",
+    "basePath": "build",
+    "files": [
+      "**/messenger*"
+    ]
   }
 }

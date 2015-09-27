@@ -30,7 +30,8 @@
     "basePath": "form-validator",
     "files": [
       "*.js",
-      "*.css"
+      "*.css",
+      "lang/*.js"
     ]
   },
   "license": {

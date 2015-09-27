@@ -1,7 +1,7 @@
 {
   "name": "shepherd",
-  "version": "0.7.2",
-  "filename": "shepherd.min.js",
+  "version": "1.2.0",
+  "filename": "js/shepherd.min.js",
   "description": "Guide your users through a tour of your app.",
   "authors": [
     "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
@@ -11,10 +11,9 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/HubSpot/shepherd.git",
-    "basePath": "",
+    "basePath": "dist",
     "files": [
-      "shepherd.js",
-      "shepherd.min.js"
+      "**/shepherd*"
     ]
   },
   "repository": {

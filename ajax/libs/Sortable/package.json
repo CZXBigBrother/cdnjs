@@ -1,15 +1,8 @@
 {
-  "name": "Sortable",
-  "title": "Sortable",
-  "exportName": "Sortable",
-  "version": "1.3.0",
-  "filename": "Sortable.min.js",
-  "homepage": "http://rubaxa.github.io/Sortable/",
-  "description": "Sortable is a minimalist JavaScript library for modern browsers and touch devices. No jQuery.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/rubaxa/Sortable.git"
-  },
+  "filename": "js/sortable.min.js",
+  "name": "sortable",
+  "version": "0.8.0",
+  "description": "The simplest, most elegant way to sort a table.",
   "keywords": [
     "sortable",
     "reorder",
@@ -17,13 +10,17 @@
   ],
   "author": "Konstantin Lebedev <ibnRubaXa@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HubSpot/sortable.git"
+  },
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/rubaxa/Sortable.git",
+    "target": "git://github.com/HubSpot/sortable.git",
     "basePath": "",
     "files": [
-      "Sortable.min.js",
-      "Sortable.js"
+      "css/**/sortable*",
+      "js/**/sortable*"
     ]
   }
 }
