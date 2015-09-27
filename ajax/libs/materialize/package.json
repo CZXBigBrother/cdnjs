@@ -5,6 +5,7 @@
   "author": "Alvin Wang, Alan Chang",
   "url": "http://materializecss.com/",
   "version": "0.97.1",
+  "license": "MIT",
   "dependencies": {
     "grunt": "0.x.x",
     "grunt-contrib-clean": "0.5.x",

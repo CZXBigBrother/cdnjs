@@ -19,7 +19,7 @@
     "framework"
   ],
   "author": "Federico Zivolo",
-  "license": "https://github.com/FezVrasta/bootstrap-material-design/blob/master/LICENSE.md",
+  "license": "MIT",
   "homepage": "https://github.com/FezVrasta/bootstrap-material-design",
   "autoupdate": {
     "source": "git",
