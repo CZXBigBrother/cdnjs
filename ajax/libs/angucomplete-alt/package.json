@@ -1,7 +1,7 @@
 {
   "name": "angucomplete-alt",
   "filename": "angucomplete-alt.min.js",
-  "version": "1.2.3",
+  "version": "2.0.0",
   "description": "Awesome Autocompleteness for AngularJS",
   "author": "ghiden",
   "email": "hidenari@gmail.com",
@@ -17,5 +17,6 @@
     "files": [
       "angucomplete-alt.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

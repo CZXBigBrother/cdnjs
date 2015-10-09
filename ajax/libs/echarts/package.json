@@ -42,5 +42,6 @@
     "type": "git",
     "url": "git://github.com/ecomfe/echarts"
   },
-  "homepage": "http://echarts.baidu.com"
+  "homepage": "http://echarts.baidu.com",
+  "license": "BSD"
 }

@@ -57,5 +57,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nathansmith/unsemantic/"
-  }
+  },
+  "license": [
+    "GPL",
+    "MIT"
+  ]
 }

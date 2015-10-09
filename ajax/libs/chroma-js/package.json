@@ -32,5 +32,6 @@
         "chroma.min.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

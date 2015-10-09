@@ -2,7 +2,7 @@
   "name": "alasql",
   "filename": "alasql.min.js",
   "description": "Versatile javaScript SQL database library for relational data, noSQL (schemaless) data, and graph manipulation supporting localStorage, IndexedDB, and Excel files for import/export",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Andrey Gershun <agershun@gmail.com>",
   "directories": {
     "example": "examples",

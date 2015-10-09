@@ -1,7 +1,7 @@
 {
   "name": "jquery.perfect-scrollbar",
   "filename": "js/min/perfect-scrollbar.jquery.min.js",
-  "version": "0.6.5",
+  "version": "0.6.7",
   "description": "minimalistic but perfect custom scrollbar plugin",
   "homepage": "http://noraesae.github.io/perfect-scrollbar",
   "keywords": [
@@ -30,5 +30,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/noraesae/perfect-scrollbar"
-  }
+  },
+  "license": "MIT"
 }

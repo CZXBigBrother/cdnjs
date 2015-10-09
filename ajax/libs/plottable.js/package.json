@@ -2,7 +2,7 @@
   "name": "plottable.js",
   "filename": "plottable.min.js",
   "description": "A library for creating charts out of D3",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/palantir/plottable.git"
@@ -32,5 +32,6 @@
       "plottable.js",
       "plottable.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

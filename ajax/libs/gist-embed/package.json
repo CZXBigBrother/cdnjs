@@ -29,5 +29,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/blairvanderhoof/gist-embed"
-  }
+  },
+  "license": "BSD-2-Clause"
 }

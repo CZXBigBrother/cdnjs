@@ -10,10 +10,6 @@
     "dispatcher"
   ],
   "homepage": "http://facebook.github.io/flux/",
-  "jest": {
-    "rootDir": "src",
-    "scriptPreprocessor": "../node_modules/babel-jest"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/facebook/flux"

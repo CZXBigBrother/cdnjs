@@ -221,6 +221,9 @@ var updateLibraryVersion = function(pkg, tarballUrl, version, cb) {
                 var msg = "Do not have version " + version + " of " + pkg.npmName;
                 console.log(msg.warn);
             } else {
+                if ('Server respond 404' == result.error) {
+                    fs.mkdirsSync('./ajax/libs/' + pkg.name + '/' + version);
+                }
                 var msg = "error downloading " + version + " of " + pkg.npmName + " it didnt exist: " + result + err;
                 console.log(msg.error);
             }
@@ -244,6 +247,9 @@ var updateLibrary = function (pkg, cb) {
         return cb(null);
     }
     var msg = 'Checking versions for ' + pkg.npmName;
+    if (pkg.name != pkg.npmName) {
+      msg += ' (' + pkg.name + ')';
+    }
     console.log(msg.prompt);
     request.get('http://registry.npmjs.org/' + pkg.npmName).end(function(error, result) {
         if (result.body != undefined) {

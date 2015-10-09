@@ -23,5 +23,6 @@
     "files": [
       "jekyll-search*.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

@@ -24,5 +24,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/getsentry/raven-js.git"
-  }
+  },
+  "license": "BSD-2-Clause"
 }

@@ -16,14 +16,6 @@
     "semantic"
   ],
   "author": "Jarno Keskikangas <jarno.keskikangas@leonidasoy.fi>",
-  "contributors": [
-    "Janne Hietamäki <janne.hietamaki@leonidasoy.fi>",
-    "Sami Hangaslammi <sami.hangaslammi@leonidasoy.fi>",
-    "Toni Jyrkinen <toni.jyrkinen@leonidasoy.fi>",
-    "Antti Tarvainen <antti.tarvainen@leonidasoy.fi>",
-    "Tomi Laine <tomi.laine@leonidasoy.fi>",
-    "Mikko Ohtamaa <mikko@opensourcehacker.com>"
-  ],
   "dependencies": {
     "jsdom": "^1.0.0"
   },

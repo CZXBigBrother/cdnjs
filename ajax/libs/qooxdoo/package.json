@@ -23,5 +23,9 @@
       "name": "Daniel Wagner",
       "email": "daniel.wagner@1und1.de"
     }
+  ],
+  "licenses": [
+    "LGPL-2.1",
+    "EPL-1.0"
   ]
 }

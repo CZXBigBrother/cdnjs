@@ -27,5 +27,6 @@
   "repository": {
     "type": "github",
     "url": "https://github.com/lipka/piecon"
-  }
+  },
+  "license": "MIT"
 }

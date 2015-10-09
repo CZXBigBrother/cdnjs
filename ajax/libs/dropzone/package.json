@@ -30,5 +30,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/enyo/dropzone.git"
-  }
+  },
+  "license": "MIT"
 }

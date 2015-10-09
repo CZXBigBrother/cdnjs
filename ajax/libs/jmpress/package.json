@@ -34,12 +34,6 @@
     "type": "git",
     "url": "git://github.com/jmpressjs/jmpress.js.git"
   },
-  "jam": {
-    "main": "jmpress.js",
-    "dependencies": {
-      "jquery": ">=1.7.2"
-    }
-  },
   "github": "https://github.com/jmpressjs/jmpress.js",
   "license": "MIT"
 }

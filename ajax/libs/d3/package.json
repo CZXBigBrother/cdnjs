@@ -31,5 +31,6 @@
       ]
     }
   ],
-  "namespace": "d3"
+  "namespace": "d3",
+  "license": "BSD-3-Clause"
 }

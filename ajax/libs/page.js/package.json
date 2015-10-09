@@ -30,5 +30,6 @@
       "page.js",
       "page.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

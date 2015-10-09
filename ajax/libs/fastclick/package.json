@@ -33,5 +33,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/ftlabs/fastclick.git"
-  }
+  },
+  "license": "MIT"
 }

@@ -30,16 +30,6 @@
     "pubsub-js": "^1.5.0",
     "tether": "^0.6.5"
   },
-  "browserify": {
-    "transform": [
-      [
-        "reactify",
-        {
-          "es6": true
-        }
-      ]
-    ]
-  },
   "npmName": "react-foundation-apps",
   "npmFileMap": [
     {

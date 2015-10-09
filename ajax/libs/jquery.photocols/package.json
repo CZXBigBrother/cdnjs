@@ -22,16 +22,5 @@
   "dependencies": {
     "jquery": ">=1.7"
   },
-  "jam": {
-    "main": "jquery.photocols.js",
-    "dependencies": {
-      "jquery": ">=1.7"
-    },
-    "shim": {
-      "deps": [
-        "jquery"
-      ]
-    }
-  },
   "license": "MIT"
 }

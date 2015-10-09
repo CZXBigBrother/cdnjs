@@ -29,5 +29,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/linkedin/dustjs-helpers"
-  }
+  },
+  "license": "MIT"
 }

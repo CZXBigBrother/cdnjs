@@ -34,5 +34,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/dimsemenov/PhotoSwipe.git"
-  }
+  },
+  "license": "MIT"
 }

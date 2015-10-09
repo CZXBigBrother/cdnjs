@@ -19,5 +19,6 @@
       "themes/**/*",
       "offline*.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

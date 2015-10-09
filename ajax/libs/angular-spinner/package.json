@@ -26,5 +26,6 @@
     "angularjs",
     "spin.js",
     "spinner"
-  ]
+  ],
+  "license": "MIT"
 }

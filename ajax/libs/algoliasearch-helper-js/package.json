@@ -17,9 +17,6 @@
     "lodash-compat": "^3.10.1",
     "qs": "5.1.0"
   },
-  "peerDependencies": {
-    "algoliasearch": ">= 3.1 < 4"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/algolia/algoliasearch-helper-js.git",

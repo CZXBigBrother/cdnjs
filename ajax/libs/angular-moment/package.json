@@ -26,5 +26,6 @@
     "angularjs",
     "moment",
     "timeago"
-  ]
+  ],
+  "license": "MIT"
 }

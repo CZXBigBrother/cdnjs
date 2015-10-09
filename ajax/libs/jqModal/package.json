@@ -24,5 +24,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/briceburg/jqModal.git"
-  }
+  },
+  "licenses": [
+    "MIT",
+    "GPL-2.0"
+  ]
 }

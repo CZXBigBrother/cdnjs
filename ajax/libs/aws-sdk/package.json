@@ -1,7 +1,7 @@
 {
   "name": "aws-sdk",
   "filename": "aws-sdk.min.js",
-  "version": "2.2.4",
+  "version": "2.2.9",
   "description": "The AWS SDK for JavaScript.",
   "keywords": [
     "amazon",
@@ -19,5 +19,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/aws/aws-sdk-js.git"
-  }
+  },
+  "license": "Apache-2.0"
 }

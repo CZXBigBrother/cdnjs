@@ -27,5 +27,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/guillaumepotier/Garlic.js"
-  }
+  },
+  "license": "MIT"
 }

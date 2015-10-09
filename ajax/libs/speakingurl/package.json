@@ -57,21 +57,6 @@
       ]
     }
   },
-  "jam": {
-    "dependencies": {},
-    "main": "speakingurl.min.js",
-    "shim": {
-      "deps": [],
-      "exports": [
-        "getSlug",
-        "createSlug"
-      ]
-    },
-    "include": [
-      "speakingurl.min.js",
-      "README.md"
-    ]
-  },
   "volo": {
     "url": "//cdnjs.cloudflare.com/ajax/libs/speakingurl/{version}/speakingurl.min.js"
   },

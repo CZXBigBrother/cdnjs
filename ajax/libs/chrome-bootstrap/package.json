@@ -20,5 +20,6 @@
       "chrome-bootstrap.css",
       "chrome-bootstrap.min.css"
     ]
-  }
+  },
+  "license": "MIT"
 }

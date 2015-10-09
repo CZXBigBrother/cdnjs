@@ -26,12 +26,6 @@
   "dependencies": {
     "jquery": ">=1.5"
   },
-  "jam": {
-    "main": "jquery.form.js",
-    "dependencies": {
-      "jquery": ">=1.5.0"
-    }
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/malsup/form.git",

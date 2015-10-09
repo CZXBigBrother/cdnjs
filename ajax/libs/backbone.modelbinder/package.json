@@ -27,5 +27,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/theironcook/Backbone.ModelBinder"
-  }
+  },
+  "license": "MIT"
 }

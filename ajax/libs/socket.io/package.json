@@ -27,5 +27,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/socketio/socket.io.git"
-  }
+  },
+  "license": "MIT"
 }

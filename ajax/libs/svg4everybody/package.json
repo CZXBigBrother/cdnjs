@@ -3,9 +3,6 @@
   "description": "Use external SVG spritemaps in any browser",
   "version": "2.0.0",
   "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
-  "contributors": [
-    "Luis Merino Rendez <mail@luismerino.name> (http://luismerino.name)"
-  ],
   "homepage": "https://github.com/jonathantneal/svg4everybody",
   "license": "CC0-1.0",
   "keywords": [

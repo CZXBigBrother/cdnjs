@@ -15,5 +15,6 @@
     "form",
     "input",
     "ui"
-  ]
+  ],
+  "license": "MIT"
 }

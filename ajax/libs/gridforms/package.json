@@ -1,6 +1,6 @@
 {
   "name": "gridforms",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "filename": "gridforms.min.css",
   "homepage": "kumailht.com/gridforms",
   "authors": [
@@ -27,5 +27,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/kumailht/gridforms.git"
-  }
+  },
+  "license": "MIT"
 }

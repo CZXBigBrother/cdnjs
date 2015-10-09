@@ -49,5 +49,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/pupunzi/jquery.mb.YTPlayer.git"
-  }
+  },
+  "license": "MIT"
 }

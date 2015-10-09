@@ -18,5 +18,6 @@
     "files": [
       "jquery.lazyload.*"
     ]
-  }
+  },
+  "license": "MIT"
 }

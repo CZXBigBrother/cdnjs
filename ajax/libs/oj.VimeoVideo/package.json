@@ -14,5 +14,6 @@
     "type": "git",
     "url": "git://github.com/ojjs/oj.VimeoVideo.git"
   },
-  "filename": "oj.VimeoVideo.min.js"
+  "filename": "oj.VimeoVideo.min.js",
+  "license": "MIT"
 }

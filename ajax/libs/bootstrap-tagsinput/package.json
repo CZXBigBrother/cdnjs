@@ -9,11 +9,6 @@
     "url": "git://github.com/timschlechter/bootstrap-tagsinput.git"
   },
   "author": "Tim Schlechter",
-  "contributors": [
-    {
-      "name": "Luckner Jr Jean-Baptiste"
-    }
-  ],
   "license": "MIT",
   "homepage": "http://timschlechter.github.io/bootstrap-tagsinput/examples/",
   "keywords": [

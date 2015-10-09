@@ -41,5 +41,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/dimsemenov/Magnific-Popup.git"
-  }
+  },
+  "license": "MIT"
 }

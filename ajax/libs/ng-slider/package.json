@@ -27,5 +27,6 @@
     "control",
     "ui"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "license": "MIT"
 }

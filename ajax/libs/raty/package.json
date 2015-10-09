@@ -1,8 +1,5 @@
 {
   "author": "Washington Botelho",
-  "contributors": [
-    "Washington Botelho <wbotelhos@gmail.com> (http://wbotelhos.com)"
-  ],
   "dependencies": {
     "jquery": "2"
   },

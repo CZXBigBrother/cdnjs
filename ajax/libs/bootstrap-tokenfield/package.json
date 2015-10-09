@@ -34,5 +34,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/sliptree/bootstrap-tokenfield.git"
-  }
+  },
+  "license": "MIT"
 }

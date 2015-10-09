@@ -38,5 +38,6 @@
         "eddy.max.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

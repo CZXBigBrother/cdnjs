@@ -2,7 +2,7 @@
   "name": "angular-translate-loader-url",
   "filename": "angular-translate-loader-url.min.js",
   "description": "i18n for your Angular apps, made easy",
-  "version": "2.8.0",
+  "version": "2.8.1",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
     "framework",

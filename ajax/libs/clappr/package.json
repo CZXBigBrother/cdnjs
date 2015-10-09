@@ -9,9 +9,6 @@
   },
   "author": "Globo.com",
   "license": "BSD",
-  "browser": {
-    "zepto": "clappr-zepto"
-  },
   "homepage": "https://github.com/clappr/clappr",
   "dependencies": {
     "underscore": "1.7.0",

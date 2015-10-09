@@ -10,7 +10,7 @@
       ]
     }
   ],
-  "version": "4.0.3",
+  "version": "5.0.0",
   "filename": "pouchdb.min.js",
   "description": "PouchDB is a pocket-sized database.",
   "homepage": "http://pouchdb.com/",
@@ -45,20 +45,5 @@
     "through2": "^0.4.1",
     "es3ify": "^0.1.3"
   },
-  "browser": {
-    "./deps/buffer": false,
-    "request": false,
-    "crypto": false,
-    "./adapters/leveldb": false,
-    "./adapters/levelalt": false,
-    "./lib/deps/ajax.js": "./lib/deps/ajax-browser.js",
-    "./lib/version.js": "./lib/.version.js",
-    "bluebird": "lie",
-    "leveldown": "level-js"
-  },
-  "browserify": {
-    "transform": [
-      "./node_modules/es3ify"
-    ]
-  }
+  "license": "Apache-2.0"
 }

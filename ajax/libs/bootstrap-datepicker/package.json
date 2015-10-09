@@ -26,5 +26,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/eternicode/bootstrap-datepicker.git"
-  }
+  },
+  "license": "Apache-2.0"
 }

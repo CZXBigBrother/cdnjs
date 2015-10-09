@@ -29,5 +29,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/toopay/bootstrap-markdown.git"
-  }
+  },
+  "license": "Apache-2.0"
 }

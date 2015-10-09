@@ -31,5 +31,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vitch/jScrollPane.git"
-  }
+  },
+  "license": [
+    "MIT",
+    "GPL-2.0"
+  ]
 }

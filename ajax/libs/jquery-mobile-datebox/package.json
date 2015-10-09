@@ -7,5 +7,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jtsage/jquery-mobile-datebox.git"
-  }
+  },
+  "license": "MIT"
 }

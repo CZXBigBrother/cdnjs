@@ -6,17 +6,6 @@
   "directories": {
     "example": "example"
   },
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "stage": 0
-        }
-      ],
-      "envify"
-    ]
-  },
   "keywords": [
     "soundcloud",
     "widget",

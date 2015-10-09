@@ -32,5 +32,6 @@
     "W3C",
     "builder",
     "tools"
-  ]
+  ],
+  "license": "MIT"
 }

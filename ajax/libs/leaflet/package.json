@@ -25,5 +25,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Leaflet/Leaflet.git"
-  }
+  },
+  "license": "BSD-2-Clause"
 }

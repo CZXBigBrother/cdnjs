@@ -28,5 +28,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/heelhook/chardin.js.git"
-  }
+  },
+  "license": "Apache 2.0"
 }

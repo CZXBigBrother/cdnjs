@@ -1,6 +1,6 @@
 {
   "name": "pusher-angular",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "filename": "pusher-angular.min.js",
   "description": "Angular library for using Pusher",
   "npmName": "pusher-angular",
@@ -22,5 +22,6 @@
     "websockets"
   ],
   "author": "Hamilton Chapman",
-  "homepage": "https://github.com/pusher/pusher-angular"
+  "homepage": "https://github.com/pusher/pusher-angular",
+  "license": "MIT"
 }

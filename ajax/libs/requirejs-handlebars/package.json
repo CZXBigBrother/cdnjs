@@ -20,5 +20,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jfparadis/requirejs-handlebars"
-  }
+  },
+  "license": "MIT"
 }

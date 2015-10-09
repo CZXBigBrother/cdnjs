@@ -28,5 +28,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/evilstreak/markdown-js"
-  }
+  },
+  "license": "MIT"
 }

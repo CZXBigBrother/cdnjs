@@ -1,7 +1,7 @@
 {
   "name": "rimg",
   "filename": "rimg.min.js",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "A responsive image solution for browsers that support mediaqueries (and IE8 support). Pure javascript and no server-side code..",
   "keywords": [
     "responsive",
@@ -29,5 +29,6 @@
       "rimg.js",
       "rimg.min.js"
     ]
-  }
+  },
+  "license": "BSD-2-Clause"
 }

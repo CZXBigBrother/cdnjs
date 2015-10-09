@@ -1,6 +1,6 @@
 {
   "name": "vis",
-  "version": "4.8.2",
+  "version": "4.9.0",
   "filename": "vis.min.js",
   "description": "A dynamic, browser-based visualization library.",
   "homepage": "http://visjs.org/",
@@ -28,5 +28,9 @@
     "files": [
       "**/*"
     ]
-  }
+  },
+  "licenses": [
+    "Apache-2.0",
+    "MIT"
+  ]
 }

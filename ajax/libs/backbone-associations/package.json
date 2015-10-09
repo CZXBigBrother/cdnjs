@@ -23,19 +23,6 @@
     "backbone": ">=1.0.0",
     "underscore": ">=1.4.4"
   },
-  "jam": {
-    "dependencies": {
-      "backbone": ">=1.0.0",
-      "underscore": ">=1.4.4"
-    },
-    "main": "backbone-associations.js",
-    "include": [
-      "backbone-associations.js",
-      "backbone-associations-min.js",
-      "README.md",
-      "CHANGELOG.md"
-    ]
-  },
   "version": "0.6.2",
   "repository": {
     "type": "git",

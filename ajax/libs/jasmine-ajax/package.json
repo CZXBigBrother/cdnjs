@@ -20,5 +20,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jasmine/jasmine-ajax.git"
-  }
+  },
+  "license": "MIT"
 }

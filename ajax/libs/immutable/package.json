@@ -28,5 +28,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/facebook/immutable-js"
-  }
+  },
+  "license": "BSD-3-Clause"
 }

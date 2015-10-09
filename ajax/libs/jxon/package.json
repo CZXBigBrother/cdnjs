@@ -7,9 +7,6 @@
     "type": "git",
     "url": "git://github.com/tyrasd/JXON.git"
   },
-  "browser": {
-    "xmldom": false
-  },
   "keywords": [
     "jxon",
     "bidirectional",

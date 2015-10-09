@@ -12,7 +12,6 @@
     "type": "git",
     "url": "git://github.com/scdoshi/jquery-ajaxchimp.git"
   },
-  "bugs": "https://github.com/scdoshi/jquery-ajaxchimp/issues",
   "license": "MIT",
   "dependencies": {
     "jquery": ">= 1.9.0"

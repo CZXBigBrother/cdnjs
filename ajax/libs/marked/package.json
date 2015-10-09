@@ -24,5 +24,6 @@
     "files": [
       "marked.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

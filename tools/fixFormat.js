@@ -12,7 +12,9 @@ var fs = require("fs"),
 
 async.each(packages, function(item, callback) {
   var pkg = JSON.parse(fs.readFileSync(item, 'utf8'));
+  delete pkg.eslintConfig;
   delete pkg.scripts;
+  delete pkg.install;
   delete pkg.devDependencies;
   delete pkg.main;
   delete pkg.peerDependencies;
@@ -21,9 +23,11 @@ async.each(packages, function(item, callback) {
   delete pkg.issues;
   delete pkg.files;
   delete pkg.ignore;
+  delete pkg.typescript;
   delete pkg.engines;
   delete pkg.engine;
   delete pkg.browserify;
+  delete pkg.browser;
   delete pkg.jam;
   delete pkg.bugs;
   delete pkg.jest;

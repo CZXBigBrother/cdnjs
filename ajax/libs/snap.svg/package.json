@@ -20,5 +20,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/adobe-webplatform/Snap.svg.git"
-  }
+  },
+  "license": "Apache-2.0"
 }

@@ -22,5 +22,6 @@
         "knockback.min.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT"
 }

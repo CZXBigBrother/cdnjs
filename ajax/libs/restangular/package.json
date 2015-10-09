@@ -33,5 +33,6 @@
       "website": "http://gon.to/"
     }
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "license": "MIT"
 }

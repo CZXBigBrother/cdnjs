@@ -30,5 +30,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/brianreavis/selectize.js"
-  }
+  },
+  "license": "Apache-2.0"
 }

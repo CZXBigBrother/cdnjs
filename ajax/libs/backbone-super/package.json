@@ -8,21 +8,5 @@
     "super"
   ],
   "filename": "backbone-super-min.js",
-  "jam": {
-    "include": [
-      "backbone-super/backbone-super.js",
-      "README.md",
-      "LICENSE"
-    ],
-    "dependencies": {
-      "backbone": "> 0.9"
-    },
-    "main": "backbone-super/backbone-super.js",
-    "shim": {
-      "deps": [
-        "backbone"
-      ]
-    }
-  },
   "license": "MIT"
 }

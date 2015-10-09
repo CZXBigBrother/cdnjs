@@ -1,7 +1,7 @@
 {
   "name": "pubsub-js",
   "filename": "pubsub.min.js",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "homepage": "https://github.com/mroderick/PubSubJS/",
   "authors": {
     "name": "Morgan Roderick",

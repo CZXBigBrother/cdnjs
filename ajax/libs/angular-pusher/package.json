@@ -17,5 +17,6 @@
       "angular-pusher.js",
       "angular-pusher.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

@@ -1,7 +1,7 @@
 {
   "name": "ckeditor",
   "filename": "ckeditor.js",
-  "version": "4.4.5",
+  "version": "4.5.4",
   "description": "Ckeditor is the best web text editor for everyone.",
   "homepage": "http://ckeditor.com/",
   "keywords": [
@@ -16,5 +16,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ckeditor/ckeditor-dev.git"
-  }
+  },
+  "licenses": [
+    "deprecated_GPL-2.0+",
+    "deprecated_LGPL-2.1+",
+    "MPL-1.1"
+  ]
 }

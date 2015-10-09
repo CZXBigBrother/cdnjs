@@ -26,5 +26,6 @@
       "jquery.colorbox-min.js",
       "jquery.colorbox.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

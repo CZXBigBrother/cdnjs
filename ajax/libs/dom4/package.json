@@ -28,5 +28,6 @@
       "dom4.js",
       "dom4.max.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

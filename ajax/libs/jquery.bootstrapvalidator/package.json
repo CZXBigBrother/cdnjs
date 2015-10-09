@@ -29,5 +29,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nghuuphuoc/bootstrapvalidator.git"
+  },
+  "license": {
+    "type": "customized",
+    "url": "http://bootstrapvalidator.com/license/"
   }
 }

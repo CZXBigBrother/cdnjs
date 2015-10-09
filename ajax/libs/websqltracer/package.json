@@ -24,5 +24,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/terikon/webSqlTracer.git"
-  }
+  },
+  "license": "MIT"
 }

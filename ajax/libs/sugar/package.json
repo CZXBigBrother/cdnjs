@@ -16,5 +16,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/andrewplummer/Sugar.git"
-  }
+  },
+  "license": "MIT"
 }

@@ -27,5 +27,6 @@
       "spin.js",
       "spin.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }

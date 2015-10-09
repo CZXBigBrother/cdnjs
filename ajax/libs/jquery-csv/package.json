@@ -22,5 +22,6 @@
       "name": "Evan Plaice",
       "web": "https://github.com/mirlord/jquery-csv"
     }
-  ]
+  ],
+  "license": "MIT"
 }

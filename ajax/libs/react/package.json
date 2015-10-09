@@ -1,7 +1,7 @@
 {
   "name": "react",
   "filename": "react.min.js",
-  "version": "0.13.3",
+  "version": "0.14.0",
   "description": "React is a JavaScript library for building user interfaces.",
   "repository": {
     "type": "git",
@@ -15,13 +15,13 @@
   ],
   "homepage": "http://facebook.github.io/react",
   "npmName": "react",
-  "npmFileMap": [
-    {
-      "basePath": "/dist/",
-      "files": [
-        "*.js"
-      ]
-    }
-  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/reactjs/react-bower.git",
+    "basePath": "",
+    "files": [
+      "*.js"
+    ]
+  },
   "namespace": "React"
 }

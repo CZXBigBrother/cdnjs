@@ -1,7 +1,7 @@
 {
   "name": "picturefill",
   "filename": "picturefill.min.js",
-  "version": "2.3.1",
+  "version": "3.0.1",
   "description": "A responsive image polyfill for <picture>, srcset, sizes, and more",
   "homepage": "http://scottjehl.github.com/picturefill/",
   "keywords": [
@@ -36,5 +36,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/scottjehl/picturefill.git"
-  }
+  },
+  "license": "MIT"
 }

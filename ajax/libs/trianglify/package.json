@@ -30,5 +30,6 @@
     "svg",
     "d3.js",
     "visualization"
-  ]
+  ],
+  "license": "GPL-3.0"
 }

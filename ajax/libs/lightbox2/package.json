@@ -30,5 +30,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lokesh/lightbox2.git"
-  }
+  },
+  "license": "MIT"
 }

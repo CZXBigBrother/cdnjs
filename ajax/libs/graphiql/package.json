@@ -1,11 +1,7 @@
 {
   "name": "graphiql",
-  "version": "0.2.3",
+  "version": "0.3.1",
   "description": "An interactive in-browser GraphQL IDE.",
-  "contributors": [
-    "Hyohyeon Jeong <asiandrummer@fb.com>",
-    "Lee Byron <lee@leebyron.com> (http://leebyron.com/)"
-  ],
   "homepage": "https://github.com/graphql/graphiql",
   "repository": {
     "type": "git",
@@ -16,10 +12,6 @@
     "codemirror": "^5.6.0",
     "codemirror-graphql": "^0.1.1",
     "marked": "^0.3.5"
-  },
-  "peerDependencies": {
-    "graphql": "^0.4.0",
-    "react": "^0.13 || ^0.14.0-beta"
   },
   "requiredFiles": [
     "graphiql.min.css"
@@ -32,5 +24,9 @@
         "graphiql*"
       ]
     }
-  ]
+  ],
+  "license": {
+    "type": "customized",
+    "url": "https://github.com/graphql/graphiql/raw/master/LICENSE"
+  }
 }

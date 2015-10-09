@@ -14,5 +14,6 @@
   "keywords": [
     "angularjs",
     "spin.js"
-  ]
+  ],
+  "license": "MIT"
 }

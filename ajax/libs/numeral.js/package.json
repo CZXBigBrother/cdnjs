@@ -29,5 +29,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/adamwdraper/Numeral-js"
-  }
+  },
+  "license": "MIT"
 }

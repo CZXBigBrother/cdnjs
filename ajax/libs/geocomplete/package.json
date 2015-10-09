@@ -27,5 +27,6 @@
     "files": [
       "jquery.geocomplete*.js"
     ]
-  }
+  },
+  "license": "ISC"
 }

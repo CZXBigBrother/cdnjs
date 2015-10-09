@@ -30,5 +30,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/isagalaev/highlight.js"
-  }
+  },
+  "license": "BSD-3-Clause"
 }

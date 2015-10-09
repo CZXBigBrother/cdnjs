@@ -20,5 +20,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jquery/jquery-migrate.git"
-  }
+  },
+  "license": "MIT"
 }

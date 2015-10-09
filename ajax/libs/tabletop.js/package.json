@@ -28,5 +28,6 @@
         "backbone.tabletopSync.js"
       ]
     }
-  ]
+  ],
+  "license": "BSD"
 }
