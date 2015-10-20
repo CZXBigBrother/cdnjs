@@ -1,7 +1,7 @@
 {
   "name": "classnames",
   "filename": "index.min.js",
-  "version": "2.1.5",
+  "version": "2.2.0",
   "homepage": "http://jedwatson.github.io/classnames/",
   "authors": "Jed Watson",
   "description": "A simple utility for conditionally joining classNames together",

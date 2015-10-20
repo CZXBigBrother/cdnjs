@@ -1,7 +1,7 @@
 {
   "name": "d3fc",
-  "version": "1.3.0",
-  "filename": "d3fc.min.js",
+  "version": "1.5.0",
+  "filename": "d3fc.bundle.min.js",
   "description": "A collection of components that make it easy to build interactive charts with D3",
   "author": "Scott Logic",
   "dependencies": {
@@ -25,11 +25,7 @@
     {
       "basePath": "dist",
       "files": [
-        "d3fc.css",
-        "d3fc.js",
-        "d3fc.min.js",
-        "d3fc.min.css",
-        "d3fc.min.js.map"
+        "**/*.+(css|js|map)"
       ]
     }
   ]

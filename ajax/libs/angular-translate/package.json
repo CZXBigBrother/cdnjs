@@ -12,14 +12,15 @@
     "angular.js",
     "angular-translate"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/angular-translate/bower-angular-translate.git",
-    "basePath": "",
-    "files": [
-      "*.js"
-    ]
-  },
+  "npmName": "angular-translate",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

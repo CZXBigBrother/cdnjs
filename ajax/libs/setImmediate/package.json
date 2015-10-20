@@ -1,7 +1,7 @@
 {
   "name": "setImmediate",
   "description": "A shim for the setImmediate efficient script yielding API",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "YuzuJS",
   "license": "MIT",
   "filename": "setImmediate.min.js",

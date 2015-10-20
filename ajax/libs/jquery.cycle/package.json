@@ -1,7 +1,7 @@
 {
   "name": "jquery.cycle",
   "filename": "jquery.cycle.all.min.js",
-  "version": "3.03",
+  "version": "3.0.3",
   "description": "Cycle is an easy-to-use slideshow plugin that provides many options and effects for creating beautiful slideshows.",
   "homepage": "http://jquery.malsup.com/cycle/",
   "keywords": [
@@ -19,5 +19,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/malsup/cycle"
-  }
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/malsup/cycle.git",
+    "basePath": "",
+    "files": [
+      "jquery.cycle*.js"
+    ]
+  },
+  "requiredFiles": [
+    "jquery.cycle.lite.min.js"
+  ]
 }

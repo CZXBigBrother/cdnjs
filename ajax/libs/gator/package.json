@@ -1,0 +1,25 @@
+{
+  "name": "gator",
+  "version": "1.2.4",
+  "filename": "gator.min.js",
+  "description": "Event delegation in javascript",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ccampbell/gator.git"
+  },
+  "keywords": [
+    "event",
+    "delegation"
+  ],
+  "author": "Craig Campbell",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/ccampbell/gator",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/ccampbell/gator.git",
+    "basePath": "",
+    "files": [
+      "gator*.js"
+    ]
+  }
+}

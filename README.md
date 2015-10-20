@@ -61,7 +61,7 @@ When you have forked the cdnjs repo, add your library to it. Libraries are store
 ```
 
 [**@IonicaBizau**](https://github.com/IonicaBizau) wrote a NodeJS command line tool for automating the
-adding process of a new library. This tool [is named *cdnjs-importer* and it's open source](https://github.com/IonicaBizau/cdnjs-importer).
+adding process of a new library. This tool [is named *cdnjs-importer* and it's open source](https://github.com/cdnjs/cdnjs-importer).
 
 The basic usage is:
 

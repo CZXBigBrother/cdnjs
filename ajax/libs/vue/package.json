@@ -19,7 +19,7 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/yyx990803/vue.git",
+    "target": "git://github.com/vuejs/vue.git",
     "basePath": "dist",
     "files": [
       "*.js"
@@ -28,6 +28,6 @@
   "gratipay": "yyx990803",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yyx990803/vue.git"
+    "url": "https://github.com/vuejs/vue.git"
   }
 }

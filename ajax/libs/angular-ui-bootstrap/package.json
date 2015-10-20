@@ -12,7 +12,7 @@
     "AngularUI"
   ],
   "filename": "ui-bootstrap-tpls.min.js",
-  "version": "0.14.0",
+  "version": "0.14.2",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/angular-ui/bootstrap-bower.git",
