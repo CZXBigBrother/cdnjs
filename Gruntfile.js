@@ -144,6 +144,7 @@ module.exports = function(grunt) {
           if(err) return done(err);
 
           grunt.file.write('hash.json', JSON.stringify(commit2)); //保存已经上传到的 commit 
+          grunt.file.delete('./queue.json');
         });
       });
     } else {
@@ -151,6 +152,7 @@ module.exports = function(grunt) {
         if(err) return done(err);
 
         grunt.file.write('hash.json', JSON.stringify(commit2)); //保存已经上传到的 commit 
+        grunt.file.delete('./queue.json');
       });
     }
 
