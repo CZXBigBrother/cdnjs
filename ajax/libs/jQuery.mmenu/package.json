@@ -1,7 +1,7 @@
 {
   "name": "jQuery.mmenu",
-  "filename": "js/jquery.mmenu.min.js",
-  "version": "5.3.4",
+  "filename": "core/js/jquery.mmenu.min.js",
+  "version": "5.5.2",
   "homepage": "http://mmenu.frebsite.nl/",
   "authors": [
     "Fred Heusschen <info@frebsite.nl>"
@@ -23,8 +23,7 @@
     "target": "git://github.com/BeSite/jQuery.mmenu.git",
     "basePath": "dist",
     "files": [
-      "css/**/*",
-      "js/**/*"
+      "**/*"
     ]
   },
   "repository": {

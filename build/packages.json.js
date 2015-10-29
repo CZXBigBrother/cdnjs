@@ -94,13 +94,19 @@ fs.readFile('../new-website/public/packages.min.json', 'utf8', function(err, dat
       delete package.npmFileMap;
       delete package.dependencies;
       delete package.devDependencies;
+      var temp = {}
       if (package.npmName) {
-        package.autoupdate = 'npm';
+        temp.type = 'npm';
+        temp.target = package.npmName;
+        package.autoupdate = temp;
       } else if (package.autoupdate) {
-        package.autoupdate = package.autoupdate.source;
+        temp.type = package.autoupdate.source;
+        temp.target = package.autoupdate.target;
+        package.autoupdate = temp;
       } else {
         delete package.autoupdate;
       }
+      delete package.npmName;
       package.assets = Array();
       var oldVersions = Array();
       var pkgSave;

@@ -1,7 +1,7 @@
 {
   "name": "alt",
   "filename": "alt.min.js",
-  "version": "0.17.4",
+  "version": "0.17.7",
   "description": "A flux implementation",
   "dependencies": {
     "flux": "2.0.3",

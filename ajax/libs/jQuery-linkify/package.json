@@ -1,0 +1,26 @@
+{
+  "name": "jQuery-linkify",
+  "description": "Find URLs in plain text and return HTML for discovered links.",
+  "filename": "jquery.linkify.min.js",
+  "author": "SoapBox Innovations, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/HitSend/jQuery-linkify.git"
+  },
+  "keywords": [
+    "url",
+    "jquery",
+    "linkify"
+  ],
+  "homepage": "https://github.com/HitSend/jQuery-linkify/",
+  "version": "1.1.7",
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/SoapBox/linkifyjs.git",
+    "basePath": "dist",
+    "files": [
+      "**/*"
+    ]
+  }
+}

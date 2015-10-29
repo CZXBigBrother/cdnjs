@@ -1,0 +1,33 @@
+{
+  "name": "should.js",
+  "description": "test framework agnostic BDD-style assertions",
+  "version": "7.1.1",
+  "filename": "should.min.js",
+  "author": "TJ Holowaychuk <tj@vision-media.ca> and contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shouldjs/should.js.git"
+  },
+  "homepage": "https://github.com/shouldjs/should.js",
+  "keywords": [
+    "test",
+    "bdd",
+    "assert",
+    "should"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "should-equal": "0.5.0",
+    "should-format": "0.3.1",
+    "should-type": "0.2.0"
+  },
+  "npmName": "should",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "should*.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "gitter-sidecar",
+  "version": "1.1.2",
+  "description": "An embeddable Gitter client.",
+  "author": "The Gitter Team",
+  "license": "MIT",
+  "filename": "sidecar.js",
+  "keywords": [
+    "gitter",
+    "chat",
+    "embed",
+    "widget"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitterHQ/sidecar"
+  },
+  "dependencies": {
+    "array.from": "^0.2.0",
+    "es6-promise": "^3.0.2",
+    "keymirror": "^0.1.1",
+    "marked": "^0.3.5",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3",
+    "react-redux": "^2.1.2",
+    "redux": "^2.0.0",
+    "semver": "^5.0.3",
+    "strip-indent": "^1.0.1",
+    "whatwg-fetch": "^0.9.0"
+  }
+}

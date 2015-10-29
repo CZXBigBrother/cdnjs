@@ -2,7 +2,7 @@
   "name": "Sortable",
   "title": "Sortable",
   "exportName": "Sortable",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "filename": "Sortable.min.js",
   "homepage": "http://rubaxa.github.io/Sortable/",
   "description": "Sortable is a minimalist JavaScript library for modern browsers and touch devices. No jQuery.",

@@ -9,10 +9,7 @@
   },
   "licenses": [
     "MIT",
-    {
-      "type": "GPL-3.0+",
-      "url": "http://www.gnu.org/licenses/gpl-3.0.html"
-    }
+    "GPL-3.0+"
   ],
   "homepage": "http://janpaepke.github.io/ScrollMagic/",
   "keywords": [

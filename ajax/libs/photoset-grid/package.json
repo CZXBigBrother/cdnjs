@@ -21,5 +21,6 @@
       "jquery.photoset-grid.js",
       "jquery.photoset-grid.min.js"
     ]
-  }
+  },
+  "license": "MIT"
 }
