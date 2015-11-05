@@ -1,6 +1,6 @@
 {
   "name": "myscript",
-  "version": "1.0.15",
+  "version": "1.1.2",
   "filename": "myscript.min.js",
   "description": "MyScript javascript library to facilitate the use of cloud handwriting recognition",
   "keywords": [

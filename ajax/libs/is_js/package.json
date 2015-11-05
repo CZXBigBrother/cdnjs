@@ -1,0 +1,21 @@
+{
+  "name": "is_js",
+  "version": "0.7.4",
+  "filename": "is.min.js",
+  "license": "MIT",
+  "description": "micro check library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arasatasaygin/is.js.git"
+  },
+  "homepage": "https://github.com/arasatasaygin/is.js",
+  "npmName": "is_js",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "is*"
+      ]
+    }
+  ]
+}

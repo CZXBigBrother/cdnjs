@@ -8,10 +8,10 @@ var natcompare = require('./natcompare.js');
 var RSS = require('rss');
 var feed = new RSS({
     title:        'cdnjs.com - library updates',
-    description:  'Track when libraries are added and updated! Created by <a href="http://twitter.com/ryan_kirkman">Ryan Kirkman</a> and <a href="http://twitter.com/neutralthoughts">Thomas Davis</a>, managed by <a href="https://twitter.com/PeterDaveHello">Peter Dave Hello</a>. Sponsored and hosted by <a href="http://cloudflare.com">Cloudflare</a>',
-    site_url:         'http://cdnjs.com/',
-    feed_url:         'http://cdnjs.com/rss.xml',
-    image_url:        'http://cdnjs.com/img/poweredbycloudflare.png',
+    description:  'Track when libraries are added and updated! Created by <a href="https://twitter.com/ryan_kirkman">Ryan Kirkman</a> and <a href="https://twitter.com/neutralthoughts">Thomas Davis</a>, managed by <a href="https://twitter.com/PeterDaveHello">Peter Dave Hello</a>. Sponsored and hosted by <a href="https://cloudflare.com">Cloudflare</a>',
+    site_url:         'https://cdnjs.com/',
+    feed_url:         'https://cdnjs.com/rss.xml',
+    image_url:        'https://cdnjs.com/img/poweredbycloudflare.png',
     copyright:    'Copyright © 2015 Cdnjs. All rights reserved',
     
     author: 'cdnjs team'

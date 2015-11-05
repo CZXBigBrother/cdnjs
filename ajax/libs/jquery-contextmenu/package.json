@@ -1,7 +1,7 @@
 {
   "name": "jquery-contextmenu",
   "filename": "jquery.contextMenu.min.js",
-  "version": "1.10.2",
+  "version": "2.0.0",
   "description": "The contextMenu jQuery plugin was designed for web applications in need of menus on a possibly large amount of objects",
   "homepage": "http://swisnl.github.io/jQuery-contextMenu/",
   "keywords": [
@@ -23,14 +23,10 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/swisnl/jQuery-contextMenu.git",
-    "basePath": "src/",
+    "basePath": "dist",
     "files": [
-      "jquery.contextMenu*.+(js|css)",
-      "images/*.png"
+      "**/*"
     ]
   },
-  "requiredFiles": [
-    "jquery.contextMenu.min.css"
-  ],
   "license": "MIT"
 }

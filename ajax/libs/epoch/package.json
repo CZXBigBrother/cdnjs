@@ -1,7 +1,7 @@
 {
   "name": "epoch",
   "filename": "js/epoch.min.js",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations.",
   "homepage": "http://fastly.github.io/epoch/",
   "keywords": [

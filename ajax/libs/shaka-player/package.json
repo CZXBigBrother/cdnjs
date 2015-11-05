@@ -15,7 +15,9 @@
     {
       "basePath": "/",
       "files": [
-        "shaka-player.compiled.js"
+        "shaka-player.compiled.js",
+        "shaka-player.vod.js",
+        "shaka-player.live.js"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "name": "socketcluster-client",
   "filename": "socketcluster.min.js",
   "description": "SocketCluster JavaScript client",
-  "version": "2.3.7",
+  "version": "2.3.18",
   "homepage": "http://socketcluster.io",
   "repository": {
     "type": "git",
