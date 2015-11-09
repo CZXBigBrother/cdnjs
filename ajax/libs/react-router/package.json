@@ -11,14 +11,15 @@
     "routing"
   ],
   "homepage": "https://github.com/rackt/react-router",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/rackt/react-router.git",
-    "basePath": "/build/umd",
-    "files": [
-      "*.js"
-    ]
-  },
+  "npmName": "react-router",
+  "npmFileMap": [
+    {
+      "basePath": "umd",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/rackt/react-router.git"

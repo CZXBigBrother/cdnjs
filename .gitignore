@@ -11,6 +11,7 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/Turf.js/0.0.4[3-6]
 ajax/libs/metrics-graphics/.7.0
 ajax/libs/PhysicsJS/physicsjs-*
 ajax/libs/diva.js/RELEASE-*/
