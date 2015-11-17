@@ -1,7 +1,7 @@
 {
   "name": "omniscient",
   "filename": "omniscient.min.js",
-  "version": "4.0.0",
+  "version": "4.1.1",
   "description": "A simple abstraction and architecture providing unidirectional flow and immutable data structures to React.",
   "keywords": [
     "quiescent",

@@ -1,7 +1,7 @@
 {
   "name": "video.js",
   "filename": "video.min.js",
-  "version": "5.1.0",
+  "version": "5.2.1",
   "description": "Open source HTML5 & Flash video player",
   "homepage": "http://videojs.com/",
   "keywords": [

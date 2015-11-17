@@ -2,7 +2,7 @@
   "name": "angular-strap",
   "filename": "angular-strap.min.js",
   "description": "AngularStrap - Twitter Bootstrap directives for AngularJS.",
-  "version": "2.3.5",
+  "version": "2.3.6",
   "homepage": "http://mgcrea.github.com/angular-strap",
   "keywords": [
     "angular",

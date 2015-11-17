@@ -5,12 +5,13 @@
     {
       "basePath": "/",
       "files": [
-        "css/ui.jqgrid.css",
+        "css/*",
         "js/jquery.jqgrid.min.js",
         "js/jquery.jqgrid.min.map",
         "js/jquery.jqgrid.src.js",
         "js/i18n/*.js",
-        "plugins/*.*"
+        "js/i18n/*.map",
+        "plugins/*"
       ]
     }
   ],
