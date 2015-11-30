@@ -2,7 +2,7 @@
   "name": "bootstrap-colorpicker",
   "filename": "js/bootstrap-colorpicker.min.js",
   "version": "2.3.0",
-  "description": "A colorpicker for Twitter Bootstrap",
+  "description": "A nice and customizable colorpicker plugin for Twitter Bootstrap",
   "homepage": "https://github.com/mjolnic/bootstrap-colorpicker",
   "keywords": [
     "twitter",

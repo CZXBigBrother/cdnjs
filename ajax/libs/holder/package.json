@@ -2,7 +2,7 @@
   "name": "holder",
   "filename": "holder.min.js",
   "version": "2.9.0",
-  "description": "Client-side image placeholders.",
+  "description": "Holder uses SVG to render image placeholders entirely in browser.",
   "homepage": "http://imsky.github.io/holder/",
   "keywords": [
     "images",

@@ -1,7 +1,7 @@
 {
   "name": "Kalendae",
   "filename": "kalendae.standalone.min.js",
-  "description": "Kalendae is an attempt to do something that nobody has yet been able to do: make a date picker that doesn't suck.",
+  "description": "A framework agnostic javascript date picker.",
   "version": "0.4.1",
   "homepage": "https://github.com/ChiperSoft/Kalendae",
   "keywords": [

@@ -2,7 +2,7 @@
   "name": "stats.js",
   "filename": "Stats.min.js",
   "version": "r14",
-  "description": "JavaScript Performance Monitor.",
+  "description": "JavaScript Performance Monitor",
   "homepage": "https://github.com/mrdoob/stats.js/",
   "keywords": [
     "fps",

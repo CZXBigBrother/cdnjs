@@ -2,7 +2,7 @@
   "name": "emberFire",
   "filename": "emberfire.min.js",
   "version": "1.6.1",
-  "description": "An officially supported Ember binding for Firebase.",
+  "description": "The officially supported Ember binding for Firebase",
   "homepage": "https://github.com/firebase/emberfire",
   "keywords": [
     "emberfire",

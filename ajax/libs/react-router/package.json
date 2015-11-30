@@ -2,7 +2,7 @@
   "name": "react-router",
   "filename": "ReactRouter.min.js",
   "version": "1.0.0",
-  "description": "A complete routing solution for React.js",
+  "description": "A complete routing library for React.js",
   "keywords": [
     "react",
     "reactjs",

@@ -2,7 +2,7 @@
   "name": "peerjs",
   "filename": "peer.min.js",
   "version": "0.3.14",
-  "description": "Peer-to-peer data in the browser.",
+  "description": "PeerJS client",
   "homepage": "http://peerjs.com/",
   "keywords": [
     "js",

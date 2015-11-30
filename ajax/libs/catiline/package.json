@@ -10,7 +10,7 @@
     }
   ],
   "filename": "catiline.min.js",
-  "description": "A JavaScript Library for workers.",
+  "description": "Multi proccessing with workers in the browser.",
   "keywords": [
     "catiline"
   ],

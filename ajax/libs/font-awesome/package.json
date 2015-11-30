@@ -1,8 +1,8 @@
 {
   "name": "font-awesome",
   "filename": "css/font-awesome.min.css",
-  "version": "4.4.0",
-  "description": "Font Awesome",
+  "version": "4.5.0",
+  "description": "The iconic font and CSS framework",
   "homepage": "http://fontawesome.io/",
   "keywords": [
     "css",

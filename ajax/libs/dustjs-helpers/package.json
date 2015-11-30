@@ -2,7 +2,7 @@
   "name": "dustjs-helpers",
   "filename": "dust-helpers.min.js",
   "version": "1.7.3",
-  "description": "Additional functionality for dustjs-linkedin package",
+  "description": "Helpers for dustjs-linkedin",
   "homepage": "Additional functionality for dustjs-linkedin package",
   "keywords": [
     "template",

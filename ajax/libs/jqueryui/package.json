@@ -2,7 +2,7 @@
   "name": "jqueryui",
   "filename": "jquery-ui.min.js",
   "version": "1.11.4",
-  "description": "jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.",
+  "description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
   "homepage": "http://jqueryui.com/",
   "keywords": [
     "jquery",

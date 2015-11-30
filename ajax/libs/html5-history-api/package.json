@@ -2,7 +2,7 @@
   "name": "html5-history-api",
   "filename": "history.min.js",
   "version": "4.2.4",
-  "description": "HTML5 History API provides an emulation of HTML5 History API for older browsers",
+  "description": "HTML5 History API expansion for browsers not supporting pushState, replaceState",
   "homepage": "https://github.com/devote/HTML5-History-API",
   "autoupdate": {
     "source": "git",

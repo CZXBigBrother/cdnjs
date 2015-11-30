@@ -2,7 +2,7 @@
   "name": "three.js",
   "filename": "three.min.js",
   "version": "r73",
-  "description": "three.js is a lightweight 3D library with a very low level of complexity. The library provides <canvas>, <svg> and WebGL renderers.",
+  "description": "JavaScript 3D library",
   "homepage": "http://threejs.org/",
   "keywords": [
     "3d",

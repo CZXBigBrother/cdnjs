@@ -1,6 +1,6 @@
 {
   "name": "jssip",
-  "description": "JavaScript SIP library",
+  "description": "the Javascript SIP library",
   "npmName": "jssip",
   "npmFileMap": [
     {

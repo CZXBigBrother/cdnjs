@@ -3,7 +3,7 @@
   "filename": "q.min.js",
   "author": "Martin Wittemann <martin.wittemann@1und1.de>",
   "homepage": "http://qooxdoo.org",
-  "description": "qooxdoo is a cross-browser DOM manipulation library to enhance websites with a rich user experience.",
+  "description": "Universal JavaScript Framework",
   "keywords": [
     "framework",
     "toolkit",

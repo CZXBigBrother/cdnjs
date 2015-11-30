@@ -2,7 +2,7 @@
   "name": "randomcolor",
   "filename": "randomColor.min.js",
   "version": "0.4.1",
-  "description": "A color generator for JavaScript.",
+  "description": "For generating attractive random colors",
   "keywords": [
     "color",
     "random"

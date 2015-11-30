@@ -2,7 +2,7 @@
   "name": "morris.js",
   "filename": "morris.min.js",
   "version": "0.5.1",
-  "description": "Pretty time-series line graphs",
+  "description": "Easy, pretty charts",
   "homepage": "http://morrisjs.github.io/morris.js/",
   "keywords": [
     "graphs",

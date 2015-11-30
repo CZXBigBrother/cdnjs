@@ -2,7 +2,7 @@
   "name": "algoliasearch",
   "filename": "algoliasearch.min.js",
   "version": "3.9.2",
-  "description": "Algolia Search JavaScript API Client",
+  "description": "AlgoliaSearch API JavaScript client",
   "homepage": "https://github.com/algolia/algoliasearch-client-js",
   "keywords": [
     "algolia",

@@ -2,7 +2,7 @@
   "name": "string_score",
   "filename": "string_score.min.js",
   "version": "0.1.22",
-  "description": "string_score - JavaScript string ranking library",
+  "description": "String Scoring Algorithm packaged for NodeJS",
   "homepage": "https://github.com/joshaven/string_score",
   "keywords": [
     "search",

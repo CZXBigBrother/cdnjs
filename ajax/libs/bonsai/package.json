@@ -2,7 +2,7 @@
   "name": "bonsai",
   "filename": "bonsai.min.js",
   "version": "0.4.5",
-  "description": "BonsaiJS is a graphics library and renderer",
+  "description": "Bonsai runtime and node server",
   "homepage": "http://bonsaijs.org",
   "keywords": [
     "graphics",

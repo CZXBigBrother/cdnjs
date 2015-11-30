@@ -2,7 +2,7 @@
   "name": "leaflet.markercluster",
   "filename": "leaflet.markercluster.js",
   "version": "0.4.0",
-  "description": "Marker Clustering plugin for Leaflet.",
+  "description": "Provides Beautiful Animated Marker Clustering functionality for Leaflet",
   "homepage": "https://github.com/Leaflet/Leaflet.markercluster",
   "keywords": [
     "maps",

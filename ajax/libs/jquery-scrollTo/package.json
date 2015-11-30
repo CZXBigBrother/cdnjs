@@ -2,7 +2,7 @@
   "name": "jquery-scrollTo",
   "filename": "jquery.scrollTo.min.js",
   "version": "2.1.2",
-  "description": "A small, customizable plugin for scrolling elements, or the window itself.",
+  "description": "Lightweight, cross-browser and highly customizable animated scrolling with jQuery",
   "homepage": "https://github.com/flesler/jquery.scrollTo",
   "keywords": [
     "browser",

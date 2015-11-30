@@ -4,7 +4,7 @@
   "version": "1.6.0",
   "homepage": "http://zaach.github.com/jsonlint/",
   "authors": "Zach Carter <zach@carter.name> (http://zaa.ch)",
-  "description": "A JSON parser and validator with a CLI.",
+  "description": "Validate JSON",
   "keywords": [
     "json",
     "validation",

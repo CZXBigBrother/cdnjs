@@ -4,7 +4,7 @@
   "version": "4.0.9",
   "homepage": "https://github.com/ivpusic/angular-cookie",
   "authors": "ivpusic <pusic007@gmail.com>",
-  "description": "angular module for accessing browser cookies",
+  "description": "angular module for accessing browser coockies",
   "keywords": [
     "cookie",
     "angular"

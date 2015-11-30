@@ -2,7 +2,7 @@
   "name": "basis.js",
   "filename": "basis.min.js",
   "version": "1.4.1",
-  "description": "Basis.js framework as library. Basis.js – JavaScript framework to build single-page applications.",
+  "description": "JavaScript framework to build single-page applications",
   "homepage": "http://basisjs.com/",
   "keywords": [
     "basis",

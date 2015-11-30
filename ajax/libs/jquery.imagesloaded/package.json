@@ -2,7 +2,7 @@
   "name": "jquery.imagesloaded",
   "filename": "imagesloaded.pkgd.min.js",
   "version": "3.2.0",
-  "description": "jQuery plugin that triggers a callback after all images have been loaded",
+  "description": "You images done yet or what?",
   "homepage": "http://desandro.github.com/imagesloaded/",
   "keywords": [
     "images",

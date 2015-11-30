@@ -2,7 +2,7 @@
   "name": "pusher",
   "filename": "pusher.min.js",
   "version": "3.0.0",
-  "description": "Pusher Javascript library",
+  "description": "Pusher JavaScript library for the browser",
   "homepage": "http://pusher.com/",
   "keywords": [
     "pusher",

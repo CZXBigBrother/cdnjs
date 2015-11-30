@@ -23,5 +23,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/webcomponents/webcomponentsjs"
-  }
+  },
+  "description": "webcomponents.js"
 }

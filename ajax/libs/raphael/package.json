@@ -2,7 +2,7 @@
   "name": "raphael",
   "filename": "raphael-min.js",
   "version": "2.1.4",
-  "description": "Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web.",
+  "description": "JavaScript Vector Library",
   "homepage": "http://raphaeljs.com/",
   "keywords": [
     "vector",

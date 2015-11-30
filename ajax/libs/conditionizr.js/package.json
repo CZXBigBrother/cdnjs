@@ -2,7 +2,7 @@
   "name": "conditionizr.js",
   "filename": "conditionizr.min.js",
   "version": "4.1.0",
-  "description": "Detecting front-end environments and conditionally loading assets. Retina, touch, legacy IE, modern browsers, custom tests.",
+  "description": "Detecting front-end environments and conditionally loading assets",
   "homepage": "http://conditionizr.com",
   "keywords": [
     "conditionizr",

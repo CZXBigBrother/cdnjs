@@ -2,7 +2,7 @@
   "name": "ckeditor",
   "filename": "ckeditor.js",
   "version": "4.5.4",
-  "description": "Ckeditor is the best web text editor for everyone.",
+  "description": "The development version of CKEditor - JavaScript WYSIWYG web text editor.",
   "homepage": "http://ckeditor.com/",
   "keywords": [
     "wysiwyg",

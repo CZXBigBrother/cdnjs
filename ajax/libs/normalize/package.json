@@ -2,7 +2,7 @@
   "name": "normalize",
   "filename": "normalize.min.css",
   "version": "3.0.3",
-  "description": "Normalize.css makes browsers render all elements consistently and in line with modern standards.",
+  "description": "Normalize.css as a node packaged module",
   "homepage": "http://necolas.github.com/normalize.css/",
   "keywords": [
     "cross browser"

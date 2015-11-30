@@ -2,7 +2,7 @@
   "name": "photoswipe",
   "filename": "photoswipe.min.js",
   "version": "4.1.0",
-  "description": "Image Gallery for mobile and touch devices.",
+  "description": "JavaScript gallery",
   "homepage": "http://www.photoswipe.com/",
   "repository": "https://github.com/dimsemenov/PhotoSwipe",
   "keywords": [

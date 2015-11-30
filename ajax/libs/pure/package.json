@@ -2,7 +2,7 @@
   "name": "pure",
   "filename": "pure-min.css",
   "version": "0.6.0",
-  "description": "A set of small, responsive CSS modules that you can use in every web project.",
+  "description": "Pure is a ridiculously tiny CSS library you can use to start any web project.",
   "homepage": "http://purecss.io/",
   "keywords": [
     "css",

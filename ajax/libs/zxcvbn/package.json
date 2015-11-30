@@ -3,7 +3,7 @@
   "version": "4.2.0",
   "filename": "zxcvbn.js",
   "homepage": "http://tech.dropbox.com/?p=165",
-  "description": "Realistic password strength estimation, based on common words, patterns, and keyboard adjacency.",
+  "description": "realistic password strength estimation",
   "keywords": [
     "passwords",
     "forms",

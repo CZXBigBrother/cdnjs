@@ -1,8 +1,8 @@
 {
   "name": "backbone.marionette",
   "filename": "backbone.marionette.min.js",
-  "version": "2.4.3",
-  "description": "Make your Backbone.js apps dance with a composite application architecture!",
+  "version": "2.4.4",
+  "description": "Make your Backbone.js apps dance!",
   "homepage": "https://github.com/marionettejs/backbone.marionette",
   "keywords": [
     "collections",

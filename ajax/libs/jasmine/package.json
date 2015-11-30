@@ -2,7 +2,7 @@
   "name": "jasmine",
   "filename": "jasmine.min.js",
   "version": "2.3.4",
-  "description": "DOM-less simple JavaScript testing framework",
+  "description": "Official packaging of Jasmine's core files for use by Node.js projects.",
   "homepage": "http://jasmine.github.io/",
   "keywords": [
     "bdd",

@@ -2,7 +2,7 @@
   "name": "smalot-bootstrap-datetimepicker",
   "filename": "js/bootstrap-datetimepicker.min.js",
   "homepage": "http://www.malot.fr/bootstrap-datetimepicker/",
-  "description": "Both Date and Time picker widget based on twitter bootstrap (supports Bootstrap v2 and v3)",
+  "description": "Both Date and Time picker widget based on twitter bootstrap",
   "version": "2.3.4",
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@
   "name": "spinejs",
   "filename": "all.min.js",
   "version": "1.2.0",
-  "description": "Spine is a lightweight framework for building JavaScript web applications",
+  "description": "MVC Library.",
   "homepage": "http://spinejs.com/",
   "keywords": [
     "mvc",

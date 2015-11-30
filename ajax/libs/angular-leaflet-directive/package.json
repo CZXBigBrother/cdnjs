@@ -4,7 +4,7 @@
   "version": "0.10.0",
   "homepage": "http://tombatossals.github.io/angular-leaflet-directive/",
   "authors": "David Rubert",
-  "description": "An AngularJS directive to easily interact with Leaflet maps",
+  "description": "angular-leaflet-directive - An AngularJS directive to easily interact with Leaflet maps",
   "keywords": [
     "angularjs",
     "javascript",

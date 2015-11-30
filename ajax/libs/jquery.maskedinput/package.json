@@ -2,7 +2,7 @@
   "name": "jquery.maskedinput",
   "filename": "jquery.maskedinput.min.js",
   "version": "1.4.1",
-  "description": "jQuery plugin for forcing fixed width inputs to follow a certain patern.",
+  "description": "jQuery Masked Input Plugin",
   "homepage": "http://digitalbush.com/projects/masked-input-plugin/",
   "keywords": [
     "input",

@@ -2,7 +2,7 @@
   "name": "simplestatemanager",
   "filename": "ssm.min.js",
   "version": "2.2.5",
-  "description": "A responsive state manager which allows you to run different javascript at different browser widths",
+  "description": "SimpleStateManager ==================",
   "homepage": "https://github.com/SimpleStateManager/SimpleStateManager",
   "keywords": [
     "responsive",

@@ -2,7 +2,7 @@
   "name": "money.js",
   "filename": "money.min.js",
   "version": "0.2.0",
-  "description": "money.js is a tiny (1kb) javascript currency conversion library, for web & nodeJS",
+  "description": "JavaScript currency conversion library.",
   "homepage": "https://github.com/openexchangerates/money.js",
   "keywords": [
     "accounting",

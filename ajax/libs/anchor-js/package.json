@@ -3,7 +3,7 @@
   "filename": "anchor.min.js",
   "version": "2.0.0",
   "author": "bryanbraun (https://github.com/bryanbraun)",
-  "description": "A tiny javscript utility for adding anchor links to existing page content.",
+  "description": "A Javscript utility for adding deep anchor links to online docs.",
   "homepage": "https://github.com/bryanbraun/anchorjs",
   "repository": {
     "type": "git",

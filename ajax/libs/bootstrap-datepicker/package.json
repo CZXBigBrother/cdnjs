@@ -2,7 +2,7 @@
   "name": "bootstrap-datepicker",
   "filename": "js/bootstrap-datepicker.min.js",
   "version": "1.5.0",
-  "description": "A datepicker for Twitter Bootstrap",
+  "description": "A datepicker for Bootstrap forked from Stefan Petre's (of eyecon.ro), improvements by eternicode",
   "homepage": "https://github.com/eternicode/bootstrap-datepicker",
   "keywords": [
     "twitter",

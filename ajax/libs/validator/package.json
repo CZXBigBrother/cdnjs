@@ -3,7 +3,7 @@
   "npmName": "validator",
   "filename": "validator.min.js",
   "version": "4.0.5",
-  "description": "A library of string validators and sanitizers.",
+  "description": "String validation and sanitization",
   "homepage": "https://github.com/chriso/validator.js",
   "keywords": [
     "validator"

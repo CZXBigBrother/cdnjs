@@ -4,7 +4,7 @@
   "version": "1.0.8",
   "homepage": "http://bttrlazyloading.julienrenaux.fr",
   "authors": "Julien Renaux",
-  "description": "Responsive Lazy Loading plugin for JQuery",
+  "description": "BttrLazyLoading",
   "keywords": [
     "BttrLazyLoading",
     "lazyload",

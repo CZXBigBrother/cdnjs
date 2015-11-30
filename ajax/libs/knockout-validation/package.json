@@ -2,7 +2,7 @@
   "name": "knockout-validation",
   "filename": "knockout.validation.min.js",
   "version": "2.0.3",
-  "description": "A validation library for Knockout JS",
+  "description": "A KnockoutJS Plugin for model and property validation",
   "homepage": "https://github.com/Knockout-Contrib/Knockout-Validation",
   "license": "MIT",
   "keywords": [

@@ -1,9 +1,9 @@
 {
   "name": "select2",
   "filename": "js/select2.min.js",
-  "version": "4.0.0",
-  "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. Look and feel of Select2 is based on the excellent Chosen library.",
-  "homepage": "https://select2.github.io/",
+  "version": "4.0.1",
+  "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
+  "homepage": "http://ivaynberg.github.com/select2/",
   "keywords": [
     "select",
     "jquery",

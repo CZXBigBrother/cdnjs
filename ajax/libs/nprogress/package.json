@@ -2,7 +2,7 @@
   "name": "nprogress",
   "filename": "nprogress.min.js",
   "version": "0.2.0",
-  "description": "Slim progress bars for Ajax'y applications. Inspired by Google, YouTube, and Medium.",
+  "description": "Simple slim progress bars",
   "homepage": "http://ricostacruz.com/nprogress/",
   "keywords": [
     "progress",

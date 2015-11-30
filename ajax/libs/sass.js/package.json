@@ -2,7 +2,7 @@
   "name": "sass.js",
   "filename": "sass.min.js",
   "version": "0.9.4",
-  "description": "Sass parser in JavaScript",
+  "description": "Sass.js is a convenience API for the JavaScript libsass (compiled with Emscripten)",
   "homepage": "https://github.com/medialize/sass.js",
   "keywords": [
     "css",

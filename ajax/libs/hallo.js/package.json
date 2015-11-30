@@ -2,7 +2,7 @@
   "name": "hallo.js",
   "filename": "hallo.min.js",
   "version": "1.1.1",
-  "description": "Distraction-free writing for the web",
+  "description": "Simple rich text editor",
   "homepage": "http://hallojs.org/",
   "keywords": [
     "wysiwyg",

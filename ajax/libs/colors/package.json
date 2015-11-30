@@ -2,7 +2,7 @@
   "name": "colors",
   "filename": "colors.min.css",
   "version": "1.0",
-  "description": "A nicer color palette for the web.",
+  "description": "Better colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.",
   "homepage": "http://clrs.cc",
   "keywords": [
     "css",

@@ -2,7 +2,7 @@
   "name": "mousetrap",
   "filename": "mousetrap.min.js",
   "version": "1.4.6",
-  "description": "Mousetrap is a standalone library with no external dependencies. It weighs in at around 1.7kb minified and gzipped and 3kb minified.",
+  "description": "Simple library for handling keyboard shortcuts",
   "homepage": "http://craig.is/killing/mice",
   "keywords": [
     "keyboard",

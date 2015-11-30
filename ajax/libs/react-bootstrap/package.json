@@ -4,7 +4,7 @@
   "version": "0.28.1",
   "homepage": "http://react-bootstrap.github.io/",
   "authors": "Stephen J. Collings <stevoland@gmail.com>",
-  "description": "Bootstrap 3 components build with React",
+  "description": "Bootstrap 3 components built with React",
   "keywords": [
     "react",
     "ecosystem-react",

@@ -2,7 +2,7 @@
   "name": "paypaljsbuttons",
   "filename": "paypal-button-minicart.min.js",
   "version": "1.0.2",
-  "description": "JavaScript integration for PayPal's payment buttons",
+  "description": "JavaScript integration for PayPal's buttons",
   "homepage": "http://paypal.github.io/JavaScriptButtons",
   "keywords": [
     "paypal",

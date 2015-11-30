@@ -2,7 +2,7 @@
   "name": "visibility.js",
   "filename": "visibility.min.js",
   "version": "1.2.1",
-  "description": "A wrapper for the Page Visibility API",
+  "description": "Wrapper for the Page Visibility API",
   "homepage": "https://github.com/ai/visibilityjs",
   "keywords": [
     "polyfill",

@@ -2,7 +2,7 @@
   "filename": "i18n.min.js",
   "name": "require-i18n",
   "version": "2.0.4",
-  "description": "Load string bundles used in internationalization (i18n) that are made up of separate country/language/locale-specific bundles.",
+  "description": "An AMD loader plugin for loading internationalization/localization string resources.",
   "homepage": "https://github.com/requirejs/i18n",
   "keywords": [
     "requirejs",

@@ -2,7 +2,7 @@
   "name": "underscore.string",
   "filename": "underscore.string.min.js",
   "version": "3.2.2",
-  "description": "Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.",
+  "description": "String manipulation extensions for Underscore.js javascript library.",
   "homepage": "http://epeli.github.com/underscore.string/",
   "keywords": [
     "utility",
