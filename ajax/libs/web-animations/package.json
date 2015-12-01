@@ -1,6 +1,6 @@
 {
   "name": "web-animations",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "filename": "web-animations.min.js",
   "description": "JavaScript implementation of the Web Animations API",
   "maintainers": [
