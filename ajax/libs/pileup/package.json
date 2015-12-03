@@ -35,5 +35,6 @@
     "reads",
     "interactive"
   ],
-  "author": "Dan Vanderkam"
+  "author": "Dan Vanderkam",
+  "license": "Apache-2.0"
 }
