@@ -11,9 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/kirjs/react-highcharts.git"
   },
-  "bugs": {
-    "url": "https://github.com/kirjs/react-highcharts/issues"
-  },
   "keywords": [
     "chart",
     "react",
