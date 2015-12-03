@@ -1,0 +1,29 @@
+{
+  "name": "react-highcharts",
+  "version": "5.0.6",
+  "description": "React wrapper for highcharts",
+  "author": {
+    "name": "Kirill Cherkashin"
+  },
+  "filename": "highcharts.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirjs/react-highcharts.git"
+  },
+  "keywords": [
+    "chart",
+    "react",
+    "highcharts",
+    "graph"
+  ],
+  "npmName": "react-highcharts",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "*.js"
+      ]
+    }
+  ]
+}

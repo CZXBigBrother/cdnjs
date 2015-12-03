@@ -1,7 +1,7 @@
 {
   "name": "summernote",
   "filename": "summernote.min.js",
-  "version": "0.6.16",
+  "version": "0.7.0",
   "description": "Super Simple WYSIWYG Editor on Bootstrap",
   "homepage": "http://summernote.org",
   "keywords": [
@@ -24,9 +24,6 @@
       "**/*"
     ]
   },
-  "requiredFiles": [
-    "summernote-bs3.min.css"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/summernote/summernote.git"
