@@ -20,7 +20,7 @@
     "execSync": "~1.0",
     "fs-extra": "~0.26.0",
     "glob": "~6",
-    "is-there": "4.2.0",
+    "is-there": "4.3.0",
     "lodash": "^3.10",
     "rss": "~1.2",
     "semver": "^5.0.3",
