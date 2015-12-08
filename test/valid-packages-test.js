@@ -214,21 +214,31 @@ packages.map(function (pkg) {
 
     package_vows[pname + ": useless fields check"] = function (pkg) {
         var json = parse(pkg, true, true);
-        var json_fix = json;
+        var json_fix = JSON.parse(JSON.stringify(json));
+        delete json_fix.eslintConfig;
+        delete json_fix.styles;
+        delete json_fix.install;
+        delete json_fix.typescript;
+        delete json_fix.browserify;
+        delete json_fix.browser;
+        delete json_fix.jam;
+        delete json_fix.jest;
         delete json_fix.scripts;
         delete json_fix.devDependencies;
         delete json_fix.main;
         delete json_fix.peerDependencies;
         delete json_fix.contributors;
+        delete json_fix.maintainers;
         delete json_fix.bugs;
         delete json_fix.issues;
         delete json_fix.files;
         delete json_fix.ignore;
         delete json_fix.engines;
         delete json_fix.engine;
+        delete json_fix.directories;
 
-        assert.ok(json === json_fix,
-            pkg_name(pkg) + ": we don't need scripts, main, cnotributors, bugs, issues, files, ignore, engine(s) and (dev|peer)Dependencies fields in package.json");
+        assert.ok(JSON.stringify(json) === JSON.stringify(json_fix) ,
+            pkg_name(pkg) + ": we don't need eslintConfig, styles, install, typescript, browserify, browser, jam, jest, scripts, devDependencies, main, peerDependencies, contributors, bugs, issues, files, ignore, engines, engine, directories and maintainers fields in package.json");
     }
     context[pname] = package_vows;
     suite.addBatch(context);

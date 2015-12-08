@@ -1,6 +1,6 @@
 {
   "name": "webtorrent",
-  "version": "0.63.1",
+  "version": "0.63.3",
   "filename": "webtorrent.min.js",
   "description": "Streaming torrent client",
   "homepage": "http://webtorrent.io",

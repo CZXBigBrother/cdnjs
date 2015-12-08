@@ -1,23 +1,12 @@
 {
   "name": "jasmine",
   "filename": "jasmine.min.js",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "Official packaging of Jasmine's core files for use by Node.js projects.",
   "homepage": "http://jasmine.github.io/",
   "keywords": [
     "bdd",
     "testing"
-  ],
-  "maintainers": [
-    {
-      "name": "Davis W. Frank"
-    },
-    {
-      "name": "Rajan Agaskar"
-    },
-    {
-      "name": "Christian Williams"
-    }
   ],
   "autoupdate": {
     "source": "git",

@@ -27,7 +27,7 @@ Donation:
 
 [cdnjs](https://github.com/cdnjs/cdnjs) is the repository mirroring all library assets on [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com).
 
-[Thomas Davis](https://twitter.com/neutralthoughts) and [Ryan Kirkman](https://twitter.com/ryan_kirkman) created cdnjs, [Drew Freyling](http://decompile.it/blog/) and [Peter Dave Hello](https://github.com/PeterDaveHello) are maintainers. [Juan Gallardo](http://www.jgallardo.me/) is our community moderator.
+[Thomas Davis](https://twitter.com/neutralthoughts) and [Ryan Kirkman](https://twitter.com/ryan_kirkman) created cdnjs, [Drew Freyling](http://decompile.it/blog/) and [Peter Dave Hello](https://github.com/PeterDaveHello) are maintainers. [Juan Gallardo](http://jgallardo.me/) is our community moderator.
 
 cdnjs will host any production version of any JavaScript/CSS library, subject to license permissions.
 
@@ -77,7 +77,7 @@ local repository can also be specified using:
 $ cdnjs-importer <library-git-path> -c path/to/cdnjs
 ```
 
-For more information regarding this importer, please check out the [repository documentation](https://github.com/IonicaBizau/cdnjs-importer).
+For more information regarding this importer, please check out the [repository documentation](https://github.com/cdnjs/cdnjs-importer).
 
 ## Conventions
 

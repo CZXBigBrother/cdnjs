@@ -8,18 +8,8 @@
     "swf",
     "flash"
   ],
-  "maintainers": [
-    {
-      "name": "bobbyvandersluis"
-    },
-    {
-      "name": "aran.rhee"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/swfobject/swfobject.git"
-    }
-  ]
+  "repository": {
+    "type": "svn",
+    "url": "http://swfobject.googlecode.com/svn/trunk/"
+  }
 }
