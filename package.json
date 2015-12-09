@@ -12,18 +12,36 @@
     "test": "No scripts!"
   },
   "license": "MIT",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "devDependencies": {
-    "async": "^1.4.0",
+  "dependencies": {
+    "async": "~1.5",
+    "clean-css": "~3.4.5",
+    "colors": "~1.1",
+    "execSync": "~1.0",
+    "fs-extra": "~0.26.0",
+    "glob": "~6",
+    "is-there": "4.3.0",
+    "lodash": "^3.10",
+    "rss": "~1.2",
+    "semver": "^5.0.3",
+    "semver-stable": "^2.0.4",
+    "superagent": "^1.4.0",
+    "tarball-extract": "~0.0.3",
+    "uglify-js": "~2.6.1",
+    "underscore": "~1.8.3",
     "globby": "^2.1.0",
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.11.2",
-    "lodash": "^3.10.1",
     "mime": "^1.3.4",
-    "semver": "^5.0.1",
     "stream-buffers": "^2.2.0",
     "upyun": "^1.1.3"
+  },
+  "devDependencies": {
+    "JSV": "~4.0.2",
+    "jslint": "0.9.5",
+    "vows-si": "~0.7.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "^4.2.3"
   }
 }
