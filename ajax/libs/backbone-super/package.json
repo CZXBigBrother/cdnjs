@@ -8,5 +8,9 @@
     "super"
   ],
   "filename": "backbone-super-min.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukasolson/backbone-super"
+  }
 }
