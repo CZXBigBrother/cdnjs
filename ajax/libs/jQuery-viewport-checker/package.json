@@ -9,10 +9,6 @@
     "type": "git",
     "url": "https://github.com/dirkgroenen/jQuery-viewport-checker"
   },
-  "licenses": {
-    "type": "MIT",
-    "url": "https://github.com/dirkgroenen/jQuery-viewport-checker/blob/master/LICENSE"
-  },
   "keywords": [
     "jQuery",
     "Viewport",
@@ -27,5 +23,8 @@
       "**/*"
     ]
   },
-  "license": "MIT"
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/dirkgroenen/jQuery-viewport-checker/blob/master/LICENSE"
+  }
 }
