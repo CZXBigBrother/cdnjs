@@ -174,6 +174,8 @@ packages.map(function (pkg) {
             }
 
         } else if (json.npmFileMap) {
+            assert.ok(Array.isArray(json.npmFileMap),
+                pkg_name(pkg) + ": npmFileMap should be an array and include one or multiply objects to describe corresponding bash path and files");
             for (var i in json.npmFileMap) {
                 for (var j in json.npmFileMap[i].files) {
                     assert.ok(!fileMapPostfixes.test(json.npmFileMap[i].files[j]),
