@@ -22,5 +22,6 @@
     "files": [
       "**/*.+(css|js|png)"
     ]
-  }
+  },
+  "author": "Highsoft AS <support@highcharts.com> (http://www.highcharts.com/about)"
 }

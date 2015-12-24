@@ -13,5 +13,9 @@
     "type": "git",
     "url": "https://github.com/mirlord/jquery-csv"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "author": {
+    "name": "Evan Plaice",
+    "email": "evan.plaice@gmail.com"
+  }
 }

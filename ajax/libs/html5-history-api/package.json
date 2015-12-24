@@ -32,5 +32,6 @@
   "licenses": [
     "GPL-3.0",
     "MIT"
-  ]
+  ],
+  "author": "Dmitrii Pakhtinov"
 }

@@ -21,5 +21,9 @@
     "type": "git",
     "url": "git://github.com/aTool-org/canvas-nest.js.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "author": {
+    "name": "atool",
+    "url": "http://atool.org/"
+  }
 }
