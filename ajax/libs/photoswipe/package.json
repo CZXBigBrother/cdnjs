@@ -1,7 +1,7 @@
 {
   "name": "photoswipe",
   "filename": "photoswipe.min.js",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "JavaScript gallery",
   "homepage": "http://www.photoswipe.com/",
   "repository": "https://github.com/dimsemenov/PhotoSwipe",

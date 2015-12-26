@@ -1,7 +1,7 @@
 {
   "name": "placeholder.js",
   "filename": "placeholder.min.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Image placeholder uses CANVAS to render image placeholders entirely in browser.",
   "homepage": "http://placeholder.cn/",
   "keywords": [
