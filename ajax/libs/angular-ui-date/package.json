@@ -13,9 +13,9 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/angular-ui/ui-date.git",
-    "basePath": "src",
+    "basePath": "dist",
     "files": [
-      "date.js"
+      "**/*"
     ]
   }
 }
