@@ -146,3 +146,5 @@ ajax/libs/*/*/**/*.json
 
 //secret info
 upyun.json
+
+queue.json
