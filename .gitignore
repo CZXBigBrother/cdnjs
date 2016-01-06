@@ -11,6 +11,7 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/postgrest-client/1.0.*
 ajax/libs/jquery-ui-timepicker-addon/0.0.0-ignored/
 ajax/libs/jsrender/*/jsrender-node.js
 ajax/libs/typescript/*/typescriptServices.js
@@ -102,6 +103,7 @@ ajax/libs/require-css/dev-test/
 ajax/libs/require-css/release-test/
 ajax/libs/ionic/testing
 ajax/libs/yamlcss/rm
+ajax/libs/nuclear-js/show
 ajax/libs/aws-sdk/*/appinfo.sample.js
 ajax/libs/winjs/release
 ajax/libs/plottable.js/.0.18.0
@@ -111,6 +113,9 @@ ajax/libs/material-design-icons/2.0
 ajax/libs/randomcolor/0.2
 ajax/libs/core-js/1,0,1/
 ajax/libs/musicmetadata/Browser-0.4.3/
+ajax/libs/ng-pdfviewer/r0.1.0/
+ajax/libs/ng-pdfviewer/r0.2.0/
+ajax/libs/ng-pdfviewer/r0.2.1/
 
 #ignore files that we don't support
 ajax/libs/*/*/**/*.styl

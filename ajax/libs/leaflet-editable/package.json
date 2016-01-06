@@ -11,12 +11,12 @@
   "license": "WTFPL",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yohanboniface/Leaflet.Editable.git"
+    "url": "git://github.com/Leaflet/Leaflet.Editable.git"
   },
-  "homepage": "https://github.com/yohanboniface/Leaflet.Editable/",
+  "homepage": "https://github.com/Leaflet/Leaflet.Editable/",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/yohanboniface/Leaflet.Editable.git",
+    "target": "git://github.com/Leaflet/Leaflet.Editable.git",
     "basePath": "src",
     "files": [
       "Leaflet.Editable*.js"

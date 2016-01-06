@@ -9,7 +9,7 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/fastly/epoch.git",
+    "target": "git://github.com/epochjs/epoch.git",
     "basePath": "dist",
     "files": [
       "**/*"
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fastly/epoch.git"
+    "url": "https://github.com/epochjs/epoch.git"
   },
   "license": "MIT",
   "author": {

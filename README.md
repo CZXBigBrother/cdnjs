@@ -1,29 +1,11 @@
 # cdnjs Library Repository
 
-Master branch build status:
-
 ﻿[![Circle CI](https://circleci.com/gh/cdnjs/cdnjs.svg?style=svg)](https://circleci.com/gh/cdnjs/cdnjs)
-
-Dependencies status:
-
 ﻿[![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies)
-
-License:
-
 ﻿[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE)
-
-Gitter chat room:
-
 ﻿[![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs)
-
-﻿Issue stats:
-
 ﻿[![Issue Stats](http://www.issuestats.com/github/cdnjs/cdnjs/badge/pr?style=flat)](http://www.issuestats.com/github/cdnjs/cdnjs) [![Issue Stats](http://www.issuestats.com/github/cdnjs/cdnjs/badge/issue?style=flat)](http://www.issuestats.com/github/cdnjs/cdnjs)
-
-Donation:
-
 ﻿[![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs) [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
-
 
 [cdnjs](https://github.com/cdnjs/cdnjs) is the repository mirroring all library assets on [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com).
 
@@ -160,121 +142,11 @@ __Please include the following in your pull request:__
 
 A URL is ideal. Providing the origin of your files is very helpful as the cdnjs project is peer-reviewed. Practically speaking, it also helps us process your pull request more efficiently, which means your files go live sooner. Help us and we'll help you back.
 
-## Enabling `npm`(recommended) or `git` auto update
-
-cdnjs automatically updates libraries that are known to be hosted on `npm` or git repo, e.g., function-plot. npm auto-update relies on each release and git auto-update relies on the [tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) in git repo. This auto-update script runs every hour, but the update result **won't be committed until one of our maintainers audit the updates**, because many libs will change the naming or directory structure during different versions, and we may need to minify the lib without pre-minified dist files, so **it'll be reasonable to delay for at most 30 hours**, if you think there is a lib didn't been updated, please wait at least 30 hours for the process to audit it.
-
-To add `git` auto-update config to a library, update the `package.json` with configuration details and submit your pull request. An example configuration:
-
-```js
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/jashkenas/underscore.git",
-    "basePath": "",
-    "files": [
-      "underscore-min.js",
-      "underscore-min.map",
-      "underscore.js"
-    ]
-  }
- ```
-
-To add an `npm` hook to a library, update the `package.json` with configuration details and submit your pull request. An example configuration:
-
-```js
-  "npmName": "function-plot",
-  "npmFileMap": [
-    {
-      "basePath": "dist",
-      "files": [
-        "**/*"
-      ]
-    }
-  ]
-```
-
-* Please __don't__ touch `version` number in this step, it'll be automatically updated
-* `npmName` should map to the name of the library on `npm`
-* `npmFileMap` is a list of files to take from the `npm` tarball and host on cdnjs
-* `basePath` will be ignored when copying over to the CDN
-* `files` is a pattern matcher allowing selection of multiple files
-
-
-The above example looks in the tarball whose structure might look like this:
-
-```
-|__dist
-| |__function-plot.js
-|__bower.json
-|__index.js
-|__site.js
-|__package.json
-|__README.md
-|__lib
-| |__...
-|__node_modules
-| |__...
-|__sandbox
-| |__...
-```
-
-The auto-update process will look for `dist` inside the named tarball and copy all the JavaScript file to cdnjs, minus the `dist` path. The resulting files in cdnjs will be:
-
-```
-|__ajax
-  |__libs
-    |__function-plot
-      |__x.y.z
-        |__function-plot.js
-```
-
-...where `x.y.z` is the version number, extracted from the `package.json` on npm.
+## Enabling auto-update
+See [autoupdate.md](documents/autoupdate.md)
 
 ## API
-
-You can search cdnjs via our API:
-
-```
-https://api.cdnjs.com/libraries
-```
-
-Without any query parameters it will return the name and main file URL of every library on cdnjs. To search, use:
-
-```
-https://api.cdnjs.com/libraries?search=jquery
-```
-
-API will reture minified result by default, if you wanna have a human readable result, try `output=human` like this:
-
-```
-https://api.cdnjs.com/libraries?output=human
-https://api.cdnjs.com/libraries?search=jquery&output=human
-```
-
-If you would like more data, use the fields parameter which takes comma-separated values:
-
-```
-https://api.cdnjs.com/libraries?search=jquery&fields=version,description
-```
-
-To get a list of all files for that library, use the assets field:
-
-```
-https://api.cdnjs.com/libraries?search=jquery&fields=assets
-```
-
-Other fields available are:
-
-```
-version
-description
-homepage
-keywords
-maintainers
-assets
-```
-
-The API is served over Cloudflare with a six-hour expiry for requests.
+See [api.md](documents/api.md)
 
 ## Extensions, Plugins, Resources
 

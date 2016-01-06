@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cjohansen/Sinon.JS"
+    "url": "https://github.com/sinonjs/sinon"
   },
   "license": "BSD-3-Clause",
   "author": "Christian Johansen"

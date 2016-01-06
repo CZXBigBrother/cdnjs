@@ -12,7 +12,7 @@
   "license": "CC-BY-NC-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/highslide-software/highcharts.com"
+    "url": "https://github.com/highcharts/highcharts"
   },
   "autoupdate": {
     "source": "git",

@@ -5,7 +5,7 @@
   "description": "CSS/JS Animations Library with Physics support",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lvivski/anima"
+    "url": "https://github.com/lvivski/animatic"
   },
   "keywords": [
     "css",
