@@ -11,6 +11,7 @@ temp/
 node_modules/
 
 # folders need to be ingored due to auto auto-update mechanism
+ajax/libs/jquery-countdown/Release_1*
 ajax/libs/postgrest-client/1.0.*
 ajax/libs/jquery-ui-timepicker-addon/0.0.0-ignored/
 ajax/libs/jsrender/*/jsrender-node.js

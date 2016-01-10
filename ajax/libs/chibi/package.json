@@ -1,7 +1,7 @@
 {
   "name": "chibi",
   "filename": "chibi-min.js",
-  "version": "1.1.5",
+  "version": "3.0.3",
   "author": "Kyle Barrow",
   "description": "A tiny JavaScript micro-library",
   "repository": {
