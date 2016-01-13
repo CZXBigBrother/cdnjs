@@ -1,6 +1,6 @@
 {
   "name": "SpeechKITT",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "filename": "speechkitt.min.js",
   "description": "A flexible GUI for interacting with Speech Recognition",
   "repository": {

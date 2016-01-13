@@ -86,6 +86,7 @@ ajax/libs/jsxgraph/skm*
 ajax/libs/jsxgraph/sketchometry*
 ajax/libs/mojio-js/robb/
 ajax/libs/lodash.js/*-es
+ajax/libs/lodash.js/*-npm
 ajax/libs/flexslider/ersion
 ajax/libs/bean/1.0.0a1/
 ajax/libs/codemirror/3.11.01/
