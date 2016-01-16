@@ -1,6 +1,6 @@
 {
   "name": "ajv",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Another JSON Schema Validator",
   "repository": {
     "type": "git",
