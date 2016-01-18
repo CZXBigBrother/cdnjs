@@ -22,7 +22,7 @@
   "homepage": "https://github.com/rpominov/kefir",
   "repository": {
     "type": "git",
-    "url": "http://github.com/rpominov/kefir.git"
+    "url": "https://github.com/rpominov/kefir.git"
   },
   "license": "MIT",
   "autoupdate": {

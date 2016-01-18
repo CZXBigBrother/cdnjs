@@ -6,7 +6,7 @@
   "author": "James Wragg <james.wragg@madgex.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/madgex/lazy-ads.git"
+    "url": "https://github.com/madgex/lazy-ads.git"
   },
   "filename": "lazyad-loader.min.js",
   "keywords": [

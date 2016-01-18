@@ -4,7 +4,7 @@
   "description": "Official React bindings for Redux",
   "version": "4.0.6",
   "homepage": "https://github.com/rackt/react-redux",
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Dan Abramov <dan.abramov@me.com> (https://github.com/gaearon)",
   "keywords": [
     "react",
     "reactjs",

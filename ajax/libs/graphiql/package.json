@@ -5,7 +5,7 @@
   "homepage": "https://github.com/graphql/graphiql",
   "repository": {
     "type": "git",
-    "url": "http://github.com/graphql/graphiql.git"
+    "url": "https://github.com/graphql/graphiql.git"
   },
   "filename": "graphiql.min.js",
   "dependencies": {
