@@ -1,7 +1,7 @@
 {
   "name": "horsey",
   "filename": "horsey.min.js",
-  "version": "2.6.1",
+  "version": "3.0.0",
   "homepage": "http://bevacqua.github.io/horsey/",
   "description": "Progressive and customizable autocomplete component",
   "license": "MIT",

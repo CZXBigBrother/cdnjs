@@ -1,7 +1,16 @@
 {
   "name": "jquery-migrate",
+  "npmName": "jquery-migrate",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
   "filename": "jquery-migrate.min.js",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Migrate older jQuery code to jQuery 1.9+",
   "homepage": "http://jquery.com/",
   "keywords": [
