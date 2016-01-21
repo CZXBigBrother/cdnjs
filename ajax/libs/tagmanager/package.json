@@ -34,8 +34,5 @@
   "requiredFiles": [
     "tagmanager.min.css"
   ],
-  "license": {
-    "type": "MPL",
-    "url": "http://www.mozilla.org/MPL/2.0/index.txt"
-  }
+  "license": "MPL-2.0"
 }

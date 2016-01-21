@@ -11,10 +11,7 @@
     "url": "https://github.com/moxiecode/plupload.git"
   },
   "licenses": [
-    {
-      "type": "GPLv2",
-      "url": "https://github.com/moxiecode/plupload/blob/master/license.txt"
-    },
+    "GPL-2.0",
     {
       "type": "Single Website",
       "url": "http://plupload.com/license/plupload_commercial_single.txt"

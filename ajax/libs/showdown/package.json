@@ -16,10 +16,7 @@
       "**/*"
     ]
   },
-  "license": {
-    "type": "BSD",
-    "url": "https://github.com/coreyti/showdown/raw/master/license.txt"
-  },
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "https://github.com/showdownjs/showdown"

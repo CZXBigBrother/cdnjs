@@ -69,8 +69,5 @@
       ]
     }
   ],
-  "license": {
-    "type": "BSD",
-    "url": "https://raw.github.com/pid/speakingurl/master/LICENSE"
-  }
+  "license": "BSD-3-Clause"
 }
