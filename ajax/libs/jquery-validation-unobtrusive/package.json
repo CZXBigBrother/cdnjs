@@ -4,6 +4,7 @@
     "homepage": "https://github.com/aspnet/jquery-validation-unobtrusive",
     "description": "Add-on to jQuery Validation to enable unobtrusive validation options in data-* attributes.",
     "main": "jquery.validate.unobtrusive.js",
+    "filename": "jquery.validate.unobtrusive.min.js",
     "repository": {
         "type": "git",
         "url": "git://github.com/aspnet/jquery-validation-unobtrusive.git"
@@ -31,5 +32,14 @@
         "gulp": "3.8.11",
         "gulp-rename": "1.2.2",
         "gulp-uglify": "1.2.0"
+    },
+    "autoupdate": {
+        "source": "git",
+        "target": "https://github.com/aspnet/jquery-validation-unobtrusive.git",
+        "basePath": "",
+        "files": [
+          "jquery.validate.unobtrusive.min.js",
+          "jquery.validate.unobtrusive.js"
+        ]
     }
 }
