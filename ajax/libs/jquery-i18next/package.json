@@ -1,7 +1,7 @@
 {
   "name": "jquery-i18next",
   "filename": "i18next-jquery.min.js",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "i18next plugin for jquery usage",
   "keywords": [
     "i18next",

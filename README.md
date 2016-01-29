@@ -6,6 +6,7 @@
 ﻿[![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs)
 ﻿[![Issue Stats](http://www.issuestats.com/github/cdnjs/cdnjs/badge/pr?style=flat)](http://www.issuestats.com/github/cdnjs/cdnjs) [![Issue Stats](http://www.issuestats.com/github/cdnjs/cdnjs/badge/issue?style=flat)](http://www.issuestats.com/github/cdnjs/cdnjs)
 ﻿[![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs) [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
+[![GetBadges Game](https://cdnjs-cdnjs.getbadges.io/shield/company/cdnjs-cdnjs)](https://cdnjs-cdnjs.getbadges.io/?ref=shield-game)
 
 [cdnjs](https://github.com/cdnjs/cdnjs) is the repository mirroring all library assets on [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com).
 
