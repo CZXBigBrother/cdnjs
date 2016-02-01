@@ -14,7 +14,7 @@
 
 cdnjs will host any production version of any JavaScript/CSS library, subject to license permissions.
 
-  * Libraries must have notable popularity: 100 stars or watchers on GitHub is a good example, but as long as reasonable popularity can be demonstrated the library will be added.
+  * Libraries must have notable popularity: 100 stars/watchers on GitHub, or more then 500 times download per month on npm stats are both good examples, but as long as reasonable popularity can be demonstrated the library will be added.
   * Beta, release candidate and alpha releases are not usually considered ready for full production status. Requests for pre-release versions of libraries _may_ be declined after peer review.
   * We'll accept beta, release candidate and alpha releases if you are using our npm/git auto-update mechanism, if you really want it, please setup auto-update for that lib.
 
