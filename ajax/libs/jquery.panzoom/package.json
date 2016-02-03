@@ -1,7 +1,7 @@
 {
   "name": "jquery.panzoom",
   "filename": "jquery.panzoom.min.js",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "homepage": "http://timmywil.github.io/jquery.panzoom/",
   "description": "A jQuery plugin to pan and/or zoom elements using CSS3",
   "keywords": [

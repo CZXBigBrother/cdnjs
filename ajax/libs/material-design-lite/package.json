@@ -1,7 +1,7 @@
 {
   "name": "material-design-lite",
   "filename": "material.min.js",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "homepage": "https://github.com/google/material-design-lite",
   "description": "Material Design Components in CSS, JS and HTML",
   "keywords": [
