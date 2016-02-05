@@ -1,6 +1,6 @@
 {
   "name": "ajv",
-  "version": "3.5.1",
+  "version": "3.5.3",
   "description": "Another JSON Schema Validator",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     {
       "basePath": "dist",
       "files": [
-        "ajv.*"
+        "*"
       ]
     }
   ],
