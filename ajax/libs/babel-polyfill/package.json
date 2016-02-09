@@ -1,6 +1,6 @@
 {
   "name": "babel-polyfill",
-  "version": "6.3.14",
+  "version": "6.5.0",
   "filename": "polyfill.min.js",
   "description": "The compiler for writing next generation JavaScript.",
   "author": {
