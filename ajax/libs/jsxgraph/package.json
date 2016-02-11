@@ -1,7 +1,7 @@
 {
   "name": "jsxgraph",
   "filename": "jsxgraphcore.js",
-  "version": "0.99.3",
+  "version": "0.99.4",
   "description": "Interactive geometry, plotting, visualization",
   "homepage": "http://jsxgraph.org/",
   "keywords": [

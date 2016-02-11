@@ -2,7 +2,7 @@
   "name": "angular-translate",
   "filename": "angular-translate.min.js",
   "description": "i18n for your Angular apps, made easy",
-  "version": "2.8.1",
+  "version": "2.9.0",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
     "framework",
@@ -15,9 +15,9 @@
   "npmName": "angular-translate",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
-        "*.js"
+        "**/*"
       ]
     }
   ],
