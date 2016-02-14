@@ -1,7 +1,7 @@
 {
   "name": "intl-tel-input",
   "filename": "js/intlTelInput.min.js",
-  "version": "7.1.1",
+  "version": "8.0.1",
   "homepage": "http://jackocnr.com/intl-tel-input.html",
   "description": "A jQuery plugin for entering international telephone numbers",
   "keywords": [
@@ -25,6 +25,7 @@
     "target": "git://github.com/jackocnr/intl-tel-input.git",
     "basePath": "build/",
     "files": [
+      "js/utils.js",
       "js/intlTelInput*.js",
       "img/flags*.png",
       "css/intlTelInput.css"
