@@ -120,6 +120,7 @@ ajax/libs/musicmetadata/Browser-0.4.3/
 ajax/libs/ng-pdfviewer/r0.1.0/
 ajax/libs/ng-pdfviewer/r0.2.0/
 ajax/libs/ng-pdfviewer/r0.2.1/
+ajax/libs/prettyCheckable/.2.1.1/
 
 #ignore files that we don't need
 ajax/libs/*/*/**/Gruntfile.js
