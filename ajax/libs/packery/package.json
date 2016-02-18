@@ -1,7 +1,7 @@
 {
   "name": "packery",
   "filename": "packery.pkgd.min.js",
-  "version": "1.4.3",
+  "version": "2.0.0",
   "description": "bin-packing layout library",
   "homepage": "http://packery.metafizzy.co/",
   "keywords": [

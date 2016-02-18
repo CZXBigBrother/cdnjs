@@ -1,8 +1,8 @@
 {
   "name": "zoom.js",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "It's the best way to zoom an image",
-  "main": "js/zoom.js",
+  "filename": "zoom.min.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:fat/zoom.js.git"
@@ -14,15 +14,13 @@
   ],
   "author": "fat <jacobthornton@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fat/zoom.js/issues"
-  },
   "homepage": "https://github.com/fat/zoom.js",
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-file-insert": "^1.0.2",
-    "gulp-header": "^1.2.2",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.1.0"
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/fat/zoom.js.git",
+    "basePath": "dist",
+    "files": [
+      "**/*"
+    ]
   }
 }

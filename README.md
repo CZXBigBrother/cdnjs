@@ -92,14 +92,6 @@ Each library has a corresponding `package.json`, written in `npm` format (see `t
 
 For example, if a new version of the library is added, the version number may need changing. Likewise, if you're adding `npm` update information to a library, this is done in `package.json`.
 
-## Install `npm test` dependencies
-
-If you don't have `vows` installed do so by running:
-
-```
-npm install -g vows
-```
-
 ## Run `npm test` to check all is well
 
 If you're updating the library outside of `npm` or the GitHub browser, you should run `npm test` from the library directory to ensure everything is OK.
