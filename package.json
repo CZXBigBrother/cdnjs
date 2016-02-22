@@ -20,7 +20,7 @@
     "fs-extra": "~0.26.5",
     "glob": "~7",
     "is-there": "4.3.1",
-    "lodash": "^3.10",
+    "lodash": "^4.5",
     "rss": "~1.2",
     "semver": "^5.1.0",
     "semver-stable": "^2.0.4",

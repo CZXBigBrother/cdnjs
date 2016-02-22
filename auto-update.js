@@ -250,7 +250,7 @@ var updateLibrary = function (pkg, cb) {
     console.log(msg.prompt);
     request.get('http://registry.npmjs.org/' + pkg.npmName).end(function(error, result) {
         if (result != undefined && result.body != undefined) {
-            async.each(_.pairs(result.body.versions), function(p, cb) {
+            async.each(_.toPairs(result.body.versions), function(p, cb) {
                 var data = p[1];
                 var version = p[0];
                 updateLibraryVersion(pkg, data.dist.tarball, version, cb);
