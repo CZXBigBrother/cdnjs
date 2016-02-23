@@ -2,7 +2,7 @@
   "name": "angularFire",
   "filename": "angularfire.min.js",
   "description": "The officially supported AngularJS binding for Firebase",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "homepage": "https://github.com/firebase/angularFire",
   "keywords": [
     "realtime",
