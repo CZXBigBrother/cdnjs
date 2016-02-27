@@ -1,6 +1,6 @@
 {
   "name": "zxcvbn",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "filename": "zxcvbn.js",
   "homepage": "http://tech.dropbox.com/?p=165",
   "description": "realistic password strength estimation",

@@ -9,7 +9,7 @@ Note that if you are using a distribution purpose repository/package, please als
  * GitHub / Bitbucket popularity (required):
    - Count of stars:
    - Count of watchers:
-   - Count of folks
+   - Count of forks:
  * NPM download stats (optional):
    - Downloads in the last day:
    - Downloads in the last week:
